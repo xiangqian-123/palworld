@@ -1,0 +1,28 @@
+{
+  "nav": {
+    "beginner": "Einsteiger-Guide",
+    "pals": "Pal-Kodex",
+    "breeding": "Zucht",
+    "materials": "Materialien",
+    "map": "Karte",
+    "faq": "FAQ"
+  },
+  "hero": {
+    "eyebrow": "Fan-Made Community Wiki",
+    "title": "Palworld",
+    "description": "Fange, züchte, kämpfe und baue auf den Palpagos-Inseln. 287 Pals, 9 Elemente, Cross-Play-Multiplayer.",
+    "ctaPrimary": "Einsteiger-Guide starten",
+    "ctaSecondary": "Pal-Kodex ansehen",
+    "ctaThird": "Zucht-Rechner"
+  },
+  "cta": {
+    "title": "Bereit, Palworld zu meistern?",
+    "primary": "Guide lesen",
+    "secondary": "Auf Steam spielen"
+  },
+  "footer": {
+    "aboutTitle": "Palworld Wiki",
+    "about": "Palworld Wiki ist eine unabhängige Fan-Guide-Seite.",
+    "disclaimer": "Inoffizielle Fan-Seite, nicht mit Pocketpair verbunden."
+  }
+}

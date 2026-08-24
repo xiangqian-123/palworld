@@ -1,0 +1,28 @@
+{
+  "nav": {
+    "beginner": "Гайд для новичков",
+    "pals": "Палы",
+    "breeding": "Разведение",
+    "materials": "Материалы",
+    "map": "Карта",
+    "faq": "FAQ"
+  },
+  "hero": {
+    "eyebrow": "Fan-Made Community Wiki",
+    "title": "Palworld",
+    "description": "Ловите, разводите, сражайтесь и стройте на островах Палпагос. 287 Палов, 9 стихий, кросс-платформенный мультиплеер.",
+    "ctaPrimary": "Начать гайд",
+    "ctaSecondary": "Смотреть Палов",
+    "ctaThird": "Калькулятор разведения"
+  },
+  "cta": {
+    "title": "Готовы освоить Palworld?",
+    "primary": "Читать гайд",
+    "secondary": "Играть в Steam"
+  },
+  "footer": {
+    "aboutTitle": "Palworld Wiki",
+    "about": "Palworld Wiki — независимый фанатский сайт с гайдами.",
+    "disclaimer": "Неофициальный фан-сайт, не связан с Pocketpair."
+  }
+}

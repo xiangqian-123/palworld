@@ -1,0 +1,86 @@
+---
+title: "Palworld 專用伺服器 — Dedicated Server 搭建教程"
+description: "Palworld 專用伺服器搭建教程：Steam 工具安裝、PalWorldSettings.ini 配置、32 人聯機設定、跨平臺聯機、PS5 伺服器說明。"
+eyebrow: "專用伺服器"
+heroImage: "/images/guides/ss-08.jpg"
+heroAlt: "Palworld 專用伺服器"
+sourceLabel: "官方 Wiki"
+sourceUrl: "https://palworld.gg/"
+order: 9
+published: true
+---
+
+Palworld 支援專用伺服器 Dedicated Server，最多 32 人同時線上。本頁介紹搭建方法。
+
+## 結論先行
+
+- PC (Steam) 可搭建專用伺服器
+- PS5 專用伺服器在 v0.6.0 更新後上線
+- 最大 32 人同時線上
+- 支援跨平臺聯機（需開啟 Cross-Play）
+- 邀請聯機最多 4 人，房主下線即關閉
+
+## 搭建方式
+
+### 方式一：本地伺服器
+
+1. 在 Steam 工具中搜尋 "Palworld Dedicated Server" 安裝
+2. 執行伺服器程式
+3. 配置 PalWorldSettings.ini
+4. 開放埠 8211（UDP）
+
+### 方式二：第三方伺服器託管
+
+| 服務商 | 特點 |
+|--------|------|
+| Shockbyte | 專門提供 Palworld 伺服器 |
+| 其他託管商 | 支援一鍵部署 |
+
+## PalWorldSettings.ini 關鍵配置
+
+| 引數 | 說明 | 預設值 |
+|------|------|--------|
+| ServerName | 伺服器名稱 | - |
+| ServerPassword | 伺服器密碼 | 無 |
+| MaxPlayers | 最大人數 | 32 |
+| PublicPort | 埠 | 8211 |
+| bIsPvP | PvP 模式 | false |
+| bCanPickupOtherGuildDeathPenalty | 拾取其他公會死亡掉落 | false |
+| DropItemMaxNum | 掉落物上限 | 3000 |
+| EggIncubationSpeed | 蛋孵化速度 | 1 |
+
+## 跨平臺聯機設定
+
+專用伺服器要支援跨平臺聯機，需要：
+1. 使用 EOS（Epic Online Services）版本的伺服器程式
+2. 在伺服器配置中啟用 Cross-Play
+3. 分享伺服器名稱或邀請碼
+
+## 伺服器管理技巧
+
+1. **定期備份存檔**：伺服器存檔在 `Pal/Saved/` 目錄
+2. **調整蛋孵化速度**：設為 30-50x 大幅加速養殖
+3. **設定自動重啟**：避免長時間執行記憶體洩漏
+4. **管理 Pal 數量**：DropItemMaxNum 過高會導致卡頓
+
+## PS5 伺服器
+
+PS5 專用伺服器在 v0.6.0（Tides of Terraria）更新後上線。PS5 玩家可以加入 PC 託管的 EOS 伺服器。
+
+## 常見問題
+
+### Q: 邀請聯機和專用伺服器有什麼區別？
+邀請聯機最多 4 人，房主下線即關閉。專用伺服器 32 人，24/7 線上。
+
+### Q: 伺服器怎麼更新？
+Steam 工具會自動更新伺服器程式。手動更新：SteamCMD + app_update。
+
+### Q: 存檔能跨伺服器遷移嗎？
+可以手動複製存檔檔案。但跨平臺存檔不互通。
+
+## 相關閱讀
+
+- [下載與平臺彙總](/zh-TW/guide/download)
+- [新手入門攻略](/zh-TW/guide/beginner)
+- [版本更新歷史](/zh-TW/guide/updates)
+- [常見問題 FAQ](/zh-TW/guide/faq)

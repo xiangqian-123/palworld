@@ -1,0 +1,28 @@
+{
+  "nav": {
+    "beginner": "初心者ガイド",
+    "pals": "パル図鑑",
+    "breeding": "配合",
+    "materials": "素材",
+    "map": "マップ",
+    "faq": "FAQ"
+  },
+  "hero": {
+    "eyebrow": "Fan-Made Community Wiki",
+    "title": "Palworld",
+    "description": "パルパゴス諸島でパルを捕まえ、育て、戦い、建築する。287種のパル、9つの属性、クロスプレイ対応。",
+    "ctaPrimary": "初心者ガイドを始める",
+    "ctaSecondary": "パル図鑑を見る",
+    "ctaThird": "配合計算機"
+  },
+  "cta": {
+    "title": "Palworld をマスターする準備はできましたか？",
+    "primary": "初心者ガイドを読む",
+    "secondary": "Steam でプレイ"
+  },
+  "footer": {
+    "aboutTitle": "Palworld Wiki",
+    "about": "Palworld Wiki は非公式のファン攻略サイトです。",
+    "disclaimer": "非公式ファンサイトであり、Pocketpair とは無関係です。"
+  }
+}

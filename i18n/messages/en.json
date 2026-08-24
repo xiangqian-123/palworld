@@ -1,0 +1,92 @@
+{
+  "nav": {
+    "beginner": "Beginner Guide",
+    "pals": "Pal Codex",
+    "breeding": "Breeding",
+    "materials": "Materials",
+    "map": "Map",
+    "faq": "FAQ"
+  },
+  "hero": {
+    "eyebrow": "Fan-Made Community Wiki",
+    "title": "Palworld",
+    "description": "Capture, breed, fight and build across the Palpagos Islands. 287 Pals, 9 elements, cross-platform multiplayer — from your first Lamball to the World Tree finale.",
+    "stats": [
+      "Launched Jan 19, 2024 (EA) → 1.0 on Jul 10, 2026",
+      "287 Pals · 9 Elements",
+      "32M+ Players",
+      "PC / PS5 / Xbox / Mac",
+      "Cross-Platform Multiplayer",
+      "32-Player Dedicated Servers"
+    ],
+    "ctaPrimary": "Start Beginner Guide",
+    "ctaSecondary": "Explore Pal Codex",
+    "ctaThird": "Breeding Calculator",
+    "videoLabel": "Official Trailer"
+  },
+  "startHere": {
+    "title": "Start Here",
+    "lead": "Four entry points to jump straight to what you need.",
+    "cards": [
+      {
+        "title": "Beginner Guide",
+        "desc": "From your first capture to base building, breeding and boss prep.",
+        "slug": "beginner"
+      },
+      {
+        "title": "Pal Codex",
+        "desc": "All 287 Pals — elements, work suitability and top picks.",
+        "slug": "pals"
+      },
+      {
+        "title": "Breeding Guide",
+        "desc": "Breeding formulas, best combinations and passive inheritance.",
+        "slug": "breeding"
+      },
+      {
+        "title": "Materials",
+        "desc": "Every material — how to get it, unlock level and crafting uses.",
+        "slug": "materials"
+      }
+    ]
+  },
+  "about": {
+    "title": "What is Palworld",
+    "paragraphs": [
+      "Palworld is a monster-taming open-world survival crafting game by Pocketpair. Capture creatures called Pals across the Palpagos Islands and put them to work, breeding, fighting and building. It launched in Steam Early Access on Jan 19, 2024 and hit full 1.0 release on Jul 10, 2026.",
+      "The 1.0 release opened the World Tree main-story finale (the eight-tower seal storyline), Pal awakening and mutation systems, 287 total Pals, and aquatic building. Cross-platform multiplayer is supported across PC / PS5 / Xbox / Mac, with 32-player dedicated servers."
+    ],
+    "facts": [
+      { "label": "Developer", "value": "Pocketpair, Inc." },
+      { "label": "Platform", "value": "Steam / PS5 / Xbox Series X|S / Xbox One / Mac" },
+      { "label": "Genre", "value": "Open World Survival + Creature Collecting" },
+      { "label": "Release", "value": "Jan 19, 2024 (EA) → Jul 10, 2026 (1.0)" },
+      { "label": "Price", "value": "$29.99" },
+      { "label": "Pals", "value": "287" },
+      { "label": "Max Level", "value": "80" },
+      { "label": "Crossplay", "value": "Yes (PC / PS5 / Xbox / Mac)" }
+    ]
+  },
+  "trailer": {
+    "title": "Official Trailer",
+    "lead": "Get a first look at the new adventures, new Pals and the World Tree finale in Palworld 1.0."
+  },
+  "cta": {
+    "title": "Ready to Master Palworld?",
+    "description": "From your first Lamball to the World Tree, our community wiki has you covered — Pals, breeding, materials, mods, and the deepest dungeons.",
+    "primary": "Read the Beginner Guide",
+    "secondary": "Play on Steam"
+  },
+  "footer": {
+    "aboutTitle": "Palworld Wiki",
+    "about": "Palworld Wiki is an independent fan guide covering beginner tutorials, the Pal codex, breeding, materials, the Terraria crossover and more — every Pal explained, from your first throw to the World Tree finale.",
+    "playGame": "Play Palworld",
+    "officialSite": "Official Site",
+    "community": "Community",
+    "communityTool": "Official Wiki",
+    "legal": "Legal",
+    "privacyPolicy": "Privacy Policy",
+    "termsOfService": "Terms of Service",
+    "disclaimer": "Unofficial fan site, not affiliated with Pocketpair. Game trademarks belong to their respective owners."
+  }
+}

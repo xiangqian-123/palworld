@@ -1,0 +1,155 @@
+---
+title: "Palworld 養殖攻略 — 配對公式、計算器與最佳組合"
+description: "Palworld 養殖攻略：Breeding Farm 建造、Cake 配方、BPV 公式詳解、養殖計算器使用、最佳養殖組合（Anubis/Astegon/Orserk）與被動技能繼承。"
+eyebrow: "養殖機制"
+heroImage: "/images/guides/ss-05.jpg"
+heroAlt: "Palworld 養殖場"
+sourceLabel: "官方 Wiki"
+sourceUrl: "https://palworld.gg/breeding-calculator"
+order: 6
+published: true
+---
+
+養殖 Breeding 是 Palworld 獲取強力 Pal 的核心繫統。本篇詳解養殖公式、計算器和最佳組合。
+
+## 養殖前置條件
+
+| 項 | 要求 |
+|---|---|
+| 解鎖等級 | 19 級 |
+| 建築 | Breeding Farm 養殖場 |
+| 建造材料 | 100 Wood 木材 + 20 Stone 石頭 + 50 Fiber 纖維 |
+| 必需品 | 1 雄 Pal + 1 雌 Pal + 1 Cake 蛋糕 |
+| 蛋孵化器 | 10 級解鎖：10 Paldium Fragment + 5 Cloth + 30 Stone + 2 Ancient Civilization Parts |
+
+## Cake 蛋糕配方
+
+蛋糕是養殖的必需品，在 Cooking Pot 烹飪鍋中製作：
+
+| 材料 | 數量 | 來源 |
+|------|------|------|
+| Flour 麵粉 | 5 | Mill 麵粉機（3 Wheat → 1 Flour） |
+| Red Berries 紅漿果 | 8 | 野外採集 / Caprity 產出 |
+| Milk 牛奶 | 7 | Mozzarina 牧場產出 |
+| Eggs 蛋 | 7 | Chikipi 牧場產出 |
+| Honey 蜂蜜 | 2 | Beegarde 牧場產出 |
+
+> 自動化蛋糕產線：種 Wheat 小麥（Lifmunk/Lyleen 採收）→ Chikipi 產蛋 → Mozzarina 產奶 → Beegarde 產蜜 → Kindling Pal 自動烹飪。
+
+## 養殖公式（Breeding Rank）
+
+每個 Pal 物種都有一個隱藏的 Breeding Rank 數值，數值越低越稀有、越強。後代等級取父母等級的均值並四捨五入：
+
+```
+後代 Rank = ⌊(父 Rank + 母 Rank + 1) / 2⌋
+```
+
+- 後代會是 Rank 最接近該值的物種（若有兩個物種等距，取索引更小者）
+- 結果通常**無隨機性**：同一對父母（同一物種+性別組合）產物固定
+- 少數物種不走 Rank 系統，改用**固定組合**（見下方"變體與特殊組合"）
+- 另有 1%（使用 Extravagant Vegetable Cake 時 3%）機率產出**變異蛋**，孵化出更稀有的 Pal
+
+## 養殖計算器
+
+線上工具：https://palworld.gg/breeding-calculator
+
+- **正向查詢**：選 2 個 Pal → 查後代
+- **反向查詢**：選目標 Pal → 查所有可能父母組合
+
+## 最佳養殖組合（官方 Wiki 驗證）
+
+> 以下組合來自 wiki.gg 的養殖指南，均為實測確認。注意：許多"公式圖"裡的組合已過時，請以最新版為準。
+
+### 基地工人
+
+| 目標 Pal | 組合 | 說明 |
+|----------|------|------|
+| Anubis 阿努比斯 | **Vanwyrn + Cinnamoth**（最易）/ Rushoar + Blazamut | 最佳全能工人，優先養第一隻 |
+| Verdash | Anubis + Sparkit | 全能工人 |
+| Jormuntide 蛟龍 | Anubis + Suzaku | 澆水 Lv4 |
+
+### 戰鬥 Pal
+
+| 目標 Pal | 組合 | 定位 |
+|----------|------|------|
+| Jormuntide Ignis | Jormuntide + Blazehowl | 火系傳說 |
+| Helzephyr | Ragnahawk + Blazamut | 暗系飛行 |
+| Lovander | Ragnahawk + Chikipi | 暗系 |
+
+### 坐騎 Pal
+
+| 目標 Pal | 組合 | 特點 |
+|----------|------|------|
+| Suzaku Aqua | Suzaku + Jormuntide | 水系傳說坐騎 |
+| Azurobe | Anubis + Nitewing | 水系坐騎 |
+
+> **Anubis 是核心中轉 Pal**：它 + 不同空被動 Pal 可繁衍出大量實用後代（Foxcicle/Verdash/Jormuntide/Azurobe/Petallia 等）。
+
+## 只能同種繁殖的 Pal
+
+以下 Pal **只能**用兩隻同物種父母繁殖，無法透過跨種組合獲得：
+
+Grizzbolt、Lyleen、Orserk、Faleris、Shadowbeak、Selyne、Bastigor、Blazamut Ryu、Paladius、Necromus、Frostallion、Jetragon、Bellanoir Libero、Mimog、Xenovader、Xenogard、Xenolord
+
+> 注意：Orserk 雷極龍、Shadowbeak 等"傳說級"並非普通跨種組合能出，很多舊攻略寫錯了。
+
+## 變體與特殊組合
+
+大多數變體 Pal 不走 Rank 系統，只能由"本種 + 特定 Pal"或兩個特定物種組合，例如：
+
+| 變體 | 組合 |
+|------|------|
+| Blazehowl Noct | Blazehowl + Felbat |
+| Jormuntide Ignis | Jormuntide + Blazehowl |
+| Frostallion Noct | Frostallion + Helzephyr |
+| Helzephyr Lux | Helzephyr + Beakon |
+| Incineram Noct | Incineram + Maraith |
+| Katress Ignis / Wixen Noct | Katress + Wixen（結果由母方決定） |
+
+## 被動技能繼承
+
+後代可從父母雙方繼承被動技能，規則比想象中複雜：
+
+- 每個 Pal 有 0–4 個被動技能槽
+- 繼承流程：合併雙親被動（去重）→ 擲一個 1–4 的"繼承數"（機率 40%/30%/20%/10%）→ 再擲一個"突變數"補隨機被動
+- **雙親有相同被動對機率無幫助也無害**（去重後只算一次）
+- 繼承全部父母被動的機率：1 個 40%、2 個 24%、3 個 12%、4 個 10%
+- **最佳做法**：讓雙親合計只有 4 個目標被動（2+2 / 3+1 / 4+0），避免引入多餘隨機被動
+- 傳說級被動（Legend、元素 Emperor）不能隨機突變，必須從父母繼承
+- 主動技能：50% 機率從父母繼承 1 個（含未裝備的技能）
+
+最佳戰鬥被動組合：**Legend + Musclehead + Serenity + 30%元素被動**（Serenity 已取代舊版 Ferocious/Brave 組合）
+
+詳見[被動技能機制詳解](/zh-TW/guide/passives)。
+
+## 變異蛋與特殊蛋糕
+
+| 蛋糕型別 | 效果 |
+|----------|------|
+| 普通 Cake | 標準養殖 |
+| Extravagant Vegetable Cake | 變異率從 1% 提升到 3% |
+
+變異蛋孵化的 Pal 恆為 Alpha，且必帶 4 個被動（至少 2 個 T4 被動，含 1 個變異專屬被動），並自帶 2 級濃縮。變異專屬被動包括：Babysitter、Heavily Armored、Idiosyncratic、Immortality、Skymarcher。
+
+## 性別比例與 Alpha
+
+- 大多數 Pal 性別比 1:1；少數例外（如 Kingpaca 90% 雄、Lovander 30% 雄、Beegarde/Elizabee 10% 雄、Bellanoir 5% 雄）
+- 養殖產出的 Pal 有 5% 機率為 Alpha（與父母無關，不遺傳）
+
+## 常見問題
+
+### Q: Pal 會進化嗎？
+不會。Palworld 沒有進化系統。變體是獨立物種，需單獨獲取。
+
+### Q: 養殖速度太慢怎麼辦？
+在 World Settings 中調整 Egg Incubation Speed 倍率。專用伺服器編輯 PalWorldSettings.ini。
+
+### Q: 同性 Pal 能養嗎？
+不能。必須 1 雄 1 雌。
+
+## 相關閱讀
+
+- [Pal 圖鑑 — 全 Pal 列表](/zh-TW/guide/pals)
+- [被動技能機制](/zh-TW/guide/passives)
+- [新手入門攻略](/zh-TW/guide/beginner)
+- [常見問題 FAQ](/zh-TW/guide/faq)

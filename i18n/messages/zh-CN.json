@@ -1,0 +1,92 @@
+{
+  "nav": {
+    "beginner": "新手入门",
+    "pals": "Pal 图鉴",
+    "breeding": "养殖攻略",
+    "materials": "材料图鉴",
+    "map": "地图探索",
+    "faq": "常见问题"
+  },
+  "hero": {
+    "eyebrow": "Fan-Made Community Wiki",
+    "title": "Palworld",
+    "description": "在 Palpagos 群岛捕捉、养殖、战斗、建造。287 种 Pal、9 大元素、跨平台联机——从第一只 Lamball 到 World Tree 世界树的终章。",
+    "stats": [
+      "2024年1月19日 EA 上线 → 2026年7月10日 1.0",
+      "287 种 Pal · 9 大元素",
+      "3200 万+ 玩家",
+      "PC / PS5 / Xbox / Mac",
+      "跨平台联机",
+      "32 人专用服务器"
+    ],
+    "ctaPrimary": "开始新手攻略",
+    "ctaSecondary": "浏览 Pal 图鉴",
+    "ctaThird": "养殖计算器",
+    "videoLabel": "官方预告片"
+  },
+  "startHere": {
+    "title": "从这里开始",
+    "lead": "四个核心入口，快速定位你要找的内容。",
+    "cards": [
+      {
+        "title": "Beginner Guide 新手入门",
+        "desc": "开局抓 Pal → 建基地 → 养殖配方 → BOSS 战准备的全流程。",
+        "slug": "beginner"
+      },
+      {
+        "title": "Pal Codex Pal 图鉴",
+        "desc": "287 种 Pal 的属性分类、工作适应性、最佳推荐。",
+        "slug": "pals"
+      },
+      {
+        "title": "Breeding Guide 养殖攻略",
+        "desc": "养殖公式、最佳组合、被动技能继承。",
+        "slug": "breeding"
+      },
+      {
+        "title": "Materials 材料图鉴",
+        "desc": "全材料的获取方式、解锁等级、合成用途。",
+        "slug": "materials"
+      }
+    ]
+  },
+  "about": {
+    "title": "什么是 Palworld",
+    "paragraphs": [
+      "Palworld（幻兽帕鲁）是由 Pocketpair 开发的怪兽养成开放世界生存制作游戏。玩家在 Palpagos 群岛捕捉名为 Pal 的生物，让它们战斗、工作、养殖、建造。游戏于 2024 年 1 月 19 日在 Steam 抢先体验上线，2026 年 7 月 10 日正式发布 1.0 版本。",
+      "1.0 正式版开放 World Tree 世界树主线终章（8 座塔封印剧情）、Pal 觉醒与突变系统、总计 287 种 Pal、水上建造等。支持跨平台联机（PC/PS5/Xbox/Mac），最多 32 人专用服务器。"
+    ],
+    "facts": [
+      { "label": "Developer", "value": "Pocketpair, Inc." },
+      { "label": "Platform", "value": "Steam / PS5 / Xbox Series X|S / Xbox One / Mac" },
+      { "label": "Genre", "value": "Open World Survival + Creature Collecting" },
+      { "label": "Release", "value": "Jan 19, 2024 (EA) → Jul 10, 2026 (1.0)" },
+      { "label": "Price", "value": "$29.99" },
+      { "label": "Pals", "value": "287" },
+      { "label": "Max Level", "value": "80" },
+      { "label": "Crossplay", "value": "Yes (PC / PS5 / Xbox / Mac)" }
+    ]
+  },
+  "trailer": {
+    "title": "官方预告片",
+    "lead": "抢先一睹 Palworld 1.0 的全新冒险、新帕鲁与世界树终章。"
+  },
+  "cta": {
+    "title": "准备好精通 Palworld 了吗？",
+    "description": "从第一只 Lamball 到 World Tree 世界树，本社区 Wiki 覆盖 Pal 图鉴、养殖、材料、Mod 与最深的地下城。",
+    "primary": "阅读新手攻略",
+    "secondary": "在 Steam 上玩"
+  },
+  "footer": {
+    "aboutTitle": "Palworld Wiki",
+    "about": "Palworld Wiki 是一个独立的粉丝攻略站，覆盖新手入门、Pal 图鉴、养殖攻略、材料图鉴、Terraria 联动等全部核心内容。我们的目标是把每一只 Pal 的玩法讲清楚——从第一次抓球到 World Tree 终章。",
+    "playGame": "玩 Palworld",
+    "officialSite": "官方网站",
+    "community": "社区",
+    "communityTool": "官方 Wiki",
+    "legal": "法律",
+    "privacyPolicy": "隐私政策",
+    "termsOfService": "服务条款",
+    "disclaimer": "非官方粉丝站，与 Pocketpair 无关联。游戏相关商标归其各自所有者所有。"
+  }
+}
