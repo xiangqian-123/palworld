@@ -140,9 +140,9 @@ img {
   inset: 0;
   background: linear-gradient(
     100deg,
-    rgba(8, 12, 20, 0.92) 0%,
-    rgba(8, 12, 20, 0.8) 45%,
-    rgba(8, 12, 20, 0.4) 100%
+    rgba(8, 12, 20, 0.94) 0%,
+    rgba(8, 12, 20, 0.86) 45%,
+    rgba(8, 12, 20, 0.55) 100%
   );
 }
 .hero-bg > .container {
@@ -153,11 +153,11 @@ img {
 .hero-bg .eyebrow {
   color: #fff;
 }
-.hero-bg .desc,
-.hero-bg .stat {
-  color: rgba(255, 255, 255, 0.85);
+.hero.hero-bg .desc,
+.hero.hero-bg .stat {
+  color: #fff;
 }
-.hero-bg .stat b {
+.hero.hero-bg .stat b {
   color: #fff;
 }
 .hero-bg .btn-ghost {
@@ -342,14 +342,17 @@ img {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 32px;
-  align-items: center;
+  align-items: stretch;
+}
+.about-art {
+  height: 100%;
 }
 .about-art img {
   width: 100%;
+  height: 100%;
   border-radius: 16px;
   box-shadow: 0 16px 40px hsl(var(--nav-theme) / 0.16);
   border: 1px solid rgb(var(--border));
-  aspect-ratio: 4 / 3;
   object-fit: cover;
 }
 @media (max-width: 800px) {
