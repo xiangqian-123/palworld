@@ -475,9 +475,9 @@ img {
 .prose h2 {
   font-size: 1.5rem;
   font-weight: 800;
-  margin: 28px 0 14px;
-  padding-bottom: 8px;
-  border-bottom: 1px solid rgb(var(--border));
+  margin: 44px 0 14px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid rgb(var(--text-muted) / 0.35);
 }
 .prose h3 {
   font-size: 1.2rem;
@@ -530,6 +530,10 @@ img {
   border-collapse: collapse;
   margin: 18px 0;
   font-size: 0.95rem;
+  table-layout: fixed;
+}
+.prose .col-nowrap {
+  white-space: nowrap;
 }
 .prose table th,
 .prose table td {
