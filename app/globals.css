@@ -467,11 +467,6 @@ img {
   margin: 0 auto;
   padding: 0 24px;
 }
-.guide-source {
-  font-size: 0.85rem;
-  color: rgb(var(--text-muted));
-  margin-top: 6px;
-}
 
 /* MDX 正文排版 */
 .prose h2 {
@@ -503,7 +498,7 @@ img {
   margin: 18px 0;
   background: hsl(var(--nav-theme) / 0.06);
   border-radius: 0 10px 10px 0;
-  color: rgb(var(--text-muted));
+  color: rgb(var(--text));
 }
 .prose blockquote p {
   margin: 0;

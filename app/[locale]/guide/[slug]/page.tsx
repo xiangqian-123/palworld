@@ -69,14 +69,6 @@ export default function GuidePage({
         />
       )}
       <div className="guide-body">
-        {fm.sourceUrl && (
-          <div className="guide-source">
-            来源：
-            <a href={fm.sourceUrl} target="_blank" rel="noopener noreferrer">
-              {fm.sourceLabel || "官方"}
-            </a>
-          </div>
-        )}
         <div className="prose">
           <MDXRemote
             source={post.content}
