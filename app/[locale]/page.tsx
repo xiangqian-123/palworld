@@ -59,10 +59,13 @@ export default function HomePage({ params }: { params: { locale: string } }) {
 
   return (
     <>
-      {/* Hero */}
-      <section className="hero">
-        <div className="container hero-grid">
-          <div className="hero-copy">
+      {/* Hero：图片作为全屏背景，叠加深色遮罩保证文字可读 */}
+      <section
+        className="hero hero-bg"
+        style={{ backgroundImage: `url(${HERO_IMG})` }}
+      >
+        <div className="container">
+          <div className="hero-copy" style={{ maxWidth: 720 }}>
             <span className="eyebrow">{t(m, "hero.eyebrow", "Fan-Made Community Wiki")}</span>
             <h1>{t(m, "hero.title", "Palworld")}</h1>
             <p className="desc">{t(m, "hero.description")}</p>
@@ -89,9 +92,6 @@ export default function HomePage({ params }: { params: { locale: string } }) {
                 {t(m, "hero.ctaThird", "Breeding Calculator")}
               </a>
             </div>
-          </div>
-          <div className="hero-art">
-            <img src={HERO_IMG} alt="Palworld 游戏主视觉" />
           </div>
         </div>
       </section>

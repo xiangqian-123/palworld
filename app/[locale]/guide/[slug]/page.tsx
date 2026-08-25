@@ -60,13 +60,15 @@ export default function GuidePage({
       <header className="guide-header">
         <span className="eyebrow">{fm.eyebrow}</span>
         <h1>{fm.title}</h1>
-        {hasHero && (
-          <img
-            className="guide-hero"
-            src={fm.heroImage}
-            alt={fm.heroAlt || fm.title}
-          />
-        )}
+      </header>
+      {hasHero && (
+        <img
+          className="guide-hero"
+          src={fm.heroImage}
+          alt={fm.heroAlt || fm.title}
+        />
+      )}
+      <div className="guide-body">
         {fm.sourceUrl && (
           <div className="guide-source">
             来源：
@@ -75,16 +77,16 @@ export default function GuidePage({
             </a>
           </div>
         )}
-      </header>
-      <div className="prose">
-        <MDXRemote
-          source={post.content}
-          options={{
-            // remark-gfm@4 需配合 next-mdx-remote@6（内部 @mdx-js/mdx@3，unified@11 生态）。
-            // 断言 any 以防传递依赖类型路径不一致（运行时无影响）。
-            mdxOptions: { remarkPlugins: [remarkGfm as any] },
-          }}
-        />
+        <div className="prose">
+          <MDXRemote
+            source={post.content}
+            options={{
+              // remark-gfm@4 需配合 next-mdx-remote@6（内部 @mdx-js/mdx@3，unified@11 生态）。
+              // 断言 any 以防传递依赖类型路径不一致（运行时无影响）。
+              mdxOptions: { remarkPlugins: [remarkGfm as any] },
+            }}
+          />
+        </div>
       </div>
     </article>
   );

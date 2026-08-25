@@ -37,6 +37,7 @@
 
 html {
   -webkit-text-size-adjust: 100%;
+  overflow-x: clip;
 }
 
 body {
@@ -118,11 +119,56 @@ img {
 
 /* ---------- Hero ---------- */
 .hero {
-  padding: 72px 0 56px;
+  padding: 56px 0 48px;
   background:
     radial-gradient(1200px 500px at 80% -10%, hsl(var(--nav-theme) / 0.18), transparent 60%),
     hsl(var(--bg));
   border-bottom: 1px solid hsl(var(--border));
+}
+/* 全屏背景图版 hero（把图片作为模块背景，叠加遮罩保证文字可读） */
+.hero-bg {
+  position: relative;
+  padding: 96px 0 88px;
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  border-bottom: none;
+}
+.hero-bg::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    100deg,
+    rgba(8, 12, 20, 0.92) 0%,
+    rgba(8, 12, 20, 0.8) 45%,
+    rgba(8, 12, 20, 0.4) 100%
+  );
+}
+.hero-bg > .container {
+  position: relative;
+  z-index: 1;
+}
+.hero-bg h1,
+.hero-bg .eyebrow {
+  color: #fff;
+}
+.hero-bg .desc,
+.hero-bg .stat {
+  color: rgba(255, 255, 255, 0.85);
+}
+.hero-bg .stat b {
+  color: #fff;
+}
+.hero-bg .btn-ghost {
+  background: rgba(255, 255, 255, 0.12);
+  border-color: rgba(255, 255, 255, 0.35);
+  color: #fff;
+}
+.hero-bg .btn-ghost:hover {
+  background: rgba(255, 255, 255, 0.2);
+  border-color: #fff;
+  color: #fff;
 }
 .hero-grid {
   display: grid;
@@ -227,7 +273,7 @@ img {
 
 /* ---------- 通用区块 ---------- */
 .section {
-  padding: 64px 0;
+  padding: 48px 0;
 }
 .section-alt {
   background: hsl(var(--bg-alt));
@@ -265,7 +311,7 @@ img {
   box-shadow: 0 12px 30px hsl(var(--nav-theme) / 0.12);
 }
 .card-img {
-  height: 140px;
+  height: 170px;
   background-size: cover;
   background-position: center;
   border-bottom: 1px solid hsl(var(--border));
@@ -335,7 +381,7 @@ img {
 /* ---------- CTA ---------- */
 .cta {
   text-align: center;
-  padding: 72px 0;
+  padding: 56px 0;
 }
 .cta h2 {
   font-size: 2.1rem;
@@ -355,7 +401,7 @@ img {
 .footer {
   border-top: 1px solid hsl(var(--border));
   background: hsl(var(--bg-alt));
-  padding: 56px 0 32px;
+  padding: 48px 0 32px;
 }
 .footer-grid {
   display: grid;
@@ -387,12 +433,14 @@ img {
 
 /* ---------- 攻略页 ---------- */
 .guide {
-  max-width: 760px;
-  margin: 0 auto;
-  padding: 48px 24px 80px;
+  max-width: none;
+  margin: 0;
+  padding: 40px 0 64px;
 }
 .guide-header {
-  margin-bottom: 28px;
+  max-width: 760px;
+  margin: 0 auto 28px;
+  padding: 0 24px;
 }
 .guide-header .eyebrow {
   margin-bottom: 10px;
@@ -403,9 +451,19 @@ img {
   letter-spacing: -0.01em;
   line-height: 1.15;
 }
+/* 攻略页 hero 图做全屏通栏（容器已无 max-width，100% 即视口全宽） */
 .guide-hero {
-  margin: 20px 0 8px;
   width: 100%;
+  max-width: none;
+  margin: 0 0 8px;
+  border-radius: 0;
+  display: block;
+}
+/* 正文 + 来源标注居中（760px），与全屏 hero 图形成通栏对比 */
+.guide-body {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 0 24px;
 }
 .guide-source {
   font-size: 0.85rem;
@@ -417,7 +475,7 @@ img {
 .prose h2 {
   font-size: 1.5rem;
   font-weight: 800;
-  margin: 36px 0 14px;
+  margin: 28px 0 14px;
   padding-bottom: 8px;
   border-bottom: 1px solid hsl(var(--border));
 }
