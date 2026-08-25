@@ -115,8 +115,10 @@ export default function HomePage({ params }: { params: { locale: string } }) {
                   }}
                 />
                 <div className="card-body">
-                  <div className="num">{String(i + 1).padStart(2, "0")}</div>
-                  <h3>{c.title}</h3>
+                  <h3>
+                    <span className="num">{String(i + 1).padStart(2, "0")}</span>
+                    {c.title}
+                  </h3>
                   <p>{c.desc}</p>
                 </div>
               </Link>

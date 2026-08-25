@@ -41,8 +41,8 @@ html {
 }
 
 body {
-  background: hsl(var(--bg));
-  color: hsl(var(--text));
+  background: rgb(var(--bg));
+  color: rgb(var(--text));
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC",
     "Hiragino Sans GB", "Microsoft YaHei", "Helvetica Neue", Arial, sans-serif;
   line-height: 1.65;
@@ -74,9 +74,9 @@ img {
   position: sticky;
   top: 0;
   z-index: 50;
-  background: hsl(var(--bg) / 0.9);
+  background: rgb(var(--bg) / 0.9);
   backdrop-filter: blur(8px);
-  border-bottom: 1px solid hsl(var(--border));
+  border-bottom: 1px solid rgb(var(--border));
 }
 .nav-inner {
   max-width: var(--maxw);
@@ -89,7 +89,7 @@ img {
 .nav-logo {
   font-weight: 800;
   font-size: 1.15rem;
-  color: hsl(var(--text));
+  color: rgb(var(--text));
   display: flex;
   align-items: center;
   gap: 8px;
@@ -109,7 +109,7 @@ img {
   flex-wrap: wrap;
 }
 .nav-links a {
-  color: hsl(var(--text-muted));
+  color: rgb(var(--text-muted));
   font-weight: 500;
   font-size: 0.95rem;
 }
@@ -122,8 +122,8 @@ img {
   padding: 56px 0 48px;
   background:
     radial-gradient(1200px 500px at 80% -10%, hsl(var(--nav-theme) / 0.18), transparent 60%),
-    hsl(var(--bg));
-  border-bottom: 1px solid hsl(var(--border));
+    rgb(var(--bg));
+  border-bottom: 1px solid rgb(var(--border));
 }
 /* 全屏背景图版 hero（把图片作为模块背景，叠加遮罩保证文字可读） */
 .hero-bg {
@@ -183,7 +183,7 @@ img {
   width: 100%;
   border-radius: 18px;
   box-shadow: 0 24px 60px hsl(var(--nav-theme) / 0.25);
-  border: 1px solid hsl(var(--border));
+  border: 1px solid rgb(var(--border));
   aspect-ratio: 4 / 3;
   object-fit: cover;
 }
@@ -214,7 +214,7 @@ img {
 }
 .hero p.desc {
   font-size: 1.15rem;
-  color: hsl(var(--text-muted));
+  color: rgb(var(--text-muted));
   max-width: 680px;
   margin-bottom: 26px;
 }
@@ -226,10 +226,10 @@ img {
 }
 .hero-stats .stat {
   font-size: 0.92rem;
-  color: hsl(var(--text-muted));
+  color: rgb(var(--text-muted));
 }
 .hero-stats .stat b {
-  color: hsl(var(--text));
+  color: rgb(var(--text));
   font-weight: 700;
 }
 .hero-actions {
@@ -262,9 +262,9 @@ img {
   background: hsl(var(--nav-theme-light));
 }
 .btn-ghost {
-  border-color: hsl(var(--border));
-  color: hsl(var(--text));
-  background: hsl(var(--bg-alt));
+  border-color: rgb(var(--border));
+  color: rgb(var(--text));
+  background: rgb(var(--bg-alt));
 }
 .btn-ghost:hover {
   border-color: hsl(var(--nav-theme));
@@ -276,7 +276,7 @@ img {
   padding: 48px 0;
 }
 .section-alt {
-  background: hsl(var(--bg-alt));
+  background: rgb(var(--bg-alt));
 }
 .section h2 {
   font-size: 1.9rem;
@@ -285,9 +285,9 @@ img {
   margin-bottom: 12px;
 }
 .section .lead {
-  color: hsl(var(--text-muted));
+  color: rgb(var(--text));
   max-width: 720px;
-  margin-bottom: 32px;
+  margin-bottom: 20px;
 }
 
 /* Start Here 卡片 */
@@ -297,8 +297,8 @@ img {
   gap: 18px;
 }
 .card {
-  background: hsl(var(--bg));
-  border: 1px solid hsl(var(--border));
+  background: rgb(var(--bg));
+  border: 1px solid rgb(var(--border));
   border-radius: var(--radius);
   overflow: hidden;
   display: flex;
@@ -309,12 +309,13 @@ img {
   transform: translateY(-3px);
   border-color: hsl(var(--nav-theme));
   box-shadow: 0 12px 30px hsl(var(--nav-theme) / 0.12);
+  text-decoration: none;
 }
 .card-img {
   height: 170px;
   background-size: cover;
   background-position: center;
-  border-bottom: 1px solid hsl(var(--border));
+  border-bottom: 1px solid rgb(var(--border));
 }
 .card-body {
   padding: 18px 20px 22px;
@@ -325,28 +326,29 @@ img {
   margin-bottom: 8px;
 }
 .card p {
-  color: hsl(var(--text-muted));
+  color: rgb(var(--text-muted));
   font-size: 0.95rem;
 }
+/* 序号与标题同行、同字号（放在 h3 内作为 inline 前缀） */
 .card .num {
-  font-size: 0.8rem;
+  font-size: inherit;
   font-weight: 800;
   color: hsl(var(--nav-theme));
-  letter-spacing: 0.05em;
+  margin-right: 8px;
 }
 
 /* What is Palworld 左右布局 */
 .about-grid {
   display: grid;
-  grid-template-columns: 0.85fr 1.15fr;
-  gap: 44px;
+  grid-template-columns: 1fr 1fr;
+  gap: 32px;
   align-items: center;
 }
 .about-art img {
   width: 100%;
   border-radius: 16px;
   box-shadow: 0 16px 40px hsl(var(--nav-theme) / 0.16);
-  border: 1px solid hsl(var(--border));
+  border: 1px solid rgb(var(--border));
   aspect-ratio: 4 / 3;
   object-fit: cover;
 }
@@ -368,10 +370,10 @@ img {
 .fact-table td {
   text-align: left;
   padding: 10px 14px;
-  border-bottom: 1px solid hsl(var(--border));
+  border-bottom: 1px solid rgb(var(--border));
 }
 .fact-table th {
-  color: hsl(var(--text-muted));
+  color: rgb(var(--text-muted));
   font-weight: 600;
   font-size: 0.85rem;
   text-transform: uppercase;
@@ -389,9 +391,9 @@ img {
   margin-bottom: 12px;
 }
 .cta p {
-  color: hsl(var(--text-muted));
+  color: rgb(var(--text-muted));
   max-width: 640px;
-  margin: 0 auto 28px;
+  margin: 0 auto 20px;
 }
 .cta .hero-actions {
   justify-content: center;
@@ -399,8 +401,8 @@ img {
 
 /* ---------- 页脚 ---------- */
 .footer {
-  border-top: 1px solid hsl(var(--border));
-  background: hsl(var(--bg-alt));
+  border-top: 1px solid rgb(var(--border));
+  background: rgb(var(--bg-alt));
   padding: 48px 0 32px;
 }
 .footer-grid {
@@ -415,7 +417,7 @@ img {
 }
 .footer p,
 .footer a {
-  color: hsl(var(--text-muted));
+  color: rgb(var(--text-muted));
   font-size: 0.92rem;
 }
 .footer a {
@@ -425,8 +427,8 @@ img {
 .footer-bottom {
   margin-top: 40px;
   padding-top: 20px;
-  border-top: 1px solid hsl(var(--border));
-  color: hsl(var(--text-muted));
+  border-top: 1px solid rgb(var(--border));
+  color: rgb(var(--text-muted));
   font-size: 0.85rem;
   text-align: center;
 }
@@ -467,7 +469,7 @@ img {
 }
 .guide-source {
   font-size: 0.85rem;
-  color: hsl(var(--text-muted));
+  color: rgb(var(--text-muted));
   margin-top: 6px;
 }
 
@@ -477,7 +479,7 @@ img {
   font-weight: 800;
   margin: 28px 0 14px;
   padding-bottom: 8px;
-  border-bottom: 1px solid hsl(var(--border));
+  border-bottom: 1px solid rgb(var(--border));
 }
 .prose h3 {
   font-size: 1.2rem;
@@ -501,20 +503,20 @@ img {
   margin: 18px 0;
   background: hsl(var(--nav-theme) / 0.06);
   border-radius: 0 10px 10px 0;
-  color: hsl(var(--text-muted));
+  color: rgb(var(--text-muted));
 }
 .prose blockquote p {
   margin: 0;
 }
 .prose code {
-  background: hsl(var(--bg-alt));
+  background: rgb(var(--bg-alt));
   padding: 2px 6px;
   border-radius: 6px;
   font-size: 0.9em;
   font-family: "SF Mono", Consolas, "Liberation Mono", Menlo, monospace;
 }
 .prose pre {
-  background: hsl(var(--bg-alt));
+  background: rgb(var(--bg-alt));
   padding: 16px;
   border-radius: 10px;
   overflow-x: auto;
@@ -535,18 +537,18 @@ img {
 .prose table td {
   text-align: left;
   padding: 10px 12px;
-  border: 1px solid hsl(var(--border));
+  border: 1px solid rgb(var(--border));
 }
 .prose table th {
-  background: hsl(var(--bg-alt));
+  background: rgb(var(--bg-alt));
   font-weight: 700;
 }
 .prose table tr:nth-child(even) td {
-  background: hsl(var(--bg-alt) / 0.5);
+  background: rgb(var(--bg-alt) / 0.5);
 }
 .prose hr {
   border: none;
-  border-top: 1px solid hsl(var(--border));
+  border-top: 1px solid rgb(var(--border));
   margin: 24px 0;
 }
 .prose img {
@@ -565,11 +567,11 @@ img {
 .nav .lang summary {
   list-style: none;
   cursor: pointer;
-  color: hsl(var(--text-muted));
+  color: rgb(var(--text-muted));
   font-weight: 600;
   font-size: 0.9rem;
   padding: 6px 10px;
-  border: 1px solid hsl(var(--border));
+  border: 1px solid rgb(var(--border));
   border-radius: 8px;
   user-select: none;
 }
@@ -580,8 +582,8 @@ img {
   position: absolute;
   right: 0;
   top: calc(100% + 6px);
-  background: hsl(var(--bg));
-  border: 1px solid hsl(var(--border));
+  background: rgb(var(--bg));
+  border: 1px solid rgb(var(--border));
   border-radius: 10px;
   padding: 6px;
   display: flex;
@@ -592,12 +594,12 @@ img {
 .nav .lang-list a {
   padding: 7px 10px;
   border-radius: 6px;
-  color: hsl(var(--text-muted));
+  color: rgb(var(--text-muted));
   font-size: 0.9rem;
 }
 .nav .lang-list a:hover {
   background: hsl(var(--nav-theme) / 0.1);
-  color: hsl(var(--text));
+  color: rgb(var(--text));
   text-decoration: none;
 }
 
@@ -609,7 +611,7 @@ img {
   height: 0;
   overflow: hidden;
   border-radius: var(--radius);
-  border: 1px solid hsl(var(--border));
+  border: 1px solid rgb(var(--border));
 }
 .video iframe {
   position: absolute;
