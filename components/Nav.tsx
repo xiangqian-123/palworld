@@ -5,8 +5,11 @@ const NAV_LINKS = [
   { slug: "beginner", key: "nav.beginner" },
   { slug: "pals", key: "nav.pals" },
   { slug: "breeding", key: "nav.breeding" },
+  { slug: "base", key: "nav.base" },
   { slug: "materials", key: "nav.materials" },
   { slug: "map", key: "nav.map" },
+  { slug: "endgame", key: "nav.endgame" },
+  { slug: "money", key: "nav.money" },
   { slug: "faq", key: "nav.faq" },
 ];
 

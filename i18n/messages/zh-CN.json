@@ -3,8 +3,11 @@
     "beginner": "新手入门",
     "pals": "Pal 图鉴",
     "breeding": "养殖攻略",
+    "base": "基地建设",
     "materials": "材料图鉴",
     "map": "地图探索",
+    "endgame": "终局攻略",
+    "money": "赚钱攻略",
     "faq": "常见问题"
   },
   "hero": {
@@ -26,7 +29,7 @@
   },
   "startHere": {
     "title": "从这里开始",
-    "lead": "四个核心入口，快速定位你要找的内容。",
+    "lead": "核心入口，快速定位你要找的内容。",
     "cards": [
       {
         "title": "Beginner Guide 新手入门",
@@ -44,9 +47,24 @@
         "slug": "breeding"
       },
       {
+        "title": "Base Building 基地建设",
+        "desc": "选址、布局、工作适应性与基地自动化。",
+        "slug": "base"
+      },
+      {
         "title": "Materials 材料图鉴",
         "desc": "全材料的获取方式、解锁等级、合成用途。",
         "slug": "materials"
+      },
+      {
+        "title": "Endgame Guide 终局攻略",
+        "desc": "World Tree 世界树、传说装备、困难模式与终局材料。",
+        "slug": "endgame"
+      },
+      {
+        "title": "Money Guide 赚钱攻略",
+        "desc": "卖食物、刷 Alpha 掉落、Relaxaurus 刷油等快速赚钱方法。",
+        "slug": "money"
       }
     ]
   },

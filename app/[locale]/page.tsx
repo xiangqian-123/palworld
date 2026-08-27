@@ -11,7 +11,10 @@ const CARD_IMAGES: Record<string, string> = {
   beginner: "/images/guides/ss-01.jpg",
   pals: "/images/guides/ss-04.jpg",
   breeding: "/images/guides/ss-05.jpg",
+  base: "/images/guides/ss-17.jpg",
   materials: "/images/guides/ss-06.jpg",
+  endgame: "/images/guides/trailer-launch.jpg",
+  money: "/images/guides/trailer-cinematic.jpg",
 };
 
 // 首页主视觉海报图（用备用官方截图，避免与内容页重复）。

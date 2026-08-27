@@ -3,8 +3,11 @@
     "beginner": "Beginner Guide",
     "pals": "Pal Codex",
     "breeding": "Breeding",
+    "base": "Base Building",
     "materials": "Materials",
     "map": "Map",
+    "endgame": "Endgame",
+    "money": "Money",
     "faq": "FAQ"
   },
   "hero": {
@@ -26,7 +29,7 @@
   },
   "startHere": {
     "title": "Start Here",
-    "lead": "Four entry points to jump straight to what you need.",
+    "lead": "Entry points to jump straight to what you need.",
     "cards": [
       {
         "title": "Beginner Guide",
@@ -44,9 +47,24 @@
         "slug": "breeding"
       },
       {
+        "title": "Base Building",
+        "desc": "Location, layout, work suitability and base automation.",
+        "slug": "base"
+      },
+      {
         "title": "Materials",
         "desc": "Every material — how to get it, unlock level and crafting uses.",
         "slug": "materials"
+      },
+      {
+        "title": "Endgame Guide",
+        "desc": "World Tree, legendary gear, hard mode and endgame materials.",
+        "slug": "endgame"
+      },
+      {
+        "title": "Money Guide",
+        "desc": "Sell food, farm Alpha drops and make gold fast.",
+        "slug": "money"
       }
     ]
   },
