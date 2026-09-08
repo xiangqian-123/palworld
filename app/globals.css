@@ -726,3 +726,176 @@ img {
   padding: 14px 18px;
   border-radius: 0 10px 10px 0;
 }
+
+/* ===== Breeding 计算器 ===== */
+.breeder {
+  background: rgb(var(--bg));
+  border: 1px solid rgb(var(--border));
+  border-radius: 14px;
+  padding: 24px;
+}
+.breeder-tabs {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 20px;
+}
+.breeder-tabs button {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: rgb(var(--text-muted));
+  background: rgb(var(--bg-alt));
+  border: 1px solid rgb(var(--border));
+  border-radius: 999px;
+  padding: 8px 18px;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+.breeder-tabs button.active {
+  color: #fff;
+  background: hsl(var(--nav-theme));
+  border-color: hsl(var(--nav-theme));
+}
+.breeder-pair {
+  display: flex;
+  align-items: flex-end;
+  gap: 14px;
+  flex-wrap: wrap;
+}
+.breeder-pair label,
+.breeder-parents label {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: rgb(var(--text-muted));
+  flex: 1;
+  min-width: 180px;
+}
+.breeder-pair select,
+.breeder-parents select {
+  font-size: 0.95rem;
+  color: rgb(var(--text));
+  background: rgb(var(--bg));
+  border: 1px solid rgb(var(--border));
+  border-radius: 10px;
+  padding: 10px 12px;
+  width: 100%;
+}
+.breeder-plus,
+.breeder-eq {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: rgb(var(--text-muted));
+  padding-bottom: 10px;
+}
+.breeder-result {
+  flex: 1;
+  min-width: 200px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding-bottom: 8px;
+}
+.breeder-child {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: hsl(var(--nav-theme));
+  text-decoration: none;
+}
+.breeder-hint {
+  color: rgb(var(--text-muted));
+  font-size: 0.95rem;
+}
+.breeder-parents {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.breeder-count {
+  font-size: 0.9rem;
+  color: rgb(var(--text-muted));
+}
+.breeder-parent-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+  gap: 8px;
+  max-height: 480px;
+  overflow-y: auto;
+}
+.breeder-parent-row {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 12px;
+  border: 1px solid rgb(var(--border));
+  border-radius: 10px;
+  font-size: 0.9rem;
+}
+.breeder-parent-row a {
+  color: hsl(var(--nav-theme));
+  text-decoration: none;
+  font-weight: 600;
+}
+.breeder-more {
+  color: rgb(var(--text-muted));
+  font-size: 0.9rem;
+}
+
+/* ===== 单 Pal 繁殖页 ===== */
+.breed-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 16px 0 28px;
+}
+.breed-pair {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.breed-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 12px;
+  border: 1px solid rgb(var(--border));
+  border-radius: 10px;
+  background: rgb(var(--bg));
+  color: rgb(var(--text));
+  text-decoration: none;
+  font-size: 0.88rem;
+  font-weight: 600;
+  transition: border-color 0.15s ease;
+}
+.breed-chip:hover {
+  border-color: hsl(var(--nav-theme));
+}
+.breed-chip img {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+}
+.breed-x {
+  color: rgb(var(--text-muted));
+  font-weight: 700;
+}
+.breed-cta {
+  margin-top: 24px;
+}
+.breed-cta a {
+  color: hsl(var(--nav-theme));
+  font-weight: 600;
+  text-decoration: none;
+}
+
+/* Pal 详情页内的繁殖入口 */
+.pal-breeding-cta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 16px 0 8px;
+}

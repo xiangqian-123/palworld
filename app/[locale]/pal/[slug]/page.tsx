@@ -1,4 +1,5 @@
 import { notFound } from "next/navigation";
+import Link from "next/link";
 import { getPal, getPalSlugs, getCodeName, localizePal } from "@/lib/pal";
 import { elementLabel, workLabel } from "@/lib/pal-labels";
 import { locales, type Locale } from "@/lib/locales";
@@ -150,6 +151,21 @@ export default function PalPage({
 
       <div className="guide-body prose">
         {localized.description && <p className="pal-desc">{localized.description}</p>}
+
+        <div className="pal-breeding-cta">
+          <Link
+            href={`/${params.locale}/pal/${pal.slug}/breeding`}
+            className="btn btn-primary"
+          >
+            {L("pal.breedingCta", "How to Breed")} {pal.name}
+          </Link>
+          <Link
+            href={`/${params.locale}/breeding-calculator`}
+            className="btn btn-ghost"
+          >
+            {L("pal.breedingCalc", "Breeding Calculator")}
+          </Link>
+        </div>
 
         {pal.stats && (
           <>
