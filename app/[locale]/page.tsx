@@ -1,7 +1,11 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { isValidLocale } from "@/lib/locales";
+import type { Metadata } from "next";
+import { isValidLocale, locales, type Locale } from "@/lib/locales";
 import { getMessages } from "@/lib/i18n";
+import { siteConfig } from "@/lib/site";
+import { OG_LOCALE, buildAlternates, websiteJsonLd } from "@/lib/seo";
+import JsonLd from "@/components/JsonLd";
 
 type Card = { title: string; desc: string; slug: string; img?: string };
 type Fact = { label: string; value: string };
@@ -48,6 +52,38 @@ function arr(messages: Record<string, unknown>, path: string): string[] {
   return Array.isArray(v) ? (v as string[]) : [];
 }
 
+export function generateStaticParams() {
+  return locales.map((locale) => ({ locale }));
+}
+
+export function generateMetadata({
+  params,
+}: {
+  params: { locale: string };
+}): Metadata {
+  const m = getMessages(params.locale);
+  const description = t(m, "hero.description", siteConfig.defaultDescription);
+  return {
+    title: siteConfig.defaultTitle,
+    description,
+    alternates: buildAlternates(params.locale, ""),
+    openGraph: {
+      type: "website",
+      siteName: siteConfig.siteName,
+      locale: OG_LOCALE[(params.locale as Locale) ?? "zh-CN"],
+      title: siteConfig.defaultTitle,
+      description,
+      images: [siteConfig.ogImage],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: siteConfig.defaultTitle,
+      description,
+      images: [siteConfig.ogImage],
+    },
+  };
+}
+
 export default function HomePage({ params }: { params: { locale: string } }) {
   if (!isValidLocale(params.locale)) notFound();
   const m = getMessages(params.locale);
@@ -62,6 +98,7 @@ export default function HomePage({ params }: { params: { locale: string } }) {
 
   return (
     <>
+      <JsonLd data={websiteJsonLd(locale as Locale)} />
       {/* Hero：图片作为全屏背景，叠加深色遮罩保证文字可读 */}
       <section
         className="hero hero-bg"

@@ -13,10 +13,10 @@
   "hero": {
     "eyebrow": "Fan-Made Community Wiki",
     "title": "Palworld",
-    "description": "在 Palpagos 群岛捕捉、养殖、战斗、建造。287 种 Pal、9 大元素、跨平台联机——从第一只 Lamball 到 World Tree 世界树的终章。",
+    "description": "在 Palpagos 群岛捕捉、养殖、战斗、建造。288 种 Pal、9 大元素、跨平台联机——从第一只 Lamball 到 World Tree 世界树的终章。",
     "stats": [
       "2024年1月19日 EA 上线 → 2026年7月10日 1.0",
-      "287 种 Pal · 9 大元素",
+      "288 种 Pal · 9 大元素",
       "3200 万+ 玩家",
       "PC / PS5 / Xbox / Mac",
       "跨平台联机",
@@ -38,7 +38,7 @@
       },
       {
         "title": "Pal Codex Pal 图鉴",
-        "desc": "287 种 Pal 的属性分类、工作适应性、最佳推荐。",
+        "desc": "288 种 Pal 的属性分类、工作适应性、最佳推荐。",
         "slug": "pals"
       },
       {
@@ -72,7 +72,7 @@
     "title": "什么是 Palworld",
     "paragraphs": [
       "Palworld（幻兽帕鲁）是由 Pocketpair 开发的怪兽养成开放世界生存制作游戏。玩家在 Palpagos 群岛捕捉名为 Pal 的生物，让它们战斗、工作、养殖、建造。游戏于 2024 年 1 月 19 日在 Steam 抢先体验上线，2026 年 7 月 10 日正式发布 1.0 版本。",
-      "1.0 正式版开放 World Tree 世界树主线终章（8 座塔封印剧情）、Pal 觉醒与突变系统、总计 287 种 Pal、水上建造等。支持跨平台联机（PC/PS5/Xbox/Mac），最多 32 人专用服务器。"
+      "1.0 正式版开放 World Tree 世界树主线终章（8 座塔封印剧情）、Pal 觉醒与突变系统、总计 288 种 Pal、水上建造等。支持跨平台联机（PC/PS5/Xbox/Mac），最多 32 人专用服务器。"
     ],
     "facts": [
       { "label": "Developer", "value": "Pocketpair, Inc." },
@@ -80,7 +80,7 @@
       { "label": "Genre", "value": "Open World Survival + Creature Collecting" },
       { "label": "Release", "value": "Jan 19, 2024 (EA) → Jul 10, 2026 (1.0)" },
       { "label": "Price", "value": "$29.99" },
-      { "label": "Pals", "value": "287" },
+      { "label": "Pals", "value": "288" },
       { "label": "Max Level", "value": "80" },
       { "label": "Crossplay", "value": "Yes (PC / PS5 / Xbox / Mac)" }
     ]

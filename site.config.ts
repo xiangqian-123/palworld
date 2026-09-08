@@ -19,6 +19,8 @@ export interface SiteConfig {
   defaultDescription: string;
   /** OpenGraph 的备选语言（除默认 locale 外）。 */
   ogLocales: string[];
+  /** 站点默认分享图（放在 public 下，以 / 开头）。 */
+  ogImage: string;
 }
 
 export const siteConfig: SiteConfig = {
@@ -29,6 +31,7 @@ export const siteConfig: SiteConfig = {
   gaId: process.env.NEXT_PUBLIC_GA_ID || 'G-3SC1YKTZN6',
   defaultTitle: 'Palworld Wiki — Guides, Pal Codex, Breeding & Mods',
   defaultDescription:
-    'Palworld Wiki — complete fan guide to Palworld: beginner tutorials, 287 Pal codex, breeding calculator, materials, Terraria crossover, TCG and server guides.',
+    'Palworld Wiki — complete fan guide to Palworld: beginner tutorials, 288 Pal codex, breeding calculator, materials, Terraria crossover, TCG and server guides.',
   ogLocales: ['en', 'ja', 'ru', 'de', 'zh-TW'],
+  ogImage: '/images/guides/ss-16.jpg',
 };

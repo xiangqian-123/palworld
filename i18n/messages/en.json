@@ -13,10 +13,10 @@
   "hero": {
     "eyebrow": "Fan-Made Community Wiki",
     "title": "Palworld",
-    "description": "Capture, breed, fight and build across the Palpagos Islands. 287 Pals, 9 elements, cross-platform multiplayer — from your first Lamball to the World Tree finale.",
+    "description": "Capture, breed, fight and build across the Palpagos Islands. 288 Pals, 9 elements, cross-platform multiplayer — from your first Lamball to the World Tree finale.",
     "stats": [
       "Launched Jan 19, 2024 (EA) → 1.0 on Jul 10, 2026",
-      "287 Pals · 9 Elements",
+      "288 Pals · 9 Elements",
       "32M+ Players",
       "PC / PS5 / Xbox / Mac",
       "Cross-Platform Multiplayer",
@@ -38,7 +38,7 @@
       },
       {
         "title": "Pal Codex",
-        "desc": "All 287 Pals — elements, work suitability and top picks.",
+        "desc": "All 288 Pals — elements, work suitability and top picks.",
         "slug": "pals"
       },
       {
@@ -72,7 +72,7 @@
     "title": "What is Palworld",
     "paragraphs": [
       "Palworld is a monster-taming open-world survival crafting game by Pocketpair. Capture creatures called Pals across the Palpagos Islands and put them to work, breeding, fighting and building. It launched in Steam Early Access on Jan 19, 2024 and hit full 1.0 release on Jul 10, 2026.",
-      "The 1.0 release opened the World Tree main-story finale (the eight-tower seal storyline), Pal awakening and mutation systems, 287 total Pals, and aquatic building. Cross-platform multiplayer is supported across PC / PS5 / Xbox / Mac, with 32-player dedicated servers."
+      "The 1.0 release opened the World Tree main-story finale (the eight-tower seal storyline), Pal awakening and mutation systems, 288 total Pals, and aquatic building. Cross-platform multiplayer is supported across PC / PS5 / Xbox / Mac, with 32-player dedicated servers."
     ],
     "facts": [
       { "label": "Developer", "value": "Pocketpair, Inc." },
@@ -80,7 +80,7 @@
       { "label": "Genre", "value": "Open World Survival + Creature Collecting" },
       { "label": "Release", "value": "Jan 19, 2024 (EA) → Jul 10, 2026 (1.0)" },
       { "label": "Price", "value": "$29.99" },
-      { "label": "Pals", "value": "287" },
+      { "label": "Pals", "value": "288" },
       { "label": "Max Level", "value": "80" },
       { "label": "Crossplay", "value": "Yes (PC / PS5 / Xbox / Mac)" }
     ]

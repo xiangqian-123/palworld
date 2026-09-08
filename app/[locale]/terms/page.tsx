@@ -1,5 +1,21 @@
 import { notFound } from "next/navigation";
+import type { Metadata } from "next";
 import { isValidLocale } from "@/lib/locales";
+import { buildAlternates } from "@/lib/seo";
+
+export function generateMetadata({
+  params,
+}: {
+  params: { locale: string };
+}): Metadata {
+  return {
+    title: "Terms of Service",
+    description: "Terms of use for this fan-made Palworld community wiki.",
+    alternates: buildAlternates(params.locale, "/terms"),
+    // 模板化页面内容单薄，避免被判定为低质量内容；链接仍可跟随。
+    robots: { index: false, follow: true },
+  };
+}
 
 export default function TermsPage({ params }: { params: { locale: string } }) {
   if (!isValidLocale(params.locale)) notFound();

@@ -1,9 +1,17 @@
 import { notFound } from "next/navigation";
 import { getPal, getPalSlugs, getCodeName } from "@/lib/pal";
 import { elementLabel, workLabel } from "@/lib/pal-labels";
-import { locales } from "@/lib/locales";
+import { locales, type Locale } from "@/lib/locales";
 import { getMessages } from "@/lib/i18n";
 import { siteConfig } from "@/lib/site";
+import {
+  OG_LOCALE,
+  absoluteUrl,
+  buildAlternates,
+  breadcrumbJsonLd,
+  palPageJsonLd,
+} from "@/lib/seo";
+import JsonLd from "@/components/JsonLd";
 import type { Metadata } from "next";
 
 function t(messages: Record<string, unknown>, key: string, fallback: string) {
@@ -34,11 +42,28 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const pal = getPal(params.slug);
   if (!pal) return { title: siteConfig.defaultTitle };
+  const path = `/pal/${pal.slug}`;
+  const title = `${pal.name} — ${siteConfig.siteName}`;
+  const description = pal.description || siteConfig.defaultDescription;
+  const image = `/images/pals/${pal.code}.png`;
   return {
-    title: `${pal.name} — ${siteConfig.siteName}`,
-    description: pal.description || siteConfig.defaultDescription,
-    alternates: {
-      canonical: `${siteConfig.siteUrl}/${params.locale}/pal/${pal.slug}`,
+    title,
+    description,
+    alternates: buildAlternates(params.locale, path),
+    openGraph: {
+      type: "article",
+      siteName: siteConfig.siteName,
+      locale: OG_LOCALE[(params.locale as Locale) ?? "zh-CN"],
+      title,
+      description,
+      url: absoluteUrl(`/${params.locale}${path}`),
+      images: [image],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title,
+      description,
+      images: [image],
     },
   };
 }
@@ -60,8 +85,29 @@ export default function PalPage({
   const genderMale = pal.genderMale;
   const hasGender = genderMale != null && genderMale >= 0;
 
+  const locale = params.locale as Locale;
+  const path = `/pal/${pal.slug}`;
+  const codexLabel = L("nav.pals", "Pal Codex");
+
   return (
     <article className="guide">
+      <JsonLd
+        data={palPageJsonLd({
+          locale,
+          name: pal.name,
+          description: pal.description,
+          path,
+          image: `/images/pals/${pal.code}.png`,
+          paldexIndex: pal.paldexIndex,
+        })}
+      />
+      <JsonLd
+        data={breadcrumbJsonLd(locale, [
+          { name: siteConfig.siteName, path: "" },
+          { name: codexLabel, path: "/guide/pals" },
+          { name: pal.name, path },
+        ])}
+      />
       <header className="guide-header pal-header">
         <img
           className="pal-avatar"
