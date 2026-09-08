@@ -64,6 +64,20 @@ export default function sitemap(): MetadataRoute.Sitemap {
     }
   }
 
+  // Pal 位置页（Where to find X）
+  for (const slug of palSlugs) {
+    const languages = hreflangLanguages(`/pal/${slug}/location`);
+    for (const locale of locales) {
+      entries.push({
+        url: `${siteConfig.siteUrl}/${locale}/pal/${slug}/location`,
+        lastModified: now,
+        changeFrequency: "monthly",
+        priority: 0.7,
+        alternates: { languages },
+      });
+    }
+  }
+
   // Breeding Calculator
   {
     const languages = hreflangLanguages("/breeding-calculator");

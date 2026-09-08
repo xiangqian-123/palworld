@@ -45,6 +45,10 @@ def main():
         lv = [s["minLevel"] for s in wild] + [s["maxLevel"] for s in wild]
         night_only = all(s["availability"] == "night" for s in wild)
         regions = sorted({s["region"] for s in items})
+        # 坐标中心（用 palpagos 的 spawn 点，tree 坐标是另一套尺度）
+        pt = [s for s in wild if s["region"] == "palpagos"]
+        cx = sum(s["mapX"] for s in pt) / len(pt) if pt else None
+        cy = sum(s["mapY"] for s in pt) / len(pt) if pt else None
         rec = {
             "count": len(wild),
             "minLevel": min(lv) if lv else None,
@@ -54,6 +58,8 @@ def main():
             "alphaMin": min((s["minLevel"] for s in alpha), default=None),
             "alphaMax": max((s["maxLevel"] for s in alpha), default=None),
             "regions": regions,
+            "cx": round(cx, 1) if cx is not None else None,
+            "cy": round(cy, 1) if cy is not None else None,
         }
         out[slug] = rec
 

@@ -212,6 +212,11 @@ export default function PalPage({
                   )}
                 </tbody>
               </table>
+              <p className="pal-location-link">
+                <Link href={`/${params.locale}/pal/${pal.slug}/location`}>
+                  {L("pal.fullLocation", "Full spawn guide →")}
+                </Link>
+              </p>
             </>
           );
         })()}
