@@ -899,3 +899,35 @@ img {
   gap: 10px;
   margin: 16px 0 8px;
 }
+
+/* ===== Items 数据库 ===== */
+.item-cat-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 8px 0 20px;
+}
+.item-cat-nav a {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: rgb(var(--text));
+  background: rgb(var(--bg-alt));
+  border: 1px solid rgb(var(--border));
+  border-radius: 999px;
+  padding: 5px 12px;
+  text-decoration: none;
+  transition: border-color 0.15s ease;
+}
+.item-cat-nav a:hover {
+  border-color: hsl(var(--nav-theme));
+}
+.item-count {
+  font-size: 0.8rem;
+  color: rgb(var(--text-muted));
+  font-weight: 400;
+}
+.drop-rate {
+  font-size: 0.72rem;
+  color: rgb(var(--text-muted));
+  margin-left: 2px;
+}

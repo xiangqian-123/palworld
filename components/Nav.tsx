@@ -67,6 +67,9 @@ export default function Nav({
           <Link href={`/${locale}/breeding-calculator`}>
             {t(messages, "nav.breedingCalc", "Calculator")}
           </Link>
+          <Link href={`/${locale}/items`}>
+            {t(messages, "nav.items", "Items")}
+          </Link>
           <details className="lang">
             <summary>{LANG_LABELS[locale] ?? locale}</summary>
             <div className="lang-list">

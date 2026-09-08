@@ -1,6 +1,7 @@
 import type { MetadataRoute } from "next";
 import { getSlugs } from "@/lib/posts";
 import { getPalSlugs } from "@/lib/pal";
+import { getItemSlugs } from "@/lib/items";
 import { locales } from "@/lib/locales";
 import { siteConfig } from "@/lib/site";
 import { hreflangLanguages } from "@/lib/seo";
@@ -87,6 +88,34 @@ export default function sitemap(): MetadataRoute.Sitemap {
         lastModified: now,
         changeFrequency: "weekly",
         priority: 0.9,
+        alternates: { languages },
+      });
+    }
+  }
+
+  // Items 索引页
+  {
+    const languages = hreflangLanguages("/items");
+    for (const locale of locales) {
+      entries.push({
+        url: `${siteConfig.siteUrl}/${locale}/items`,
+        lastModified: now,
+        changeFrequency: "weekly",
+        priority: 0.8,
+        alternates: { languages },
+      });
+    }
+  }
+
+  // 物品详情页
+  for (const slug of getItemSlugs()) {
+    const languages = hreflangLanguages(`/item/${slug}`);
+    for (const locale of locales) {
+      entries.push({
+        url: `${siteConfig.siteUrl}/${locale}/item/${slug}`,
+        lastModified: now,
+        changeFrequency: "monthly",
+        priority: 0.6,
         alternates: { languages },
       });
     }
