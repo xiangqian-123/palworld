@@ -8,7 +8,7 @@ import {
   spawnBearing,
   bearingLabel,
 } from "@/lib/spawn";
-import { locales, type Locale } from "@/lib/locales";
+import { type Locale } from "@/lib/locales";
 import { siteConfig } from "@/lib/site";
 import {
   OG_LOCALE,
@@ -19,15 +19,11 @@ import {
 } from "@/lib/seo";
 import JsonLd from "@/components/JsonLd";
 
+// spawn 数据不随版本变动，长尾页走 ISR（只预渲染 zh-CN，其余按需生成缓存 7 天）。
+export const revalidate = 604800;
+
 export function generateStaticParams() {
-  const slugs = getPalSlugs();
-  const params: { locale: string; slug: string }[] = [];
-  for (const locale of locales) {
-    for (const slug of slugs) {
-      params.push({ locale, slug });
-    }
-  }
-  return params;
+  return getPalSlugs().map((slug) => ({ locale: "zh-CN", slug }));
 }
 
 export function generateMetadata({

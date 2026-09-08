@@ -3,7 +3,7 @@ import Link from "next/link";
 import { getPal, getPalSlugs, getCodeName, localizePal } from "@/lib/pal";
 import { getPalSpawn, regionLabel } from "@/lib/spawn";
 import { elementLabel, workLabel } from "@/lib/pal-labels";
-import { locales, type Locale } from "@/lib/locales";
+import { type Locale } from "@/lib/locales";
 import { getMessages } from "@/lib/i18n";
 import { siteConfig } from "@/lib/site";
 import {
@@ -26,15 +26,12 @@ function t(messages: Record<string, unknown>, key: string, fallback: string) {
   return typeof cur === "string" ? cur : fallback;
 }
 
+// Pal 数据基本不随版本变动，长尾页走 ISR：
+// build 只预渲染默认语言（zh-CN），其余语言首次访问时生成并缓存 7 天。
+export const revalidate = 604800;
+
 export function generateStaticParams() {
-  const slugs = getPalSlugs();
-  const params: { locale: string; slug: string }[] = [];
-  for (const locale of locales) {
-    for (const slug of slugs) {
-      params.push({ locale, slug });
-    }
-  }
-  return params;
+  return getPalSlugs().map((slug) => ({ locale: "zh-CN", slug }));
 }
 
 export async function generateMetadata({
