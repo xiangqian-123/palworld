@@ -1,6 +1,7 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import { getPal, getPalSlugs, getCodeName, localizePal } from "@/lib/pal";
+import { getPalSpawn, regionLabel } from "@/lib/spawn";
 import { elementLabel, workLabel } from "@/lib/pal-labels";
 import { locales, type Locale } from "@/lib/locales";
 import { getMessages } from "@/lib/i18n";
@@ -166,6 +167,54 @@ export default function PalPage({
             {L("pal.breedingCalc", "Breeding Calculator")}
           </Link>
         </div>
+
+        {(() => {
+          const sp = getPalSpawn(pal.slug);
+          if (!sp) return null;
+          const regionText = sp.regions.map(regionLabel).join(" & ");
+          return (
+            <>
+              <h2>{L("pal.location", "Where to Find")} {pal.name}</h2>
+              <table>
+                <tbody>
+                  <tr>
+                    <th>{L("pal.spawnLevel", "Wild Level")}</th>
+                    <td>
+                      {sp.minLevel != null
+                        ? sp.minLevel === sp.maxLevel
+                          ? sp.minLevel
+                          : `${sp.minLevel}–${sp.maxLevel}`
+                        : "—"}
+                    </td>
+                  </tr>
+                  <tr>
+                    <th>{L("pal.spawnTime", "Active")}</th>
+                    <td>
+                      {sp.nightOnly
+                        ? L("pal.nightOnly", "Night only")
+                        : L("pal.dayNight", "Day & Night")}
+                    </td>
+                  </tr>
+                  <tr>
+                    <th>{L("pal.map", "Map")}</th>
+                    <td>{regionText}</td>
+                  </tr>
+                  {sp.hasAlpha && (
+                    <tr>
+                      <th>{L("pal.alpha", "Alpha Boss")}</th>
+                      <td>
+                        {L("pal.alphaYes", "Yes")}
+                        {sp.alphaMin != null
+                          ? ` · Lv ${sp.alphaMin === sp.alphaMax ? sp.alphaMin : `${sp.alphaMin}–${sp.alphaMax}`}`
+                          : ""}
+                      </td>
+                    </tr>
+                  )}
+                </tbody>
+              </table>
+            </>
+          );
+        })()}
 
         {pal.stats && (
           <>

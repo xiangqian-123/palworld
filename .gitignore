@@ -28,3 +28,6 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# atlas-data 原始中间产物（已聚合进 pal-spawns.json）
+/data/atlas-*.json
