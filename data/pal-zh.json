@@ -1,0 +1,1154 @@
+{
+ "aegidron": {
+  "description": "远古时期通讯手段有限，人们曾利用 Aegidron 翅膀中散发的光芒来传递简单的闪光信号。",
+  "partnerSkill": "坚不可摧堡垒"
+ },
+ "amione": {
+  "description": "一只消失，另一只便悄然补位，生活照常如无事发生。对 Amione 而言，陪伴便是全部。",
+  "partnerSkill": "魔法双子之力"
+ },
+ "anubis": {
+  "description": "曾被视为高贵的象征，是远离财富与权势者心中的偶像。然而随着岁月流逝，这只帕鲁却成了死亡的代名词。",
+  "partnerSkill": "沙漠守护者"
+ },
+ "arsox": {
+  "description": "远古时期，肉食类帕鲁对它们穷追不舍。Arsox 嘶吼中那股荒诞的狂怒化作熊熊烈焰，并一直传承至今。",
+  "partnerSkill": "温暖身躯"
+ },
+ "astegon": {
+  "description": "诞生于深渊的野蛮巨兽。汝不可立于兽前。汝不可听信于兽。",
+  "partnerSkill": "黑色甲龙"
+ },
+ "astralym": {
+  "description": "这只神秘帕鲁早已不复当年之勇，久远之前曾降临帕尔帕戈斯群岛。它带来毁灭与灾厄，被封印了数千年，最终被某位帕鲁驯兽师击败。",
+  "partnerSkill": "-"
+ },
+ "azurmane": {
+  "description": "与 Univolt 一样，它曾被认为与雷神有所关联。随着人们对 Univolt 的信仰衰退，Azurmane 被视为雷神真正的使者。即便如此，时间仍将二者一同贬为了普通的苦力坐骑。",
+  "partnerSkill": "等离子冲刺"
+ },
+ "azurobe-cryst": {
+  "description": "这只帕鲁的白色缎带会不断吸收周围的热量，温度却奇妙地保持不变。这种奇特能力曾使它沦为被疯狂捕猎的目标，至今仍对人类怀有深深的戒备。",
+  "partnerSkill": "冰翼之舞"
+ },
+ "azurobe": {
+  "description": "若被不纯净的水浇淋，这只帕鲁的白色缎带便会变黑。凭借探测毒素的用处，它曾遭到过度捕猎，这段过往让它们对人类心怀怨恨。",
+  "partnerSkill": "水翼之舞"
+ },
+ "bakemi": {
+  "description": "它活着完全是为了吓人带来的刺激，却丝毫不可怕。因它实在可爱，大多数人忍不住配合演出惊吓的样子，如今 Bakemi 所到之处只留下一片欢笑。",
+  "partnerSkill": "狞笑死神"
+ },
+ "bastigor": {
+  "description": "看到任何圆形的东西都会让它产生难以抑制的拳击冲动。对雪虎兽人而言，仅次于活下去的最大难题，便是堆雪人。",
+  "partnerSkill": "暴雪冲击"
+ },
+ "beakon-cryst": {
+  "description": "完美适应了严寒环境，尽管身形纤细却几乎感受不到寒意。它俯冲而下时力道惊人，仿佛一根巨大冰锥直坠天际。",
+  "partnerSkill": "寒冰骤袭"
+ },
+ "beakon": {
+  "description": "有人认为它与 Ragnahawk 是近亲，实则毫无关联。它用尖锐的喙以迅雷之势俯冲扑向猎物。",
+  "partnerSkill": "雷鸣"
+ },
+ "beegarde": {
+  "description": "誓死效忠 Elizabee 的侍从。任何伤害蜂后者都会被立即逐出蜂巢。它甘愿以性命守护自己的女王。",
+  "partnerSkill": "工蜂"
+ },
+ "bellanoir-libero": {
+  "description": "当欲望被彻底释放，她很快便不堪重负。她渴望拥有一个能凝视自我的自我。而凝视着、憎恶着现实的姐妹们被驱入深渊，最终阖上了双眼。",
+  "partnerSkill": "噩梦凝视"
+ },
+ "bellanoir": {
+  "description": "她本不存在，只是静静俯瞰着世界。某日，她忽然渴望被看见。怀揣着对现实无休止的复仇欲，蚀影海妖就此诞生。",
+  "partnerSkill": "噩梦瞳眸"
+ },
+ "blazamut-ryu": {
+  "description": "远古时期，它从地底深处现身。以毫不留情的狂烈火焰焚尽整座岛屿，直至寸草不留。它被称为永恒之焰。",
+  "partnerSkill": "龙之凯撒"
+ },
+ "blazamut": {
+  "description": "传说它诞生于火山喷发之时。甚至有怪异的团体声称，这片大陆正背负在一只巨大 Blazamut 的背上。",
+  "partnerSkill": "岩浆凯撒"
+ },
+ "blazehowl-noct": {
+  "description": "虽然它偏好生肉，最终却总在吃腐肉。这归咎于它用作武器的暗黑利爪——它只是没意识到猎物因此被诅咒。",
+  "partnerSkill": "暗焰狮"
+ },
+ "blazehowl": {
+  "description": "虽然它偏好生肉，最终却总在吃全熟肉。这归咎于它用作武器的灼热利爪——它只是没意识到猎物被烧成了焦炭。",
+  "partnerSkill": "狱焰狮"
+ },
+ "braloha": {
+  "description": "它的吐息带有一种神奇的粉末状物质，能为触及的一切植物授粉。对植物系帕鲁而言，靠近它或许有点……复杂。",
+  "partnerSkill": "和煦天气"
+ },
+ "bristla": {
+  "description": "这只带刺帕鲁的尖刺含有剧毒。它与 Cinnamoth 交好，唯有在 Cinnamoth 吸食其花蜜时才露出微笑。",
+  "partnerSkill": "公主凝视"
+ },
+ "broncherry-aqua": {
+  "description": "它的气味在配对前后截然不同。找到伴侣前会散发怡人香气，被称为「纯净之香」。",
+  "partnerSkill": "纯净盛放"
+ },
+ "broncherry": {
+  "description": "它的气味在配对前后截然不同。找到伴侣后会散发怡人香气，被称为「初恋之香」。",
+  "partnerSkill": "爱的初绽"
+ },
+ "bulldosu": {
+  "description": "在旧时群岛，Bulldosu 相扑曾广受欢迎。高手对决中，连冲锋的 Rushoar 都会被掀飞出去。",
+  "partnerSkill": "横纲之威"
+ },
+ "bushi-noct": {
+  "description": "它死后身躯会化为一柄刀，由下一代继承。若继承的武士心志不坚，亡者之声便会将它逼疯，继而化作无尽游荡的暗武士。",
+  "partnerSkill": "虚空之刃"
+ },
+ "bushi": {
+  "description": "它死后身躯会化为一柄刀，由下一代继承。若非武士之人执起此刀，其中的灵魂便会折磨此人直至发狂。",
+  "partnerSkill": "挥舞之刃"
+ },
+ "caprity-noct": {
+  "description": "它背上生长的浆果会随情绪改变味道。生长环境越严酷，浆果便越甜美。正因如此，多数圈养的暗夜莓果兽从未尝过爱的滋味。",
+  "partnerSkill": "毒莓采集"
+ },
+ "caprity": {
+  "description": "只要喂养得当，这只帕鲁背上的灌木便会结出浆果。它将这些浆果献给心仪的伴侣，若味道合意，恋情便随之绽放。",
+  "partnerSkill": "浆果采集"
+ },
+ "carnibora": {
+  "description": "它进食毫无节制，头顶的嘴常因痛苦溃疡而不得不用脸上的嘴进食。然而习性不改，最终两张嘴都患上了同样的溃疡。",
+  "partnerSkill": "缠绕之舌"
+ },
+ "cattiva": {
+  "description": "乍看充满自信，实则软弱怯懦。被 Cattiva 玩弄于股掌之间，在许多方面都是莫大的耻辱。",
+  "partnerSkill": "猫咪帮手"
+ },
+ "cawgnito": {
+  "description": "远古时期它曾自由翱翔天际。在与 Galeclaw 的比试中落败后，它舍弃了天空，如今在暗夜中隐居。",
+  "partnerSkill": "诡夜疾行者"
+ },
+ "celaray-lux": {
+  "description": "华丽的纹路助它吸引伴侣。然而因 Celaray Lux 引发的触电事故历史悠久，如今黄黑条纹在全岛被视为危险的标志。",
+  "partnerSkill": "电光滑翔"
+ },
+ "celaray": {
+  "description": "乘风而行的它随性游走于天地间。若途中邂逅伴侣，此番相遇便将旅程画上句点。",
+  "partnerSkill": "微风滑翔"
+ },
+ "celesdir-noct": {
+  "description": "耀眼光辉所至，暗影便随之而生。它洒下笼罩一切的黑暗，以夺回本应存在的混沌。世界所需的，是平衡。",
+  "partnerSkill": "混沌之佑"
+ },
+ "celesdir": {
+  "description": "古籍将其称为「救赎之兽」。Celesdir 散发的光芒能净化一切，令万物彻底消逝、不留痕迹。",
+  "partnerSkill": "净化之佑"
+ },
+ "chikipi": {
+  "description": "极度弱小又美味得过分。它与 Lamball 并列为最弱帕鲁之一。无论被猎杀多少，它们依然层出不穷。",
+  "partnerSkill": "产蛋者"
+ },
+ "chillet-ignis": {
+  "description": "它能蜷起身子飞快翻滚，直至火花四溅。兴奋时同样火花乱飞。若你抚摸过度，这只帕鲁会真的「燃」起来！",
+  "partnerSkill": "闪亮黄鼬"
+ },
+ "chillet": {
+  "description": "它能蜷起身子以极高速度翻滚。远古时期，人们会在放牧的家养 Chillet 身上绑上奶袋，借这股旋转之力制作黄油。",
+  "partnerSkill": "扭动黄鼬"
+ },
+ "cinnamoth": {
+  "description": "嗅闻它的鳞片会令人产生无与伦比的欣快感。曾有人试图进一步管制这一副产物，却遭到自由帕鲁联盟的强烈反对而作罢。",
+  "partnerSkill": "神秘鳞片"
+ },
+ "clovee": {
+  "description": "曾有个体额头上长着三片或更多叶子。因被视为好运象征，叶片越多者遭疯狂捕猎，导致该物种随演化叶片渐少。",
+  "partnerSkill": "幸福三叶草"
+ },
+ "cremis": {
+  "description": "相较 Lamball，它的羊毛更细密，性情也更宜驯养。然而自古以来它一直被当作宠物。可爱即美德。",
+  "partnerSkill": "蓬松羊毛"
+ },
+ "croajiro-noct": {
+  "description": "舍弃荣誉的 Croajiro 聚集成派系。它们会不择手段地猎杀目标。若你在深夜遭遇一群暗夜呱，命悬一线的便是你。",
+  "partnerSkill": "暗影架势"
+ },
+ "croajiro": {
+  "description": "玷污族群荣誉者将被迫自尽。它们用树枝刺破鼓胀的鸣囊，被气流卷向天空，归于来世。",
+  "partnerSkill": "跳跃架势"
+ },
+ "cryolinx-terra": {
+  "description": "它用巨大的双手能轻松搬运许多物品。然而腿短行速慢，常常赶不上夜幕降临。",
+  "partnerSkill": "爆发之力"
+ },
+ "cryolinx": {
+  "description": "它凭借坚硬的利爪能轻松攀上险峰。然而腿短难以下山，常被困于高处。",
+  "partnerSkill": "龙猎手"
+ },
+ "daedream": {
+  "description": "它令感兴趣者入睡，并让他们沉浸在无尽的美梦之中。受其蛊惑者，将长眠不醒，直至死亡降临。",
+  "partnerSkill": "追梦者"
+ },
+ "dandilord": {
+  "description": "自远古起，它便驻守世界树，持续着守望。守护何物、所为何来，Dandilord 并不在意。毕竟世界树知晓一切。唯有它操纵的迷雾能揭示真相。",
+  "partnerSkill": "迷雾卫士"
+ },
+ "dazemu": {
+  "description": "向前一步，忘却疑虑。向前两步，忘却烦忧。向前三步，忘却恐惧。直面一切敌人。",
+  "partnerSkill": "沙地疾驰"
+ },
+ "dazzi-noct": {
+  "description": "它常对孤独的帕鲁示好，谋划着诱其放松戒备再下手。然而总寻不到时机，最终反而与它们成了朋友。",
+  "partnerSkill": "暗雷之姬"
+ },
+ "dazzi": {
+  "description": "它常对孤独的帕鲁示好。然而一旦对方误以为这是真友谊，它便趁机降下雷霆将其击碎。",
+  "partnerSkill": "雷之姬"
+ },
+ "depresso": {
+  "description": "因终日愁眉苦脸而朋友甚少，实则心地善良。有人曾见它投喂离群走失的 Vixy。",
+  "partnerSkill": "咖啡因注射"
+ },
+ "digtoise": {
+  "description": "在广受欢迎的童话《钻甲龟寓言》中，拥有最强甲壳、亦是唯一能刺穿它的钻头的主角，思索着世间的矛盾。",
+  "partnerSkill": "钻头粉碎"
+ },
+ "dinossom-lux": {
+  "description": "虽遭雷击却仍存活。「被 Dinossom Lux 的雷劈中」一语，已引申为死里逃生之意。",
+  "partnerSkill": "雷之龙"
+ },
+ "dinossom": {
+  "description": "被激怒的帕鲁无法安抚。它如烈焰般持续狂怒。「踩到 Dinossom 的尾巴」一语，已引申为触怒他人之意。",
+  "partnerSkill": "芬芳之龙"
+ },
+ "direhowl": {
+  "description": "远古时期 Direhowl 曾与人类并肩狩猎，但岁月流逝，这份羁绊已逐渐淡去。",
+  "partnerSkill": "恐嚎骑乘"
+ },
+ "dogen": {
+  "description": "为求无我之境，它终日冥想。直面俗世欲望后，它进食并自省。今天它吃得有点多。",
+  "partnerSkill": "归家之祈"
+ },
+ "dualith-noct": {
+  "description": "一体双魂。二者甚少意见一致，终日争执不休，然一旦开战，身心即刻合而为一！",
+  "partnerSkill": "腐化激光"
+ },
+ "dualith": {
+  "description": "一体双魂。当意志相冲，在二者和解之前，铠甲将漂荡何方无人可知。",
+  "partnerSkill": "森林激光"
+ },
+ "dumud-gild": {
+  "description": "它的身躯能将光线折射得无比清晰。更令人震惊的是，它的反应竟比 Dumud 还要迟钝。",
+  "partnerSkill": "黄金丰收"
+ },
+ "dumud": {
+  "description": "一旦过于放松，它的反应速度便大幅下降。即便从头到尾被切开，恐怕也要到次日清晨才反应过来自己早该死了。",
+  "partnerSkill": "土壤改良"
+ },
+ "dupin": {
+  "description": "它创造的复制体或许会悄然取而代之，连 Dupin 自身都难以确认自己是否还是本体。",
+  "partnerSkill": "爱恶作剧的绒球"
+ },
+ "dynamoff": {
+  "description": "高海拔食物匮乏，它偶尔甚至会以敌脑为食。据信，为寻求更可靠食物来源而降往低空的族群，最终分化为 Beakon。",
+  "partnerSkill": "电疗孵化"
+ },
+ "eidrolon-ignis": {
+  "description": "最近才被发现的新种帕鲁。它谁也不信、对谁也不信，暴躁易怒的性情使它不断向最近的泄愤对象宣泄怒火。",
+  "partnerSkill": "怨念翼龙"
+ },
+ "eidrolon": {
+  "description": "最近才被发现的新种帕鲁。性情沉静、全然温顺，随心度日，不再受任何束缚。",
+  "partnerSkill": "自由翼龙"
+ },
+ "eikthyrdeer-terra": {
+  "description": "犄角最坚硬者成为首领。一旦失去犄角，领袖之位亦随之而去。它在族群的注视中离群，悄然归于尘土。",
+  "partnerSkill": "黄金森林守护者"
+ },
+ "eikthyrdeer": {
+  "description": "鹿角最为壮观者成为族群首领。若鹿角折断，便会消沉离群，从此再无踪影。",
+  "partnerSkill": "森林守护者"
+ },
+ "elgrove-cryst": {
+  "description": "它冰封的犄角终生不化。当冰上开始滴落水珠，Elgrove Cryst 便感受到自身生命流逝的寒意。",
+  "partnerSkill": "冬父之威"
+ },
+ "elgrove": {
+  "description": "无论怎样拉扯，它犄角上的叶子都摘不下来。当叶子自然飘落，Elgrove 便知晓自己的时辰已到。",
+  "partnerSkill": "自然之母的威胁"
+ },
+ "elizabee": {
+  "description": "统御工蜂一族、经遴选而出的女王。甘愿为侍奉女王鞠躬尽瘁的仆从，源源不绝。",
+  "partnerSkill": "蜂后号令"
+ },
+ "elphidran-aqua": {
+  "description": "它的举止如其外表般纯净。或许正因如此，它行止毫无恶意，即便夺去性命也漠然处之。",
+  "partnerSkill": "亲和水龙"
+ },
+ "elphidran": {
+  "description": "它的举止如其外表般纯净。或许正因如此，它有时难辨善恶，常被恶徒所乘。",
+  "partnerSkill": "亲和圣龙"
+ },
+ "faleris-aqua": {
+  "description": "锁定猎物后，它掀起滔天激流横扫整片区域。多半猎物在混乱中被冲得不见踪影，不禁令人怀疑这到底算不算狩猎。",
+  "partnerSkill": "潮汐掠食者"
+ },
+ "faleris": {
+  "description": "锁定猎物后，它掀起火焰旋风，将整片区域烧为灰烬。Faleris 的吐息以怡人香气而闻名。",
+  "partnerSkill": "灼烈掠食者"
+ },
+ "felbat": {
+  "description": "它自暗影中发动袭击，将猎物困于如披风般的双翼之内。翼中发生何事、翼内为何染红，还是不知为妙。",
+  "partnerSkill": "生命汲取"
+ },
+ "fenglope-lux": {
+  "description": "古时相传，绘制 Fenglope Lux 的画像会遭雷击。时过境迁，描绘 Fenglope Lux 的画作反倒成了避雷护符，广为流传。",
+  "partnerSkill": "风暴之云"
+ },
+ "fenglope": {
+  "description": "古时其美丽容姿常见于画作之中。随着时光流逝，它华美的皮毛与鹿角也频繁现身艺术品。",
+  "partnerSkill": "风云"
+ },
+ "finsider-ignis": {
+  "description": "即便伸手探入它的嘴中，里面空无一物——它却仍在持续。有研究者猜想那或许是异次元空间，便如钻睡袋般爬了进去。然而当呕吐反射发作，他才恍然……那确实是这只生物身体的一部分。",
+  "partnerSkill": "余烬之腔"
+ },
+ "finsider": {
+  "description": "看似有某物从玩偶装内部探头，但即便伸手进去，里面空无一物。事实上，你可以越探越深。或许宇宙本身便藏于其中。",
+  "partnerSkill": "水枪"
+ },
+ "flambelle": {
+  "description": "它一哭，流出的不是泪水而是岩浆。涌出的岩浆又被身体吸收，令它愈发热烫。越是哭泣，便越是强大。",
+  "partnerSkill": "岩浆之泪"
+ },
+ "flaracle": {
+  "description": "它凝神静心，借火焰窥探未来。若预见不利的命数，便不断重掷预言，直至得到吉兆。正因如此，Flaracle 的未来总是格外光明！",
+  "partnerSkill": "燃烧的未来"
+ },
+ "flopie": {
+  "description": "它偏爱植被丰茂之地，但近来花粉症似乎成了 Flopie 的困扰。",
+  "partnerSkill": "帮手兔"
+ },
+ "foxcicle": {
+  "description": "极光浮现之夜，它会仰望天空，吟唱起优美的歌声。然而这也使它易遭敌人袭击。",
+  "partnerSkill": "极光向导"
+ },
+ "foxparks-cryst": {
+  "description": "它天生不擅控制寒气，常因无意识吐出的霜冻而呛到。当 Foxparks Cryst 感冒时，鼻涕会冻结，导致呼吸困难而惊慌失措。",
+  "partnerSkill": "抱抱寒霜"
+ },
+ "foxparks": {
+  "description": "它天生不擅控火，常因无意识吐出的火焰而呛到。Foxparks 的喷嚏是森林火灾的主要成因之一。",
+  "partnerSkill": "抱抱火苗"
+ },
+ "frostallion-noct": {
+  "description": "帕尔帕戈斯群岛的守护神，人称夜之召唤者。昔日灾厄降临大地时，它腾空而起，以永恒黑暗笼罩全岛，将威胁封印。",
+  "partnerSkill": "黑暗骏马"
+ },
+ "frostallion": {
+  "description": "帕尔帕戈斯群岛的守护神，人称冬之召唤者。昔日灾厄降临大地时，它腾空而起，以永恒寒冬笼罩全岛，将威胁封印。",
+  "partnerSkill": "寒冰骏马"
+ },
+ "frostplume": {
+  "description": "它的时间感极其精准，每日都在同一时刻醒来。据帕尔帕戈斯传说，一日被分为二十四份，正因 Frostplume 展开尾羽时，会显露出二十四个分明的区间。",
+  "partnerSkill": "孔雀扑击"
+ },
+ "fuack-ignis": {
+  "description": "天生为摩擦而生的肚皮，让这只帕鲁冲浪时火花带火。但一旦玩过头，它往往会变成滚动的火球。",
+  "partnerSkill": "火焰冲撞"
+ },
+ "fuack": {
+  "description": "凭借自身体内的水，这只帕鲁能在任何地方卷起波浪。匆忙时它会冲浪而行，但那速度常以致命撞击收场。",
+  "partnerSkill": "冲浪猛击"
+ },
+ "fuddler": {
+  "description": "它巨大的利爪有着钻石般的硬度。然而打磨双爪会消耗大部分精力，以至于它有时整日只顾此事。",
+  "partnerSkill": "采矿助手"
+ },
+ "galeclaw": {
+  "description": "即便抓着人类也能轻松起飞的帕鲁。然而疲惫时它容易松手，已导致不止一人骤然殒命。",
+  "partnerSkill": "疾风滑翔"
+ },
+ "ghangler-ignis": {
+  "description": "它炽热的诱饵兼具烤架之能，可炙烤猎物。被香气吸引的帕鲁一旦被 Ghangler Ignis 盯上便无路可逃。最终它们被「盛情款待」——直到个个撑饱。",
+  "partnerSkill": "深渊名厨"
+ },
+ "ghangler": {
+  "description": "它以闪耀的诱饵照亮黑暗。被光芒吸引、四处游荡的帕鲁一旦被幽灵鮟鱇盯上便难逃一劫。无论多远，它都会一路指引它们平安归家。",
+  "partnerSkill": "黑暗主宰"
+ },
+ "gildane": {
+  "description": "在群岛炼金术的黄金时代，它那永不黯淡的金色毛发被视为炼金成金的催化良材，备受珍视。后来却有了惊人发现：只需处理它的鬃毛，便能得到同样的金色。",
+  "partnerSkill": "沙暴之佑"
+ },
+ "gildra": {
+  "description": "覆盖它全身的金色带状器官极具弹性。然而在极度干燥下易撕裂，因此每日的保湿检查必不可少。",
+  "partnerSkill": "复活"
+ },
+ "gloopie-primo": {
+  "description": "与这只帕鲁同眠前，务必确认次日的安排。它的吸盘会留下疑似咬痕的印记。一次迷糊的依偎，便可能引发完全不必要的误会。",
+  "partnerSkill": "头足公主"
+ },
+ "gloopie": {
+  "description": "与这只帕鲁同眠前，务必确认次日的安排。它的吸盘会留下疑似吻痕的印记。一次迷糊的依偎，便可能引发相当尴尬的误会。",
+  "partnerSkill": "黏黏公主"
+ },
+ "gobfin-ignis": {
+  "description": "远古时期，它是体型巨大、实力强劲的水生帕鲁。然而随着食物减少，它演化至陆地生活。因行走消耗大量热量，竟惊人地觉醒了控火之力！",
+  "partnerSkill": "愤怒鲨鱼"
+ },
+ "gobfin": {
+  "description": "远古时期，它是体型巨大、实力强劲的水生帕鲁。然而随着食物减少，它演化至陆地生活。因行走耗费大量能量，体型逐渐变小，如今成了瘦小孱弱的帕鲁。",
+  "partnerSkill": "愤怒鲨鱼"
+ },
+ "gorirat-terra": {
+  "description": "它以击地节奏与同伴交流。比 Gorirat 更为强悍，若所有 terra 金刚猩同时捶地，全岛将在1秒内沉没。",
+  "partnerSkill": "全力金刚捶"
+ },
+ "gorirat": {
+  "description": "它以击地节奏与同伴交流。每种节奏的含义因族群而异，但其中差别至今大多未知。",
+  "partnerSkill": "全力金刚模式"
+ },
+ "grintale": {
+  "description": "一旦有人踏入领地，Grintale 的双眼便亮了起来。这并非修辞——它的眼睛真的会发光。",
+  "partnerSkill": "怒视猫瞳"
+ },
+ "grizzbolt": {
+  "description": "带着友善笑容与强健体魄，它对认定的伙伴温顺可亲。不知为何，一旦手持迷你机枪，性格便陡然转变。",
+  "partnerSkill": "黄色坦克"
+ },
+ "gumoss": {
+  "description": "一只身体如树液般的奇异帕鲁。若无遮蔽之物覆身，便会逐渐衰弱，最终腐烂消亡。",
+  "partnerSkill": "伐木助手"
+ },
+ "hangyu-cryst": {
+  "description": "",
+  "partnerSkill": "冬日秋千"
+ },
+ "hangyu": {
+  "description": "",
+  "partnerSkill": "飞翔秋千"
+ },
+ "hartalis": {
+  "description": "寂静令人不安，却又奇异地安宁。再无他人留存。众皆已得救赎。噢，救赎之王，请将我也带入永恒之静。——古籍至此中断。",
+  "partnerSkill": "神圣壁垒"
+ },
+ "helzephyr-lux": {
+  "description": "它自地狱深处召唤雷电。虽被视为 Helzephyr 的亚种，却有理论认为：被地狱之雷劈中的 Helzephyr Lux，会蜕变为 Helzephyr。",
+  "partnerSkill": "雷霆之翼"
+ },
+ "helzephyr": {
+  "description": "它自地狱深处召唤雷电。死于 Helzephyr 雷电者，灵魂必被遣往冥界。",
+  "partnerSkill": "死亡之翼"
+ },
+ "herbil": {
+  "description": "遇事不决，打到它好使为止——这便是 Herbil 的修理之道。凭借恰到好处为人类调校的力量，有时只需一拳，便能重启停跳的心脏。",
+  "partnerSkill": "赫比脉冲"
+ },
+ "hoocrates": {
+  "description": "常陷沉思，有时难以入眠。「我思，故我在。」",
+  "partnerSkill": "暗黑知识"
+ },
+ "hoodle": {
+  "description": "入睡时，它会泄气。入睡时，它便不复存在。沉睡的 Hoodle 无法存在；因此，Hoodle 永不入睡。",
+  "partnerSkill": "虚空居者"
+ },
+ "icelyn": {
+  "description": "虽身躯遇热即融，却难以抗拒日光浴。虽身躯遇暖即化，却痴迷于温泉。反正终将融化，它只愿融化在蓝天之下、蒸汽缭绕的露天浴池里。",
+  "partnerSkill": "女巫冰纱"
+ },
+ "incineram-noct": {
+  "description": "它专门盯上幼年期帕鲁，将其掳回自己的领地。被夺去孩子的父母，其绝望可想而知。",
+  "partnerSkill": "暗爪猎手"
+ },
+ "incineram": {
+  "description": "夜色之中，这只帕鲁掳走猎物带回领地。那些可怜魂灵之后遭遇如何，并不难想象。",
+  "partnerSkill": "焰爪猎手"
+ },
+ "jelliette": {
+  "description": "外形酷似 Jellroy 的帕鲁。它极爱交际，计划撞车时便请好友 Jellroy 代为出席。作为答谢，奉上一场约会。",
+  "partnerSkill": "果冻妹坠落"
+ },
+ "jellroy": {
+  "description": "外形酷似 Jelliette 的帕鲁。当 Jelliette 抽不开身时，它会代为出场。演技天衣无缝，无人察觉其中替换。",
+  "partnerSkill": "果冻哥坠落"
+ },
+ "jetragon": {
+  "description": "自高空守望帕尔帕戈斯群岛。当灾厄重临大地，地裂天焚之时，它注定以一瞬的毁灭之光将灾厄击落。",
+  "partnerSkill": "空中导弹"
+ },
+ "jolthog-cryst": {
+  "description": "遭受攻击时，它会释放体内积存的寒气。那刺骨寒流足以冻结周遭空气，轻易洞穿任何来犯之躯。",
+  "partnerSkill": "寒冰炸弹"
+ },
+ "jolthog": {
+  "description": "遭受攻击时，它会释放体内积存的电力。所生电压逾千万伏，掷出时比任何常规重火力都更具杀伤。",
+  "partnerSkill": "电震炸弹"
+ },
+ "jormuntide-ignis": {
+  "description": "传说 Jormuntide Ignis 曾是名战士，蒙冤被投入火山后，化身此帕鲁归来复仇，覆灭了王国。",
+  "partnerSkill": "唤暴熔岩龙"
+ },
+ "jormuntide": {
+  "description": "传说 Jormuntide 曾是名贤者，蒙冤被投入漩涡后，化身此帕鲁归来复仇，覆灭了王国。",
+  "partnerSkill": "唤暴海龙"
+ },
+ "katress-ignis": {
+  "description": "受成长环境所致，它已不在意食物是否够生。这只帕鲁不再纠结细节，只偏爱尽可能辛辣的食物。与 Wixen Noct 关系不睦。",
+  "partnerSkill": "炽焰黑魔法"
+ },
+ "katress": {
+  "description": "借阴影之力施展秘法奇象。它偏好生食，对 Wixen 尤为敌视。",
+  "partnerSkill": "神秘黑魔法"
+ },
+ "kelpsea-ignis": {
+  "description": "它的性格随出生水温而变。生于温水中的 Kelpsea 普遍热情主动、积极进取。",
+  "partnerSkill": "熔岩喷涌"
+ },
+ "kelpsea": {
+  "description": "它的性格随出生水质而变。生于污水的 Kelpsea 普遍脾气暴躁，很快便沦为不良分子。",
+  "partnerSkill": "清水喷涌"
+ },
+ "kikit": {
+  "description": "十年前，Kikit 足球风行一时。然而因自由帕鲁联盟的强烈反对，很快失宠。不过 Kikit 们并不介意，因为这有助于蜕去旧甲壳。",
+  "partnerSkill": "沙球足球"
+ },
+ "killamari-primo": {
+  "description": "它以尖牙咬入敌人颈项，吸尽最后一滴鲜血。两只 Killamari Primo 若相互咬住，便陷入不死不休的缠斗——彼此都想将对方吸干，直至一方枯萎。",
+  "partnerSkill": "炸鱿马里"
+ },
+ "killamari": {
+  "description": "它将自身缠住敌人头部，吸干其内部。偶尔发现的帕鲁木乃伊，实则都是 Killamari 的受害者。",
+  "partnerSkill": "炸鱿鱼"
+ },
+ "kingpaca-cryst": {
+  "description": "心怀寒冰的它极不擅表露情感。独行者最是可悯，在 Melpaca 眼中显得过于笨拙。",
+  "partnerSkill": "冷心之王"
+ },
+ "kingpaca": {
+  "description": "Melpaca 侍奉于它。Kingpaca 之间的较量以部属为赌注。落单者，便是此类角逐的败者。",
+  "partnerSkill": "肌肉之王"
+ },
+ "kitsun-noct": {
+  "description": "外表虽凶，暗夜狐却极度敏感，受惊便逃入洞穴。久居避世，已变得相当阴郁。",
+  "partnerSkill": "阴郁嚎鸣"
+ },
+ "kitsun": {
+  "description": "外表虽凶，Kitsun 却极度敏感，受惊便逃入洞穴。古时相传，若它从你面前逃走，便是不祥之兆。",
+  "partnerSkill": "太阳之狼"
+ },
+ "knocklem-ignis": {
+  "description": "拆解之后仍能重新组装、再度运转。若混入不同个体的零件，便会引发致命的认知错误，导致系统过热。",
+  "partnerSkill": "钢铁守护模式"
+ },
+ "knocklem": {
+  "description": "可拆解为215个零件。即便零件散落，也能重新组装、再度运转。若混入不同个体的零件，便会因身份错认而发生故障。",
+  "partnerSkill": "钢之守护模式"
+ },
+ "lamball": {
+  "description": "每次上山散步，它总会滚落回山下。这令它头晕动弹不得，极易被捕杀。结果，这只帕鲁一路滚到了食物链的最底端。",
+  "partnerSkill": "蓬松护盾"
+ },
+ "lapiron": {
+  "description": "奔跑时倾听大地的声音，轻松避开不稳之地。然而棘手的地形会骗得它频频摔倒。",
+  "partnerSkill": "大地之友"
+ },
+ "lapure": {
+  "description": "它用双手垂落的长毛吸引注意，时刻精心打理。它对污渍极其敏感、爱洁成癖，若在近旁扬起尘土，定会招来嫌恶的白眼。",
+  "partnerSkill": "长袖欢呼"
+ },
+ "leafan": {
+  "description": "为磨砺一脉相承的武艺：唯有日日苦练！为情所惑？痴人说梦！唯有日日修身！时机已至！我已出手！当场被拒，仅此而已！恋爱之技从未相传……唯有余憾，仅此而已！",
+  "partnerSkill": "无私修行"
+ },
+ "leezpunk-ignis": {
+  "description": "对站姿有着异常执念的帕鲁。它总在追寻最酷的姿势，主人因此不断收到它热忱的摆拍。",
+  "partnerSkill": "酷到不忍直视"
+ },
+ "leezpunk": {
+  "description": "时刻用心维持帅气站姿的帕鲁。它总在搜寻最酷的姿势，若给面镜子，便会对镜摆弄一整天。",
+  "partnerSkill": "酷到不忍直视"
+ },
+ "lifmunk": {
+  "description": "智力相当于五到七岁人类孩童。它是绝佳伙伴，却也不乏学会用武器后弑主的事例。",
+  "partnerSkill": "利姆后坐"
+ },
+ "loomen": {
+  "description": "它的灯笼散发着诡异光芒，照见世间真相。若那光芒令你目眩，你大抵是有所隐瞒。",
+  "partnerSkill": "灯笼附魔"
+ },
+ "loupmoon-cryst": {
+  "description": "它头上的犄角由永不消融的神秘寒冰构成。掰下犄角制成的刨冰堪称绝品，但品尝者与 Loupmoon Cryst 自己却都会头痛收场。",
+  "partnerSkill": "冰辉击"
+ },
+ "loupmoon": {
+  "description": "它头上的犄角在月光下生长。它不讨厌太阳，只是阳光照射时犄角会发痒。",
+  "partnerSkill": "暗辉击"
+ },
+ "lovander": {
+  "description": "为求一夜之欢，它总在追逐他人。起初它只对帕鲁感兴趣，近年来连人类也成了它放纵的对象。",
+  "partnerSkill": "心之汲取"
+ },
+ "lullu": {
+  "description": "初春时节，花粉随风飘散全岛。Flopie 的花粉症，全是 Lullu 的罪过。",
+  "partnerSkill": "花之增幅"
+ },
+ "lunaris": {
+  "description": "它能控制那些不慎直视它双眼之人。与 Lunaris 同行的身影，皆已落入其掌控之中。",
+  "partnerSkill": "反重力"
+ },
+ "lyleen-noct": {
+  "description": "优雅高贵、充满气度的帕鲁。它会对任何无礼者施以痛切的一掌。有些帕鲁反倒主动求罚。",
+  "partnerSkill": "静光女神"
+ },
+ "lyleen": {
+  "description": "充满爱意的温顺帕鲁。它守护着失去双亲的幼小帕鲁，并以全力管教调皮捣蛋者。",
+  "partnerSkill": "丰收女神"
+ },
+ "majex": {
+  "description": "它看似摆出英雄姿态，实则不过是撑住尾羽与长发的重量，以免摔倒。",
+  "partnerSkill": "幻影秘术"
+ },
+ "mammorest-cryst": {
+  "description": "它背上的植被因个体而异。曾几何时，人们在一只 Mammorest Cryst 背上发现了被认为早已灭绝的植物种子，依然冰封如初。",
+  "partnerSkill": "寒冰粉碎者"
+ },
+ "mammorest": {
+  "description": "它背上的植被因个体而异。赏玩这座「活体花园」帕鲁由来已久，甚至还有专门的修剪匠人。",
+  "partnerSkill": "盖亚粉碎者"
+ },
+ "maraith": {
+  "description": "它嗜好生物濒死时散发的奇特气息。若 Maraith 对你青眼有加，原因多半在此。",
+  "partnerSkill": "死亡信使"
+ },
+ "mau-cryst": {
+  "description": "它的水晶尾巴美不胜收，却在死亡时碎裂。有人认为饲养它们能带来好运，因此圈养的 Mau Cryst 备受呵护。",
+  "partnerSkill": "冰之低语"
+ },
+ "mau": {
+  "description": "它坚硬的尾巴即便断落也不腐朽。有人相信断尾能带来好运，可对因此遭大肆偷猎的无数 Mau 而言，实在与好运无缘。",
+  "partnerSkill": "掘金者"
+ },
+ "melpaca": {
+  "description": "切莫被这只帕鲁毛茸茸的外表欺骗。它长腿的一记超音速飞踢，足以将你送向世界的另一端。",
+  "partnerSkill": "帕卡帕卡羊毛"
+ },
+ "menasting-terra": {
+  "description": "由纯粹能量构成，体内全然中空。它将泥土与矿物塞入外壳，从而获得压倒性的质量。被它击中者，只能发出地狱般的哀嚎。",
+  "partnerSkill": "黄金蝎"
+ },
+ "menasting": {
+  "description": "由纯粹能量构成，体内全然中空。这只帕鲁将尚活的猎物塞入空躯并吸收。常能听见自它体内传出的痛苦惨叫。",
+  "partnerSkill": "钢铁蝎"
+ },
+ "mimog": {
+  "description": "昔日曾有传统，向死得最蠢者颁奖。首届奖便颁给了「未察觉 Mimog、开启宝箱、被咬致死」之人。",
+  "partnerSkill": "开锁大师"
+ },
+ "moldron-cryst": {
+  "description": "健康个体背上流淌的物质能维持稳定温度。然而一旦心跳加速，温度失衡，最终会引发汽化或结晶，导致骤然惊死。",
+  "partnerSkill": "寒冰超载"
+ },
+ "moldron": {
+  "description": "健康个体背上的岩浆流淌顺畅。然而不良作息会渐损循环，最终导致岩浆堵塞、骤然剧烈爆炸。",
+  "partnerSkill": "岩浆超载"
+ },
+ "mossanda-lux": {
+  "description": "力量真正令人震惊的帕鲁。通过改变体内电流，它得以超载自身力量。论纯粹蛮力，这只帕鲁或许位列榜首。",
+  "partnerSkill": "榴弹熊猫"
+ },
+ "mossanda": {
+  "description": "强得令人难以置信的帕鲁。在一次实验中，它竟一口气撕碎了3000张纸！它能不食肉，简直是奇迹。",
+  "partnerSkill": "榴弹熊猫"
+ },
+ "mozzarina": {
+  "description": "无论性别，这只帕鲁的乳汁如开闸水龙头般倾泻而出。诚然是生命之谜，尽管这谜或许不解为妙。",
+  "partnerSkill": "制奶者"
+ },
+ "muffly": {
+  "description": "它柔软的面颊绒毛能化解一切冲击，却无法好好打理自己、也难以止痒，令它始终处于轻微的烦躁之中。",
+  "partnerSkill": "蓬松振翅者"
+ },
+ "munchill": {
+  "description": "它的口腔内始终保持着怡人的清凉，闭合时便是一只天然冰箱。其唾液含防腐酶，可防止食物腐坏。因此它能充当人类的食品柜——至于卫生与否，那就另当别论了。",
+  "partnerSkill": "寒冰之口"
+ },
+ "mycora": {
+  "description": "它将人类视为方便的寄生宿主。Mycora 化作此形，只为诱使人类放松戒备，好让孢子更高效地散播。",
+  "partnerSkill": "魅惑孢子"
+ },
+ "necromus": {
+  "description": "曾与 Paladius 本为一体。它黯黑的形态是负面情感的化身。然而在双眼深处，仍可见一丝悲悯。",
+  "partnerSkill": "深渊暗骑士"
+ },
+ "needoll-noct": {
+  "description": "它的尖刺随情绪而动。被深爱的暗夜针偶会黏着主人，但接受这份爱，也意味着接受随之而来的痛。",
+  "partnerSkill": "超想抱抱你"
+ },
+ "needoll": {
+  "description": "它的尖刺随情绪而动。被珍爱的针偶常令人本能地想要拥抱。但多半，结局是一场惨剧。",
+  "partnerSkill": "请抱抱我"
+ },
+ "neptilius": {
+  "description": "灾厄封印之后，一位来自费布雷克的勇者现身。它凝望大海，等待它眼中的有缘之人。因这般相遇绝非偶然——而是命运。",
+  "partnerSkill": "大海哨兵"
+ },
+ "nitemary-botan": {
+  "description": "它所怀抱的，是自己的灵魂。一旦倾心，便将灵魂掷向对方与之交融，渴望合二为一。",
+  "partnerSkill": "缚魂者"
+ },
+ "nitemary": {
+  "description": "它所怀抱的，是自己的灵魂。一旦倾心，便强行抽出对方灵魂与之融合，渴望合二为一。",
+  "partnerSkill": "聚魂者"
+ },
+ "nitewing": {
+  "description": "它将新生帕鲁衔回巢穴，以代理父母之姿抚养。待幼帕养得肥美，便将其猎杀。",
+  "partnerSkill": "旅途伴侣"
+ },
+ "nox": {
+  "description": "若在被褥中发现 Nox 的毛发，你应原封不动离开，立即抽身。拾起它，便是一张通往永夜的单程票。",
+  "partnerSkill": "冷娇"
+ },
+ "nyafia": {
+  "description": "极不愿被人窥见它遮掩的眼。若你执意窥探，它会当场大哭，并两周不理你。",
+  "partnerSkill": "喵击模式"
+ },
+ "omascul": {
+  "description": "据说它戴的面具并非真容。看似在前，却不在那儿，绝非如此。自幽深暗影，日夜守望。稍一移目，便悄然贴近。",
+  "partnerSkill": "假面之舞"
+ },
+ "ophydia": {
+  "description": "Ophydia 栖息的水域，常布满模仿其形的花朵。曾有诸多尝试欲直接培育这些花，但它们一旦被人手触碰，便不可避免地枯萎。",
+  "partnerSkill": "荣光薄雾"
+ },
+ "orserk": {
+  "description": "它将电流送入敌人伤口，由内而外将其烤熟。Orserk 之间的争斗，转瞬便分胜负。",
+  "partnerSkill": "凶雷之龙"
+ },
+ "paladius": {
+  "description": "曾与 Necromus 本为一体。它闪耀的形态不染任何负面情感。然而在双眼深处，仍可见一丝恨意。",
+  "partnerSkill": "苍穹圣骑士"
+ },
+ "palumba": {
+  "description": "以招牌舞步打乱敌人节奏。地盘之争中，先与对手节奏合拍者败。求偶、消遣、战斗——皆取决于舞！那么，对人类跳的舞，又作何解？",
+  "partnerSkill": "桑巴舞步"
+ },
+ "panthalus": {
+  "description": "族中最后的孤存，将神圣职责铭刻于心。即便漫长的使命终得完成，它呼唤母亲的啼声，也只会被孤寂的回响应答。",
+  "partnerSkill": "共鸣守护者"
+ },
+ "pengullet-lux": {
+  "description": "这只帕鲁的羽毛几乎尽失，已无法飞翔。然而对天空的眷恋竟化作嫉妒——于是它掌控雷电，击落那些仍在翱翔者。",
+  "partnerSkill": "电企鹅发射器·光"
+ },
+ "pengullet": {
+  "description": "这只帕鲁的羽毛几乎尽失，可悲的是，它想飞的渴望依旧强烈如初。即便此刻，它仍在想方设法再度飞翔。",
+  "partnerSkill": "企鹅发射器"
+ },
+ "penking-lux": {
+  "description": "为提升水下狩猎而获得电力后，它的身躯变了色。结果失去了 Pengullet 的喜爱——但奇妙的是，如今它有了一位忠实的追随者：Pengullet Lux。",
+  "partnerSkill": "不屈风暴统帅"
+ },
+ "penking": {
+  "description": "出人意料，它与 Pengullet 并无关联。不过既然这只帕鲁能随心受宠，眼下它正尽情摆出傲慢派头。",
+  "partnerSkill": "勇敢水手"
+ },
+ "petallia-ignis": {
+  "description": "生命尽头会燃尽为灰烬的帕鲁。周遭土壤因此变得异常肥沃，此后十年草木繁盛。",
+  "partnerSkill": "花灵之热忱"
+ },
+ "petallia": {
+  "description": "生命尽头会化作巨株植物的帕鲁。每十年，一朵美丽的花绽放，新的 Petallia 随之诞生。",
+  "partnerSkill": "花灵之佑"
+ },
+ "pierdon-cryst": {
+  "description": "它沐于阳光，缓缓转动以使寒冰融成心仪之形。歪斜者最好别去碰，就像鬓角修得太冒进的人一样。",
+  "partnerSkill": "力量水晶"
+ },
+ "pierdon": {
+  "description": "它将身体撞向更硬的岩石，以维持心仪之形。明显凹陷者最好别去碰，就像发型剪砸了的人一样。",
+  "partnerSkill": "力量之石"
+ },
+ "polapup-terra": {
+  "description": "在 terra 雪原犬中，雪上滑行最快者最受敬重。有时起跳过猛会把自己埋进雪里——在竞争激烈时节屡见不鲜。路况预报：terra 雪原犬严重拥堵。",
+  "partnerSkill": "雪山滑行者"
+ },
+ "polapup": {
+  "description": "在雪原犬中，雪上滑行最快者最受敬重。有时起跳过猛会从天而降——在地盘争夺季屡见不鲜。预报：晴空，或有雪原犬飞翔。",
+  "partnerSkill": "雪山骑手"
+ },
+ "prixter-lux": {
+  "description": "它用尾巴刺穿敌人，将电流直送其体内。然而所生电流极弱，一记普通拳头都比这更具杀伤。",
+  "partnerSkill": "蝎之长波"
+ },
+ "prixter": {
+  "description": "它约有5000种毒液。其中一些足以瞬间致命，却无一种浓度高到能真正起效。",
+  "partnerSkill": "幻影毒液"
+ },
+ "prunelia": {
+  "description": "聪慧优雅、举止得体，常被群岛贵族用作侍从。然而夜间相遇时，它面容诡异可怖，很快便失了宠。",
+  "partnerSkill": "丰饶之祈"
+ },
+ "puffolt": {
+  "description": "它蓬松的毛发浸湿后会吸收大量水分。甩干时释放的强力放电，让共浴成了名副其实的豪赌。",
+  "partnerSkill": "噼啪增幅"
+ },
+ "pupperai": {
+  "description": "Pupperai 的地盘之争以对峙始、以一击终。训练它「定住」实属冒险，因「上」的指令会触发同样的攻击本能。",
+  "partnerSkill": "最棒狗狗"
+ },
+ "pyrin-noct": {
+  "description": "它燃烧神秘暗物质为能量，并将残余粒子排出体外。若有人骑乘，须当心别一路狂奔坠入黑暗之途。",
+  "partnerSkill": "黑暗野兔"
+ },
+ "pyrin": {
+  "description": "它的全身已演化成高效散热器，赋予它惊人的耐力。若有人骑乘，它会小心不烫伤对方。",
+  "partnerSkill": "赤色野兔"
+ },
+ "quivern-botan": {
+  "description": "当你拥抱 Quivern Botan，若它散发着阳光与草甸的气息，明日便是晴天。若它潮气弥漫，明日便湿闷难熬。",
+  "partnerSkill": "草龙之亲"
+ },
+ "quivern": {
+  "description": "与 Quivern 相拥而眠堪称天堂般的体验，却也有人被翻身乱动的它压扁、直接送上了天堂。",
+  "partnerSkill": "天龙之亲"
+ },
+ "ragnahawk": {
+  "description": "有人认为它与 Beakon 是近亲，实则毫无关联。它主食岩石，历经漫长岁月，喙与头颅已为适应此食而硬化。",
+  "partnerSkill": "烈焰之翼"
+ },
+ "rayhound-cryst": {
+  "description": "于冻原全速疾驰，扬起令人目盲的暴雪，致使 Rayhound Cryst 因零能见度而频频相撞。",
+  "partnerSkill": "风雪牧者"
+ },
+ "rayhound": {
+  "description": "全速奔驰时，它宛如一道闪电。两只 Rayhound 相撞，雷鸣般的轰响便回荡天际。",
+  "partnerSkill": "雷电牧者"
+ },
+ "reindrix": {
+  "description": "它透明的蔚蓝鹿角，散发着绝对零度的寒光。徒手触碰者，会瞬即冻结、碎为齑粉。",
+  "partnerSkill": "清凉身躯"
+ },
+ "relaxaurus-lux": {
+  "description": "某日，Relaxaurus 心生一念。也许是时候改变了。就在此刻，一道电流贯穿全身！",
+  "partnerSkill": "导弹派对"
+ },
+ "relaxaurus": {
+  "description": "与漫不经心的外表相反，它相当凶猛。它将视野所及一切视为猎物，不择手段吞噬殆尽。",
+  "partnerSkill": "饥饿导弹"
+ },
+ "renjishi": {
+  "description": "乍看之下，它的动作夸张且破绽百出。然而诡异的是，任何对手都会为之震慑，目光被牢牢锁住，仿佛中了定身。",
+  "partnerSkill": "舞台格斗"
+ },
+ "reptyro-cryst": {
+  "description": "冰冷的血液流淌全身。若被急速加热，血液便会汽化，引发剧烈蒸汽爆炸。",
+  "partnerSkill": "嗜冰之兽"
+ },
+ "reptyro": {
+  "description": "岩浆般的血液流淌全身。若被泼洒大量清水，水会急速升温，引发剧烈蒸汽爆炸。",
+  "partnerSkill": "嗜矿之兽"
+ },
+ "ribbuny-botan": {
+  "description": "永远挂着灿烂笑容。有时因 Cattiva 的恶作剧，它们会被触手缠住，不得不奋力挣脱！即便身处困境，依旧笑得开心。",
+  "partnerSkill": "砸地猛击"
+ },
+ "ribbuny": {
+  "description": "笑容从不离面的帕鲁。偶尔，它的触手会被 Cattiva 的恶作剧打成结。此时，它的表情便化作恶魔一般。",
+  "partnerSkill": "乐天兔"
+ },
+ "robinquill-terra": {
+  "description": "外形酷似在岩地狩猎生息的人类的帕鲁。遗迹中发现 Robinquill Terra 遗骨时，附近总伴有人类骨骸。",
+  "partnerSkill": "神射手"
+ },
+ "robinquill": {
+  "description": "外形酷似在森林狩猎生息的人类的帕鲁。它或将成为理解「帕鲁为何物、又如何在远古与人类分途」的关键。",
+  "partnerSkill": "大地射手"
+ },
+ "rooby": {
+  "description": "野生的 Rooby 出人意料从不生病。每天嚼一块树枝烧成的木炭，便是它永葆健康的秘诀。",
+  "partnerSkill": "微渺火花"
+ },
+ "roujay": {
+  "description": "天性为盗，趁人不备便行窃。被当场抓获也无需慌张。一旦它迅捷地偷走你的双眼，你本也什么都看不到了。",
+  "partnerSkill": "暗巢者"
+ },
+ "rushoar": {
+  "description": "作为极度好斗的帕鲁，它常在估量对手实力前便挑起争斗。虽体型娇小，强力冲撞却能掀飞巨石。",
+  "partnerSkill": "硬头"
+ },
+ "sekhmet": {
+  "description": "曾是令人畏惧、被视为死亡象征的凶兽。当 Anubis 接过这顶桂冠，寻代品的权贵以美酒诱之。不久，Sekhmet 便成了高阶贵族的象征。",
+  "partnerSkill": "沙漠女王"
+ },
+ "selyne": {
+  "description": "漂浮于身后、形似月亮之物，据称会随世代更迭渐趋浑圆。无人知晓月圆之时将发生何事。",
+  "partnerSkill": "天界黑暗"
+ },
+ "shadowbeak": {
+  "description": "诞生于疯狂深渊，其存在本身便悖离常理。既已断绝与其他帕鲁的一切遗传联系，不禁令人质疑它是否仍算得上是帕鲁。",
+  "partnerSkill": "改造基因"
+ },
+ "shaolong": {
+  "description": "它的指环只待特殊时刻：与命中注定的伴侣相逢时，双方交换指环，作为永恒羁绊之证。",
+  "partnerSkill": "苍蓝君王"
+ },
+ "shroomer-noct": {
+  "description": "这只帕鲁释放的大量孢子遮挡了阳光。有时暗夜菇看似静止，并非在模仿蘑菇，而是它自己的孢子令它目不能视。",
+  "partnerSkill": "翻腾孢子"
+ },
+ "shroomer": {
+  "description": "吸入大量孢子会令你陷入恍惚。有时菇菇看似静止，并非在模仿蘑菇，而是它自己被孢子嗨到了。",
+  "partnerSkill": "狂乱孢子"
+ },
+ "sibelyx-primo": {
+  "description": "钟爱凝望虚空的帕鲁，常久久静止不动。它经常成为小型帕鲁聚集之处。",
+  "partnerSkill": "鎏金裹纱"
+ },
+ "sibelyx": {
+  "description": "喜爱雨水的帕鲁，常在阵雨中沐浴直至天晴。雨天里，常可见 Foxparks 在它身下避雨。",
+  "partnerSkill": "丝绸裹纱"
+ },
+ "silvance": {
+  "description": "自远古起，它便驻守世界树，持续着守望。守护何物、所为何来，Silvance 并不知晓。毕竟世界树会将一切告知于它。它统御的孢子，定然认得谁为敌。",
+  "partnerSkill": "孢子卫士"
+ },
+ "silvegis": {
+  "description": "它颈部的金属部件具磁性。腿部零件若靠太近便会吸附上去。当颈上金属碎屑堆积，它才不情愿地开始清理，抠不下来时便烦躁不已。",
+  "partnerSkill": "神盾守护"
+ },
+ "skutlass-ignis": {
+  "description": "一种诡异的物种，会暂时分离身躯，以骨为刃斩敌，但若耗时过久则有自灭之险。虽未证实，相传年长者会刻意保持分离，以激发求生本能、延寿延年。",
+  "partnerSkill": "炙烤鱼柳"
+ },
+ "skutlass": {
+  "description": "一种诡异的物种，会暂时分离身躯，以骨为刃斩敌，但若耗时过久则有自灭之险。虽未证实，相传年长者会刻意保持分离，以激发求生本能、延寿延年。",
+  "partnerSkill": "生鱼柳"
+ },
+ "slowatt": {
+  "description": "随性而为，想睡就睡，爱吃便吃。慢熊定是在暗自辛勤，才维持得起这般奢靡……旧时岛民如此自我宽慰，只为熬过日子。",
+  "partnerSkill": "寒意开关"
+ },
+ "smokie-cryst": {
+  "description": "蓝色火焰触之仅觉微凉，但与之接触之物会缓缓冻结。将奶瓶置于其上，便得冰沙一杯！",
+  "partnerSkill": "寒霜本能"
+ },
+ "smokie": {
+  "description": "黑色火焰触之仅觉温润，但与之接触之物会由内而外缓缓融化。将奶酪置于其上，便成一道珍馐。",
+  "partnerSkill": "挖吧，Smokie！挖！"
+ },
+ "snock-lux": {
+  "description": "将发热的 Snock Lux 投入浴缸来一场火热汤浴，曾是遥远的旧时风尚。因近期复兴，如今它着实成了名副其实的「热潮」。",
+  "partnerSkill": "接地之壳"
+ },
+ "snock": {
+  "description": "将 Snock 投入浴缸来一场电击汤浴，被视为传统养生之法。也就是说，效果或许相当「触」目惊心。",
+  "partnerSkill": "蓄电之壳"
+ },
+ "snugloo": {
+  "description": "「去看 Snugloo 的眼睛」一语，意谓探寻事物不可见之本质。讽刺的是，至今无研究者能确认 Snugloo 究竟有没有眼睛。",
+  "partnerSkill": "无形之眼"
+ },
+ "solenne": {
+  "description": "对 Solenne 而言，喜悦与悲苦等量而至。选择照料它者，须做好承受其代价的准备。",
+  "partnerSkill": "无瑕少女"
+ },
+ "solmora-lux": {
+  "description": "它的螺旋尾如同推进器。研究称，若其躯体扛得住负荷，便能产生逾1.21吉瓦的电力。",
+  "partnerSkill": "电击之鱼"
+ },
+ "solmora": {
+  "description": "它的螺旋尾如同推进器。研究称，若其躯体扛得住负荷，便能达到88英里以上的时速。",
+  "partnerSkill": "魅惑之鱼"
+ },
+ "sootseer": {
+  "description": "昔日相传，世界临近终结时，火焰便会黯淡。末日预言者见火焰转弱便屡次欢庆，到头来却发现是 Sootseer 的恶作剧。至少，目前如此。",
+  "partnerSkill": "掘墓者"
+ },
+ "souffline": {
+  "description": "它的绒毛可用来藏匿不快的记忆。一旦被风带走，你便能告别其中承载的黑暗。",
+  "partnerSkill": "绒绒精灵"
+ },
+ "sparkit": {
+  "description": "旱季之中，这只帕鲁总处于炸毛边缘。即便最轻微的挑动，乃至同伴之间，也会火花四溅。",
+  "partnerSkill": "静电"
+ },
+ "splatterina": {
+  "description": "它有着无法抑制的撕碎猎物之冲动。每只个体都有自己一套缜密的肢解顺序。若被 Splatterina 擒住，但求它先取你首级。",
+  "partnerSkill": "失控热忱之刃"
+ },
+ "starryon-primo": {
+  "description": "它对自己闪耀华美的鬃毛引以为傲。一旦稍染尘埃，便羞窘得无法专心奔跑。因皮肤油脂会毁了毛色，它不愿被过多触碰，即便是最爱的驯兽师也一样。",
+  "partnerSkill": "光之舞者"
+ },
+ "starryon": {
+  "description": "它对自己飘逸华美的鬃毛引以为傲。一旦发现分叉，便羞窘得无法专心奔跑。因静电令毛发炸开，它千方避讳 Azurmane。",
+  "partnerSkill": "夜之舞者"
+ },
+ "surfent-terra": {
+  "description": "它流线型的身躯极适合沙地活动。偷猎者常捕来当作冲沙板使用。",
+  "partnerSkill": "沙地游者"
+ },
+ "surfent": {
+  "description": "它流线型的身躯极适合水上活动。偷猎者常捕来当作冲浪板使用。",
+  "partnerSkill": "疾速游者"
+ },
+ "suzaku-aqua": {
+  "description": "昔日相传它能招来雨季。若前一年发过洪水，人们便大肆猎杀以减其数，冀望来年免灾。",
+  "partnerSkill": "水之翼"
+ },
+ "suzaku": {
+  "description": "昔日相传它能招来旱季。若前一年闹过旱灾，人们便大肆猎杀以减其数，冀望来年丰收。",
+  "partnerSkill": "焰之翼"
+ },
+ "swee": {
+  "description": "它贴地爬行，以微观有机物为食。一段时间后，便排出无营养之物。把它当拖把清洁，可谓皆大欢喜！",
+  "partnerSkill": "毛茸茸"
+ },
+ "sweepa": {
+  "description": "冬眠之时，大量 Swee 藏匿于它蓬松的体毛之中。有记录的最大值为101只。",
+  "partnerSkill": "绒毛之王"
+ },
+ "tanzee-ignis": {
+  "description": "它的掌心已演化得可徒手握持灼热之物而不伤。枪弹耗尽时，它会直接抓住滚烫枪管，抡起来砸向敌人。",
+  "partnerSkill": "叽喳黑猩猩枪火"
+ },
+ "tanzee": {
+  "description": "远古时期，这只帕鲁以树枝等长物为兵器。然而接触人类后，它发现了略胜一筹的武器：枪。",
+  "partnerSkill": "欢快步枪"
+ },
+ "tarantriss": {
+  "description": "极度黏腻、纠缠不休。越被抗拒，便越发执拗。此即它的「性情」。",
+  "partnerSkill": "蛛后之网"
+ },
+ "teafant": {
+  "description": "大量清水自它那被认为是鼻子的部位涌出，不过也有人坚称那不过是鼻涕。这在帕鲁学者间引发了激烈争论。",
+  "partnerSkill": "舒缓淋浴"
+ },
+ "tetroise-primo": {
+  "description": "即便背上的石头被取走，Tetroise Primo 也知晓其所在。无论相隔多远，它总能寻回。",
+  "partnerSkill": "逐石古龟"
+ },
+ "tetroise": {
+  "description": "它背上的石头不只是货物。将其置于远方，它们会缓缓自行归家。",
+  "partnerSkill": "砌石古龟"
+ },
+ "tocotoco": {
+  "description": "会产爆破蛋的恐怖帕鲁。它常从尾部发射这些蛋用作防御，可一旦耗尽，它自身也会炸开。",
+  "partnerSkill": "炸蛋发射器"
+ },
+ "tombat": {
+  "description": "常突如其来，在别的帕鲁面前炫耀它珍视的翅膀。虽看似恫吓手段，这只帕鲁却似从中获得了某种快感。",
+  "partnerSkill": "超声波感应"
+ },
+ "tropicaw": {
+  "description": "有人说它挥舞身躯，是在模仿风中摇曳的花朵以避天敌；亦有人辩称，一朵高速狂舞的赤红之花实在太瘆人，令万物不敢近前。",
+  "partnerSkill": "花之舞"
+ },
+ "turtacle-terra": {
+  "description": "为保护脆弱之躯，它演化出坚不可摧的甲壳。因感官多集中于四肢与壳，即便有人轻触其核心，它也浑然不觉。",
+  "partnerSkill": "闪亮搬运工"
+ },
+ "turtacle": {
+  "description": "为保护脆弱之躯，它演化出坚不可摧的甲壳。可惜腹下毫无防备。哪怕轻轻一挠，也能将它击昏。",
+  "partnerSkill": "尖刺搬运工"
+ },
+ "univolt-cryst": {
+  "description": "它曾被视作冬神使者，因此不遭人类捕猎。然而在有人目睹它于冰上失足后，敬畏渐失，它竟真的滑落成了苦力坐骑。",
+  "partnerSkill": "凛冬神明"
+ },
+ "univolt": {
+  "description": "它曾被视作雷神使者，因此不遭人类捕猎。然而在有人目睹它遭雷击而亡后，敬畏渐失，它竟真的沦为了苦力坐骑。",
+  "partnerSkill": "迅捷神明"
+ },
+ "vaelet": {
+  "description": "城堡中遍植国王最爱的花朵。大战爆发，烈焰逼近城池。混乱之中，一朵花之精灵现身。——出自童话《国王之花》。",
+  "partnerSkill": "盖亚净化"
+ },
+ "valentail": {
+  "description": "旧时画作中，它的体型远比今日小巧。不知何故，近年来它身体各处开始迅速拉长，据预测下个世纪将膨胀至近十倍于今。",
+  "partnerSkill": "大幅伸展"
+ },
+ "vanwyrm-cryst": {
+  "description": "以 Vanwyrm Cryst 外骨骼制成的笛子，其旋律据说能传遍整道山脉。古时曾用此笛传达胜利之讯。",
+  "partnerSkill": "空中劫掠者"
+ },
+ "vanwyrm": {
+  "description": "以 Vanwyrm 外骨骼制成的笛子，其旋律据说能传遍整道山脉。古时曾用此笛传达进攻之讯。",
+  "partnerSkill": "空中劫掠者"
+ },
+ "venusa": {
+  "description": "每当困惑，它便请教头上的群蛇。然而它们终归是同一个自己，到头来它才明白，原来谁也没明白什么。",
+  "partnerSkill": "蛇之睿智"
+ },
+ "verdash": {
+  "description": "Verdash 奔踏过的土地会变得异常肥沃，不久便草木繁茂。凡施过除草剂之处，它绝不涉足。",
+  "partnerSkill": "草原体操手"
+ },
+ "vixy": {
+  "description": "帕尔帕戈斯群岛的偶像。若你欺凌 Vixy，最好做好与全世界为敌的准备。",
+  "partnerSkill": "挖这里！"
+ },
+ "warsect-terra": {
+  "description": "包裹全身的超硬铠甲极为坚固、耐热耐磨。即便被 Mammorest 踩踏，也面不改色。",
+  "partnerSkill": "全金属壳"
+ },
+ "warsect": {
+  "description": "包裹全身的超硬铠甲极为坚固、耐热耐磨。即便凝固汽油弹轰击，也难留痕迹。",
+  "partnerSkill": "铸铁之壳"
+ },
+ "whalaska-ignis": {
+  "description": "为绝不再被误认作浮冰，它凭一己意志变得赤红。可惜有些帕鲁看不见红色。于是尽管努力，它的私人空间仍不断被侵扰。",
+  "partnerSkill": "惬意鲸游船"
+ },
+ "whalaska": {
+  "description": "它沉睡时，常有帕鲁误认作浮冰而上休憩。虽性情温顺、醒时也不愿推开它们，内心却因私人空间被侵而暗暗承压。",
+  "partnerSkill": "清凉鲸游船"
+ },
+ "wispaw": {
+  "description": "它身后幽灵般的双手，凝聚着所有养育过其同类的人的灵魂。近来，它们似乎达成一致，要合力宠溺 Wispaw。",
+  "partnerSkill": "欺死猫族"
+ },
+ "wistella": {
+  "description": "生命尽头，天际某处会有一颗新星浮现，带着它记忆的重量熠熠生辉。",
+  "partnerSkill": "隐秘暗能"
+ },
+ "wixen-noct": {
+  "description": "受成长环境所致，它已不在意食物是否够熟。这只帕鲁不再纠结细节，只偏爱尽可能甜腻的食物。与 Katress Ignis 关系不睦。",
+  "partnerSkill": "暗黑狐王"
+ },
+ "wixen": {
+  "description": "借光之力施展秘法奇象。它偏好熟食，对 Katress 尤为敌视。",
+  "partnerSkill": "狐王"
+ },
+ "woolipop-terra": {
+  "description": "它的绒毛散发甜香，肉质却苦涩难当。被香气诱来咬上一口的肉食帕鲁，会被那怪味击垮而昏厥。",
+  "partnerSkill": "苦涩棒棒"
+ },
+ "woolipop": {
+  "description": "它全身比糖还要甜上18000倍。被香气诱来的肉食帕鲁咬上一口，便会被那甜腻击垮、甚至昏厥。",
+  "partnerSkill": "糖果棒棒"
+ },
+ "wumpo-botan": {
+  "description": "研究者曾试图割去它身上的草以窥真容。到头来只剩草，仿佛那本就是它的全部。",
+  "partnerSkill": "南方守护者"
+ },
+ "wumpo": {
+  "description": "研究者曾试图剃去它的毛发以窥真容。到头来只剩毛，仿佛那本就是它的全部。",
+  "partnerSkill": "雪山守护者"
+ },
+ "xenogard": {
+  "description": "吞食信息并转化为能量。它似乎常在向某人传递信息。——喂？你刚发的消息是什么？我还没看就吞掉了。",
+  "partnerSkill": "未知入侵者"
+ },
+ "xenolord": {
+  "description": "——已抵达目的地。优先事项：定位实体「超音速龙」——备注：征服期限已超期数年。——更新：未发现征服痕迹。已确认归化。启动肃清协议。——员工备忘：切勿遗忘或吞噬关键数据！",
+  "partnerSkill": "流星之翼"
+ },
+ "xenovader": {
+  "description": "能借遗忘信息并将其转化为能量。它似乎常在向某人传递信息。——收到。目标已锁定。立即执行摧毁。",
+  "partnerSkill": "未知侵略者"
+ },
+ "yakumo": {
+  "description": "它正义感强烈，憎恶邪恶。昔日曾是岛民忠贞而亲昵的伙伴。如今，Yakumo 无论何处见人，皆怀敌意。",
+  "partnerSkill": "物以类聚"
+ }
+}

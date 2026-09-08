@@ -1,0 +1,86 @@
+---
+title: "Palworld 専用サーバー — Dedicated Server 構築チュートリアル"
+description: "Palworld専用サーバー構築チュートリアル：Steamツールのインストール、PalWorldSettings.iniの設定、32人マルチプレイ設定、クロスプレイ、PS5サーバーの説明。"
+eyebrow: "専用サーバー"
+heroImage: "/images/guides/ss-08.jpg"
+heroAlt: "Palworld 専用サーバー"
+sourceLabel: "公式 Wiki"
+sourceUrl: "https://palworld.gg/"
+order: 9
+published: true
+---
+
+Palworld は専用サーバー Dedicated Server に対応し、最大 32 人が同時にオンラインできます。本ページでは構築方法を紹介します。
+
+## 結論から
+
+- PC (Steam) で専用サーバーを構築可能
+- PS5 専用サーバーは v0.6.0 アップデート後に稼働
+- 最大 32 人が同時オンライン
+- クロスプレイ対応（Cross-Play の有効化が必要）
+- 招待マルチプレイは最大 4 人で、ホストがオフラインになると終了
+
+## 構築方法
+
+### 方法一：ローカルサーバー
+
+1. Steam ツールで "Palworld Dedicated Server" を検索してインストール
+2. サーバープログラムを実行
+3. PalWorldSettings.ini を設定
+4. ポート 8211（UDP）を開放
+
+### 方法二：サードパーティのサーバーホスティング
+
+| サービス | 特徴 |
+|----------|------|
+| Shockbyte | Palworld 専用サーバーを提供 |
+| その他のホスティング | ワンクリック展開に対応 |
+
+## PalWorldSettings.ini の主要設定
+
+| パラメータ | 説明 | デフォルト値 |
+|------------|------|--------------|
+| ServerName | サーバー名 | - |
+| ServerPassword | サーバーパスワード | なし |
+| MaxPlayers | 最大人数 | 32 |
+| PublicPort | ポート | 8211 |
+| bIsPvP | PvP モード | false |
+| bCanPickupOtherGuildDeathPenalty | 他ギルドの死亡ドロップを拾う | false |
+| DropItemMaxNum | ドロップアイテム上限 | 3000 |
+| EggIncubationSpeed | タマゴ孵化速度 | 1 |
+
+## クロスプレイの設定
+
+専用サーバーでクロスプレイを有効にするには、以下が必要です：
+1. EOS（Epic Online Services）版のサーバープログラムを使う
+2. サーバー設定で Cross-Play を有効にする
+3. サーバー名または招待コードを共有する
+
+## サーバー管理のコツ
+
+1. **定期的にセーブをバックアップ**：サーバーのセーブデータは `Pal/Saved/` ディレクトリにある
+2. **タマゴ孵化速度の調整**：30〜50x にすると配合が大幅に加速する
+3. **自動再起動の設定**：長時間稼働でのメモリリークを避ける
+4. **パル数の管理**：DropItemMaxNum が高すぎるとカクつく
+
+## PS5 サーバー
+
+PS5 専用サーバーは v0.6.0（Tides of Terraria）アップデート後に稼働しました。PS5 プレイヤーは PC でホストされた EOS サーバーに参加できます。
+
+## よくある質問
+
+### Q: 招待マルチプレイと専用サーバーの違いは？
+招待マルチプレイは最大 4 人で、ホストがオフラインになると終了します。専用サーバーは 32 人で、24/7 稼働します。
+
+### Q: サーバーはどう更新しますか？
+Steam ツールがサーバープログラムを自動更新します。手動更新：SteamCMD ＋ app_update。
+
+### Q: セーブデータはサーバー間で移行できますか？
+手動でセーブファイルをコピーできます。ただしクロスプラットフォームのセーブは共有されません。
+
+## 関連記事
+
+- [ダウンロードとプラットフォームまとめ](/ja/guide/download)
+- [初心者ガイド](/ja/guide/beginner)
+- [バージョン更新履歴](/ja/guide/updates)
+- [よくある質問 FAQ](/ja/guide/faq)

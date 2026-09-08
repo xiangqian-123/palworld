@@ -1,4 +1,7 @@
+"use client";
+
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 import { locales } from "@/lib/locales";
 
 const NAV_LINKS = [
@@ -32,6 +35,13 @@ function t(messages: Record<string, unknown>, key: string, fallback: string) {
   return typeof cur === "string" ? cur : fallback;
 }
 
+// 把当前路径的语言段替换成目标语言（其余路径保持不变），
+// 例如 /en/guide/beginner → /ja/guide/beginner；首页 /en → /ja。
+function switchLocale(pathname: string, target: string): string {
+  const rest = pathname.replace(/^\/[^/]+/, "") || "";
+  return `/${target}${rest}`;
+}
+
 export default function Nav({
   locale,
   messages,
@@ -39,6 +49,8 @@ export default function Nav({
   locale: string;
   messages: Record<string, unknown>;
 }) {
+  const pathname = usePathname();
+
   return (
     <header className="nav">
       <div className="nav-inner">
@@ -56,7 +68,7 @@ export default function Nav({
             <summary>{LANG_LABELS[locale] ?? locale}</summary>
             <div className="lang-list">
               {locales.map((l) => (
-                <Link key={l} href={`/${l}`}>
+                <Link key={l} href={switchLocale(pathname ?? `/${locale}`, l)}>
                   {LANG_LABELS[l]}
                 </Link>
               ))}

@@ -1,0 +1,86 @@
+---
+title: "Palworld Dedicated Server — Einrichtungsanleitung"
+description: "Palworld Dedicated Server Einrichtungsanleitung: Steam-Tool-Installation, PalWorldSettings.ini-Konfiguration, 32-Spieler-Mehrspieler, Cross-Play, PS5-Server-Hinweise."
+eyebrow: "Dedicated Server"
+heroImage: "/images/guides/ss-08.jpg"
+heroAlt: "Palworld Dedicated Server"
+sourceLabel: "Offizielle Wiki"
+sourceUrl: "https://palworld.gg/"
+order: 9
+published: true
+---
+
+Palworld unterstützt Dedicated Server (dedizierte Server), bis zu 32 Spieler gleichzeitig online. Diese Seite stellt die Einrichtung vor.
+
+## Fazit vorab
+
+- PC (Steam) kann Dedicated Server einrichten
+- PS5-Dedicated-Server gingen mit dem v0.6.0-Update online
+- Maximal 32 Spieler gleichzeitig online
+- Cross-Play unterstützt (Cross-Play muss aktiviert sein)
+- Einladungs-Mehrspieler max. 4 Spieler, schließt wenn Host offline
+
+## Einrichtungsmethoden
+
+### Methode 1: Lokaler Server
+
+1. Im Steam-Tool nach „Palworld Dedicated Server" suchen und installieren
+2. Server-Programm ausführen
+3. PalWorldSettings.ini konfigurieren
+4. Port 8211 (UDP) öffnen
+
+### Methode 2: Drittanbieter-Server-Hosting
+
+| Anbieter | Besonderheit |
+|--------|------|
+| Shockbyte | Bietet speziell Palworld-Server |
+| Andere Hoster | Unterstützen One-Click-Deployment |
+
+## PalWorldSettings.ini Schlüsselkonfiguration
+
+| Parameter | Beschreibung | Standardwert |
+|------|------|--------|
+| ServerName | Server-Name | - |
+| ServerPassword | Server-Passwort | Keins |
+| MaxPlayers | Maximale Spielerzahl | 32 |
+| PublicPort | Port | 8211 |
+| bIsPvP | PvP-Modus | false |
+| bCanPickupOtherGuildDeathPenalty | Todestropf anderer Gilden aufnehmen | false |
+| DropItemMaxNum | Max. Fallen-Objekte | 3000 |
+| EggIncubationSpeed | Ei-Brutgeschwindigkeit | 1 |
+
+## Cross-Play-Einrichtung
+
+Damit ein Dedicated Server Cross-Play unterstützt, ist nötig:
+1. Die EOS-Version (Epic Online Services) des Server-Programms verwenden
+2. Cross-Play in der Server-Konfiguration aktivieren
+3. Server-Namen oder Einladungscode teilen
+
+## Server-Verwaltungstipps
+
+1. **Speicherstände regelmäßig sichern**: Server-Speicher im Verzeichnis `Pal/Saved/`
+2. **Ei-Brutgeschwindigkeit anpassen**: auf 30–50x beschleunigt Zucht stark
+3. **Auto-Neustart einstellen**: vermeidet Speicherlecks bei Dauerbetrieb
+4. **Pal-Anzahl verwalten**: zu hohes DropItemMaxNum führt zu Ruckeln
+
+## PS5-Server
+
+PS5-Dedicated-Server gingen mit dem v0.6.0-Update (Tides of Terraria) online. PS5-Spieler können EOS-Servern beitreten, die von PC gehostet werden.
+
+## Häufige Fragen
+
+### F: Was ist der Unterschied zwischen Einladungs-Mehrspieler und Dedicated Server?
+Einladungs-Mehrspieler max. 4 Spieler, schließt wenn Host offline. Dedicated Server 32 Spieler, 24/7 online.
+
+### F: Wie wird der Server aktualisiert?
+Das Steam-Tool aktualisiert das Server-Programm automatisch. Manuell: SteamCMD + app_update.
+
+### F: Kann der Speicherstand plattformübergreifend migriert werden?
+Man kann Speicherdateien manuell kopieren. Aber plattformübergreifende Speicherstände sind nicht kompatibel.
+
+## Verwandte Lektüre
+
+- [Download & Plattform-Übersicht](/de/guide/download)
+- [Einsteiger-Guide](/de/guide/beginner)
+- [Versions-Update-Historie](/de/guide/updates)
+- [Häufige Fragen (FAQ)](/de/guide/faq)

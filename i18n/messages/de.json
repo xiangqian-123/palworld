@@ -14,18 +14,97 @@
     "eyebrow": "Fan-Made Community Wiki",
     "title": "Palworld",
     "description": "Fange, züchte, kämpfe und baue auf den Palpagos-Inseln. 288 Pals, 9 Elemente, Cross-Play-Multiplayer.",
+    "stats": [
+      "EA-Start am 19. Januar 2024 → 1.0 am 10. Juli 2026",
+      "288 Pals · 9 Elemente",
+      "32 Mio.+ Spieler",
+      "PC / PS5 / Xbox / Mac",
+      "Plattformübergreifender Multiplayer",
+      "Server für 32 Spieler"
+    ],
     "ctaPrimary": "Einsteiger-Guide starten",
     "ctaSecondary": "Pal-Kodex ansehen",
-    "ctaThird": "Zucht-Rechner"
+    "ctaThird": "Zucht-Rechner",
+    "videoLabel": "Offizieller Trailer"
+  },
+  "startHere": {
+    "title": "Hier beginnen",
+    "lead": "Einstiegspunkte, um direkt zu finden, was du brauchst.",
+    "cards": [
+      {
+        "title": "Einsteiger-Guide",
+        "desc": "Vom ersten Fang über Basisbau, Zucht bis zur Boss-Vorbereitung.",
+        "slug": "beginner"
+      },
+      {
+        "title": "Pal-Kodex",
+        "desc": "Alle 288 Pals — Elemente, Arbeitseignung und Top-Empfehlungen.",
+        "slug": "pals"
+      },
+      {
+        "title": "Zucht-Guide",
+        "desc": "Zuchtformeln, beste Kombinationen und Vererbung passiver Fähigkeiten.",
+        "slug": "breeding"
+      },
+      {
+        "title": "Basenbau",
+        "desc": "Standort, Layout, Arbeitseignung und Basen-Automatisierung.",
+        "slug": "base"
+      },
+      {
+        "title": "Materialien",
+        "desc": "Jedes Material — Beschaffung, Freischalt-Level und Crafting-Verwendung.",
+        "slug": "materials"
+      },
+      {
+        "title": "Endgame",
+        "desc": "Weltenbaum, legendäre Ausrüstung, Hard-Modus und Endgame-Materialien.",
+        "slug": "endgame"
+      },
+      {
+        "title": "Geld",
+        "desc": "Verkaufe Essen, farme Alpha-Drops und verdiene schnell Gold.",
+        "slug": "money"
+      }
+    ]
+  },
+  "about": {
+    "title": "Was ist Palworld",
+    "paragraphs": [
+      "Palworld ist ein Monster-Sammel-Survival-Crafting-Spiel mit offener Welt von Pocketpair. Spieler fangen auf den Palpagos-Inseln Wesen namens Pal, lassen sie kämpfen, arbeiten, züchten und bauen. Das Spiel startete am 19. Januar 2024 in den Steam-Frühen Zugang und erreichte am 10. Juli 2026 die vollständige 1.0-Version.",
+      "Die 1.0-Version eröffnete das finale Hauptstory-Kapitel des Weltenbaums (die Geschichte der Versiegelung der acht Türme), die Erwach- und Mutationssysteme der Pals, insgesamt 288 Pals sowie den Bau auf dem Wasser. Plattformübergreifender Multiplayer wird auf PC / PS5 / Xbox / Mac unterstützt, mit Servern für bis zu 32 Spieler."
+    ],
+    "facts": [
+      { "label": "Developer", "value": "Pocketpair, Inc." },
+      { "label": "Platform", "value": "Steam / PS5 / Xbox Series X|S / Xbox One / Mac" },
+      { "label": "Genre", "value": "Open-World-Überleben + Monster-Sammeln" },
+      { "label": "Release", "value": "19. Jan. 2024 (EA) → 10. Juli 2026 (1.0)" },
+      { "label": "Price", "value": "$29.99" },
+      { "label": "Pals", "value": "288" },
+      { "label": "Max Level", "value": "80" },
+      { "label": "Crossplay", "value": "Ja (PC / PS5 / Xbox / Mac)" }
+    ]
+  },
+  "trailer": {
+    "title": "Offizieller Trailer",
+    "lead": "Ein erster Blick auf die neuen Abenteuer, neuen Pals und das Weltenbaum-Finale in Palworld 1.0."
   },
   "cta": {
     "title": "Bereit, Palworld zu meistern?",
+    "description": "Von deinem ersten Lamball bis zum Weltenbaum deckt unser Community-Wiki alles ab — Pals, Zucht, Materialien, Mods und die tiefsten Dungeons.",
     "primary": "Guide lesen",
     "secondary": "Auf Steam spielen"
   },
   "footer": {
     "aboutTitle": "Palworld Wiki",
     "about": "Palworld Wiki ist eine unabhängige Fan-Guide-Seite.",
+    "playGame": "Palworld spielen",
+    "officialSite": "Offizielle Website",
+    "community": "Community",
+    "communityTool": "Offizielles Wiki",
+    "legal": "Rechtliches",
+    "privacyPolicy": "Datenschutz",
+    "termsOfService": "Nutzungsbedingungen",
     "disclaimer": "Inoffizielle Fan-Seite, nicht mit Pocketpair verbunden."
   },
   "pal": {

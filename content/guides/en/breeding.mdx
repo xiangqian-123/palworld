@@ -1,0 +1,155 @@
+---
+title: "Palworld Breeding Guide — Pairing Formulas, Calculator and Best Combos"
+description: "Palworld breeding guide: Breeding Farm build, Cake recipe, BPV formula explained, breeding calculator usage, best breeding combos (Anubis/Astegon/Orserk) and passive skill inheritance."
+eyebrow: "Breeding Mechanics"
+heroImage: "/images/guides/ss-05.jpg"
+heroAlt: "Palworld Breeding Farm"
+sourceLabel: "官方 Wiki"
+sourceUrl: "https://palworld.gg/breeding-calculator"
+order: 6
+published: true
+---
+
+Breeding is the core system for obtaining strong Pals in Palworld. This guide details breeding formulas, the calculator and the best combos.
+
+## Breeding Prerequisites
+
+| Item | Requirement |
+|---|---|
+| Unlock Level | Level 19 |
+| Building | Breeding Farm |
+| Build Materials | 100 Wood + 20 Stone + 50 Fiber |
+| Required | 1 Male Pal + 1 Female Pal + 1 Cake |
+| Egg Incubator | Unlocked at Lv10: 10 Paldium Fragment + 5 Cloth + 30 Stone + 2 Ancient Civilization Parts |
+
+## Cake Recipe
+
+Cake is required for breeding, made in a Cooking Pot:
+
+| Material | Amount | Source |
+|------|------|------|
+| Flour | 5 | Mill (3 Wheat → 1 Flour) |
+| Red Berries | 8 | Wild gather / Caprity drops |
+| Milk | 7 | Mozzarina ranch output |
+| Eggs | 7 | Chikipi ranch output |
+| Honey | 2 | Beegarde ranch output |
+
+> Automated cake line: grow Wheat (harvested by Lifmunk/Lyleen) → Chikipi lays eggs → Mozzarina gives milk → Beegarde gives honey → Kindling Pal auto-cooks.
+
+## Breeding Formula (Breeding Rank)
+
+Each Pal species has a hidden Breeding Rank value; lower is rarer and stronger. Offspring level takes the average of the parents' ranks rounded:
+
+```
+Offspring Rank = ⌊(Father Rank + Mother Rank + 1) / 2⌋
+```
+
+- The offspring is the species whose Rank is closest to that value (if two species are equally distant, the one with the smaller index is chosen)
+- The result is usually **deterministic**: the same parents (same species + gender combo) always produce the same thing
+- A few species don't use the Rank system and instead use **fixed combos** (see "Variants and Special Combos" below)
+- There's also a 1% chance (3% with Extravagant Vegetable Cake) of producing a **variant egg** that hatches a rarer Pal
+
+## Breeding Calculator
+
+Online tool: https://palworld.gg/breeding-calculator
+
+- **Forward lookup**: Pick 2 Pals → find offspring
+- **Reverse lookup**: Pick target Pal → find all possible parent combos
+
+## Best Breeding Combos (verified by official Wiki)
+
+> The following combos come from the wiki.gg breeding guide and are all confirmed by testing. Note: many combos in old "formula charts" are outdated — use the latest version.
+
+### Base Workers
+
+| Target Pal | Combo | Note |
+|----------|------|------|
+| Anubis | **Vanwyrn + Cinnamoth** (easiest) / Rushoar + Blazamut | Best all-around worker; breed your first one first |
+| Verdash | Anubis + Sparkit | All-around worker |
+| Jormuntide | Anubis + Suzaku | Watering Lv4 |
+
+### Combat Pals
+
+| Target Pal | Combo | Role |
+|----------|------|------|
+| Jormuntide Ignis | Jormuntide + Blazehowl | Fire Legend |
+| Helzephyr | Ragnahawk + Blazamut | Dark flying |
+| Lovander | Ragnahawk + Chikipi | Dark |
+
+### Mount Pals
+
+| Target Pal | Combo | Feature |
+|----------|------|------|
+| Suzaku Aqua | Suzaku + Jormuntide | Water Legend mount |
+| Azurobe | Anubis + Nitewing | Water mount |
+
+> **Anubis is the core pivot Pal**: it + various empty-passive Pals can breed many useful offspring (Foxcicle/Verdash/Jormuntide/Azurobe/Petallia, etc.).
+
+## Pals That Can Only Breed Same-Species
+
+The following Pals **can only** be bred with two same-species parents and cannot be obtained through cross-species combos:
+
+Grizzbolt, Lyleen, Orserk, Faleris, Shadowbeak, Selyne, Bastigor, Blazamut Ryu, Paladius, Necromus, Frostallion, Jetragon, Bellanoir Libero, Mimog, Xenovader, Xenogard, Xenolord
+
+> Note: "Legendary" Pals like Orserk and Shadowbeak are NOT producible from normal cross-species combos — many old guides got this wrong.
+
+## Variants and Special Combos
+
+Most variant Pals don't use the Rank system and can only come from "this species + a specific Pal" or two specific species, e.g.:
+
+| Variant | Combo |
+|------|------|
+| Blazehowl Noct | Blazehowl + Felbat |
+| Jormuntide Ignis | Jormuntide + Blazehowl |
+| Frostallion Noct | Frostallion + Helzephyr |
+| Helzephyr Lux | Helzephyr + Beakon |
+| Incineram Noct | Incineram + Maraith |
+| Katress Ignis / Wixen Noct | Katress + Wixen (result decided by the mother) |
+
+## Passive Skill Inheritance
+
+Offspring can inherit passives from both parents; the rules are more complex than they seem:
+
+- Each Pal has 0–4 passive slots
+- Inheritance flow: merge both parents' passives (dedupe) → roll a 1–4 "inheritance count" (probabilities 40%/30%/20%/10%) → then roll a "mutation count" to add random passives
+- **Identical passives on both parents neither help nor hurt the odds** (counted once after dedupe)
+- Probability of inheriting all parent passives: 1 → 40%, 2 → 24%, 3 → 12%, 4 → 10%
+- **Best practice**: Have the parents total only 4 target passives (2+2 / 3+1 / 4+0) to avoid extra random passives
+- Legendary passives (Legend, elemental Emperor) cannot mutate randomly and must be inherited from parents
+- Active skills: 50% chance to inherit 1 from parents (including unequipped skills)
+
+Best combat passive combo: **Legend + Musclehead + Serenity + 30% elemental passive** (Serenity has replaced the old Ferocious/Brave combo)
+
+See [Passive Mechanics Explained](/en/guide/passives) for details.
+
+## Variant Eggs and Special Cakes
+
+| Cake Type | Effect |
+|----------|------|
+| Normal Cake | Standard breeding |
+| Extravagant Vegetable Cake | Variant rate up from 1% to 3% |
+
+Variant-egg Pals are always Alpha, always carry 4 passives (at least 2 T4 passives, including 1 variant-exclusive passive), and come with 2 levels of condensation. Variant-exclusive passives include: Babysitter, Heavily Armored, Idiosyncratic, Immortality, Skymarcher.
+
+## Gender Ratio and Alpha
+
+- Most Pals are 1:1; few exceptions (e.g. Kingpaca 90% male, Lovander 30% male, Beegarde/Elizabee 10% male, Bellanoir 5% male)
+- Bred Pals have a 5% chance to be Alpha (unrelated to parents, not inherited)
+
+## FAQ
+
+### Q: Do Pals evolve?
+No. Palworld has no evolution system. Variants are independent species that must be obtained separately.
+
+### Q: Breeding is too slow, what do I do?
+Adjust the Egg Incubation Speed multiplier in World Settings. Dedicated servers edit PalWorldSettings.ini.
+
+### Q: Can same-sex Pals breed?
+No. You need 1 male and 1 female.
+
+## Related Reading
+
+- [Pal Codex — Full Pal List](/en/guide/pals)
+- [Passive Mechanics](/en/guide/passives)
+- [Beginner Guide](/en/guide/beginner)
+- [FAQ](/en/guide/faq)

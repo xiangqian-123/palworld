@@ -1,0 +1,158 @@
+---
+title: "Palworld Zucht-Guide — Paarungsformel, Rechner und beste Kombinationen"
+description: "Palworld Zucht-Guide: Breeding Farm bauen, Cake-Rezept, BPV-Formel im Detail, Zucht-Rechner nutzen, beste Zucht-Kombinationen (Anubis/Astegon/Orserk) und Vererbung passiver Fähigkeiten."
+eyebrow: "Zucht-Mechanik"
+heroImage: "/images/guides/ss-05.jpg"
+heroAlt: "Palworld Breeding Farm"
+sourceLabel: "官方 Wiki"
+sourceUrl: "https://palworld.gg/breeding-calculator"
+order: 6
+published: true
+---
+
+Zucht (Breeding) ist das Kernsystem von Palworld, um starke Pals zu erhalten. Dieser Artikel erklärt Zuchtformel, Rechner und beste Kombinationen im Detail.
+
+## Voraussetzungen für die Zucht
+
+| Punkt | Anforderung |
+|-------|-------------|
+| Freischaltstufe | Stufe 19 |
+| Gebäude | Breeding Farm |
+| Baumaterial | 100 Wood + 20 Stone + 50 Fiber |
+| Erforderlich | 1 männliches Pal + 1 weibliches Pal + 1 Cake |
+| Ei-Inkubator | Stufe 10 freischalten: 10 Paldium Fragment + 5 Cloth + 30 Stone + 2 Ancient Civilization Parts |
+
+## Cake-Rezept
+
+Der Cake ist für die Zucht unverzichtbar und wird im Cooking Pot hergestellt:
+
+| Material | Menge | Quelle |
+|----------|-------|--------|
+| Flour | 5 | Mill (3 Wheat → 1 Flour) |
+| Red Berries | 8 | Wild sammeln / Caprity-Ertrag |
+| Milk | 7 | Mozzarina-Ranch-Ertrag |
+| Eggs | 7 | Chikipi-Ranch-Ertrag |
+| Honey | 2 | Beegarde-Ranch-Ertrag |
+
+> Automatisierte Cake-Linie: Wheat (Weizen) anbauen (Lifmunk/Lyleen ernten) → Chikipi legt Eier → Mozzarina gibt Milch → Beegarde gibt Honig → Kindling-Pal kocht automatisch.
+
+## Zuchtformel (Breeding Rank)
+
+Jede Pal-Art hat einen verborgenen Breeding Rank; je niedriger der Wert, desto seltener und stärker. Der Rang des Nachkommen ist der gerundete Mittelwert der Elternrangwerte:
+
+```
+后代 Rank = ⌊(父 Rank + 母 Rank + 1) / 2⌋
+```
+
+- Der Nachkomme ist die Art mit dem Rang am nächsten an diesem Wert (bei zwei gleich weit entfernten Arten gewinnt der mit dem kleineren Index)
+- Das Ergebnis ist normalerweise **nicht zufällig**: Dasselbe Elternpaar (gleiche Art + Geschlechtskombination) liefert ein festes Ergebnis
+- Wenige Arten nutzen das Rang-System nicht, sondern **feste Kombinationen** (siehe unten „Varianten und Spezialkombinationen")
+- Zusätzlich besteht eine 1%-Chance (3% mit Extravagant Vegetable Cake), ein **mutiertes Ei** zu erzeugen, aus dem ein seltenerer Pal schlüpft
+
+## Zucht-Rechner
+
+Online-Tool: https://palworld.gg/breeding-calculator
+
+- **Vorwärtssuche**: 2 Pals wählen → Nachkommen anzeigen
+- **Rückwärtssuche**: Ziel-Pal wählen → alle möglichen Elternkombinationen anzeigen
+
+## Beste Zucht-Kombinationen (offiziell verifiziert)
+
+> Die folgenden Kombinationen stammen aus dem wiki.gg-Zucht-Leitfaden und sind alle praktisch bestätigt. Hinweis: Viele Kombinationen in „Formelbildern" sind veraltet – verwende die neueste Version.
+
+### Basis-Arbeiter
+
+| Ziel-Pal | Kombination | Beschreibung |
+|----------|-------------|--------------|
+| Anubis | **Vanwyrn + Cinnamoth** (am einfachsten) / Rushoar + Blazamut | Bester Allround-Arbeiter, zuerst züchten |
+| Verdash | Anubis + Sparkit | Allround-Arbeiter |
+| Jormuntide | Anubis + Suzaku | Watering Lv4 |
+
+### Kampf-Pals
+
+| Ziel-Pal | Kombination | Rolle |
+|----------|-------------|-------|
+| Jormuntide Ignis | Jormuntide + Blazehowl | Fire-Legende |
+| Helzephyr | Ragnahawk + Blazamut | Dark-Flug |
+| Lovander | Ragnahawk + Chikipi | Dark |
+
+### Reittier-Pals
+
+| Ziel-Pal | Kombination | Besonderheit |
+|----------|-------------|--------------|
+| Suzaku Aqua | Suzaku + Jormuntide | Water-Legend Reittier |
+| Azurobe | Anubis + Nitewing | Water-Reittier |
+
+> **Anubis ist der zentrale Zwischen-Pal**: Er + verschiedene Pals mit freien passiven Slots können viele nützliche Nachkommen erzeugen (Foxcicle/Verdash/Jormuntide/Azurobe/Petallia usw.).
+
+## Pals, die nur gleiche Art züchten können
+
+Die folgenden Pals können **nur** mit zwei Eltern derselben Art gezüchtet werden und nicht durch kreuzartige Kombinationen erhalten werden:
+
+Grizzbolt、Lyleen、Orserk、Faleris、Shadowbeak、Selyne、Bastigor、Blazamut Ryu、Paladius、Necromus、Frostallion、Jetragon、Bellanoir Libero、Mimog、Xenovader、Xenogard、Xenolord
+
+> Hinweis: „Legendäre" wie Orserk, Shadowbeak lassen sich nicht durch normale kreuzartige Kombinationen erzeugen – viele alte Guides sind falsch.
+
+## Varianten und Spezialkombinationen
+
+Die meisten Varianten-Pals nutzen das Rang-System nicht, sondern nur „eigene Art + bestimmter Pal" oder zwei bestimmte Arten, zum Beispiel:
+
+| Variante | Kombination |
+|----------|-------------|
+| Blazehowl Noct | Blazehowl + Felbat |
+| Jormuntide Ignis | Jormuntide + Blazehowl |
+| Frostallion Noct | Frostallion + Helzephyr |
+| Helzephyr Lux | Helzephyr + Beakon |
+| Incineram Noct | Incineram + Maraith |
+| Katress Ignis / Wixen Noct | Katress + Wixen (Ergebnis durch Mutter bestimmt) |
+
+## Vererbung passiver Fähigkeiten
+
+Nachkommen können passive Fähigkeiten von beiden Eltern erben; die Regeln sind komplexer als gedacht:
+
+- Jeder Pal hat 0–4 passive Fähigkeitsslots
+- Vererbungsablauf: Passivfähigkeiten beider Eltern zusammenführen (Deduplizierung) → würfle eine „Vererbungszahl" 1–4 (Wahrscheinlichkeit 40%/30%/20%/10%) → würfle eine „Mutationszahl", um zufällige Passive zu ergänzen
+- **Beide Eltern mit derselben passiven Fähigkeit helfen oder schaden der Wahrscheinlichkeit nicht** (nach Deduplizierung zählt sie nur einmal)
+- Wahrscheinlichkeit, alle Eltern-Passive zu erben: 1 Stück 40%, 2 Stück 24%, 3 Stück 12%, 4 Stück 10%
+- **Beste Vorgehensweise**: Lass beide Eltern zusammen nur 4 Ziel-Passive haben (2+2 / 3+1 / 4+0), um unnötige zufällige Passive zu vermeiden
+- Legendäre Passive (Legend, Element-Emperor) können nicht zufällig mutieren, müssen von den Eltern geerbt werden
+- Aktive Fähigkeiten: 50% Chance, 1 von den Eltern zu erben (inkl. nicht ausgerüsteter Fähigkeiten)
+
+Beste Kampf-Passivkombination: **Legend + Musclehead + Serenity + 30%-Element-Passiv** (Serenity ersetzt die alte Ferocious/Brave-Kombination)
+
+Siehe [Details zur Mechanik passiver Fähigkeiten](/de/guide/passives).
+
+## Mutierte Eier und spezielle Cakes
+
+| Cake-Typ | Effekt |
+|----------|--------|
+| Normaler Cake | Standard-Zucht |
+| Extravagant Vegetable Cake | Mutationsrate von 1% auf 3% erhöht |
+
+Ein aus einem mutierten Ei geschlüpfter Pal ist immer Alpha und hat garantiert 4 Passive (mindestens 2 T4-Passive, davon 1 mutationsspezifisches Passiv) sowie von sich aus Stufe-2-Konzentration. Mutationsspezifische Passive sind: Babysitter, Heavily Armored, Idiosyncratic, Immortality, Skymarcher.
+
+## Geschlechterverhältnis und Alpha
+
+- Die meisten Pals haben ein Geschlechterverhältnis 1:1; wenige Ausnahmen (z. B. Kingpaca 90% männlich, Lovander 30% männlich, Beegarde/Elizabee 10% männlich, Bellanoir 5% männlich)
+- Ein bei der Zucht erzeugter Pal hat eine 5%-Chance auf Alpha (unabhängig von den Eltern, nicht vererbbar)
+
+## Häufige Fragen
+
+### Q: Entwickeln sich Pals?
+
+Nein. Palworld hat kein Evolutionssystem. Varianten sind eigenständige Arten und müssen separat erhalten werden.
+
+### Q: Die Zucht ist zu langsam – was tun?
+
+Passe in den World Settings den Multiplikator für Egg Incubation Speed an. Auf einem Dedicated Server bearbeite PalWorldSettings.ini.
+
+### Q: Können gleichgeschlechtliche Pals gezüchtet werden?
+
+Nein. Es muss 1 Männchen + 1 Weibchen sein.
+
+## Verwandte Themen
+
+- [Pal-Kodex — vollständige Pal-Liste](/de/guide/pals)
+- [Mechanik passiver Fähigkeiten](/de/guide/passives)
+- [Einsteiger-Guide](/de/guide/beginner)
+- [Häufige Fragen (FAQ)](/de/guide/faq)

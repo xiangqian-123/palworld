@@ -14,18 +14,97 @@
     "eyebrow": "Fan-Made Community Wiki",
     "title": "Palworld",
     "description": "パルパゴス諸島でパルを捕まえ、育て、戦い、建築する。288種のパル、9つの属性、クロスプレイ対応。",
+    "stats": [
+      "2024年1月19日 EA 配信 → 2026年7月10日 1.0",
+      "288 体のパル ・ 9 属性",
+      "3200 万以上のプレイヤー",
+      "PC / PS5 / Xbox / Mac",
+      "クロスプレイ対応",
+      "32 人専用サーバー"
+    ],
     "ctaPrimary": "初心者ガイドを始める",
     "ctaSecondary": "パル図鑑を見る",
-    "ctaThird": "配合計算機"
+    "ctaThird": "配合計算機",
+    "videoLabel": "公式トレーラー"
+  },
+  "startHere": {
+    "title": "ここから始める",
+    "lead": "必要な情報へすばやくたどり着くための入り口。",
+    "cards": [
+      {
+        "title": "初心者ガイド",
+        "desc": "最初の捕獲から拠点建設、配合、ボス戦準備まで。",
+        "slug": "beginner"
+      },
+      {
+        "title": "パル図鑑",
+        "desc": "全 288 体のパル — 属性、作業適性、おすすめ。",
+        "slug": "pals"
+      },
+      {
+        "title": "配合ガイド",
+        "desc": "配合式、最適な組み合わせ、パッシブ継承。",
+        "slug": "breeding"
+      },
+      {
+        "title": "拠点建設",
+        "desc": "立地、レイアウト、作業適性、拠点の自動化。",
+        "slug": "base"
+      },
+      {
+        "title": "素材",
+        "desc": "すべての素材 — 入手方法、解放レベル、クラフト用途。",
+        "slug": "materials"
+      },
+      {
+        "title": "終盤攻略",
+        "desc": "ワールドツリー、伝説装備、ハードモード、終盤素材。",
+        "slug": "endgame"
+      },
+      {
+        "title": "金策",
+        "desc": "食料を売り、アルファドロップを稼ぎ、素早く金を稼ぐ方法。",
+        "slug": "money"
+      }
+    ]
+  },
+  "about": {
+    "title": "Palworld とは",
+    "paragraphs": [
+      "Palworld（パルワールド）は Pocketpair が開発した、モンスター育成オープンワールドサバイバルクラフトゲームです。プレイヤーはパルパゴス諸島でパルと呼ばれる生き物を捕まえ、戦わせ、働かせ、育て、建築します。ゲームは 2024 年 1 月 19 日に Steam 早期アクセスで配信され、2026 年 7 月 10 日に 1.0 版として正式リリースされました。",
+      "1.0 正式版ではワールドツリー（世界樹）メインストーリー終章（8 つの塔の封印ストーリー）、パルの覚醒と変異システム、計 288 体のパル、水上建築などが実装されました。PC / PS5 / Xbox / Mac でのクロスプレイに対応し、最大 32 人専用サーバーを利用できます。"
+    ],
+    "facts": [
+      { "label": "Developer", "value": "Pocketpair, Inc." },
+      { "label": "Platform", "value": "Steam / PS5 / Xbox Series X|S / Xbox One / Mac" },
+      { "label": "Genre", "value": "オープンワールドサバイバル + モンスター収集" },
+      { "label": "Release", "value": "2024年1月19日 (EA) → 2026年7月10日 (1.0)" },
+      { "label": "Price", "value": "$29.99" },
+      { "label": "Pals", "value": "288" },
+      { "label": "Max Level", "value": "80" },
+      { "label": "Crossplay", "value": "対応 (PC / PS5 / Xbox / Mac)" }
+    ]
+  },
+  "trailer": {
+    "title": "公式トレーラー",
+    "lead": "Palworld 1.0 の新たな冒険、新しいパル、そしてワールドツリー終章をいち早く紹介。"
   },
   "cta": {
     "title": "Palworld をマスターする準備はできましたか？",
+    "description": "最初のランバルからワールドツリー（世界樹）まで、このコミュニティ Wiki はパル図鑑、配合、素材、MOD、そして最深のダンジョンを網羅しています。",
     "primary": "初心者ガイドを読む",
     "secondary": "Steam でプレイ"
   },
   "footer": {
     "aboutTitle": "Palworld Wiki",
     "about": "Palworld Wiki は非公式のファン攻略サイトです。",
+    "playGame": "Palworld をプレイ",
+    "officialSite": "公式サイト",
+    "community": "コミュニティ",
+    "communityTool": "公式 Wiki",
+    "legal": "法律",
+    "privacyPolicy": "プライバシーポリシー",
+    "termsOfService": "利用規約",
     "disclaimer": "非公式ファンサイトであり、Pocketpair とは無関係です。"
   },
   "pal": {

@@ -1,0 +1,155 @@
+---
+title: "Palworld 配合ガイド — ペアの式・計算機・最適組み合わせ"
+description: "Palworld配合ガイド：Breeding Farmの建設、Cakeのレシピ、BPVの式解説、配合計算機の使い方、最適な配合組み合わせ（Anubis/Astegon/Orserk）とパッシブスキルの継承。"
+eyebrow: "配合メカニズム"
+heroImage: "/images/guides/ss-05.jpg"
+heroAlt: "Palworld 配合農場"
+sourceLabel: "公式 Wiki"
+sourceUrl: "https://palworld.gg/breeding-calculator"
+order: 6
+published: true
+---
+
+配合 Breeding は Palworld で強力なパルを入手するための中心的なシステムです。本記事では配合の式、計算機、最適な組み合わせを解説します。
+
+## 配合の前提条件
+
+| 項目 | 要件 |
+|------|------|
+| 解放レベル | 19レベル |
+| 建物 | Breeding Farm（配合農場） |
+| 建設素材 | 100 Wood（木材） + 20 Stone（石） + 50 Fiber（繊維） |
+| 必要物 | オスのパル + メスのパル + 1個の Cake（ケーキ） |
+| 孵卵器 | 10レベルで解放：10 Paldium Fragment（パルジウムの欠片） + 5 Cloth（布） + 30 Stone（石） + 2 Ancient Civilization Parts（古代文明の部品） |
+
+## Cake（ケーキ）のレシピ
+
+ケーキは配合に必須で、Cooking Pot（料理鍋）で作ります：
+
+| 素材 | 数量 | 入手元 |
+|------|------|--------|
+| Flour（小麦粉） | 5 | Mill（製粉機）：3 Wheat（小麦） → 1 Flour |
+| Red Berries（赤いきの実） | 8 | 野外採取 / Caprity の生産 |
+| Milk（ミルク） | 7 | Mozzarina の牧場生産 |
+| Eggs（タマゴ） | 7 | Chikipi の牧場生産 |
+| Honey（蜂蜜） | 2 | Beegarde の牧場生産 |
+
+> ケーキの自動生産ライン：Wheat（小麦）を栽培（Lifmunk/Lyleen が収穫）→ Chikipi がタマゴ → Mozzarina がミルク → Beegarde が蜂蜜 → Kindling（生火）パルが自動料理。
+
+## 配合の式（Breeding Rank）
+
+各パル種には隠された Breeding Rank（配合ランク）の数値があり、数値が低いほど希少で強力です。子のランクは父母のランクの平均を四捨五入した値になります：
+
+```
+子の Rank = ⌊(父の Rank + 母の Rank + 1) / 2⌋
+```
+
+- 子はその値に最も近いランクの種になります（2種が等距離の場合はインデックスの小さい方）
+- 結果は通常**ランダム性なし**：同じ親（同じ種＋同じ性別の組み合わせ）なら産物は固定
+- 一部の種は Rank システムを使わず、**固定組み合わせ**（後述の「バリアントと特殊組み合わせ」参照）を採用
+- さらに1%（Extravagant Vegetable Cake 使用時は3%）の確率で**突然変異タマゴ**が産まれ、より希少なパルが孵化する
+
+## 配合計算機
+
+オンラインツール：https://palworld.gg/breeding-calculator
+
+- **正引き**：パル2体を選ぶ → 子を検索
+- **逆引き**：目標のパルを選ぶ → あり得るすべての親の組み合わせを検索
+
+## 最適な配合組み合わせ（公式 Wiki 検証済み）
+
+> 以下の組み合わせは wiki.gg の配合ガイドからで、いずれも実測確認済みです。多くの「配合図」の組み合わせはすでに古くなっているため、最新版を正としてください。
+
+### 拠点労働者
+
+| 目標パル | 組み合わせ | 説明 |
+|----------|-----------|------|
+| Anubis | **Vanwyrn + Cinnamoth**（最も簡単）/ Rushoar + Blazamut | 最強の万能労働者。最初に1匹育てることを優先 |
+| Verdash | Anubis + Sparkit | 万能労働者 |
+| Jormuntide | Anubis + Suzaku | 水やりLv4 |
+
+### 戦闘パル
+
+| 目標パル | 組み合わせ | 役割 |
+|----------|-----------|------|
+| Jormuntide Ignis | Jormuntide + Blazehowl | 炎系伝説 |
+| Helzephyr | Ragnahawk + Blazamut | 闇系飛行 |
+| Lovander | Ragnahawk + Chikipi | 闇系 |
+
+### マウントパル
+
+| 目標パル | 組み合わせ | 特徴 |
+|----------|-----------|------|
+| Suzaku Aqua | Suzaku + Jormuntide | 水属伝説マウント |
+| Azurobe | Anubis + Nitewing | 水属マウント |
+
+> **Anubis は核心となる中継パル**：これに異なる空パッシブパルを組ませることで、多数の実用な子（Foxcicle/Verdash/Jormuntide/Azurobe/Petallia など）を生み出せます。
+
+## 同種のみで繁殖可能なパル
+
+以下のパルは、**同種の親2匹でのみ**繁殖可能で、異種の組み合わせでは得られません：
+
+Grizzbolt、Lyleen、Orserk、Faleris、Shadowbeak、Selyne、Bastigor、Blazamut Ryu、Paladius、Necromus、Frostallion、Jetragon、Bellanoir Libero、Mimog、Xenovader、Xenogard、Xenolord
+
+> 注意：Orserk、Shadowbeak などの「伝説級」は普通の異種組み合わせでは出ず、多くの古いガイドが誤っています。
+
+## バリアントと特殊組み合わせ
+
+大半のバリアントパルは Rank システムを使わず、「本種 ＋ 特定のパル」または2つの特定種の組み合わせでのみ作成できます。例：
+
+| バリアント | 組み合わせ |
+|------------|-----------|
+| Blazehowl Noct | Blazehowl + Felbat |
+| Jormuntide Ignis | Jormuntide + Blazehowl |
+| Frostallion Noct | Frostallion + Helzephyr |
+| Helzephyr Lux | Helzephyr + Beakon |
+| Incineram Noct | Incineram + Maraith |
+| Katress Ignis / Wixen Noct | Katress + Wixen（結果は母方で決定） |
+
+## パッシブスキルの継承
+
+子は父母双方からパッシブスキルを継承でき、ルールは想像以上に複雑です：
+
+- 各パルは0〜4つのパッシブスキル枠を持つ
+- 継承の流れ：父母のパッシブを統合（重複排除）→ 「継承数」（1〜4、確率40%/30%/20%/10%）を抽選 → さらに「突然変異数」を抽選してランダムなパッシブを補完
+- **父母が同じパッシブを持っていても確率に助けにも害にもならない**（重複排除後に1回しか数えない）
+- 父母のパッシブをすべて継承する確率：1個40%、2個24%、3個12%、4個10%
+- **最良の方法**：父母の合計が目標パッシブ4個だけになるようにする（2+2 / 3+1 / 4+0）。余計なランダムパッシブを持ち込まないこと
+- 伝説級パッシブ（Legend、属性 Emperor）はランダム突然変異せず、父母から継承する必要がある
+- アクティブスキル：50%の確率で父母から1つ継承（装備していないスキルも含む）
+
+最適な戦闘パッシブの組み合わせ：**Legend + Musclehead + Serenity + 30%属性パッシブ**（Serenity は旧版の Ferocious/Brave の組み合わせに代わる）
+
+詳細は[パッシブスキルの仕組み解説](/ja/guide/passives)を参照。
+
+## 突然変異タマゴと特殊ケーキ
+
+| ケーキの種類 | 効果 |
+|--------------|------|
+| 通常の Cake | 標準配合 |
+| Extravagant Vegetable Cake | 突然変異率を1%から3%に引き上げ |
+
+突然変異タマゴから孵化したパルは常に Alpha であり、必ず4つのパッシブ（うち少なくとも2つはT4パッシブ、1つは突然変異専用パッシブ）を持ち、濃縮Lv2が付与されます。突然変異専用パッシブには Babysitter、Heavily Armored、Idiosyncratic、Immortality、Skymarcher が含まれます。
+
+## 性別比と Alpha
+
+- 大半のパルは性別比1:1。例外も少数（例：Kingpaca 90%オス、Lovander 30%オス、Beegarde/Elizabee 10%オス、Bellanoir 5%オス）
+- 配合で産まれたパルは5%の確率で Alpha（父母とは無関係、遺伝しない）
+
+## よくある質問
+
+### Q: パルは進化しますか？
+しません。Palworld に進化システムはありません。バリアントは独立した種であり、個別に入手する必要があります。
+
+### Q: 配合が遅すぎる場合は？
+World Settings で Egg Incubation Speed（タマゴ孵化速度）の倍率を調整します。専用サーバーは PalWorldSettings.ini を編集します。
+
+### Q: 同性のパルを配合できますか？
+できません。オスとメスが1匹ずつ必要です。
+
+## 関連記事
+
+- [パル図鑑 — 全パル一覧](/ja/guide/pals)
+- [パッシブスキルの仕組み](/ja/guide/passives)
+- [初心者ガイド](/ja/guide/beginner)
+- [よくある質問 FAQ](/ja/guide/faq)

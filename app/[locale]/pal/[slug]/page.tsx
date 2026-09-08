@@ -1,5 +1,5 @@
 import { notFound } from "next/navigation";
-import { getPal, getPalSlugs, getCodeName } from "@/lib/pal";
+import { getPal, getPalSlugs, getCodeName, localizePal } from "@/lib/pal";
 import { elementLabel, workLabel } from "@/lib/pal-labels";
 import { locales, type Locale } from "@/lib/locales";
 import { getMessages } from "@/lib/i18n";
@@ -42,10 +42,11 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const pal = getPal(params.slug);
   if (!pal) return { title: siteConfig.defaultTitle };
-  const path = `/pal/${pal.slug}`;
-  const title = `${pal.name} — ${siteConfig.siteName}`;
-  const description = pal.description || siteConfig.defaultDescription;
-  const image = `/images/pals/${pal.code}.png`;
+  const localized = localizePal(pal, params.locale);
+  const path = `/pal/${localized.slug}`;
+  const title = `${localized.name} — ${siteConfig.siteName}`;
+  const description = localized.description || siteConfig.defaultDescription;
+  const image = `/images/pals/${localized.code}.png`;
   return {
     title,
     description,
@@ -75,6 +76,7 @@ export default function PalPage({
 }) {
   const pal = getPal(params.slug);
   if (!pal) notFound();
+  const localized = localizePal(pal, params.locale);
 
   const messages = getMessages(params.locale);
   const isZh = params.locale === "zh-CN" || params.locale === "zh-TW";
@@ -95,7 +97,7 @@ export default function PalPage({
         data={palPageJsonLd({
           locale,
           name: pal.name,
-          description: pal.description,
+          description: localized.description,
           path,
           image: `/images/pals/${pal.code}.png`,
           paldexIndex: pal.paldexIndex,
@@ -147,7 +149,7 @@ export default function PalPage({
       </header>
 
       <div className="guide-body prose">
-        {pal.description && <p className="pal-desc">{pal.description}</p>}
+        {localized.description && <p className="pal-desc">{localized.description}</p>}
 
         {pal.stats && (
           <>
@@ -204,7 +206,7 @@ export default function PalPage({
           <>
             <h2>{L("pal.partnerSkill", "Partner Skill")}</h2>
             <p>
-              <strong>{pal.partnerSkill}</strong>
+              <strong>{localized.partnerSkill}</strong>
             </p>
             {pal.partnerSkillScaling?.map((s) => (
               <p key={s.label}>

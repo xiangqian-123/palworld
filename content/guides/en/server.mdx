@@ -1,0 +1,86 @@
+---
+title: "Palworld Dedicated Server — Dedicated Server Setup Tutorial"
+description: "Palworld dedicated server setup tutorial: Steam tool install, PalWorldSettings.ini config, 32-player multiplayer settings, cross-platform multiplayer, PS5 server notes."
+eyebrow: "Dedicated Server"
+heroImage: "/images/guides/ss-08.jpg"
+heroAlt: "Palworld dedicated server"
+sourceLabel: "官方 Wiki"
+sourceUrl: "https://palworld.gg/"
+order: 9
+published: true
+---
+
+Palworld supports dedicated servers, up to 32 players online simultaneously. This page covers setup.
+
+## Conclusion First
+
+- PC (Steam) can host dedicated servers
+- PS5 dedicated servers launched after v0.6.0
+- Max 32 players online simultaneously
+- Cross-platform multiplayer supported (requires Cross-Play)
+- Invite multiplayer max 4 players, closes when host goes offline
+
+## Setup Methods
+
+### Method 1: Local Server
+
+1. Search "Palworld Dedicated Server" in Steam tools and install
+2. Run the server program
+3. Configure PalWorldSettings.ini
+4. Open port 8211 (UDP)
+
+### Method 2: Third-Party Server Hosting
+
+| Provider | Feature |
+|--------|------|
+| Shockbyte | Dedicated Palworld server provider |
+| Other hosts | One-click deploy support |
+
+## PalWorldSettings.ini Key Config
+
+| Parameter | Description | Default |
+|------|------|--------|
+| ServerName | Server name | - |
+| ServerPassword | Server password | None |
+| MaxPlayers | Max players | 32 |
+| PublicPort | Port | 8211 |
+| bIsPvP | PvP mode | false |
+| bCanPickupOtherGuildDeathPenalty | Pick up other guild's death drops | false |
+| DropItemMaxNum | Max dropped items | 3000 |
+| EggIncubationSpeed | Egg incubation speed | 1 |
+
+## Cross-Platform Multiplayer Setup
+
+For a dedicated server to support cross-platform multiplayer, you need:
+1. Use the EOS (Epic Online Services) version of the server program
+2. Enable Cross-Play in server config
+3. Share the server name or invite code
+
+## Server Management Tips
+
+1. **Back up saves regularly**: server saves are in the `Pal/Saved/` directory
+2. **Adjust egg incubation speed**: set to 30-50x to greatly speed up breeding
+3. **Set auto-restart**: avoid memory leaks from long runtime
+4. **Manage Pal count**: too high DropItemMaxNum causes lag
+
+## PS5 Server
+
+PS5 dedicated servers launched after the v0.6.0 (Tides of Terraria) update. PS5 players can join PC-hosted EOS servers.
+
+## FAQ
+
+### Q: What's the difference between invite multiplayer and a dedicated server?
+Invite multiplayer max 4 players, closes when host goes offline. Dedicated server 32 players, 24/7 online.
+
+### Q: How do I update the server?
+The Steam tool auto-updates the server program. Manual update: SteamCMD + app_update.
+
+### Q: Can saves migrate across servers?
+You can manually copy save files. But cross-platform saves are not shared.
+
+## Related Reading
+
+- [Download & Platforms Overview](/en/guide/download)
+- [Beginner Guide](/en/guide/beginner)
+- [Version Update History](/en/guide/updates)
+- [FAQ](/en/guide/faq)

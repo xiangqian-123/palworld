@@ -129,3 +129,39 @@ export function getCodeName(code: string): string {
   const map = loadCodeNameMap();
   return map[code] ?? code;
 }
+
+// ---------------------------------------------------------------------------
+// 中文覆盖：description / partnerSkill 的中文翻译（data/pal-zh.json）。
+// 中文页（zh-CN / zh-TW）显示中文，其余语言显示英文原文。
+// ---------------------------------------------------------------------------
+
+export interface PalZh {
+  description?: string;
+  partnerSkill?: string;
+}
+
+let palZhCache: Record<string, PalZh> | null = null;
+function loadPalZh(): Record<string, PalZh> {
+  if (palZhCache) return palZhCache;
+  const file = path.join(process.cwd(), "data", "pal-zh.json");
+  let map: Record<string, PalZh> = {};
+  try {
+    map = JSON.parse(fs.readFileSync(file, "utf8")) as Record<string, PalZh>;
+  } catch {
+    map = {};
+  }
+  palZhCache = map;
+  return map;
+}
+
+/** 按语言本地化一个 Pal：中文语言用中文 description/partnerSkill，其余保持英文。 */
+export function localizePal(pal: Pal, locale: string): Pal {
+  if (locale !== "zh-CN" && locale !== "zh-TW") return pal;
+  const zh = loadPalZh()[pal.slug];
+  if (!zh) return pal;
+  return {
+    ...pal,
+    description: zh.description ?? pal.description,
+    partnerSkill: zh.partnerSkill ?? pal.partnerSkill,
+  };
+}
