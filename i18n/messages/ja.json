@@ -6,6 +6,7 @@
     "base": "拠点建設",
     "materials": "素材",
     "map": "マップ",
+    "worldTree": "世界樹",
     "endgame": "終盤攻略",
     "money": "金策",
     "faq": "FAQ"
@@ -75,14 +76,38 @@
       "1.0 正式版ではワールドツリー（世界樹）メインストーリー終章（8 つの塔の封印ストーリー）、パルの覚醒と変異システム、計 288 体のパル、水上建築などが実装されました。PC / PS5 / Xbox / Mac でのクロスプレイに対応し、最大 32 人専用サーバーを利用できます。"
     ],
     "facts": [
-      { "label": "Developer", "value": "Pocketpair, Inc." },
-      { "label": "Platform", "value": "Steam / PS5 / Xbox Series X|S / Xbox One / Mac" },
-      { "label": "Genre", "value": "オープンワールドサバイバル + モンスター収集" },
-      { "label": "Release", "value": "2024年1月19日 (EA) → 2026年7月10日 (1.0)" },
-      { "label": "Price", "value": "$29.99" },
-      { "label": "Pals", "value": "288" },
-      { "label": "Max Level", "value": "80" },
-      { "label": "Crossplay", "value": "対応 (PC / PS5 / Xbox / Mac)" }
+      {
+        "label": "Developer",
+        "value": "Pocketpair, Inc."
+      },
+      {
+        "label": "Platform",
+        "value": "Steam / PS5 / Xbox Series X|S / Xbox One / Mac"
+      },
+      {
+        "label": "Genre",
+        "value": "オープンワールドサバイバル + モンスター収集"
+      },
+      {
+        "label": "Release",
+        "value": "2024年1月19日 (EA) → 2026年7月10日 (1.0)"
+      },
+      {
+        "label": "Price",
+        "value": "$29.99"
+      },
+      {
+        "label": "Pals",
+        "value": "288"
+      },
+      {
+        "label": "Max Level",
+        "value": "80"
+      },
+      {
+        "label": "Crossplay",
+        "value": "対応 (PC / PS5 / Xbox / Mac)"
+      }
     ]
   },
   "trailer": {

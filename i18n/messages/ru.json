@@ -6,6 +6,7 @@
     "base": "База",
     "materials": "Материалы",
     "map": "Карта",
+    "worldTree": "Мировое древо",
     "endgame": "Эндгейм",
     "money": "Деньги",
     "faq": "FAQ"
@@ -75,14 +76,38 @@
       "Версия 1.0 открыла финал сюжетной линии Мирового древа (сюжет с печатью восьми башен), системы пробуждения и мутации Палов, всего 288 Палов и строительство на воде. Поддерживается кросс-платформенный мультиплеер на PC / PS5 / Xbox / Mac, до 32 игроков на выделенном сервере."
     ],
     "facts": [
-      { "label": "Developer", "value": "Pocketpair, Inc." },
-      { "label": "Platform", "value": "Steam / PS5 / Xbox Series X|S / Xbox One / Mac" },
-      { "label": "Genre", "value": "Выживание в открытом мире + сбор существ" },
-      { "label": "Release", "value": "19 января 2024 г. (РД) → 10 июля 2026 г. (1.0)" },
-      { "label": "Price", "value": "$29.99" },
-      { "label": "Pals", "value": "288" },
-      { "label": "Max Level", "value": "80" },
-      { "label": "Crossplay", "value": "Да (PC / PS5 / Xbox / Mac)" }
+      {
+        "label": "Developer",
+        "value": "Pocketpair, Inc."
+      },
+      {
+        "label": "Platform",
+        "value": "Steam / PS5 / Xbox Series X|S / Xbox One / Mac"
+      },
+      {
+        "label": "Genre",
+        "value": "Выживание в открытом мире + сбор существ"
+      },
+      {
+        "label": "Release",
+        "value": "19 января 2024 г. (РД) → 10 июля 2026 г. (1.0)"
+      },
+      {
+        "label": "Price",
+        "value": "$29.99"
+      },
+      {
+        "label": "Pals",
+        "value": "288"
+      },
+      {
+        "label": "Max Level",
+        "value": "80"
+      },
+      {
+        "label": "Crossplay",
+        "value": "Да (PC / PS5 / Xbox / Mac)"
+      }
     ]
   },
   "trailer": {

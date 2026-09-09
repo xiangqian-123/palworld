@@ -6,6 +6,7 @@
     "base": "Base Building",
     "materials": "Materials",
     "map": "Map",
+    "worldTree": "World Tree",
     "endgame": "Endgame",
     "money": "Money",
     "faq": "FAQ"
@@ -75,14 +76,38 @@
       "The 1.0 release opened the World Tree main-story finale (the eight-tower seal storyline), Pal awakening and mutation systems, 288 total Pals, and aquatic building. Cross-platform multiplayer is supported across PC / PS5 / Xbox / Mac, with 32-player dedicated servers."
     ],
     "facts": [
-      { "label": "Developer", "value": "Pocketpair, Inc." },
-      { "label": "Platform", "value": "Steam / PS5 / Xbox Series X|S / Xbox One / Mac" },
-      { "label": "Genre", "value": "Open World Survival + Creature Collecting" },
-      { "label": "Release", "value": "Jan 19, 2024 (EA) → Jul 10, 2026 (1.0)" },
-      { "label": "Price", "value": "$29.99" },
-      { "label": "Pals", "value": "288" },
-      { "label": "Max Level", "value": "80" },
-      { "label": "Crossplay", "value": "Yes (PC / PS5 / Xbox / Mac)" }
+      {
+        "label": "Developer",
+        "value": "Pocketpair, Inc."
+      },
+      {
+        "label": "Platform",
+        "value": "Steam / PS5 / Xbox Series X|S / Xbox One / Mac"
+      },
+      {
+        "label": "Genre",
+        "value": "Open World Survival + Creature Collecting"
+      },
+      {
+        "label": "Release",
+        "value": "Jan 19, 2024 (EA) → Jul 10, 2026 (1.0)"
+      },
+      {
+        "label": "Price",
+        "value": "$29.99"
+      },
+      {
+        "label": "Pals",
+        "value": "288"
+      },
+      {
+        "label": "Max Level",
+        "value": "80"
+      },
+      {
+        "label": "Crossplay",
+        "value": "Yes (PC / PS5 / Xbox / Mac)"
+      }
     ]
   },
   "trailer": {

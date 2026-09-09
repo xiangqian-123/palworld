@@ -6,6 +6,7 @@
     "base": "Basis",
     "materials": "Materialien",
     "map": "Karte",
+    "worldTree": "Weltbaum",
     "endgame": "Endgame",
     "money": "Geld",
     "faq": "FAQ"
@@ -75,14 +76,38 @@
       "Die 1.0-Version eröffnete das finale Hauptstory-Kapitel des Weltenbaums (die Geschichte der Versiegelung der acht Türme), die Erwach- und Mutationssysteme der Pals, insgesamt 288 Pals sowie den Bau auf dem Wasser. Plattformübergreifender Multiplayer wird auf PC / PS5 / Xbox / Mac unterstützt, mit Servern für bis zu 32 Spieler."
     ],
     "facts": [
-      { "label": "Developer", "value": "Pocketpair, Inc." },
-      { "label": "Platform", "value": "Steam / PS5 / Xbox Series X|S / Xbox One / Mac" },
-      { "label": "Genre", "value": "Open-World-Überleben + Monster-Sammeln" },
-      { "label": "Release", "value": "19. Jan. 2024 (EA) → 10. Juli 2026 (1.0)" },
-      { "label": "Price", "value": "$29.99" },
-      { "label": "Pals", "value": "288" },
-      { "label": "Max Level", "value": "80" },
-      { "label": "Crossplay", "value": "Ja (PC / PS5 / Xbox / Mac)" }
+      {
+        "label": "Developer",
+        "value": "Pocketpair, Inc."
+      },
+      {
+        "label": "Platform",
+        "value": "Steam / PS5 / Xbox Series X|S / Xbox One / Mac"
+      },
+      {
+        "label": "Genre",
+        "value": "Open-World-Überleben + Monster-Sammeln"
+      },
+      {
+        "label": "Release",
+        "value": "19. Jan. 2024 (EA) → 10. Juli 2026 (1.0)"
+      },
+      {
+        "label": "Price",
+        "value": "$29.99"
+      },
+      {
+        "label": "Pals",
+        "value": "288"
+      },
+      {
+        "label": "Max Level",
+        "value": "80"
+      },
+      {
+        "label": "Crossplay",
+        "value": "Ja (PC / PS5 / Xbox / Mac)"
+      }
     ]
   },
   "trailer": {

@@ -6,6 +6,7 @@
     "base": "基地建设",
     "materials": "材料图鉴",
     "map": "地图探索",
+    "worldTree": "世界树",
     "endgame": "终局攻略",
     "money": "赚钱攻略",
     "faq": "常见问题"
@@ -75,14 +76,38 @@
       "1.0 正式版开放 World Tree 世界树主线终章（8 座塔封印剧情）、Pal 觉醒与突变系统、总计 288 种 Pal、水上建造等。支持跨平台联机（PC/PS5/Xbox/Mac），最多 32 人专用服务器。"
     ],
     "facts": [
-      { "label": "Developer", "value": "Pocketpair, Inc." },
-      { "label": "Platform", "value": "Steam / PS5 / Xbox Series X|S / Xbox One / Mac" },
-      { "label": "Genre", "value": "Open World Survival + Creature Collecting" },
-      { "label": "Release", "value": "Jan 19, 2024 (EA) → Jul 10, 2026 (1.0)" },
-      { "label": "Price", "value": "$29.99" },
-      { "label": "Pals", "value": "288" },
-      { "label": "Max Level", "value": "80" },
-      { "label": "Crossplay", "value": "Yes (PC / PS5 / Xbox / Mac)" }
+      {
+        "label": "Developer",
+        "value": "Pocketpair, Inc."
+      },
+      {
+        "label": "Platform",
+        "value": "Steam / PS5 / Xbox Series X|S / Xbox One / Mac"
+      },
+      {
+        "label": "Genre",
+        "value": "Open World Survival + Creature Collecting"
+      },
+      {
+        "label": "Release",
+        "value": "Jan 19, 2024 (EA) → Jul 10, 2026 (1.0)"
+      },
+      {
+        "label": "Price",
+        "value": "$29.99"
+      },
+      {
+        "label": "Pals",
+        "value": "288"
+      },
+      {
+        "label": "Max Level",
+        "value": "80"
+      },
+      {
+        "label": "Crossplay",
+        "value": "Yes (PC / PS5 / Xbox / Mac)"
+      }
     ]
   },
   "trailer": {

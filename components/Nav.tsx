@@ -11,6 +11,7 @@ const NAV_LINKS = [
   { slug: "base", key: "nav.base" },
   { slug: "materials", key: "nav.materials" },
   { slug: "map", key: "nav.map" },
+  { slug: "world-tree", key: "nav.worldTree" },
   { slug: "endgame", key: "nav.endgame" },
   { slug: "money", key: "nav.money" },
   { slug: "faq", key: "nav.faq" },
