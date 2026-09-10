@@ -93,6 +93,20 @@ export default function sitemap(): MetadataRoute.Sitemap {
     }
   }
 
+  // 交互地图（/map）
+  {
+    const languages = hreflangLanguages("/map");
+    for (const locale of locales) {
+      entries.push({
+        url: `${siteConfig.siteUrl}/${locale}/map`,
+        lastModified: now,
+        changeFrequency: "weekly",
+        priority: 0.9,
+        alternates: { languages },
+      });
+    }
+  }
+
   // Breeding Calculator
   {
     const languages = hreflangLanguages("/breeding-calculator");

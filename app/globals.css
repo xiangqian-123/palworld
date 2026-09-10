@@ -1140,6 +1140,12 @@ img {
   font-size: 0.8rem;
   white-space: nowrap;
 }
+.search-hit-secondary {
+  color: rgb(var(--text-muted));
+  font-size: 0.78rem;
+  white-space: nowrap;
+  font-weight: 400;
+}
 .search-empty {
   padding: 18px 12px;
   color: rgb(var(--text-muted));
@@ -1430,6 +1436,105 @@ img {
   padding: 40px;
   text-align: center;
   color: rgb(var(--text-muted));
+}
+
+/* ===== 交互地图（Map 页） ===== */
+.map-filter {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 16px;
+}
+.map-filter button {
+  padding: 9px 18px;
+  border: 1px solid rgb(var(--border));
+  border-radius: 999px;
+  background: rgb(var(--bg));
+  color: rgb(var(--text));
+  font-weight: 600;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: border-color 0.15s ease, background 0.15s ease;
+}
+.map-filter button.active {
+  border-color: hsl(var(--nav-theme));
+  background: hsl(var(--nav-theme));
+  color: #fff;
+}
+.map-area {
+  position: relative;
+  border: 1px solid rgb(var(--border));
+  border-radius: var(--radius);
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+.map-area svg {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.map-bg {
+  fill: rgb(var(--bg-alt));
+}
+.map-dot {
+  fill: hsl(var(--nav-theme));
+  cursor: pointer;
+  transition: r 0.1s ease;
+}
+.map-dot:hover {
+  opacity: 0.8;
+}
+.map-dot-boss {
+  fill: #e11d48;
+}
+.map-dot.active {
+  stroke: rgb(var(--text));
+  stroke-width: 2;
+}
+.map-tooltip {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  background: rgb(var(--bg));
+  border: 1px solid rgb(var(--border));
+  border-radius: 10px;
+  padding: 10px 14px;
+  box-shadow: 0 8px 24px rgb(15 23 42 / 0.14);
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  font-size: 0.9rem;
+}
+.map-tooltip span {
+  color: rgb(var(--text-muted));
+  font-size: 0.8rem;
+}
+.map-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 8px;
+  max-height: 420px;
+  overflow-y: auto;
+}
+.map-list-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 9px 12px;
+  border: 1px solid rgb(var(--border));
+  border-radius: 8px;
+  color: rgb(var(--text));
+  font-weight: 500;
+  transition: border-color 0.15s ease;
+}
+.map-list-item:hover {
+  border-color: hsl(var(--nav-theme));
+  text-decoration: none;
+}
+.map-list-secondary {
+  color: rgb(var(--text-muted));
+  font-size: 0.8rem;
+  white-space: nowrap;
 }
 
 /* ===== Breeding 页强化（STEP 12） ===== */

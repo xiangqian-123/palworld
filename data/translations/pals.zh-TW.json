@@ -1,0 +1,1158 @@
+{
+  "aegidron": {
+    "name": "磐甲龍",
+    "aliases": []
+  },
+  "amione": {
+    "name": "莉歐·莉涅",
+    "aliases": []
+  },
+  "anubis": {
+    "name": "阿努比斯",
+    "aliases": [
+      "阿努"
+    ]
+  },
+  "arsox": {
+    "name": "熾焰牛",
+    "aliases": []
+  },
+  "astegon": {
+    "name": "魔淵龍",
+    "aliases": []
+  },
+  "astralym": {
+    "name": "枯星龍",
+    "aliases": []
+  },
+  "azurmane": {
+    "name": "馭雷馬",
+    "aliases": []
+  },
+  "azurobe-cryst": {
+    "name": "碧月龍",
+    "aliases": []
+  },
+  "azurobe": {
+    "name": "碧海龍",
+    "aliases": []
+  },
+  "bakemi": {
+    "name": "嚇絲妮",
+    "aliases": []
+  },
+  "bastigor": {
+    "name": "霜牙王",
+    "aliases": []
+  },
+  "beakon-cryst": {
+    "name": "疾霜鳥",
+    "aliases": []
+  },
+  "beakon": {
+    "name": "迅雷鳥",
+    "aliases": []
+  },
+  "beegarde": {
+    "name": "騎士蜂",
+    "aliases": []
+  },
+  "bellanoir-libero": {
+    "name": "貝菈露潔",
+    "aliases": []
+  },
+  "bellanoir": {
+    "name": "貝菈諾娃",
+    "aliases": []
+  },
+  "blazamut-ryu": {
+    "name": "歿殃",
+    "aliases": []
+  },
+  "blazamut": {
+    "name": "焰煌",
+    "aliases": []
+  },
+  "blazehowl-noct": {
+    "name": "獄閻王",
+    "aliases": []
+  },
+  "blazehowl": {
+    "name": "獄焰王",
+    "aliases": []
+  },
+  "braloha": {
+    "name": "梁葉龍",
+    "aliases": []
+  },
+  "bristla": {
+    "name": "荊棘魔仙",
+    "aliases": []
+  },
+  "broncherry-aqua": {
+    "name": "海誓龍",
+    "aliases": []
+  },
+  "broncherry": {
+    "name": "連理龍",
+    "aliases": []
+  },
+  "bulldosu": {
+    "name": "力士獒",
+    "aliases": []
+  },
+  "bushi-noct": {
+    "name": "鬼刃武士",
+    "aliases": []
+  },
+  "bushi": {
+    "name": "浪刃武士",
+    "aliases": []
+  },
+  "caprity-noct": {
+    "name": "鬱木羊",
+    "aliases": []
+  },
+  "caprity": {
+    "name": "灌木羊",
+    "aliases": []
+  },
+  "carnibora": {
+    "name": "顎莉絲",
+    "aliases": []
+  },
+  "cattiva": {
+    "name": "搗蛋貓",
+    "aliases": []
+  },
+  "cawgnito": {
+    "name": "黑鴉隱士",
+    "aliases": []
+  },
+  "celaray-lux": {
+    "name": "雷米兒",
+    "aliases": []
+  },
+  "celaray": {
+    "name": "魯米兒",
+    "aliases": []
+  },
+  "celesdir-noct": {
+    "name": "織夜鹿",
+    "aliases": []
+  },
+  "celesdir": {
+    "name": "淨世鹿",
+    "aliases": []
+  },
+  "chikipi": {
+    "name": "皮皮雞",
+    "aliases": []
+  },
+  "chillet-ignis": {
+    "name": "桃旋鼬",
+    "aliases": []
+  },
+  "chillet": {
+    "name": "疾旋鼬",
+    "aliases": []
+  },
+  "cinnamoth": {
+    "name": "幻悅蝶",
+    "aliases": []
+  },
+  "clovee": {
+    "name": "幸葉茸",
+    "aliases": []
+  },
+  "cremis": {
+    "name": "米露菲",
+    "aliases": []
+  },
+  "croajiro-noct": {
+    "name": "極道蛙",
+    "aliases": []
+  },
+  "croajiro": {
+    "name": "武道蛙",
+    "aliases": []
+  },
+  "cryolinx-terra": {
+    "name": "金棘獸",
+    "aliases": []
+  },
+  "cryolinx": {
+    "name": "冰棘獸",
+    "aliases": []
+  },
+  "daedream": {
+    "name": "寐魔",
+    "aliases": []
+  },
+  "dandilord": {
+    "name": "夜蔓爵",
+    "aliases": []
+  },
+  "dazemu": {
+    "name": "戰冠雀",
+    "aliases": []
+  },
+  "dazzi-noct": {
+    "name": "天陰童子",
+    "aliases": []
+  },
+  "dazzi": {
+    "name": "雷鳴童子",
+    "aliases": []
+  },
+  "depresso": {
+    "name": "瞅什魔",
+    "aliases": []
+  },
+  "digtoise": {
+    "name": "碎岩龜",
+    "aliases": []
+  },
+  "dinossom-lux": {
+    "name": "雷冠龍",
+    "aliases": []
+  },
+  "dinossom": {
+    "name": "花冠龍",
+    "aliases": []
+  },
+  "direhowl": {
+    "name": "獵狼",
+    "aliases": []
+  },
+  "dogen": {
+    "name": "汪宗師",
+    "aliases": []
+  },
+  "dualith-noct": {
+    "name": "咒心岩傀",
+    "aliases": []
+  },
+  "dualith": {
+    "name": "雙心岩傀",
+    "aliases": []
+  },
+  "dumud-gild": {
+    "name": "趴趴鯰",
+    "aliases": []
+  },
+  "dumud": {
+    "name": "趴趴鯰",
+    "aliases": []
+  },
+  "dupin": {
+    "name": "拉比耶爾",
+    "aliases": []
+  },
+  "dynamoff": {
+    "name": "雷雲鷲",
+    "aliases": []
+  },
+  "eidrolon-ignis": {
+    "name": "獄熙龍",
+    "aliases": []
+  },
+  "eidrolon": {
+    "name": "靈曦龍",
+    "aliases": []
+  },
+  "eikthyrdeer-terra": {
+    "name": "祇岳鹿",
+    "aliases": []
+  },
+  "eikthyrdeer": {
+    "name": "紫霞鹿",
+    "aliases": []
+  },
+  "elgrove-cryst": {
+    "name": "冰峰陶洛斯",
+    "aliases": []
+  },
+  "elgrove": {
+    "name": "密林陶洛斯",
+    "aliases": []
+  },
+  "elizabee": {
+    "name": "女皇蜂",
+    "aliases": []
+  },
+  "elphidran-aqua": {
+    "name": "水靈龍",
+    "aliases": []
+  },
+  "elphidran": {
+    "name": "精靈龍",
+    "aliases": []
+  },
+  "faleris-aqua": {
+    "name": "伊西斯",
+    "aliases": []
+  },
+  "faleris": {
+    "name": "荷魯斯",
+    "aliases": []
+  },
+  "felbat": {
+    "name": "夜幕魔蝠",
+    "aliases": []
+  },
+  "fenglope-lux": {
+    "name": "雷隱鹿",
+    "aliases": []
+  },
+  "fenglope": {
+    "name": "雲海鹿",
+    "aliases": []
+  },
+  "finsider-ignis": {
+    "name": "粉粉布偶鯊",
+    "aliases": []
+  },
+  "finsider": {
+    "name": "布偶鯊",
+    "aliases": []
+  },
+  "flambelle": {
+    "name": "融焰娘",
+    "aliases": []
+  },
+  "flaracle": {
+    "name": "昭炎狐",
+    "aliases": []
+  },
+  "flopie": {
+    "name": "波娜兔",
+    "aliases": []
+  },
+  "foxcicle": {
+    "name": "吹雪狐",
+    "aliases": []
+  },
+  "foxparks-cryst": {
+    "name": "雪絨狐",
+    "aliases": []
+  },
+  "foxparks": {
+    "name": "火絨狐",
+    "aliases": []
+  },
+  "frostallion-noct": {
+    "name": "喚夜獸",
+    "aliases": []
+  },
+  "frostallion": {
+    "name": "喚冬獸",
+    "aliases": []
+  },
+  "frostplume": {
+    "name": "白真雪雀",
+    "aliases": []
+  },
+  "fuack-ignis": {
+    "name": "熱浪鴨",
+    "aliases": []
+  },
+  "fuack": {
+    "name": "衝浪鴨",
+    "aliases": []
+  },
+  "fuddler": {
+    "name": "遁地鼠",
+    "aliases": []
+  },
+  "galeclaw": {
+    "name": "天擒鳥",
+    "aliases": []
+  },
+  "ghangler-ignis": {
+    "name": "炙燈魚",
+    "aliases": []
+  },
+  "ghangler": {
+    "name": "冥燈魚",
+    "aliases": []
+  },
+  "gildane": {
+    "name": "金馳獸",
+    "aliases": []
+  },
+  "gildra": {
+    "name": "縛乃伊",
+    "aliases": []
+  },
+  "gloopie-primo": {
+    "name": "夢沫姬",
+    "aliases": []
+  },
+  "gloopie": {
+    "name": "墨沫姬",
+    "aliases": []
+  },
+  "gobfin-ignis": {
+    "name": "紅小鯊",
+    "aliases": []
+  },
+  "gobfin": {
+    "name": "鯊小子",
+    "aliases": []
+  },
+  "gorirat-terra": {
+    "name": "石掌猿",
+    "aliases": []
+  },
+  "gorirat": {
+    "name": "鐵拳猿",
+    "aliases": []
+  },
+  "grintale": {
+    "name": "笑靨貓",
+    "aliases": []
+  },
+  "grizzbolt": {
+    "name": "暴電熊",
+    "aliases": []
+  },
+  "gumoss": {
+    "name": "葉泥泥",
+    "aliases": []
+  },
+  "hangyu-cryst": {
+    "name": "冰縛靈",
+    "aliases": []
+  },
+  "hangyu": {
+    "name": "吊縛靈",
+    "aliases": []
+  },
+  "hartalis": {
+    "name": "默世鹿",
+    "aliases": []
+  },
+  "helzephyr-lux": {
+    "name": "雷鳴鳥",
+    "aliases": []
+  },
+  "helzephyr": {
+    "name": "雷冥鳥",
+    "aliases": []
+  },
+  "herbil": {
+    "name": "達鼠泥",
+    "aliases": []
+  },
+  "hoocrates": {
+    "name": "啼卡爾",
+    "aliases": []
+  },
+  "hoodle": {
+    "name": "兜兜靈",
+    "aliases": []
+  },
+  "icelyn": {
+    "name": "冰姬靈",
+    "aliases": []
+  },
+  "incineram-noct": {
+    "name": "闇魔羊",
+    "aliases": []
+  },
+  "incineram": {
+    "name": "炎魔羊",
+    "aliases": []
+  },
+  "jelliette": {
+    "name": "海月仙",
+    "aliases": []
+  },
+  "jellroy": {
+    "name": "海月靈",
+    "aliases": []
+  },
+  "jetragon": {
+    "name": "空渦龍",
+    "aliases": [
+      "捷龙"
+    ]
+  },
+  "jolthog-cryst": {
+    "name": "冰刺鼠",
+    "aliases": []
+  },
+  "jolthog": {
+    "name": "電棘鼠",
+    "aliases": []
+  },
+  "jormuntide-ignis": {
+    "name": "騰炎龍",
+    "aliases": []
+  },
+  "jormuntide": {
+    "name": "覆海龍",
+    "aliases": []
+  },
+  "katress-ignis": {
+    "name": "熾巫貓",
+    "aliases": []
+  },
+  "katress": {
+    "name": "闇巫貓",
+    "aliases": []
+  },
+  "kelpsea-ignis": {
+    "name": "火靈兒",
+    "aliases": []
+  },
+  "kelpsea": {
+    "name": "水靈兒",
+    "aliases": []
+  },
+  "kikit": {
+    "name": "球犰",
+    "aliases": []
+  },
+  "killamari-primo": {
+    "name": "蝕魂魷",
+    "aliases": []
+  },
+  "killamari": {
+    "name": "勾魂魷",
+    "aliases": []
+  },
+  "kingpaca-cryst": {
+    "name": "冰帝美露帕",
+    "aliases": []
+  },
+  "kingpaca": {
+    "name": "君王美露帕",
+    "aliases": []
+  },
+  "kitsun-noct": {
+    "name": "幽焰狼",
+    "aliases": []
+  },
+  "kitsun": {
+    "name": "蒼焰狼",
+    "aliases": []
+  },
+  "knocklem-ignis": {
+    "name": "丹烽",
+    "aliases": []
+  },
+  "knocklem": {
+    "name": "泰鋒",
+    "aliases": []
+  },
+  "lamball": {
+    "name": "棉悠悠",
+    "aliases": []
+  },
+  "lapiron": {
+    "name": "詹兔曼",
+    "aliases": []
+  },
+  "lapure": {
+    "name": "兔繡袖",
+    "aliases": []
+  },
+  "leafan": {
+    "name": "莉芳",
+    "aliases": []
+  },
+  "leezpunk-ignis": {
+    "name": "熱血蜥",
+    "aliases": []
+  },
+  "leezpunk": {
+    "name": "朋克蜥",
+    "aliases": []
+  },
+  "lifmunk": {
+    "name": "翠葉鼠",
+    "aliases": []
+  },
+  "loomen": {
+    "name": "妖燄燈",
+    "aliases": []
+  },
+  "loupmoon-cryst": {
+    "name": "霜鐮魔",
+    "aliases": []
+  },
+  "loupmoon": {
+    "name": "月鐮魔",
+    "aliases": []
+  },
+  "lovander": {
+    "name": "博愛蜥",
+    "aliases": []
+  },
+  "lullu": {
+    "name": "春彩娘",
+    "aliases": []
+  },
+  "lunaris": {
+    "name": "秘斯媞雅",
+    "aliases": []
+  },
+  "lyleen-noct": {
+    "name": "黑月女王",
+    "aliases": []
+  },
+  "lyleen": {
+    "name": "百合女王",
+    "aliases": []
+  },
+  "majex": {
+    "name": "紫狐嬌",
+    "aliases": []
+  },
+  "mammorest-cryst": {
+    "name": "雪猛獁",
+    "aliases": []
+  },
+  "mammorest": {
+    "name": "森猛獁",
+    "aliases": []
+  },
+  "maraith": {
+    "name": "噬魂獸",
+    "aliases": []
+  },
+  "mau-cryst": {
+    "name": "冰絲特",
+    "aliases": []
+  },
+  "mau": {
+    "name": "喵絲特",
+    "aliases": []
+  },
+  "melpaca": {
+    "name": "美露帕",
+    "aliases": []
+  },
+  "menasting-terra": {
+    "name": "金鎧蠍",
+    "aliases": []
+  },
+  "menasting": {
+    "name": "冥鎧蠍",
+    "aliases": []
+  },
+  "mimog": {
+    "name": "旺財",
+    "aliases": []
+  },
+  "moldron-cryst": {
+    "name": "川霜龍",
+    "aliases": []
+  },
+  "moldron": {
+    "name": "流焰龍",
+    "aliases": []
+  },
+  "mossanda-lux": {
+    "name": "雷胖達",
+    "aliases": []
+  },
+  "mossanda": {
+    "name": "葉胖達",
+    "aliases": []
+  },
+  "mozzarina": {
+    "name": "波霸牛",
+    "aliases": []
+  },
+  "muffly": {
+    "name": "雪綿啾",
+    "aliases": []
+  },
+  "munchill": {
+    "name": "肚肚鱷",
+    "aliases": []
+  },
+  "mycora": {
+    "name": "紅菇娘",
+    "aliases": []
+  },
+  "necromus": {
+    "name": "混沌騎士",
+    "aliases": []
+  },
+  "needoll-noct": {
+    "name": "妖抱苞",
+    "aliases": []
+  },
+  "needoll": {
+    "name": "球抱苞",
+    "aliases": []
+  },
+  "neptilius": {
+    "name": "海皇鯨",
+    "aliases": []
+  },
+  "nitemary-botan": {
+    "name": "碧艾莉",
+    "aliases": []
+  },
+  "nitemary": {
+    "name": "魅愛莉",
+    "aliases": []
+  },
+  "nitewing": {
+    "name": "疾風隼",
+    "aliases": []
+  },
+  "nox": {
+    "name": "露娜蒂",
+    "aliases": []
+  },
+  "nyafia": {
+    "name": "妮瞅莎",
+    "aliases": []
+  },
+  "omascul": {
+    "name": "面懼",
+    "aliases": []
+  },
+  "ophydia": {
+    "name": "沁蓮龍",
+    "aliases": []
+  },
+  "orserk": {
+    "name": "波魯傑克斯",
+    "aliases": []
+  },
+  "paladius": {
+    "name": "聖光騎士",
+    "aliases": []
+  },
+  "palumba": {
+    "name": "咕咕桑葩",
+    "aliases": []
+  },
+  "panthalus": {
+    "name": "奧滄鯨",
+    "aliases": []
+  },
+  "pengullet-lux": {
+    "name": "閃丸丸",
+    "aliases": []
+  },
+  "pengullet": {
+    "name": "企丸丸",
+    "aliases": []
+  },
+  "penking-lux": {
+    "name": "閃丸王",
+    "aliases": []
+  },
+  "penking": {
+    "name": "企丸王",
+    "aliases": []
+  },
+  "petallia-ignis": {
+    "name": "櫻麗娜",
+    "aliases": []
+  },
+  "petallia": {
+    "name": "花麗娜",
+    "aliases": []
+  },
+  "pierdon-cryst": {
+    "name": "寒峰獸",
+    "aliases": []
+  },
+  "pierdon": {
+    "name": "磐峰獸",
+    "aliases": []
+  },
+  "polapup-terra": {
+    "name": "巧克力豹冰",
+    "aliases": []
+  },
+  "polapup": {
+    "name": "香草豹冰",
+    "aliases": []
+  },
+  "prixter-lux": {
+    "name": "電針妖",
+    "aliases": []
+  },
+  "prixter": {
+    "name": "蠱刺妖",
+    "aliases": []
+  },
+  "prunelia": {
+    "name": "梅莉姆",
+    "aliases": []
+  },
+  "puffolt": {
+    "name": "電汪汪",
+    "aliases": []
+  },
+  "pupperai": {
+    "name": "宗銘丸",
+    "aliases": []
+  },
+  "pyrin-noct": {
+    "name": "邪麒麟",
+    "aliases": []
+  },
+  "pyrin": {
+    "name": "火麒麟",
+    "aliases": []
+  },
+  "quivern-botan": {
+    "name": "翠羽龍",
+    "aliases": []
+  },
+  "quivern": {
+    "name": "天羽龍",
+    "aliases": []
+  },
+  "ragnahawk": {
+    "name": "燧火鳥",
+    "aliases": []
+  },
+  "rayhound-cryst": {
+    "name": "凜光犬",
+    "aliases": []
+  },
+  "rayhound": {
+    "name": "霹靂犬",
+    "aliases": []
+  },
+  "reindrix": {
+    "name": "嚴冬鹿",
+    "aliases": []
+  },
+  "relaxaurus-lux": {
+    "name": "派克龍",
+    "aliases": []
+  },
+  "relaxaurus": {
+    "name": "佩克龍",
+    "aliases": []
+  },
+  "renjishi": {
+    "name": "燎火舞伶",
+    "aliases": []
+  },
+  "reptyro-cryst": {
+    "name": "寒霜獸",
+    "aliases": []
+  },
+  "reptyro": {
+    "name": "熔岩獸",
+    "aliases": []
+  },
+  "ribbuny-botan": {
+    "name": "艾小兔",
+    "aliases": []
+  },
+  "ribbuny": {
+    "name": "姬小兔",
+    "aliases": []
+  },
+  "robinquill-terra": {
+    "name": "山岳射手",
+    "aliases": []
+  },
+  "robinquill": {
+    "name": "羽箭射手",
+    "aliases": []
+  },
+  "rooby": {
+    "name": "燎火鹿",
+    "aliases": []
+  },
+  "roujay": {
+    "name": "盜影鴉",
+    "aliases": []
+  },
+  "rushoar": {
+    "name": "草莽豬",
+    "aliases": []
+  },
+  "sekhmet": {
+    "name": "塞赫麥特",
+    "aliases": []
+  },
+  "selyne": {
+    "name": "輝月伊",
+    "aliases": []
+  },
+  "shadowbeak": {
+    "name": "異構格里芬",
+    "aliases": []
+  },
+  "shaolong": {
+    "name": "霄龍",
+    "aliases": []
+  },
+  "shroomer-noct": {
+    "name": "菇波",
+    "aliases": []
+  },
+  "shroomer": {
+    "name": "菇咚",
+    "aliases": []
+  },
+  "sibelyx-primo": {
+    "name": "絹笠蛾",
+    "aliases": []
+  },
+  "sibelyx": {
+    "name": "綢笠蛾",
+    "aliases": []
+  },
+  "silvance": {
+    "name": "暮塵蛾",
+    "aliases": []
+  },
+  "silvegis": {
+    "name": "艾基魯迦",
+    "aliases": []
+  },
+  "skutlass-ignis": {
+    "name": "煉刃魚",
+    "aliases": []
+  },
+  "skutlass": {
+    "name": "鞘刀魚",
+    "aliases": []
+  },
+  "slowatt": {
+    "name": "電懶懶",
+    "aliases": []
+  },
+  "smokie-cryst": {
+    "name": "冬丸",
+    "aliases": []
+  },
+  "smokie": {
+    "name": "墨丸",
+    "aliases": []
+  },
+  "snock-lux": {
+    "name": "金渦蝸",
+    "aliases": []
+  },
+  "snock": {
+    "name": "電渦蝸",
+    "aliases": []
+  },
+  "snugloo": {
+    "name": "雪墩墩",
+    "aliases": []
+  },
+  "solenne": {
+    "name": "墨羅娜",
+    "aliases": []
+  },
+  "solmora-lux": {
+    "name": "曼波皇",
+    "aliases": []
+  },
+  "solmora": {
+    "name": "曼波王",
+    "aliases": []
+  },
+  "sootseer": {
+    "name": "恐炬靈",
+    "aliases": []
+  },
+  "souffline": {
+    "name": "蒲蒲飛芽",
+    "aliases": []
+  },
+  "sparkit": {
+    "name": "伏特喵",
+    "aliases": []
+  },
+  "splatterina": {
+    "name": "幽戀娜",
+    "aliases": []
+  },
+  "starryon-primo": {
+    "name": "日耀駒",
+    "aliases": []
+  },
+  "starryon": {
+    "name": "夜冥駒",
+    "aliases": []
+  },
+  "surfent-terra": {
+    "name": "流沙蛇",
+    "aliases": []
+  },
+  "surfent": {
+    "name": "滑水蛇",
+    "aliases": []
+  },
+  "suzaku-aqua": {
+    "name": "清雀",
+    "aliases": []
+  },
+  "suzaku": {
+    "name": "朱雀",
+    "aliases": []
+  },
+  "swee": {
+    "name": "毛撣兒",
+    "aliases": []
+  },
+  "sweepa": {
+    "name": "毛老爹",
+    "aliases": []
+  },
+  "tanzee-ignis": {
+    "name": "秋葉猿",
+    "aliases": []
+  },
+  "tanzee": {
+    "name": "新葉猿",
+    "aliases": []
+  },
+  "tarantriss": {
+    "name": "桃蛛娘",
+    "aliases": []
+  },
+  "teafant": {
+    "name": "壺小象",
+    "aliases": []
+  },
+  "tetroise-primo": {
+    "name": "淨岩龜",
+    "aliases": []
+  },
+  "tetroise": {
+    "name": "重岩龜",
+    "aliases": []
+  },
+  "tocotoco": {
+    "name": "炸蛋鳥",
+    "aliases": []
+  },
+  "tombat": {
+    "name": "貓蝠怪",
+    "aliases": []
+  },
+  "tropicaw": {
+    "name": "大紅呱",
+    "aliases": []
+  },
+  "turtacle-terra": {
+    "name": "金盔仔",
+    "aliases": []
+  },
+  "turtacle": {
+    "name": "盔盔仔",
+    "aliases": []
+  },
+  "univolt-cryst": {
+    "name": "凌角馬",
+    "aliases": []
+  },
+  "univolt": {
+    "name": "雷角馬",
+    "aliases": []
+  },
+  "vaelet": {
+    "name": "薇莉塔",
+    "aliases": []
+  },
+  "valentail": {
+    "name": "喵璐璐",
+    "aliases": []
+  },
+  "vanwyrm-cryst": {
+    "name": "霜歌龍",
+    "aliases": []
+  },
+  "vanwyrm": {
+    "name": "烽歌龍",
+    "aliases": []
+  },
+  "venusa": {
+    "name": "梅杜娜",
+    "aliases": []
+  },
+  "verdash": {
+    "name": "踏春兔",
+    "aliases": []
+  },
+  "vixy": {
+    "name": "玉藻狐",
+    "aliases": []
+  },
+  "warsect-terra": {
+    "name": "格魯力斯",
+    "aliases": []
+  },
+  "warsect": {
+    "name": "鎧格力斯",
+    "aliases": []
+  },
+  "whalaska-ignis": {
+    "name": "桃晶鯨",
+    "aliases": []
+  },
+  "whalaska": {
+    "name": "涼晶鯨",
+    "aliases": []
+  },
+  "wispaw": {
+    "name": "念影喵",
+    "aliases": []
+  },
+  "wistella": {
+    "name": "綴夜星",
+    "aliases": []
+  },
+  "wixen-noct": {
+    "name": "幽巫狐",
+    "aliases": []
+  },
+  "wixen": {
+    "name": "焰巫狐",
+    "aliases": []
+  },
+  "woolipop-terra": {
+    "name": "可可棉花糖",
+    "aliases": []
+  },
+  "woolipop": {
+    "name": "棉花糖",
+    "aliases": []
+  },
+  "wumpo-botan": {
+    "name": "綠苔絨怪",
+    "aliases": []
+  },
+  "wumpo": {
+    "name": "白絨雪怪",
+    "aliases": []
+  },
+  "xenogard": {
+    "name": "傑諾路達",
+    "aliases": []
+  },
+  "xenolord": {
+    "name": "傑諾多蘭",
+    "aliases": []
+  },
+  "xenovader": {
+    "name": "傑諾貝達",
+    "aliases": []
+  },
+  "yakumo": {
+    "name": "八雲犬",
+    "aliases": []
+  }
+}

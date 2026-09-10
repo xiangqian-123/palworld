@@ -1,0 +1,5896 @@
+{
+  "blueprint-sfbow-2": {
+    "name": "高阶弓图纸1",
+    "aliases": []
+  },
+  "blueprint-sfbow-3": {
+    "name": "高阶弓图纸2",
+    "aliases": []
+  },
+  "blueprint-sfbow-4": {
+    "name": "高阶弓图纸3",
+    "aliases": []
+  },
+  "blueprint-sfbow-5": {
+    "name": "高阶弓图纸4",
+    "aliases": []
+  },
+  "blueprint-fishingrod-03-2": {
+    "name": "进阶钓竿（迪压索）图纸",
+    "aliases": []
+  },
+  "blueprint-accessory-superjumpair-2": {
+    "name": "空中行走EX图纸",
+    "aliases": []
+  },
+  "blueprint-accessory-jumpair-1": {
+    "name": "空中行走Mk I图纸",
+    "aliases": []
+  },
+  "blueprint-accessory-jumpair-2": {
+    "name": "空中行走Mk II图纸",
+    "aliases": []
+  },
+  "blueprint-accessory-superjumpair-1": {
+    "name": "空中行走Mk III图纸",
+    "aliases": []
+  },
+  "blueprint-ancientarmor-2": {
+    "name": "古代铠甲图纸1",
+    "aliases": []
+  },
+  "blueprint-ancientarmor-3": {
+    "name": "古代铠甲图纸2",
+    "aliases": []
+  },
+  "blueprint-ancientarmor-4": {
+    "name": "古代铠甲图纸3",
+    "aliases": []
+  },
+  "blueprint-ancientarmor-5": {
+    "name": "古代铠甲图纸4",
+    "aliases": []
+  },
+  "blueprint-ancienthelmet-2": {
+    "name": "古代头盔图纸1",
+    "aliases": []
+  },
+  "blueprint-ancienthelmet-3": {
+    "name": "古代头盔图纸2",
+    "aliases": []
+  },
+  "blueprint-ancienthelmet-4": {
+    "name": "古代头盔图纸3",
+    "aliases": []
+  },
+  "blueprint-ancienthelmet-5": {
+    "name": "古代头盔图纸4",
+    "aliases": []
+  },
+  "blueprint-otomo-dfearth-elementboost-1": {
+    "name": "阿努比斯的护符图纸",
+    "aliases": []
+  },
+  "blueprint-assaultrifle-default2": {
+    "name": "突击步枪图纸1",
+    "aliases": []
+  },
+  "blueprint-assaultrifle-default3": {
+    "name": "突击步枪图纸2",
+    "aliases": []
+  },
+  "blueprint-assaultrifle-default4": {
+    "name": "突击步枪图纸3",
+    "aliases": []
+  },
+  "blueprint-assaultrifle-default5": {
+    "name": "突击步枪图纸4",
+    "aliases": []
+  },
+  "blueprint-accessory-at-1-2": {
+    "name": "攻击吊坠图纸",
+    "aliases": []
+  },
+  "blueprint-otomo-attack-up1-2": {
+    "name": "攻击支援哨图纸",
+    "aliases": []
+  },
+  "blueprint-beamlauncher-2": {
+    "name": "光束发射器图纸1",
+    "aliases": []
+  },
+  "blueprint-beamlauncher-3": {
+    "name": "光束发射器图纸2",
+    "aliases": []
+  },
+  "blueprint-beamlauncher-4": {
+    "name": "光束发射器图纸3",
+    "aliases": []
+  },
+  "blueprint-beamlauncher-5": {
+    "name": "光束发射器图纸4",
+    "aliases": []
+  },
+  "blueprint-widepenetrateshotgun-2": {
+    "name": "光束散射器图纸1",
+    "aliases": []
+  },
+  "blueprint-widepenetrateshotgun-3": {
+    "name": "光束散射器图纸2",
+    "aliases": []
+  },
+  "blueprint-widepenetrateshotgun-4": {
+    "name": "光束散射器图纸3",
+    "aliases": []
+  },
+  "blueprint-widepenetrateshotgun-5": {
+    "name": "光束散射器图纸4",
+    "aliases": []
+  },
+  "blueprint-beamsword-2": {
+    "name": "光束剑图纸1",
+    "aliases": []
+  },
+  "blueprint-beamsword-3": {
+    "name": "光束剑图纸2",
+    "aliases": []
+  },
+  "blueprint-beamsword-4": {
+    "name": "光束剑图纸3",
+    "aliases": []
+  },
+  "blueprint-beamsword-5": {
+    "name": "光束剑图纸4",
+    "aliases": []
+  },
+  "blueprint-fishingrod-01-2": {
+    "name": "初级钓竿（古莫斯）图纸",
+    "aliases": []
+  },
+  "palsummon-nightlady-dark-parts-2": {
+    "name": "贝拉诺瓦·解放者（终极）召唤板碎片",
+    "aliases": []
+  },
+  "palsummon-nightlady-dark-parts": {
+    "name": "贝拉诺瓦·解放者召唤板碎片",
+    "aliases": []
+  },
+  "palsummon-nightlady-parts": {
+    "name": "贝拉诺瓦召唤板碎片",
+    "aliases": []
+  },
+  "palsummon-kingbahamut-dragon-parts-2": {
+    "name": "布莱萨默特·琉（终极）召唤板碎片",
+    "aliases": []
+  },
+  "palsummon-kingbahamut-dragon-parts": {
+    "name": "布莱萨默特·琉召唤板碎片",
+    "aliases": []
+  },
+  "blueprint-otomo-dffire-elementboost-1": {
+    "name": "布莱萨默特的护符图纸",
+    "aliases": []
+  },
+  "blueprint-accessory-otomo-fire-1": {
+    "name": "炽焰兽之戒图纸",
+    "aliases": []
+  },
+  "blueprint-head012-1": {
+    "name": "圆顶礼帽图纸1",
+    "aliases": []
+  },
+  "blueprint-otomo-atnormal-elementboost-1": {
+    "name": "天帝之杖图纸",
+    "aliases": []
+  },
+  "blueprint-palsummon-yakushimaboss002": {
+    "name": "天界印记图纸",
+    "aliases": []
+  },
+  "blueprint-firestand": {
+    "name": "仪式烛台图纸",
+    "aliases": []
+  },
+  "blueprint-chargelaserrifle-2": {
+    "name": "蓄能步枪图纸1",
+    "aliases": []
+  },
+  "blueprint-chargelaserrifle-3": {
+    "name": "蓄能步枪图纸2",
+    "aliases": []
+  },
+  "blueprint-chargelaserrifle-4": {
+    "name": "蓄能步枪图纸3",
+    "aliases": []
+  },
+  "blueprint-chargelaserrifle-5": {
+    "name": "蓄能步枪图纸4",
+    "aliases": []
+  },
+  "blueprint-clotharmor-2": {
+    "name": "布衣图纸1",
+    "aliases": []
+  },
+  "blueprint-clotharmor-3": {
+    "name": "布衣图纸2",
+    "aliases": []
+  },
+  "blueprint-clotharmor-4": {
+    "name": "布衣图纸3",
+    "aliases": []
+  },
+  "blueprint-clotharmor-5": {
+    "name": "布衣图纸4",
+    "aliases": []
+  },
+  "blueprint-sfarmorcold-2": {
+    "name": "耐寒六棱石铠甲图纸1",
+    "aliases": []
+  },
+  "blueprint-sfarmorcold-3": {
+    "name": "耐寒六棱石铠甲图纸2",
+    "aliases": []
+  },
+  "blueprint-sfarmorcold-4": {
+    "name": "耐寒六棱石铠甲图纸3",
+    "aliases": []
+  },
+  "blueprint-sfarmorcold-5": {
+    "name": "耐寒六棱石铠甲图纸4",
+    "aliases": []
+  },
+  "blueprint-copperarmorcold-2": {
+    "name": "耐寒金属铠甲图纸1",
+    "aliases": []
+  },
+  "blueprint-copperarmorcold-3": {
+    "name": "耐寒金属铠甲图纸2",
+    "aliases": []
+  },
+  "blueprint-copperarmorcold-4": {
+    "name": "耐寒金属铠甲图纸3",
+    "aliases": []
+  },
+  "blueprint-copperarmorcold-5": {
+    "name": "耐寒金属铠甲图纸4",
+    "aliases": []
+  },
+  "blueprint-stealarmorcold-2": {
+    "name": "耐寒帕鲁金属铠甲图纸1",
+    "aliases": []
+  },
+  "blueprint-stealarmorcold-3": {
+    "name": "耐寒帕鲁金属铠甲图纸2",
+    "aliases": []
+  },
+  "blueprint-stealarmorcold-4": {
+    "name": "耐寒帕鲁金属铠甲图纸3",
+    "aliases": []
+  },
+  "blueprint-stealarmorcold-5": {
+    "name": "耐寒帕鲁金属铠甲图纸4",
+    "aliases": []
+  },
+  "blueprint-furarmorcold-2": {
+    "name": "耐寒毛皮铠甲图纸1",
+    "aliases": []
+  },
+  "blueprint-furarmorcold-3": {
+    "name": "耐寒毛皮铠甲图纸2",
+    "aliases": []
+  },
+  "blueprint-furarmorcold-4": {
+    "name": "耐寒毛皮铠甲图纸3",
+    "aliases": []
+  },
+  "blueprint-furarmorcold-5": {
+    "name": "耐寒毛皮铠甲图纸4",
+    "aliases": []
+  },
+  "blueprint-plasticarmorcold-2": {
+    "name": "耐寒塑料钢铠甲图纸1",
+    "aliases": []
+  },
+  "blueprint-plasticarmorcold-3": {
+    "name": "耐寒塑料钢铠甲图纸2",
+    "aliases": []
+  },
+  "blueprint-plasticarmorcold-4": {
+    "name": "耐寒塑料钢铠甲图纸3",
+    "aliases": []
+  },
+  "blueprint-plasticarmorcold-5": {
+    "name": "耐寒塑料钢铠甲图纸4",
+    "aliases": []
+  },
+  "blueprint-ironarmorcold-2": {
+    "name": "耐寒精炼金属铠甲图纸1",
+    "aliases": []
+  },
+  "blueprint-ironarmorcold-3": {
+    "name": "耐寒精炼金属铠甲图纸2",
+    "aliases": []
+  },
+  "blueprint-ironarmorcold-4": {
+    "name": "耐寒精炼金属铠甲图纸3",
+    "aliases": []
+  },
+  "blueprint-ironarmorcold-5": {
+    "name": "耐寒精炼金属铠甲图纸4",
+    "aliases": []
+  },
+  "blueprint-ancientarmorcold-2": {
+    "name": "耐寒古代铠甲图纸1",
+    "aliases": []
+  },
+  "blueprint-ancientarmorcold-3": {
+    "name": "耐寒古代铠甲图纸2",
+    "aliases": []
+  },
+  "blueprint-ancientarmorcold-4": {
+    "name": "耐寒古代铠甲图纸3",
+    "aliases": []
+  },
+  "blueprint-ancientarmorcold-5": {
+    "name": "耐寒古代铠甲图纸4",
+    "aliases": []
+  },
+  "blueprint-skysubmachinegun-2": {
+    "name": "战斗冲锋枪图纸1",
+    "aliases": []
+  },
+  "blueprint-skysubmachinegun-3": {
+    "name": "战斗冲锋枪图纸2",
+    "aliases": []
+  },
+  "blueprint-skysubmachinegun-4": {
+    "name": "战斗冲锋枪图纸3",
+    "aliases": []
+  },
+  "blueprint-skysubmachinegun-5": {
+    "name": "战斗冲锋枪图纸4",
+    "aliases": []
+  },
+  "blueprint-compoundbow-2": {
+    "name": "复合弓图纸1",
+    "aliases": []
+  },
+  "blueprint-compoundbow-3": {
+    "name": "复合弓图纸2",
+    "aliases": []
+  },
+  "blueprint-compoundbow-4": {
+    "name": "复合弓图纸3",
+    "aliases": []
+  },
+  "blueprint-compoundbow-5": {
+    "name": "复合弓图纸4",
+    "aliases": []
+  },
+  "blueprint-octaviashotgun-5": {
+    "name": "核心弹射霰弹枪图纸4",
+    "aliases": []
+  },
+  "blueprint-bowgun-2": {
+    "name": "弩图纸1",
+    "aliases": []
+  },
+  "blueprint-bowgun-3": {
+    "name": "弩图纸2",
+    "aliases": []
+  },
+  "blueprint-bowgun-4": {
+    "name": "弩图纸3",
+    "aliases": []
+  },
+  "blueprint-bowgun-5": {
+    "name": "弩图纸4",
+    "aliases": []
+  },
+  "blueprint-accessory-otomo-ice-1": {
+    "name": "冰甲龙之戒图纸",
+    "aliases": []
+  },
+  "blueprint-otomo-elementboost-dark-1-2": {
+    "name": "暗属性支援哨图纸",
+    "aliases": []
+  },
+  "blueprint-headequip032-1": {
+    "name": "达兹帽图纸1",
+    "aliases": []
+  },
+  "blueprint-accessory-defense-1-2": {
+    "name": "防御吊坠图纸",
+    "aliases": []
+  },
+  "blueprint-otomo-defense-up1-2": {
+    "name": "防御支援哨图纸",
+    "aliases": []
+  },
+  "blueprint-otomo-atdragon-elementboost-1": {
+    "name": "神龙之杖图纸",
+    "aliases": []
+  },
+  "blueprint-accessory-ppat-1": {
+    "name": "道根纹章图纸",
+    "aliases": []
+  },
+  "blueprint-doublebarrelshotgun-2": {
+    "name": "双管霰弹枪图纸1",
+    "aliases": []
+  },
+  "blueprint-doublebarrelshotgun-3": {
+    "name": "双管霰弹枪图纸2",
+    "aliases": []
+  },
+  "blueprint-doublebarrelshotgun-4": {
+    "name": "双管霰弹枪图纸3",
+    "aliases": []
+  },
+  "blueprint-doublebarrelshotgun-5": {
+    "name": "双管霰弹枪图纸4",
+    "aliases": []
+  },
+  "blueprint-otomo-elementboost-dragon-1-2": {
+    "name": "龙属性支援哨图纸",
+    "aliases": []
+  },
+  "blueprint-dronelauncher-2": {
+    "name": "无人机发射器图纸1",
+    "aliases": []
+  },
+  "blueprint-dronelauncher-3": {
+    "name": "无人机发射器图纸2",
+    "aliases": []
+  },
+  "blueprint-dronelauncher-4": {
+    "name": "无人机发射器图纸3",
+    "aliases": []
+  },
+  "blueprint-dronelauncher-5": {
+    "name": "无人机发射器图纸4",
+    "aliases": []
+  },
+  "blueprint-otomo-atearth-elementboost-1": {
+    "name": "地帝之杖图纸",
+    "aliases": []
+  },
+  "blueprint-otomo-elementboost-electricity-1-2": {
+    "name": "电属性支援哨图纸",
+    "aliases": []
+  },
+  "blueprint-accessory-otomo-dargon-1": {
+    "name": "幻悦龙之戒图纸",
+    "aliases": []
+  },
+  "blueprint-energyshotgun-2": {
+    "name": "能量霰弹枪图纸1",
+    "aliases": []
+  },
+  "blueprint-energyshotgun-3": {
+    "name": "能量霰弹枪图纸2",
+    "aliases": []
+  },
+  "blueprint-energyshotgun-4": {
+    "name": "能量霰弹枪图纸3",
+    "aliases": []
+  },
+  "blueprint-energyshotgun-5": {
+    "name": "能量霰弹枪图纸4",
+    "aliases": []
+  },
+  "blueprint-yakushimablade004": {
+    "name": "圣剑图纸",
+    "aliases": []
+  },
+  "blueprint-yakushimablade004-2": {
+    "name": "圣剑图纸1",
+    "aliases": []
+  },
+  "blueprint-yakushimablade004-3": {
+    "name": "圣剑图纸2",
+    "aliases": []
+  },
+  "blueprint-yakushimablade004-4": {
+    "name": "圣剑图纸3",
+    "aliases": []
+  },
+  "blueprint-yakushimablade004-5": {
+    "name": "圣剑图纸4",
+    "aliases": []
+  },
+  "blueprint-accessory-otomo-water-1": {
+    "name": "水焰兽水之戒图纸",
+    "aliases": []
+  },
+  "blueprint-accessory-otomo-fire-2": {
+    "name": "炎焰兽之戒图纸",
+    "aliases": []
+  },
+  "blueprint-head011-1": {
+    "name": "农耕帽图纸1",
+    "aliases": []
+  },
+  "blueprint-furhelmet-2": {
+    "name": "羽毛发带图纸1",
+    "aliases": []
+  },
+  "blueprint-furhelmet-3": {
+    "name": "羽毛发带图纸2",
+    "aliases": []
+  },
+  "blueprint-furhelmet-4": {
+    "name": "羽毛发带图纸3",
+    "aliases": []
+  },
+  "blueprint-furhelmet-5": {
+    "name": "羽毛发带图纸4",
+    "aliases": []
+  },
+  "blueprint-accessory-otomo-electricity-1": {
+    "name": "风羊电之戒图纸",
+    "aliases": []
+  },
+  "blueprint-otomo-elementboost-fire-1-2": {
+    "name": "火属性支援哨图纸",
+    "aliases": []
+  },
+  "blueprint-otomo-atfire-elementboost-1": {
+    "name": "炎帝之杖图纸",
+    "aliases": []
+  },
+  "blueprint-flamethrower-2": {
+    "name": "喷火器图纸1",
+    "aliases": []
+  },
+  "blueprint-flamethrower-3": {
+    "name": "喷火器图纸2",
+    "aliases": []
+  },
+  "blueprint-flamethrower-4": {
+    "name": "喷火器图纸3",
+    "aliases": []
+  },
+  "blueprint-flamethrower-5": {
+    "name": "喷火器图纸4",
+    "aliases": []
+  },
+  "blueprint-conservationgroupbannerb": {
+    "name": "自由帕鲁联盟横幅图纸",
+    "aliases": []
+  },
+  "blueprint-conservationgroupbannera": {
+    "name": "自由帕鲁联盟旗帜图纸",
+    "aliases": []
+  },
+  "blueprint-otomo-dfice-elementboost-1": {
+    "name": "冰丝特之护符图纸",
+    "aliases": []
+  },
+  "blueprint-gatlinggun-2": {
+    "name": "加特林机枪图纸1",
+    "aliases": []
+  },
+  "blueprint-gatlinggun-3": {
+    "name": "加特林机枪图纸2",
+    "aliases": []
+  },
+  "blueprint-gatlinggun-4": {
+    "name": "加特林机枪图纸3",
+    "aliases": []
+  },
+  "blueprint-gatlinggun-5": {
+    "name": "加特林机枪图纸4",
+    "aliases": []
+  },
+  "blueprint-head002-1": {
+    "name": "黄金王冠图纸1",
+    "aliases": []
+  },
+  "blueprint-head010-1": {
+    "name": "毕业帽图纸1",
+    "aliases": []
+  },
+  "blueprint-otomo-elementboost-leaf-1-2": {
+    "name": "草属性支援哨图纸",
+    "aliases": []
+  },
+  "blueprint-grenadelauncher-2": {
+    "name": "榴弹发射器图纸1",
+    "aliases": []
+  },
+  "blueprint-grenadelauncher-3": {
+    "name": "榴弹发射器图纸2",
+    "aliases": []
+  },
+  "blueprint-grenadelauncher-4": {
+    "name": "榴弹发射器图纸3",
+    "aliases": []
+  },
+  "blueprint-grenadelauncher-5": {
+    "name": "榴弹发射器图纸4",
+    "aliases": []
+  },
+  "blueprint-head014-1": {
+    "name": "咧嘴咕噜帽图纸1",
+    "aliases": []
+  },
+  "blueprint-otomo-elementboost-earth-1-2": {
+    "name": "地属性支援哨图纸",
+    "aliases": []
+  },
+  "blueprint-otomo-palexp-increase-1-2": {
+    "name": "成长加速铃图纸",
+    "aliases": []
+  },
+  "blueprint-guidedmissilelauncher-2": {
+    "name": "制导导弹发射器图纸1",
+    "aliases": []
+  },
+  "blueprint-guidedmissilelauncher-3": {
+    "name": "制导导弹发射器图纸2",
+    "aliases": []
+  },
+  "blueprint-guidedmissilelauncher-4": {
+    "name": "制导导弹发射器图纸3",
+    "aliases": []
+  },
+  "blueprint-guidedmissilelauncher-5": {
+    "name": "制导导弹发射器图纸4",
+    "aliases": []
+  },
+  "blueprint-head015-1": {
+    "name": "古莫斯帽图纸1",
+    "aliases": []
+  },
+  "blueprint-yakushimaheadequip002": {
+    "name": "神圣头饰图纸",
+    "aliases": []
+  },
+  "blueprint-yakushimaheadequip002-2": {
+    "name": "神圣头饰图纸1",
+    "aliases": []
+  },
+  "blueprint-yakushimaheadequip002-3": {
+    "name": "神圣头饰图纸2",
+    "aliases": []
+  },
+  "blueprint-yakushimaheadequip002-4": {
+    "name": "神圣头饰图纸3",
+    "aliases": []
+  },
+  "blueprint-yakushimaheadequip002-5": {
+    "name": "神圣头饰图纸4",
+    "aliases": []
+  },
+  "blueprint-yakushimaheadequip003": {
+    "name": "神圣头盔图纸",
+    "aliases": []
+  },
+  "blueprint-yakushimaheadequip003-2": {
+    "name": "神圣头盔图纸1",
+    "aliases": []
+  },
+  "blueprint-yakushimaheadequip003-3": {
+    "name": "神圣头盔图纸2",
+    "aliases": []
+  },
+  "blueprint-yakushimaheadequip003-4": {
+    "name": "神圣头盔图纸3",
+    "aliases": []
+  },
+  "blueprint-yakushimaheadequip003-5": {
+    "name": "神圣头盔图纸4",
+    "aliases": []
+  },
+  "blueprint-yakushimaheadequip004": {
+    "name": "神圣兜帽图纸",
+    "aliases": []
+  },
+  "blueprint-yakushimaheadequip004-2": {
+    "name": "神圣兜帽图纸1",
+    "aliases": []
+  },
+  "blueprint-yakushimaheadequip004-3": {
+    "name": "神圣兜帽图纸2",
+    "aliases": []
+  },
+  "blueprint-yakushimaheadequip004-4": {
+    "name": "神圣兜帽图纸3",
+    "aliases": []
+  },
+  "blueprint-yakushimaheadequip004-5": {
+    "name": "神圣兜帽图纸4",
+    "aliases": []
+  },
+  "blueprint-yakushimaheadequip001": {
+    "name": "神圣面具图纸",
+    "aliases": []
+  },
+  "blueprint-yakushimaheadequip001-2": {
+    "name": "神圣面具图纸1",
+    "aliases": []
+  },
+  "blueprint-yakushimaheadequip001-3": {
+    "name": "神圣面具图纸2",
+    "aliases": []
+  },
+  "blueprint-yakushimaheadequip001-4": {
+    "name": "神圣面具图纸3",
+    "aliases": []
+  },
+  "blueprint-yakushimaheadequip001-5": {
+    "name": "神圣面具图纸4",
+    "aliases": []
+  },
+  "blueprint-yakushimaarmor001": {
+    "name": "神圣板甲图纸",
+    "aliases": []
+  },
+  "blueprint-yakushimaarmor001-2": {
+    "name": "神圣板甲图纸1",
+    "aliases": []
+  },
+  "blueprint-yakushimaarmor001-3": {
+    "name": "神圣板甲图纸2",
+    "aliases": []
+  },
+  "blueprint-yakushimaarmor001-4": {
+    "name": "神圣板甲图纸3",
+    "aliases": []
+  },
+  "blueprint-yakushimaarmor001-5": {
+    "name": "神圣板甲图纸4",
+    "aliases": []
+  },
+  "blueprint-handgun-default-2": {
+    "name": "手枪图纸1",
+    "aliases": []
+  },
+  "blueprint-handgun-default-3": {
+    "name": "手枪图纸2",
+    "aliases": []
+  },
+  "blueprint-handgun-default-4": {
+    "name": "手枪图纸3",
+    "aliases": []
+  },
+  "blueprint-handgun-default-5": {
+    "name": "手枪图纸4",
+    "aliases": []
+  },
+  "palsummon-legenddeer-parts-2": {
+    "name": "哈塔利斯（终极）召唤板碎片",
+    "aliases": []
+  },
+  "palsummon-legenddeer-parts": {
+    "name": "哈塔利斯召唤板碎片",
+    "aliases": []
+  },
+  "blueprint-otomo-dfnormal-elementboost-1": {
+    "name": "哈塔利斯之护符图纸",
+    "aliases": []
+  },
+  "blueprint-sfarmorheat-2": {
+    "name": "耐热六棱石铠甲图纸1",
+    "aliases": []
+  },
+  "blueprint-sfarmorheat-3": {
+    "name": "耐热六棱石铠甲图纸2",
+    "aliases": []
+  },
+  "blueprint-sfarmorheat-4": {
+    "name": "耐热六棱石铠甲图纸3",
+    "aliases": []
+  },
+  "blueprint-sfarmorheat-5": {
+    "name": "耐热六棱石铠甲图纸4",
+    "aliases": []
+  },
+  "blueprint-copperarmorheat-2": {
+    "name": "耐热金属铠甲图纸1",
+    "aliases": []
+  },
+  "blueprint-copperarmorheat-3": {
+    "name": "耐热金属铠甲图纸2",
+    "aliases": []
+  },
+  "blueprint-copperarmorheat-4": {
+    "name": "耐热金属铠甲图纸3",
+    "aliases": []
+  },
+  "blueprint-copperarmorheat-5": {
+    "name": "耐热金属铠甲图纸4",
+    "aliases": []
+  },
+  "blueprint-stealarmorheat-2": {
+    "name": "耐热帕鲁金属铠甲图纸1",
+    "aliases": []
+  },
+  "blueprint-stealarmorheat-3": {
+    "name": "耐热帕鲁金属铠甲图纸2",
+    "aliases": []
+  },
+  "blueprint-stealarmorheat-4": {
+    "name": "耐热帕鲁金属铠甲图纸3",
+    "aliases": []
+  },
+  "blueprint-stealarmorheat-5": {
+    "name": "耐热帕鲁金属铠甲图纸4",
+    "aliases": []
+  },
+  "blueprint-furarmorheat-2": {
+    "name": "耐热毛皮铠甲图纸1",
+    "aliases": []
+  },
+  "blueprint-furarmorheat-3": {
+    "name": "耐热毛皮铠甲图纸2",
+    "aliases": []
+  },
+  "blueprint-furarmorheat-4": {
+    "name": "耐热毛皮铠甲图纸3",
+    "aliases": []
+  },
+  "blueprint-furarmorheat-5": {
+    "name": "耐热毛皮铠甲图纸4",
+    "aliases": []
+  },
+  "blueprint-plasticarmorheat-2": {
+    "name": "耐热塑料钢铠甲图纸1",
+    "aliases": []
+  },
+  "blueprint-plasticarmorheat-3": {
+    "name": "耐热塑料钢铠甲图纸2",
+    "aliases": []
+  },
+  "blueprint-plasticarmorheat-4": {
+    "name": "耐热塑料钢铠甲图纸3",
+    "aliases": []
+  },
+  "blueprint-plasticarmorheat-5": {
+    "name": "耐热塑料钢铠甲图纸4",
+    "aliases": []
+  },
+  "blueprint-ironarmorheat-2": {
+    "name": "耐热精炼金属铠甲图纸1",
+    "aliases": []
+  },
+  "blueprint-ironarmorheat-3": {
+    "name": "耐热精炼金属铠甲图纸2",
+    "aliases": []
+  },
+  "blueprint-ironarmorheat-4": {
+    "name": "耐热精炼金属铠甲图纸3",
+    "aliases": []
+  },
+  "blueprint-ironarmorheat-5": {
+    "name": "耐热精炼金属铠甲图纸4",
+    "aliases": []
+  },
+  "blueprint-ancientarmorheat-2": {
+    "name": "耐热古代铠甲图纸1",
+    "aliases": []
+  },
+  "blueprint-ancientarmorheat-3": {
+    "name": "耐热古代铠甲图纸2",
+    "aliases": []
+  },
+  "blueprint-ancientarmorheat-4": {
+    "name": "耐热古代铠甲图纸3",
+    "aliases": []
+  },
+  "blueprint-ancientarmorheat-5": {
+    "name": "耐热古代铠甲图纸4",
+    "aliases": []
+  },
+  "blueprint-accessory-heatresist-1-2": {
+    "name": "耐热内衣图纸",
+    "aliases": []
+  },
+  "blueprint-skyassaultrifle-2": {
+    "name": "重型突击步枪图纸1",
+    "aliases": []
+  },
+  "blueprint-skyassaultrifle-3": {
+    "name": "重型突击步枪图纸2",
+    "aliases": []
+  },
+  "blueprint-skyassaultrifle-4": {
+    "name": "重型突击步枪图纸3",
+    "aliases": []
+  },
+  "blueprint-skyassaultrifle-5": {
+    "name": "重型突击步枪图纸4",
+    "aliases": []
+  },
+  "blueprint-head006-1": {
+    "name": "头盔图纸1",
+    "aliases": []
+  },
+  "blueprint-sfarmor-2": {
+    "name": "六棱石铠甲图纸1",
+    "aliases": []
+  },
+  "blueprint-sfarmor-3": {
+    "name": "六棱石铠甲图纸2",
+    "aliases": []
+  },
+  "blueprint-sfarmor-4": {
+    "name": "六棱石铠甲图纸3",
+    "aliases": []
+  },
+  "blueprint-sfarmor-5": {
+    "name": "六棱石铠甲图纸4",
+    "aliases": []
+  },
+  "blueprint-sfhelmet-2": {
+    "name": "六棱石头盔图纸1",
+    "aliases": []
+  },
+  "blueprint-sfhelmet-3": {
+    "name": "六棱石头盔图纸2",
+    "aliases": []
+  },
+  "blueprint-sfhelmet-4": {
+    "name": "六棱石头盔图纸3",
+    "aliases": []
+  },
+  "blueprint-sfhelmet-5": {
+    "name": "六棱石头盔图纸4",
+    "aliases": []
+  },
+  "blueprint-otomo-atice-elementboost-1": {
+    "name": "冰帝之杖图纸",
+    "aliases": []
+  },
+  "blueprint-otomo-elementboost-ice-1-2": {
+    "name": "冰属性支援哨图纸",
+    "aliases": []
+  },
+  "blueprint-fishingrod-02-2": {
+    "name": "中级钓竿（呱蛙君）图纸",
+    "aliases": []
+  },
+  "blueprint-accessory-wkmc-1": {
+    "name": "岛民工具腰带图纸",
+    "aliases": []
+  },
+  "blueprint-otomo-dfdragon-elementboost-1": {
+    "name": "捷豹龙之护符图纸",
+    "aliases": []
+  },
+  "blueprint-katana-2": {
+    "name": "武士刀图纸1",
+    "aliases": []
+  },
+  "blueprint-katana-3": {
+    "name": "武士刀图纸2",
+    "aliases": []
+  },
+  "blueprint-katana-4": {
+    "name": "武士刀图纸3",
+    "aliases": []
+  },
+  "blueprint-katana-5": {
+    "name": "武士刀图纸4",
+    "aliases": []
+  },
+  "blueprint-head017-1": {
+    "name": "卡特里斯帽图纸1",
+    "aliases": []
+  },
+  "blueprint-accessory-otomo-dark-1": {
+    "name": "卡特里斯之戒图纸",
+    "aliases": []
+  },
+  "blueprint-headequip026-1": {
+    "name": "基拉马里帽图纸1",
+    "aliases": []
+  },
+  "blueprint-sf-chair": {
+    "name": "实验室椅子图纸",
+    "aliases": []
+  },
+  "blueprint-sf-desk": {
+    "name": "实验室桌子图纸",
+    "aliases": []
+  },
+  "blueprint-lasergatlinggun-2": {
+    "name": "激光加特林机枪图纸1",
+    "aliases": []
+  },
+  "blueprint-lasergatlinggun-3": {
+    "name": "激光加特林机枪图纸2",
+    "aliases": []
+  },
+  "blueprint-lasergatlinggun-4": {
+    "name": "激光加特林机枪图纸3",
+    "aliases": []
+  },
+  "blueprint-lasergatlinggun-5": {
+    "name": "激光加特林机枪图纸4",
+    "aliases": []
+  },
+  "blueprint-laserrifle-2": {
+    "name": "激光步枪图纸1",
+    "aliases": []
+  },
+  "blueprint-laserrifle-3": {
+    "name": "激光步枪图纸2",
+    "aliases": []
+  },
+  "blueprint-laserrifle-4": {
+    "name": "激光步枪图纸3",
+    "aliases": []
+  },
+  "blueprint-laserrifle-5": {
+    "name": "激光步枪图纸4",
+    "aliases": []
+  },
+  "blueprint-skybeamsword-2": {
+    "name": "激光剑图纸1",
+    "aliases": []
+  },
+  "blueprint-skybeamsword-3": {
+    "name": "激光剑图纸2",
+    "aliases": []
+  },
+  "blueprint-skybeamsword-4": {
+    "name": "激光剑图纸3",
+    "aliases": []
+  },
+  "blueprint-skybeamsword-5": {
+    "name": "激光剑图纸4",
+    "aliases": []
+  },
+  "blueprint-headequip025-1": {
+    "name": "利兹朋克兜帽图纸1",
+    "aliases": []
+  },
+  "blueprint-accessory-hp-1-2": {
+    "name": "生命吊坠图纸",
+    "aliases": []
+  },
+  "blueprint-ancientarmorweight-2": {
+    "name": "轻量古代铠甲图纸1",
+    "aliases": []
+  },
+  "blueprint-ancientarmorweight-3": {
+    "name": "轻量古代铠甲图纸2",
+    "aliases": []
+  },
+  "blueprint-ancientarmorweight-4": {
+    "name": "轻量古代铠甲图纸3",
+    "aliases": []
+  },
+  "blueprint-ancientarmorweight-5": {
+    "name": "轻量古代铠甲图纸4",
+    "aliases": []
+  },
+  "blueprint-sfarmorweight-2": {
+    "name": "轻量六棱石铠甲图纸1",
+    "aliases": []
+  },
+  "blueprint-sfarmorweight-3": {
+    "name": "轻量六棱石铠甲图纸2",
+    "aliases": []
+  },
+  "blueprint-sfarmorweight-4": {
+    "name": "轻量六棱石铠甲图纸3",
+    "aliases": []
+  },
+  "blueprint-sfarmorweight-5": {
+    "name": "轻量六棱石铠甲图纸4",
+    "aliases": []
+  },
+  "blueprint-plasticarmorweight-2": {
+    "name": "轻量塑料钢铠甲图纸1",
+    "aliases": []
+  },
+  "blueprint-plasticarmorweight-3": {
+    "name": "轻量塑料钢铠甲图纸2",
+    "aliases": []
+  },
+  "blueprint-plasticarmorweight-4": {
+    "name": "轻量塑料钢铠甲图纸3",
+    "aliases": []
+  },
+  "blueprint-plasticarmorweight-5": {
+    "name": "轻量塑料钢铠甲图纸4",
+    "aliases": []
+  },
+  "blueprint-spear-forestboss-5": {
+    "name": "莉莉的长矛图纸4",
+    "aliases": []
+  },
+  "blueprint-head003-1": {
+    "name": "长耳头带图纸1",
+    "aliases": []
+  },
+  "blueprint-otomo-atelectricity-elementboost-1": {
+    "name": "雷霆之王权杖图纸",
+    "aliases": []
+  },
+  "blueprint-otomo-atwater-elementboost-1": {
+    "name": "海洋之王权杖图纸",
+    "aliases": []
+  },
+  "blueprint-otomo-atdark-elementboost-1": {
+    "name": "冥界之王权杖图纸",
+    "aliases": []
+  },
+  "blueprint-otomo-dfdark-elementboost-1": {
+    "name": "莉莉娜夜之护符图纸",
+    "aliases": []
+  },
+  "blueprint-lilyqueenstatue": {
+    "name": "莉莉娜雕像图纸",
+    "aliases": []
+  },
+  "blueprint-otomo-dfleaf-elementboost-1": {
+    "name": "莉莉娜之护符图纸",
+    "aliases": []
+  },
+  "blueprint-candlestand": {
+    "name": "华贵烛台图纸",
+    "aliases": []
+  },
+  "blueprint-walltorch02": {
+    "name": "华贵壁炉火炬图纸",
+    "aliases": []
+  },
+  "blueprint-makeshiftassaultrifle-2": {
+    "name": "简易突击步枪图纸1",
+    "aliases": []
+  },
+  "blueprint-makeshiftassaultrifle-3": {
+    "name": "简易突击步枪图纸2",
+    "aliases": []
+  },
+  "blueprint-makeshiftassaultrifle-4": {
+    "name": "简易突击步枪图纸3",
+    "aliases": []
+  },
+  "blueprint-makeshiftassaultrifle-5": {
+    "name": "简易突击步枪图纸4",
+    "aliases": []
+  },
+  "blueprint-makeshifthandgun-2": {
+    "name": "简易手枪图纸1",
+    "aliases": []
+  },
+  "blueprint-makeshifthandgun-3": {
+    "name": "简易手枪图纸2",
+    "aliases": []
+  },
+  "blueprint-makeshifthandgun-4": {
+    "name": "简易手枪图纸3",
+    "aliases": []
+  },
+  "blueprint-makeshifthandgun-5": {
+    "name": "简易手枪图纸4",
+    "aliases": []
+  },
+  "blueprint-makeshiftsubmachinegun-2": {
+    "name": "简易冲锋枪图纸1",
+    "aliases": []
+  },
+  "blueprint-makeshiftsubmachinegun-3": {
+    "name": "简易冲锋枪图纸2",
+    "aliases": []
+  },
+  "blueprint-makeshiftsubmachinegun-4": {
+    "name": "简易冲锋枪图纸3",
+    "aliases": []
+  },
+  "blueprint-makeshiftsubmachinegun-5": {
+    "name": "简易冲锋枪图纸4",
+    "aliases": []
+  },
+  "blueprint-makeshiftshotgun-2": {
+    "name": "简易霰弹枪图纸1",
+    "aliases": []
+  },
+  "blueprint-makeshiftshotgun-3": {
+    "name": "简易霰弹枪图纸2",
+    "aliases": []
+  },
+  "blueprint-makeshiftshotgun-4": {
+    "name": "简易霰弹枪图纸3",
+    "aliases": []
+  },
+  "blueprint-makeshiftshotgun-5": {
+    "name": "简易霰弹枪图纸4",
+    "aliases": []
+  },
+  "blueprint-octaviarevolver-5": {
+    "name": "神射手左轮手枪图纸4",
+    "aliases": []
+  },
+  "blueprint-skybow-2": {
+    "name": "机械弓图纸1",
+    "aliases": []
+  },
+  "blueprint-skybow-3": {
+    "name": "机械弓图纸2",
+    "aliases": []
+  },
+  "blueprint-skybow-4": {
+    "name": "机械弓图纸3",
+    "aliases": []
+  },
+  "blueprint-skybow-5": {
+    "name": "机械弓图纸4",
+    "aliases": []
+  },
+  "blueprint-accessory-otomo-earth-1": {
+    "name": "地刺王之戒图纸",
+    "aliases": []
+  },
+  "blueprint-copperarmor-2": {
+    "name": "金属铠甲图纸1",
+    "aliases": []
+  },
+  "blueprint-copperarmor-3": {
+    "name": "金属铠甲图纸2",
+    "aliases": []
+  },
+  "blueprint-copperarmor-4": {
+    "name": "金属铠甲图纸3",
+    "aliases": []
+  },
+  "blueprint-copperarmor-5": {
+    "name": "金属铠甲图纸4",
+    "aliases": []
+  },
+  "blueprint-bat3-2": {
+    "name": "金属球棒图纸1",
+    "aliases": []
+  },
+  "blueprint-bat3-3": {
+    "name": "金属球棒图纸2",
+    "aliases": []
+  },
+  "blueprint-bat3-4": {
+    "name": "金属球棒图纸3",
+    "aliases": []
+  },
+  "blueprint-bat3-5": {
+    "name": "金属球棒图纸4",
+    "aliases": []
+  },
+  "blueprint-copperhelmet-2": {
+    "name": "金属头盔图纸1",
+    "aliases": []
+  },
+  "blueprint-copperhelmet-3": {
+    "name": "金属头盔图纸2",
+    "aliases": []
+  },
+  "blueprint-copperhelmet-4": {
+    "name": "金属头盔图纸3",
+    "aliases": []
+  },
+  "blueprint-copperhelmet-5": {
+    "name": "金属头盔图纸4",
+    "aliases": []
+  },
+  "blueprint-head001-1": {
+    "name": "君主之冠图纸1",
+    "aliases": []
+  },
+  "blueprint-yakushimaboss002-relic": {
+    "name": "月之王雕像图纸",
+    "aliases": []
+  },
+  "blueprint-multiguidedmissilelauncher": {
+    "name": "多重制导导弹发射器图纸",
+    "aliases": []
+  },
+  "blueprint-multiguidedmissilelauncher-2": {
+    "name": "多重制导导弹发射器图纸1",
+    "aliases": []
+  },
+  "blueprint-multiguidedmissilelauncher-3": {
+    "name": "多重制导导弹发射器图纸2",
+    "aliases": []
+  },
+  "blueprint-multiguidedmissilelauncher-4": {
+    "name": "多重制导导弹发射器图纸3",
+    "aliases": []
+  },
+  "blueprint-multiguidedmissilelauncher-5": {
+    "name": "多重制导导弹发射器图纸4",
+    "aliases": []
+  },
+  "blueprint-accessory-heatcoldresist-1-2": {
+    "name": "多气候内衣图纸",
+    "aliases": []
+  },
+  "blueprint-musket-2": {
+    "name": "火枪图纸1",
+    "aliases": []
+  },
+  "blueprint-musket-3": {
+    "name": "火枪图纸2",
+    "aliases": []
+  },
+  "blueprint-musket-4": {
+    "name": "火枪图纸3",
+    "aliases": []
+  },
+  "blueprint-musket-5": {
+    "name": "火枪图纸4",
+    "aliases": []
+  },
+  "blueprint-otomo-dfwater-elementboost-1": {
+    "name": "尼普图斯之护符图纸",
+    "aliases": []
+  },
+  "blueprint-otomo-elementboost-normal-1-2": {
+    "name": "无属性支援哨图纸",
+    "aliases": []
+  },
+  "blueprint-yakushimalantern001": {
+    "name": "夜光图纸",
+    "aliases": []
+  },
+  "blueprint-yakushimalantern001-2": {
+    "name": "夜光图纸1",
+    "aliases": []
+  },
+  "blueprint-yakushimalantern001-3": {
+    "name": "夜光图纸2",
+    "aliases": []
+  },
+  "blueprint-yakushimalantern001-4": {
+    "name": "夜光图纸3",
+    "aliases": []
+  },
+  "blueprint-yakushimalantern001-5": {
+    "name": "夜光图纸4",
+    "aliases": []
+  },
+  "blueprint-weakerbow-2": {
+    "name": "旧弓图纸1",
+    "aliases": []
+  },
+  "blueprint-weakerbow-3": {
+    "name": "旧弓图纸2",
+    "aliases": []
+  },
+  "blueprint-weakerbow-4": {
+    "name": "旧弓图纸3",
+    "aliases": []
+  },
+  "blueprint-weakerbow-5": {
+    "name": "旧弓图纸4",
+    "aliases": []
+  },
+  "blueprint-oldrevolver-2": {
+    "name": "老旧左轮手枪图纸1",
+    "aliases": []
+  },
+  "blueprint-oldrevolver-3": {
+    "name": "老旧左轮手枪图纸2",
+    "aliases": []
+  },
+  "blueprint-oldrevolver-4": {
+    "name": "老旧左轮手枪图纸3",
+    "aliases": []
+  },
+  "blueprint-oldrevolver-5": {
+    "name": "老旧左轮手枪图纸4",
+    "aliases": []
+  },
+  "blueprint-otomo-dfelectricity-elementboost-1": {
+    "name": "奥瑟克之护符图纸",
+    "aliases": []
+  },
+  "blueprint-overheatrifle-2": {
+    "name": "过热步枪图纸1",
+    "aliases": []
+  },
+  "blueprint-overheatrifle-3": {
+    "name": "过热步枪图纸2",
+    "aliases": []
+  },
+  "blueprint-overheatrifle-4": {
+    "name": "过热步枪图纸3",
+    "aliases": []
+  },
+  "blueprint-overheatrifle-5": {
+    "name": "过热步枪图纸4",
+    "aliases": []
+  },
+  "blueprint-stealarmor-2": {
+    "name": "帕鲁金属铠甲图纸1",
+    "aliases": []
+  },
+  "blueprint-stealarmor-3": {
+    "name": "帕鲁金属铠甲图纸2",
+    "aliases": []
+  },
+  "blueprint-stealarmor-4": {
+    "name": "帕鲁金属铠甲图纸3",
+    "aliases": []
+  },
+  "blueprint-stealarmor-5": {
+    "name": "帕鲁金属铠甲图纸4",
+    "aliases": []
+  },
+  "blueprint-stealhelmet-2": {
+    "name": "帕鲁金属头盔图纸1",
+    "aliases": []
+  },
+  "blueprint-stealhelmet-3": {
+    "name": "帕鲁金属头盔图纸2",
+    "aliases": []
+  },
+  "blueprint-stealhelmet-4": {
+    "name": "帕鲁金属头盔图纸3",
+    "aliases": []
+  },
+  "blueprint-stealhelmet-5": {
+    "name": "帕鲁金属头盔图纸4",
+    "aliases": []
+  },
+  "blueprint-accessory-nonkchecker-1": {
+    "name": "帕鲁驯服者眼镜图纸",
+    "aliases": []
+  },
+  "blueprint-lanterntop": {
+    "name": "纸灯笼图纸",
+    "aliases": []
+  },
+  "blueprint-furarmor-2": {
+    "name": "毛皮铠甲图纸1",
+    "aliases": []
+  },
+  "blueprint-furarmor-3": {
+    "name": "毛皮铠甲图纸2",
+    "aliases": []
+  },
+  "blueprint-furarmor-4": {
+    "name": "毛皮铠甲图纸3",
+    "aliases": []
+  },
+  "blueprint-furarmor-5": {
+    "name": "毛皮铠甲图纸4",
+    "aliases": []
+  },
+  "blueprint-accessory-workspeed-1-2": {
+    "name": "勤勉吊坠图纸",
+    "aliases": []
+  },
+  "blueprint-head016-1": {
+    "name": "企鹅王帽图纸1",
+    "aliases": []
+  },
+  "blueprint-energyrocketlauncher-2": {
+    "name": "等离子炮图纸1",
+    "aliases": []
+  },
+  "blueprint-energyrocketlauncher-3": {
+    "name": "等离子炮图纸2",
+    "aliases": []
+  },
+  "blueprint-energyrocketlauncher-4": {
+    "name": "等离子炮图纸3",
+    "aliases": []
+  },
+  "blueprint-energyrocketlauncher-5": {
+    "name": "等离子炮图纸4",
+    "aliases": []
+  },
+  "blueprint-electricarcassaultrifle-2": {
+    "name": "等离子步枪图纸1",
+    "aliases": []
+  },
+  "blueprint-electricarcassaultrifle-3": {
+    "name": "等离子步枪图纸2",
+    "aliases": []
+  },
+  "blueprint-electricarcassaultrifle-4": {
+    "name": "等离子步枪图纸3",
+    "aliases": []
+  },
+  "blueprint-electricarcassaultrifle-5": {
+    "name": "等离子步枪图纸4",
+    "aliases": []
+  },
+  "blueprint-plasticarmor-2": {
+    "name": "塑料钢铠甲图纸1",
+    "aliases": []
+  },
+  "blueprint-plasticarmor-3": {
+    "name": "塑料钢铠甲图纸2",
+    "aliases": []
+  },
+  "blueprint-plasticarmor-4": {
+    "name": "塑料钢铠甲图纸3",
+    "aliases": []
+  },
+  "blueprint-plasticarmor-5": {
+    "name": "塑料钢铠甲图纸4",
+    "aliases": []
+  },
+  "blueprint-plastichelmet-2": {
+    "name": "塑料钢头盔图纸1",
+    "aliases": []
+  },
+  "blueprint-plastichelmet-3": {
+    "name": "塑料钢头盔图纸2",
+    "aliases": []
+  },
+  "blueprint-plastichelmet-4": {
+    "name": "塑料钢头盔图纸3",
+    "aliases": []
+  },
+  "blueprint-plastichelmet-5": {
+    "name": "塑料钢头盔图纸4",
+    "aliases": []
+  },
+  "blueprint-skyshotgun-2": {
+    "name": "原型霰弹枪图纸1",
+    "aliases": []
+  },
+  "blueprint-skyshotgun-3": {
+    "name": "原型霰弹枪图纸2",
+    "aliases": []
+  },
+  "blueprint-skyshotgun-4": {
+    "name": "原型霰弹枪图纸3",
+    "aliases": []
+  },
+  "blueprint-skyshotgun-5": {
+    "name": "原型霰弹枪图纸4",
+    "aliases": []
+  },
+  "blueprint-pumpactionshotgun-2": {
+    "name": "泵动式霰弹枪图纸1",
+    "aliases": []
+  },
+  "blueprint-pumpactionshotgun-3": {
+    "name": "泵动式霰弹枪图纸2",
+    "aliases": []
+  },
+  "blueprint-pumpactionshotgun-4": {
+    "name": "泵动式霰弹枪图纸3",
+    "aliases": []
+  },
+  "blueprint-pumpactionshotgun-5": {
+    "name": "泵动式霰弹枪图纸4",
+    "aliases": []
+  },
+  "blueprint-hunter-gangflag": {
+    "name": "雷恩辛迪加旗帜图纸",
+    "aliases": []
+  },
+  "blueprint-shrine-lantern": {
+    "name": "红色木灯笼图纸",
+    "aliases": []
+  },
+  "blueprint-ironarmor-2": {
+    "name": "精炼金属铠甲图纸1",
+    "aliases": []
+  },
+  "blueprint-ironarmor-3": {
+    "name": "精炼金属铠甲图纸2",
+    "aliases": []
+  },
+  "blueprint-ironarmor-4": {
+    "name": "精炼金属铠甲图纸3",
+    "aliases": []
+  },
+  "blueprint-ironarmor-5": {
+    "name": "精炼金属铠甲图纸4",
+    "aliases": []
+  },
+  "blueprint-ironhelmet-2": {
+    "name": "精炼金属头盔图纸1",
+    "aliases": []
+  },
+  "blueprint-ironhelmet-3": {
+    "name": "精炼金属头盔图纸2",
+    "aliases": []
+  },
+  "blueprint-ironhelmet-4": {
+    "name": "精炼金属头盔图纸3",
+    "aliases": []
+  },
+  "blueprint-ironhelmet-5": {
+    "name": "精炼金属头盔图纸4",
+    "aliases": []
+  },
+  "blueprint-accessory-heatfire-1": {
+    "name": "熔岩龟护符图纸",
+    "aliases": []
+  },
+  "blueprint-headequip028-1": {
+    "name": "兔兔头带图纸1",
+    "aliases": []
+  },
+  "blueprint-accessory-darkresist-1-2": {
+    "name": "暗抗性之戒图纸",
+    "aliases": []
+  },
+  "blueprint-accessory-dragonresist-1-2": {
+    "name": "龙抗性之戒图纸",
+    "aliases": []
+  },
+  "blueprint-accessory-thunderresist-1-2": {
+    "name": "电抗性之戒图纸",
+    "aliases": []
+  },
+  "blueprint-accessory-fireresist-1-2": {
+    "name": "火抗性之戒图纸",
+    "aliases": []
+  },
+  "blueprint-accessory-maxweightup-01-2": {
+    "name": "货运之戒图纸",
+    "aliases": []
+  },
+  "blueprint-accessory-leafresist-1-2": {
+    "name": "草抗性之戒图纸",
+    "aliases": []
+  },
+  "blueprint-accessory-earthresist-1-2": {
+    "name": "地抗性之戒图纸",
+    "aliases": []
+  },
+  "blueprint-accessory-iceresist-1-2": {
+    "name": "冰抗性之戒图纸",
+    "aliases": []
+  },
+  "blueprint-accessory-normalresist-1-2": {
+    "name": "无属性抗性之戒图纸",
+    "aliases": []
+  },
+  "blueprint-otomo-palconfidence-increase-1-fix": {
+    "name": "信赖之戒图纸",
+    "aliases": []
+  },
+  "blueprint-accessory-aquaresist-1-2": {
+    "name": "水抗性之戒图纸",
+    "aliases": []
+  },
+  "blueprint-launcher-default-2": {
+    "name": "火箭发射器图纸1",
+    "aliases": []
+  },
+  "blueprint-launcher-default-3": {
+    "name": "火箭发射器图纸2",
+    "aliases": []
+  },
+  "blueprint-launcher-default-4": {
+    "name": "火箭发射器图纸3",
+    "aliases": []
+  },
+  "blueprint-launcher-default-5": {
+    "name": "火箭发射器图纸4",
+    "aliases": []
+  },
+  "blueprint-submachinegun-2": {
+    "name": "冲锋枪图纸1",
+    "aliases": []
+  },
+  "blueprint-submachinegun-3": {
+    "name": "冲锋枪图纸2",
+    "aliases": []
+  },
+  "blueprint-submachinegun-4": {
+    "name": "冲锋枪图纸3",
+    "aliases": []
+  },
+  "blueprint-submachinegun-5": {
+    "name": "冲锋枪图纸4",
+    "aliases": []
+  },
+  "blueprint-semiautorifle-2": {
+    "name": "半自动步枪图纸1",
+    "aliases": []
+  },
+  "blueprint-semiautorifle-3": {
+    "name": "半自动步枪图纸2",
+    "aliases": []
+  },
+  "blueprint-semiautorifle-4": {
+    "name": "半自动步枪图纸3",
+    "aliases": []
+  },
+  "blueprint-semiautorifle-5": {
+    "name": "半自动步枪图纸4",
+    "aliases": []
+  },
+  "blueprint-semiautoshotgun-2": {
+    "name": "半自动霰弹枪图纸1",
+    "aliases": []
+  },
+  "blueprint-semiautoshotgun-3": {
+    "name": "半自动霰弹枪图纸2",
+    "aliases": []
+  },
+  "blueprint-semiautoshotgun-4": {
+    "name": "半自动霰弹枪图纸3",
+    "aliases": []
+  },
+  "blueprint-semiautoshotgun-5": {
+    "name": "半自动霰弹枪图纸4",
+    "aliases": []
+  },
+  "blueprint-head007-1": {
+    "name": "丝绸礼帽图纸1",
+    "aliases": []
+  },
+  "blueprint-accessory-ppdf-1": {
+    "name": "银鳞纹章图纸",
+    "aliases": []
+  },
+  "blueprint-singleshotrifle-2": {
+    "name": "单发步枪图纸1",
+    "aliases": []
+  },
+  "blueprint-singleshotrifle-3": {
+    "name": "单发步枪图纸2",
+    "aliases": []
+  },
+  "blueprint-singleshotrifle-4": {
+    "name": "单发步枪图纸3",
+    "aliases": []
+  },
+  "blueprint-singleshotrifle-5": {
+    "name": "单发步枪图纸4",
+    "aliases": []
+  },
+  "blueprint-head005-1": {
+    "name": "软帽图纸1",
+    "aliases": []
+  },
+  "blueprint-otomo-atleaf-elementboost-1": {
+    "name": "灵帝之杖图纸",
+    "aliases": []
+  },
+  "blueprint-headequip031-1": {
+    "name": "斯威帽图纸1",
+    "aliases": []
+  },
+  "blueprint-sword-2": {
+    "name": "长剑图纸1",
+    "aliases": []
+  },
+  "blueprint-sword-3": {
+    "name": "长剑图纸2",
+    "aliases": []
+  },
+  "blueprint-sword-4": {
+    "name": "长剑图纸3",
+    "aliases": []
+  },
+  "blueprint-sword-5": {
+    "name": "长剑图纸4",
+    "aliases": []
+  },
+  "blueprint-skygrenadelauncher-2": {
+    "name": "战术榴弹发射器图纸1",
+    "aliases": []
+  },
+  "blueprint-skygrenadelauncher-3": {
+    "name": "战术榴弹发射器图纸2",
+    "aliases": []
+  },
+  "blueprint-skygrenadelauncher-4": {
+    "name": "战术榴弹发射器图纸3",
+    "aliases": []
+  },
+  "blueprint-skygrenadelauncher-5": {
+    "name": "战术榴弹发射器图纸4",
+    "aliases": []
+  },
+  "blueprint-yakushimablade002": {
+    "name": "泰拉之刃图纸",
+    "aliases": []
+  },
+  "blueprint-yakushimablade002-2": {
+    "name": "泰拉之刃图纸1",
+    "aliases": []
+  },
+  "blueprint-yakushimablade002-3": {
+    "name": "泰拉之刃图纸2",
+    "aliases": []
+  },
+  "blueprint-yakushimablade002-4": {
+    "name": "泰拉之刃图纸3",
+    "aliases": []
+  },
+  "blueprint-yakushimablade002-5": {
+    "name": "泰拉之刃图纸4",
+    "aliases": []
+  },
+  "blueprint-yakushimablade003": {
+    "name": "泰拉棱镜图纸",
+    "aliases": []
+  },
+  "blueprint-yakushimablade003-2": {
+    "name": "泰拉棱镜图纸1",
+    "aliases": []
+  },
+  "blueprint-yakushimablade003-3": {
+    "name": "泰拉棱镜图纸2",
+    "aliases": []
+  },
+  "blueprint-yakushimablade003-4": {
+    "name": "泰拉棱镜图纸3",
+    "aliases": []
+  },
+  "blueprint-yakushimablade003-5": {
+    "name": "泰拉棱镜图纸4",
+    "aliases": []
+  },
+  "blueprint-accessory-coolresist-1-2": {
+    "name": "防寒内衣图纸",
+    "aliases": []
+  },
+  "blueprint-head013-1": {
+    "name": "咕噜帽图纸1",
+    "aliases": []
+  },
+  "blueprint-head008-1": {
+    "name": "三角帽图纸1",
+    "aliases": []
+  },
+  "blueprint-clotharmorheat-2": {
+    "name": "热带外衣图纸1",
+    "aliases": []
+  },
+  "blueprint-clotharmorheat-3": {
+    "name": "热带外衣图纸2",
+    "aliases": []
+  },
+  "blueprint-clotharmorheat-4": {
+    "name": "热带外衣图纸3",
+    "aliases": []
+  },
+  "blueprint-clotharmorheat-5": {
+    "name": "热带外衣图纸4",
+    "aliases": []
+  },
+  "blueprint-clotharmorcold-2": {
+    "name": "寒地带外衣图纸1",
+    "aliases": []
+  },
+  "blueprint-clotharmorcold-3": {
+    "name": "寒地带外衣图纸2",
+    "aliases": []
+  },
+  "blueprint-clotharmorcold-4": {
+    "name": "寒地带外衣图纸3",
+    "aliases": []
+  },
+  "blueprint-clotharmorcold-5": {
+    "name": "寒地带外衣图纸4",
+    "aliases": []
+  },
+  "blueprint-octavia001-armor-5": {
+    "name": "V1铠甲图纸4",
+    "aliases": []
+  },
+  "blueprint-octavia002-armor-5": {
+    "name": "V2铠甲图纸4",
+    "aliases": []
+  },
+  "blueprint-accessory-otomo-leaf-1": {
+    "name": "薇蕾特之戒图纸",
+    "aliases": []
+  },
+  "blueprint-accessory-hchp-1": {
+    "name": "先锋护符图纸",
+    "aliases": []
+  },
+  "blueprint-yakushimagun001": {
+    "name": "旋涡冲击枪图纸",
+    "aliases": []
+  },
+  "blueprint-yakushimagun001-2": {
+    "name": "旋涡冲击枪图纸1",
+    "aliases": []
+  },
+  "blueprint-yakushimagun001-3": {
+    "name": "旋涡冲击枪图纸2",
+    "aliases": []
+  },
+  "blueprint-yakushimagun001-4": {
+    "name": "旋涡冲击枪图纸3",
+    "aliases": []
+  },
+  "blueprint-yakushimagun001-5": {
+    "name": "旋涡冲击枪图纸4",
+    "aliases": []
+  },
+  "blueprint-accessory-hcmw-1": {
+    "name": "流浪商人护符图纸",
+    "aliases": []
+  },
+  "blueprint-accessory-dfhp-1": {
+    "name": "地甲虫腰带图纸",
+    "aliases": []
+  },
+  "blueprint-otomo-elementboost-water-1-2": {
+    "name": "水属性支援哨图纸",
+    "aliases": []
+  },
+  "blueprint-wire-fence": {
+    "name": "铁丝网图纸",
+    "aliases": []
+  },
+  "blueprint-head004-1": {
+    "name": "女巫帽图纸1",
+    "aliases": []
+  },
+  "blueprint-woodenbarricade": {
+    "name": "木质路障图纸",
+    "aliases": []
+  },
+  "blueprint-accessory-coldice-1": {
+    "name": "毛皮兽护符图纸",
+    "aliases": []
+  },
+  "palsummon-darkmechadragon-parts-2": {
+    "name": "异种魔王（终极）召唤板碎片",
+    "aliases": []
+  },
+  "palsummon-darkmechadragon-parts": {
+    "name": "异种魔王召唤板碎片",
+    "aliases": []
+  },
+  "blueprint-guardiandogstatue": {
+    "name": "夜云雕像图纸",
+    "aliases": []
+  },
+  "sfbow": {
+    "name": "高阶弓",
+    "aliases": []
+  },
+  "fishingrod-03-2": {
+    "name": "进阶钓竿（迪压索）",
+    "aliases": []
+  },
+  "fishingrod-03-1": {
+    "name": "进阶钓竿（企丸）",
+    "aliases": []
+  },
+  "assaultrifle-default1": {
+    "name": "突击步枪",
+    "aliases": []
+  },
+  "bat2": {
+    "name": "球棒",
+    "aliases": []
+  },
+  "beamlauncher": {
+    "name": "光束发射器",
+    "aliases": []
+  },
+  "widepenetrateshotgun": {
+    "name": "光束散射器",
+    "aliases": []
+  },
+  "beamsword": {
+    "name": "光束剑",
+    "aliases": []
+  },
+  "beamlauncher-2": {
+    "name": "光束发射器",
+    "aliases": []
+  },
+  "beamlauncher-3": {
+    "name": "光束发射器",
+    "aliases": []
+  },
+  "beamlauncher-4": {
+    "name": "光束发射器",
+    "aliases": []
+  },
+  "beamlauncher-5": {
+    "name": "光束发射器",
+    "aliases": []
+  },
+  "beamsword-2": {
+    "name": "光束剑",
+    "aliases": []
+  },
+  "beamsword-3": {
+    "name": "光束剑",
+    "aliases": []
+  },
+  "beamsword-4": {
+    "name": "光束剑",
+    "aliases": []
+  },
+  "beamsword-5": {
+    "name": "光束剑",
+    "aliases": []
+  },
+  "fishingrod-01-1": {
+    "name": "初级钓竿（齐立德）",
+    "aliases": []
+  },
+  "fishingrod-01-2": {
+    "name": "初级钓竿（古莫斯）",
+    "aliases": []
+  },
+  "paldopingshot": {
+    "name": "强化枪",
+    "aliases": []
+  },
+  "chargelaserrifle": {
+    "name": "蓄能步枪",
+    "aliases": []
+  },
+  "skysubmachinegun": {
+    "name": "战斗冲锋枪",
+    "aliases": []
+  },
+  "compoundbow": {
+    "name": "复合弓",
+    "aliases": []
+  },
+  "compoundbow-2": {
+    "name": "复合弓",
+    "aliases": []
+  },
+  "compoundbow-3": {
+    "name": "复合弓",
+    "aliases": []
+  },
+  "compoundbow-4": {
+    "name": "复合弓",
+    "aliases": []
+  },
+  "compoundbow-5": {
+    "name": "复合弓",
+    "aliases": []
+  },
+  "octaviashotgun": {
+    "name": "核心弹射霰弹枪",
+    "aliases": []
+  },
+  "bowgun": {
+    "name": "弩",
+    "aliases": []
+  },
+  "fraggrenade-dark": {
+    "name": "暗属性手榴弹",
+    "aliases": []
+  },
+  "decalgun-1": {
+    "name": "贴纸枪1",
+    "aliases": []
+  },
+  "decalgun-2": {
+    "name": "贴纸枪2",
+    "aliases": []
+  },
+  "decalgun-3": {
+    "name": "贴纸枪3",
+    "aliases": []
+  },
+  "decalgun-4": {
+    "name": "贴纸枪4",
+    "aliases": []
+  },
+  "decalgun-5": {
+    "name": "贴纸枪5",
+    "aliases": []
+  },
+  "doublebarrelshotgun": {
+    "name": "双管霰弹枪",
+    "aliases": []
+  },
+  "fraggrenade-dragon": {
+    "name": "龙属性手榴弹",
+    "aliases": []
+  },
+  "dronelauncher": {
+    "name": "无人机发射器",
+    "aliases": []
+  },
+  "dronelauncher-2": {
+    "name": "无人机发射器",
+    "aliases": []
+  },
+  "dronelauncher-3": {
+    "name": "无人机发射器",
+    "aliases": []
+  },
+  "dronelauncher-4": {
+    "name": "无人机发射器",
+    "aliases": []
+  },
+  "dronelauncher-5": {
+    "name": "无人机发射器",
+    "aliases": []
+  },
+  "spear-queenbee": {
+    "name": "女王蜂的法杖",
+    "aliases": []
+  },
+  "energyshotgun": {
+    "name": "能量霰弹枪",
+    "aliases": []
+  },
+  "energyshotgun-2": {
+    "name": "能量霰弹枪",
+    "aliases": []
+  },
+  "energyshotgun-3": {
+    "name": "能量霰弹枪",
+    "aliases": []
+  },
+  "energyshotgun-4": {
+    "name": "能量霰弹枪",
+    "aliases": []
+  },
+  "energyshotgun-5": {
+    "name": "能量霰弹枪",
+    "aliases": []
+  },
+  "yakushimablade004": {
+    "name": "圣剑",
+    "aliases": []
+  },
+  "flamethrower": {
+    "name": "喷火器",
+    "aliases": []
+  },
+  "fraggrenade": {
+    "name": "破片手榴弹",
+    "aliases": []
+  },
+  "fraggrenade-super": {
+    "name": "破片手榴弹Mk2",
+    "aliases": []
+  },
+  "gatlinggun": {
+    "name": "加特林机枪",
+    "aliases": []
+  },
+  "gatlinggun-2": {
+    "name": "加特林机枪",
+    "aliases": []
+  },
+  "gatlinggun-3": {
+    "name": "加特林机枪",
+    "aliases": []
+  },
+  "gatlinggun-4": {
+    "name": "加特林机枪",
+    "aliases": []
+  },
+  "gatlinggun-5": {
+    "name": "加特林机枪",
+    "aliases": []
+  },
+  "grapplinggun": {
+    "name": "抓钩枪",
+    "aliases": []
+  },
+  "fraggrenade-leaf": {
+    "name": "草属性手榴弹",
+    "aliases": []
+  },
+  "grenadelauncher": {
+    "name": "榴弹发射器",
+    "aliases": []
+  },
+  "grenadelauncher-2": {
+    "name": "榴弹发射器",
+    "aliases": []
+  },
+  "grenadelauncher-3": {
+    "name": "榴弹发射器",
+    "aliases": []
+  },
+  "grenadelauncher-4": {
+    "name": "榴弹发射器",
+    "aliases": []
+  },
+  "grenadelauncher-5": {
+    "name": "榴弹发射器",
+    "aliases": []
+  },
+  "fraggrenade-ground": {
+    "name": "地属性手榴弹",
+    "aliases": []
+  },
+  "guidedmissilelauncher": {
+    "name": "制导导弹发射器",
+    "aliases": []
+  },
+  "guidedmissilelauncher-2": {
+    "name": "制导导弹发射器",
+    "aliases": []
+  },
+  "guidedmissilelauncher-3": {
+    "name": "制导导弹发射器",
+    "aliases": []
+  },
+  "guidedmissilelauncher-4": {
+    "name": "制导导弹发射器",
+    "aliases": []
+  },
+  "guidedmissilelauncher-5": {
+    "name": "制导导弹发射器",
+    "aliases": []
+  },
+  "torch": {
+    "name": "手持火把",
+    "aliases": []
+  },
+  "handgun-default": {
+    "name": "手枪",
+    "aliases": []
+  },
+  "skyassaultrifle": {
+    "name": "重型突击步枪",
+    "aliases": []
+  },
+  "homingspherelauncher": {
+    "name": "追踪帕鲁球发射器",
+    "aliases": []
+  },
+  "fraggrenade-ice": {
+    "name": "冰属性手榴弹",
+    "aliases": []
+  },
+  "fraggrenade-fire": {
+    "name": "燃烧弹",
+    "aliases": []
+  },
+  "fishingrod-02-1": {
+    "name": "中级钓竿（棉悠悠）",
+    "aliases": []
+  },
+  "fishingrod-02-2": {
+    "name": "中级钓竿（呱蛙君）",
+    "aliases": []
+  },
+  "katana": {
+    "name": "武士刀",
+    "aliases": []
+  },
+  "katana-2": {
+    "name": "武士刀",
+    "aliases": []
+  },
+  "katana-3": {
+    "name": "武士刀",
+    "aliases": []
+  },
+  "katana-4": {
+    "name": "武士刀",
+    "aliases": []
+  },
+  "katana-5": {
+    "name": "武士刀",
+    "aliases": []
+  },
+  "lasergatlinggun": {
+    "name": "激光加特林机枪",
+    "aliases": []
+  },
+  "laserrifle": {
+    "name": "激光步枪",
+    "aliases": []
+  },
+  "skybeamsword": {
+    "name": "激光剑",
+    "aliases": []
+  },
+  "lasergatlinggun-2": {
+    "name": "激光加特林机枪",
+    "aliases": []
+  },
+  "lasergatlinggun-3": {
+    "name": "激光加特林机枪",
+    "aliases": []
+  },
+  "lasergatlinggun-4": {
+    "name": "激光加特林机枪",
+    "aliases": []
+  },
+  "lasergatlinggun-5": {
+    "name": "激光加特林机枪",
+    "aliases": []
+  },
+  "laserrifle-2": {
+    "name": "激光步枪",
+    "aliases": []
+  },
+  "laserrifle-3": {
+    "name": "激光步枪",
+    "aliases": []
+  },
+  "laserrifle-4": {
+    "name": "激光步枪",
+    "aliases": []
+  },
+  "laserrifle-5": {
+    "name": "激光步枪",
+    "aliases": []
+  },
+  "yakushimablade005": {
+    "name": "传奇喵之刃",
+    "aliases": []
+  },
+  "spear-forestboss": {
+    "name": "莉莉的长矛",
+    "aliases": []
+  },
+  "makeshiftassaultrifle": {
+    "name": "简易突击步枪",
+    "aliases": []
+  },
+  "makeshifthandgun": {
+    "name": "简易手枪",
+    "aliases": []
+  },
+  "makeshiftsubmachinegun": {
+    "name": "简易冲锋枪",
+    "aliases": []
+  },
+  "makeshiftshotgun": {
+    "name": "简易霰弹枪",
+    "aliases": []
+  },
+  "makeshiftassaultrifle-2": {
+    "name": "简易突击步枪",
+    "aliases": []
+  },
+  "makeshiftassaultrifle-3": {
+    "name": "简易突击步枪",
+    "aliases": []
+  },
+  "makeshiftassaultrifle-4": {
+    "name": "简易突击步枪",
+    "aliases": []
+  },
+  "makeshiftassaultrifle-5": {
+    "name": "简易突击步枪",
+    "aliases": []
+  },
+  "makeshifthandgun-2": {
+    "name": "简易手枪",
+    "aliases": []
+  },
+  "makeshifthandgun-3": {
+    "name": "简易手枪",
+    "aliases": []
+  },
+  "makeshifthandgun-4": {
+    "name": "简易手枪",
+    "aliases": []
+  },
+  "makeshifthandgun-5": {
+    "name": "简易手枪",
+    "aliases": []
+  },
+  "makeshiftshotgun-2": {
+    "name": "简易霰弹枪",
+    "aliases": []
+  },
+  "makeshiftshotgun-3": {
+    "name": "简易霰弹枪",
+    "aliases": []
+  },
+  "makeshiftshotgun-4": {
+    "name": "简易霰弹枪",
+    "aliases": []
+  },
+  "makeshiftshotgun-5": {
+    "name": "简易霰弹枪",
+    "aliases": []
+  },
+  "octaviarevolver": {
+    "name": "神射手左轮手枪",
+    "aliases": []
+  },
+  "meatcutterknife": {
+    "name": "切肉刀",
+    "aliases": []
+  },
+  "skybow": {
+    "name": "机械弓",
+    "aliases": []
+  },
+  "paldopingshot-2": {
+    "name": "超级强化枪",
+    "aliases": []
+  },
+  "yakushimablade": {
+    "name": "喵之刃",
+    "aliases": []
+  },
+  "axe-tier-01": {
+    "name": "金属斧",
+    "aliases": []
+  },
+  "bat3": {
+    "name": "金属球棒",
+    "aliases": []
+  },
+  "metaldetector": {
+    "name": "金属探测器",
+    "aliases": []
+  },
+  "pickaxe-tier-01": {
+    "name": "金属镐",
+    "aliases": []
+  },
+  "spear-2": {
+    "name": "金属长矛",
+    "aliases": []
+  },
+  "launcher-meteor": {
+    "name": "流星发射器",
+    "aliases": []
+  },
+  "multiguidedmissilelauncher": {
+    "name": "多重制导导弹发射器",
+    "aliases": []
+  },
+  "multiguidedmissilelauncher-2": {
+    "name": "多重制导导弹发射器",
+    "aliases": []
+  },
+  "multiguidedmissilelauncher-3": {
+    "name": "多重制导导弹发射器",
+    "aliases": []
+  },
+  "multiguidedmissilelauncher-4": {
+    "name": "多重制导导弹发射器",
+    "aliases": []
+  },
+  "multiguidedmissilelauncher-5": {
+    "name": "多重制导导弹发射器",
+    "aliases": []
+  },
+  "musket": {
+    "name": "火枪",
+    "aliases": []
+  },
+  "musket-2": {
+    "name": "火枪",
+    "aliases": []
+  },
+  "musket-3": {
+    "name": "火枪",
+    "aliases": []
+  },
+  "musket-4": {
+    "name": "火枪",
+    "aliases": []
+  },
+  "musket-5": {
+    "name": "火枪",
+    "aliases": []
+  },
+  "yakushimalantern001": {
+    "name": "夜光",
+    "aliases": []
+  },
+  "weakerbow": {
+    "name": "旧弓",
+    "aliases": []
+  },
+  "oldrevolver": {
+    "name": "老旧左轮手枪",
+    "aliases": []
+  },
+  "oldrevolver-2": {
+    "name": "老旧左轮手枪",
+    "aliases": []
+  },
+  "oldrevolver-3": {
+    "name": "老旧左轮手枪",
+    "aliases": []
+  },
+  "oldrevolver-4": {
+    "name": "老旧左轮手枪",
+    "aliases": []
+  },
+  "oldrevolver-5": {
+    "name": "老旧左轮手枪",
+    "aliases": []
+  },
+  "overheatrifle": {
+    "name": "过热步枪",
+    "aliases": []
+  },
+  "overheatrifle-2": {
+    "name": "过热步枪",
+    "aliases": []
+  },
+  "overheatrifle-3": {
+    "name": "过热步枪",
+    "aliases": []
+  },
+  "overheatrifle-4": {
+    "name": "过热步枪",
+    "aliases": []
+  },
+  "overheatrifle-5": {
+    "name": "过热步枪",
+    "aliases": []
+  },
+  "axe-steal": {
+    "name": "帕鲁金属斧",
+    "aliases": []
+  },
+  "pickaxe-steal": {
+    "name": "帕鲁金属镐",
+    "aliases": []
+  },
+  "palhealinggrenade": {
+    "name": "帕鲁回复手榴弹",
+    "aliases": []
+  },
+  "energyrocketlauncher": {
+    "name": "等离子炮",
+    "aliases": []
+  },
+  "laserminingtool": {
+    "name": "等离子切割器",
+    "aliases": []
+  },
+  "electricarcassaultrifle": {
+    "name": "等离子步枪",
+    "aliases": []
+  },
+  "bronzesword": {
+    "name": "原始长剑",
+    "aliases": []
+  },
+  "skyshotgun": {
+    "name": "原型霰弹枪",
+    "aliases": []
+  },
+  "pumpactionshotgun": {
+    "name": "泵动式霰弹枪",
+    "aliases": []
+  },
+  "axe-tier-02": {
+    "name": "精炼金属斧",
+    "aliases": []
+  },
+  "pickaxe-tier-02": {
+    "name": "精炼金属镐",
+    "aliases": []
+  },
+  "spear-3": {
+    "name": "精炼金属长矛",
+    "aliases": []
+  },
+  "launcher-default": {
+    "name": "火箭发射器",
+    "aliases": []
+  },
+  "submachinegun": {
+    "name": "冲锋枪",
+    "aliases": []
+  },
+  "spherelauncher": {
+    "name": "散射帕鲁球发射器",
+    "aliases": []
+  },
+  "semiautorifle": {
+    "name": "半自动步枪",
+    "aliases": []
+  },
+  "semiautoshotgun": {
+    "name": "半自动霰弹枪",
+    "aliases": []
+  },
+  "fraggrenade-elec": {
+    "name": "电击手榴弹",
+    "aliases": []
+  },
+  "singleshotrifle": {
+    "name": "单发步枪",
+    "aliases": []
+  },
+  "spherelauncher-once": {
+    "name": "单发帕鲁球发射器",
+    "aliases": []
+  },
+  "axe-tier-00": {
+    "name": "石斧",
+    "aliases": []
+  },
+  "pickaxe-tier-00": {
+    "name": "石镐",
+    "aliases": []
+  },
+  "spear": {
+    "name": "石长矛",
+    "aliases": []
+  },
+  "elecbaton": {
+    "name": "电击棍",
+    "aliases": []
+  },
+  "sword": {
+    "name": "长剑",
+    "aliases": []
+  },
+  "sword-2": {
+    "name": "长剑",
+    "aliases": []
+  },
+  "sword-3": {
+    "name": "长剑",
+    "aliases": []
+  },
+  "sword-4": {
+    "name": "长剑",
+    "aliases": []
+  },
+  "sword-5": {
+    "name": "长剑",
+    "aliases": []
+  },
+  "skygrenadelauncher": {
+    "name": "战术榴弹发射器",
+    "aliases": []
+  },
+  "yakushimablade002": {
+    "name": "泰拉之刃",
+    "aliases": []
+  },
+  "yakushimablade003": {
+    "name": "泰拉棱镜",
+    "aliases": []
+  },
+  "bow-triple": {
+    "name": "三连弓",
+    "aliases": []
+  },
+  "yakushimagun001": {
+    "name": "旋涡冲击枪",
+    "aliases": []
+  },
+  "fraggrenade-water": {
+    "name": "水属性手榴弹",
+    "aliases": []
+  },
+  "bat": {
+    "name": "木棒",
+    "aliases": []
+  },
+  "shield-sf": {
+    "name": "高级盾牌",
+    "aliases": []
+  },
+  "ancientarmor": {
+    "name": "古代铠甲",
+    "aliases": []
+  },
+  "ancienthelmet": {
+    "name": "古代头盔",
+    "aliases": []
+  },
+  "shield-07": {
+    "name": "远古盾牌",
+    "aliases": []
+  },
+  "ancientarmor-2": {
+    "name": "古代铠甲",
+    "aliases": []
+  },
+  "ancientarmor-3": {
+    "name": "古代铠甲",
+    "aliases": []
+  },
+  "ancientarmor-4": {
+    "name": "古代铠甲",
+    "aliases": []
+  },
+  "ancientarmor-5": {
+    "name": "古代铠甲",
+    "aliases": []
+  },
+  "headequip048": {
+    "name": "奥莉帽",
+    "aliases": []
+  },
+  "gym-head-electric": {
+    "name": "阿克塞尔帽",
+    "aliases": []
+  },
+  "gym-head-viking": {
+    "name": "比约恩帽",
+    "aliases": []
+  },
+  "head012": {
+    "name": "圆顶礼帽",
+    "aliases": []
+  },
+  "headequip033": {
+    "name": "棉悠悠帽",
+    "aliases": []
+  },
+  "headequip027": {
+    "name": "鳄鱼帽",
+    "aliases": []
+  },
+  "headequip056": {
+    "name": "鸡鸡帽",
+    "aliases": []
+  },
+  "clotharmor": {
+    "name": "布衣",
+    "aliases": []
+  },
+  "sfarmorcold": {
+    "name": "耐寒六棱石铠甲",
+    "aliases": []
+  },
+  "copperarmorcold": {
+    "name": "耐寒金属铠甲",
+    "aliases": []
+  },
+  "stealarmorcold": {
+    "name": "耐寒帕鲁金属铠甲",
+    "aliases": []
+  },
+  "furarmorcold": {
+    "name": "耐寒毛皮铠甲",
+    "aliases": []
+  },
+  "plasticarmorcold": {
+    "name": "耐寒塑料钢铠甲",
+    "aliases": []
+  },
+  "ironarmorcold": {
+    "name": "耐寒精炼金属铠甲",
+    "aliases": []
+  },
+  "ancientarmorcold": {
+    "name": "耐寒古代铠甲",
+    "aliases": []
+  },
+  "shield-01": {
+    "name": "普通盾牌",
+    "aliases": []
+  },
+  "headequip055": {
+    "name": "呱蛙君帽",
+    "aliases": []
+  },
+  "headequip046": {
+    "name": "救赎之冠",
+    "aliases": []
+  },
+  "headequip057": {
+    "name": "蒲公英帽",
+    "aliases": []
+  },
+  "headequip032": {
+    "name": "达兹帽",
+    "aliases": []
+  },
+  "player-outfit-kigurumi001": {
+    "name": "迪压索套装",
+    "aliases": []
+  },
+  "headequip045": {
+    "name": "迪压索头盔",
+    "aliases": []
+  },
+  "headequip030": {
+    "name": "渡渡鸟头盔",
+    "aliases": []
+  },
+  "head009": {
+    "name": "探险者帽",
+    "aliases": []
+  },
+  "yakushimaheadequip006": {
+    "name": "克苏鲁之眼面具",
+    "aliases": []
+  },
+  "head011": {
+    "name": "农耕帽",
+    "aliases": []
+  },
+  "furhelmet": {
+    "name": "羽毛发带",
+    "aliases": []
+  },
+  "shield-03": {
+    "name": "特大盾牌",
+    "aliases": []
+  },
+  "headequip052": {
+    "name": "黏黏帽",
+    "aliases": []
+  },
+  "head002": {
+    "name": "黄金王冠",
+    "aliases": []
+  },
+  "head010": {
+    "name": "毕业帽",
+    "aliases": []
+  },
+  "head014": {
+    "name": "咧嘴咕噜帽",
+    "aliases": []
+  },
+  "head015": {
+    "name": "古莫斯帽",
+    "aliases": []
+  },
+  "yakushimaheadequip002": {
+    "name": "神圣头饰",
+    "aliases": []
+  },
+  "yakushimaheadequip003": {
+    "name": "神圣头盔",
+    "aliases": []
+  },
+  "yakushimaheadequip004": {
+    "name": "神圣兜帽",
+    "aliases": []
+  },
+  "yakushimaheadequip001": {
+    "name": "神圣面具",
+    "aliases": []
+  },
+  "yakushimaarmor001": {
+    "name": "神圣板甲",
+    "aliases": []
+  },
+  "sfarmorheat": {
+    "name": "耐热六棱石铠甲",
+    "aliases": []
+  },
+  "copperarmorheat": {
+    "name": "耐热金属铠甲",
+    "aliases": []
+  },
+  "stealarmorheat": {
+    "name": "耐热帕鲁金属铠甲",
+    "aliases": []
+  },
+  "furarmorheat": {
+    "name": "耐热毛皮铠甲",
+    "aliases": []
+  },
+  "plasticarmorheat": {
+    "name": "耐热塑料钢铠甲",
+    "aliases": []
+  },
+  "ironarmorheat": {
+    "name": "耐热精炼金属铠甲",
+    "aliases": []
+  },
+  "ancientarmorheat": {
+    "name": "耐热古代铠甲",
+    "aliases": []
+  },
+  "head006": {
+    "name": "头盔",
+    "aliases": []
+  },
+  "headequip050": {
+    "name": "草兔头带",
+    "aliases": []
+  },
+  "sfarmor": {
+    "name": "六棱石铠甲",
+    "aliases": []
+  },
+  "sfhelmet": {
+    "name": "六棱石头盔",
+    "aliases": []
+  },
+  "headequip041": {
+    "name": "至尊之角",
+    "aliases": []
+  },
+  "shield-04": {
+    "name": "超凡盾牌",
+    "aliases": []
+  },
+  "headequip060": {
+    "name": "冰莲帽",
+    "aliases": []
+  },
+  "headequip053": {
+    "name": "果冻铃帽",
+    "aliases": []
+  },
+  "head017": {
+    "name": "卡特里斯帽",
+    "aliases": []
+  },
+  "headequip026": {
+    "name": "基拉马里帽",
+    "aliases": []
+  },
+  "headequip051": {
+    "name": "王羊驼头带",
+    "aliases": []
+  },
+  "headequip029": {
+    "name": "棉毛球头盔",
+    "aliases": []
+  },
+  "headequip025": {
+    "name": "利兹朋克兜帽",
+    "aliases": []
+  },
+  "ancientarmorweight": {
+    "name": "轻量古代铠甲",
+    "aliases": []
+  },
+  "sfarmorweight": {
+    "name": "轻量六棱石铠甲",
+    "aliases": []
+  },
+  "plasticarmorweight": {
+    "name": "轻量塑料钢铠甲",
+    "aliases": []
+  },
+  "gym-head-forest": {
+    "name": "莉莉帽",
+    "aliases": []
+  },
+  "head003": {
+    "name": "长耳头带",
+    "aliases": []
+  },
+  "headequip023": {
+    "name": "莉莉娜配件",
+    "aliases": []
+  },
+  "gym-head-desert": {
+    "name": "马库斯帽",
+    "aliases": []
+  },
+  "shield-02": {
+    "name": "巨型盾牌",
+    "aliases": []
+  },
+  "copperarmor": {
+    "name": "金属铠甲",
+    "aliases": []
+  },
+  "copperhelmet": {
+    "name": "金属头盔",
+    "aliases": []
+  },
+  "head001": {
+    "name": "君主之冠",
+    "aliases": []
+  },
+  "yakushimaheadequip005": {
+    "name": "月之王面具",
+    "aliases": []
+  },
+  "stealarmor": {
+    "name": "帕鲁金属铠甲",
+    "aliases": []
+  },
+  "stealhelmet": {
+    "name": "帕鲁金属头盔",
+    "aliases": []
+  },
+  "furarmor": {
+    "name": "毛皮铠甲",
+    "aliases": []
+  },
+  "head016": {
+    "name": "企鹅王帽",
+    "aliases": []
+  },
+  "plasticarmor": {
+    "name": "塑料钢铠甲",
+    "aliases": []
+  },
+  "plastichelmet": {
+    "name": "塑料钢头盔",
+    "aliases": []
+  },
+  "ironarmor": {
+    "name": "精炼金属铠甲",
+    "aliases": []
+  },
+  "ironhelmet": {
+    "name": "精炼金属头盔",
+    "aliases": []
+  },
+  "headequip028": {
+    "name": "兔兔头带",
+    "aliases": []
+  },
+  "gym-head-sakurajima": {
+    "name": "沙耶帽",
+    "aliases": []
+  },
+  "shield-ultra": {
+    "name": "终极盾牌",
+    "aliases": []
+  },
+  "headequip058": {
+    "name": "蘑菇龙帽",
+    "aliases": []
+  },
+  "headequip024": {
+    "name": "冰蛾帽",
+    "aliases": []
+  },
+  "head007": {
+    "name": "丝绸礼帽",
+    "aliases": []
+  },
+  "head005": {
+    "name": "软帽",
+    "aliases": []
+  },
+  "headequip061": {
+    "name": "喷溅帽",
+    "aliases": []
+  },
+  "headequip031": {
+    "name": "斯威帽",
+    "aliases": []
+  },
+  "headequip062": {
+    "name": "蛛后帽",
+    "aliases": []
+  },
+  "head013": {
+    "name": "咕噜帽",
+    "aliases": []
+  },
+  "head008": {
+    "name": "三角帽",
+    "aliases": []
+  },
+  "clotharmorheat": {
+    "name": "热带外衣",
+    "aliases": []
+  },
+  "clotharmorcold": {
+    "name": "寒地带外衣",
+    "aliases": []
+  },
+  "headequip054": {
+    "name": "龟龟帽",
+    "aliases": []
+  },
+  "octavia001-armor": {
+    "name": "V1铠甲",
+    "aliases": []
+  },
+  "octavia002-armor": {
+    "name": "V2铠甲",
+    "aliases": []
+  },
+  "gym-head-snow": {
+    "name": "维克托帽",
+    "aliases": []
+  },
+  "head004": {
+    "name": "女巫帽",
+    "aliases": []
+  },
+  "headequip001-purple": {
+    "name": "女巫之冠",
+    "aliases": []
+  },
+  "headequip049": {
+    "name": "泽娜拉帽",
+    "aliases": []
+  },
+  "gym-head-grass": {
+    "name": "佐伊帽",
+    "aliases": []
+  },
+  "aicore": {
+    "name": "AI核心",
+    "aliases": []
+  },
+  "wood-ancient": {
+    "name": "远古树皮",
+    "aliases": []
+  },
+  "beastbone-ancient": {
+    "name": "远古骨头",
+    "aliases": []
+  },
+  "ancientparts2": {
+    "name": "古代文明核心",
+    "aliases": []
+  },
+  "palcrystal-ex": {
+    "name": "古代文明部件",
+    "aliases": []
+  },
+  "lava-ancient": {
+    "name": "远古熔岩",
+    "aliases": []
+  },
+  "ancientparts3": {
+    "name": "远古帕鲁手稿",
+    "aliases": []
+  },
+  "palfluid": {
+    "name": "帕鲁体液",
+    "aliases": []
+  },
+  "battleticket": {
+    "name": "对战券",
+    "aliases": []
+  },
+  "poppy": {
+    "name": "美丽花朵",
+    "aliases": []
+  },
+  "berryseeds": {
+    "name": "浆果种子",
+    "aliases": []
+  },
+  "bio-battery": {
+    "name": "生物电池",
+    "aliases": []
+  },
+  "bone": {
+    "name": "骨头",
+    "aliases": []
+  },
+  "carbonfiber": {
+    "name": "碳纤维",
+    "aliases": []
+  },
+  "carrotseeds": {
+    "name": "胡萝卜种子",
+    "aliases": []
+  },
+  "lotus-weight-02": {
+    "name": "搬运莲（大）",
+    "aliases": []
+  },
+  "lotus-weight-01": {
+    "name": "搬运莲（小）",
+    "aliases": []
+  },
+  "cement": {
+    "name": "水泥",
+    "aliases": []
+  },
+  "playerdropitem": {
+    "name": "冠军徽章",
+    "aliases": []
+  },
+  "charcoal": {
+    "name": "木炭",
+    "aliases": []
+  },
+  "chromium": {
+    "name": "铬矿",
+    "aliases": []
+  },
+  "machineparts2": {
+    "name": "电路板",
+    "aliases": []
+  },
+  "cloth": {
+    "name": "布料",
+    "aliases": []
+  },
+  "coal": {
+    "name": "煤炭",
+    "aliases": []
+  },
+  "palegg-normal-01": {
+    "name": "普通蛋",
+    "aliases": []
+  },
+  "palegg-normal-02": {
+    "name": "普通蛋",
+    "aliases": []
+  },
+  "computer": {
+    "name": "电脑",
+    "aliases": []
+  },
+  "manganeseingot": {
+    "name": "钴蓝金属锭",
+    "aliases": []
+  },
+  "manganeseore": {
+    "name": "钴蓝矿石",
+    "aliases": []
+  },
+  "corrosive-solvent": {
+    "name": "腐蚀性溶剂",
+    "aliases": []
+  },
+  "crudeoil": {
+    "name": "原油",
+    "aliases": []
+  },
+  "bio-coolant": {
+    "name": "低温冷却剂",
+    "aliases": []
+  },
+  "palegg-water-01": {
+    "name": "潮湿的蛋",
+    "aliases": []
+  },
+  "palegg-water-02": {
+    "name": "潮湿的蛋",
+    "aliases": []
+  },
+  "palegg-dark-01": {
+    "name": "暗之蛋",
+    "aliases": []
+  },
+  "palegg-dark-02": {
+    "name": "暗之蛋",
+    "aliases": []
+  },
+  "paldarkparts": {
+    "name": "暗之碎片",
+    "aliases": []
+  },
+  "palawakening-material-dark": {
+    "name": "暗耀石",
+    "aliases": []
+  },
+  "palitem-raijindaughter": {
+    "name": "达兹之云",
+    "aliases": []
+  },
+  "worldtreerelic-01": {
+    "name": "腐朽远古遗物",
+    "aliases": []
+  },
+  "diamond": {
+    "name": "钻石",
+    "aliases": []
+  },
+  "dogcoin": {
+    "name": "狗币",
+    "aliases": []
+  },
+  "worldtreerelic-02": {
+    "name": "沉睡远古遗物",
+    "aliases": []
+  },
+  "palegg-dragon-01": {
+    "name": "龙之蛋",
+    "aliases": []
+  },
+  "palegg-dragon-02": {
+    "name": "龙之蛋",
+    "aliases": []
+  },
+  "palawakening-material-dragon": {
+    "name": "龙耀石",
+    "aliases": []
+  },
+  "palegg-electricity-01": {
+    "name": "电之蛋",
+    "aliases": []
+  },
+  "palegg-electricity-02": {
+    "name": "电之蛋",
+    "aliases": []
+  },
+  "electricorgan": {
+    "name": "电气器官",
+    "aliases": []
+  },
+  "palawakening-material-electric": {
+    "name": "电耀石",
+    "aliases": []
+  },
+  "eemerald": {
+    "name": "翡翠",
+    "aliases": []
+  },
+  "uniquematerial-mothman": {
+    "name": "防爆纤维",
+    "aliases": []
+  },
+  "fiber": {
+    "name": "纤维",
+    "aliases": []
+  },
+  "palawakening-material-fire": {
+    "name": "火耀石",
+    "aliases": []
+  },
+  "fireorgan": {
+    "name": "火焰器官",
+    "aliases": []
+  },
+  "palegg-ice-01": {
+    "name": "冰之蛋",
+    "aliases": []
+  },
+  "palegg-ice-02": {
+    "name": "冰之蛋",
+    "aliases": []
+  },
+  "palupgradestone4": {
+    "name": "大型帕鲁灵魂",
+    "aliases": []
+  },
+  "worldtreerelic-05": {
+    "name": "闪耀远古遗物",
+    "aliases": []
+  },
+  "worldtreerelic-04": {
+    "name": "发光远古遗物",
+    "aliases": []
+  },
+  "money": {
+    "name": "金币",
+    "aliases": []
+  },
+  "worldtreerelic-03": {
+    "name": "华丽远古遗物",
+    "aliases": []
+  },
+  "palawakening-material-grass": {
+    "name": "草耀石",
+    "aliases": []
+  },
+  "palawakening-material-ground": {
+    "name": "地耀石",
+    "aliases": []
+  },
+  "palitem-plantslime": {
+    "name": "古莫斯叶",
+    "aliases": []
+  },
+  "gunpowder2": {
+    "name": "火药",
+    "aliases": []
+  },
+  "yakushimaingot001": {
+    "name": "神圣锭",
+    "aliases": []
+  },
+  "wood-fine": {
+    "name": "硬木",
+    "aliases": []
+  },
+  "stainlesssteel": {
+    "name": "六棱石",
+    "aliases": []
+  },
+  "rainbowcrystal": {
+    "name": "六棱石石英",
+    "aliases": []
+  },
+  "cloth2": {
+    "name": "高级布料",
+    "aliases": []
+  },
+  "paloil": {
+    "name": "高级帕鲁油",
+    "aliases": []
+  },
+  "highgrade-processed-wood": {
+    "name": "高级木板",
+    "aliases": []
+  },
+  "horn": {
+    "name": "角",
+    "aliases": []
+  },
+  "palegg-normal-05": {
+    "name": "巨大普通蛋",
+    "aliases": []
+  },
+  "palegg-water-05": {
+    "name": "巨大潮湿蛋",
+    "aliases": []
+  },
+  "palegg-dark-05": {
+    "name": "巨大暗之蛋",
+    "aliases": []
+  },
+  "palegg-dragon-05": {
+    "name": "巨大龙之蛋",
+    "aliases": []
+  },
+  "palegg-electricity-05": {
+    "name": "巨大电之蛋",
+    "aliases": []
+  },
+  "palegg-ice-05": {
+    "name": "巨大冰之蛋",
+    "aliases": []
+  },
+  "palegg-mutationpal-05": {
+    "name": "巨大变异蛋",
+    "aliases": []
+  },
+  "palegg-worldtree-05": {
+    "name": "巨大不祥蛋",
+    "aliases": []
+  },
+  "palegg-earth-05": {
+    "name": "巨大岩之蛋",
+    "aliases": []
+  },
+  "palegg-fire-05": {
+    "name": "巨大灼热蛋",
+    "aliases": []
+  },
+  "palegg-leaf-05": {
+    "name": "巨大翠绿蛋",
+    "aliases": []
+  },
+  "iceorgan": {
+    "name": "冰之器官",
+    "aliases": []
+  },
+  "palawakening-material-ice": {
+    "name": "冰耀石",
+    "aliases": []
+  },
+  "copperingot": {
+    "name": "金属锭",
+    "aliases": []
+  },
+  "palitem-catmage": {
+    "name": "卡特里斯之发",
+    "aliases": []
+  },
+  "palitem-negativeoctopus": {
+    "name": "基拉马里触手",
+    "aliases": []
+  },
+  "palegg-normal-03": {
+    "name": "大型普通蛋",
+    "aliases": []
+  },
+  "palegg-normal-04": {
+    "name": "大型普通蛋",
+    "aliases": []
+  },
+  "palegg-water-03": {
+    "name": "大型潮湿蛋",
+    "aliases": []
+  },
+  "palegg-water-04": {
+    "name": "大型潮湿蛋",
+    "aliases": []
+  },
+  "palegg-dark-03": {
+    "name": "大型暗之蛋",
+    "aliases": []
+  },
+  "palegg-dark-04": {
+    "name": "大型暗之蛋",
+    "aliases": []
+  },
+  "palegg-dragon-03": {
+    "name": "大型龙之蛋",
+    "aliases": []
+  },
+  "palegg-dragon-04": {
+    "name": "大型龙之蛋",
+    "aliases": []
+  },
+  "palegg-electricity-03": {
+    "name": "大型电之蛋",
+    "aliases": []
+  },
+  "palegg-electricity-04": {
+    "name": "大型电之蛋",
+    "aliases": []
+  },
+  "palegg-ice-03": {
+    "name": "大型冰之蛋",
+    "aliases": []
+  },
+  "palegg-ice-04": {
+    "name": "大型冰之蛋",
+    "aliases": []
+  },
+  "palegg-mutationpal-03": {
+    "name": "大型变异蛋",
+    "aliases": []
+  },
+  "palegg-mutationpal-04": {
+    "name": "大型变异蛋",
+    "aliases": []
+  },
+  "palegg-worldtree-03": {
+    "name": "大型不祥蛋",
+    "aliases": []
+  },
+  "palegg-worldtree-04": {
+    "name": "大型不祥蛋",
+    "aliases": []
+  },
+  "palupgradestone3": {
+    "name": "大型帕鲁灵魂",
+    "aliases": []
+  },
+  "palegg-earth-03": {
+    "name": "大型岩之蛋",
+    "aliases": []
+  },
+  "palegg-earth-04": {
+    "name": "大型岩之蛋",
+    "aliases": []
+  },
+  "palegg-fire-03": {
+    "name": "大型灼热蛋",
+    "aliases": []
+  },
+  "palegg-fire-04": {
+    "name": "大型灼热蛋",
+    "aliases": []
+  },
+  "palegg-leaf-03": {
+    "name": "大型翠绿蛋",
+    "aliases": []
+  },
+  "palegg-leaf-04": {
+    "name": "大型翠绿蛋",
+    "aliases": []
+  },
+  "leather": {
+    "name": "皮革",
+    "aliases": []
+  },
+  "palitem-lizardman": {
+    "name": "利兹朋克纹章",
+    "aliases": []
+  },
+  "lettuceseeds": {
+    "name": "生菜种子",
+    "aliases": []
+  },
+  "lotus-hp-02": {
+    "name": "生命莲（大）",
+    "aliases": []
+  },
+  "lotus-hp-01": {
+    "name": "生命莲（小）",
+    "aliases": []
+  },
+  "palupgradestone2": {
+    "name": "中型帕鲁灵魂",
+    "aliases": []
+  },
+  "meteordrop": {
+    "name": "陨石碎片",
+    "aliases": []
+  },
+  "wood-worldtree": {
+    "name": "神话木材",
+    "aliases": []
+  },
+  "machineparts": {
+    "name": "钉子",
+    "aliases": []
+  },
+  "palawakening-material-neutral": {
+    "name": "无属性耀石",
+    "aliases": []
+  },
+  "nightstone": {
+    "name": "夜星砂",
+    "aliases": []
+  },
+  "palegg-worldtree-01": {
+    "name": "不祥蛋",
+    "aliases": []
+  },
+  "palegg-worldtree-02": {
+    "name": "不祥蛋",
+    "aliases": []
+  },
+  "onionseeds": {
+    "name": "洋葱种子",
+    "aliases": []
+  },
+  "copperore": {
+    "name": "矿石",
+    "aliases": []
+  },
+  "stealingot": {
+    "name": "帕鲁金属锭",
+    "aliases": [
+      "金属锭"
+    ]
+  },
+  "pal-crystal-s": {
+    "name": "帕鲁锭碎片",
+    "aliases": []
+  },
+  "worldtreeore": {
+    "name": "帕鲁矿石",
+    "aliases": []
+  },
+  "worldtreeingot": {
+    "name": "帕鲁矿石锭",
+    "aliases": []
+  },
+  "palitem-captainpenguin": {
+    "name": "企鹅王翎羽",
+    "aliases": []
+  },
+  "plastic": {
+    "name": "塑料钢",
+    "aliases": []
+  },
+  "polymer": {
+    "name": "聚合物",
+    "aliases": []
+  },
+  "potatoseeds": {
+    "name": "土豆种子",
+    "aliases": []
+  },
+  "lotus-attack-02": {
+    "name": "力量莲（大）",
+    "aliases": []
+  },
+  "lotus-attack-01": {
+    "name": "力量莲（小）",
+    "aliases": []
+  },
+  "palitem-tosell-04": {
+    "name": "珍贵利爪",
+    "aliases": []
+  },
+  "palitem-tosell-01": {
+    "name": "珍贵龙石",
+    "aliases": []
+  },
+  "palitem-tosell-03": {
+    "name": "珍贵内脏",
+    "aliases": []
+  },
+  "palitem-tosell-05": {
+    "name": "珍贵毛皮",
+    "aliases": []
+  },
+  "palitem-tosell-02": {
+    "name": "珍贵翎羽",
+    "aliases": []
+  },
+  "predatorcrystal": {
+    "name": "掠食者核心",
+    "aliases": []
+  },
+  "quartz": {
+    "name": "纯石英",
+    "aliases": []
+  },
+  "ironingot": {
+    "name": "精炼金属锭",
+    "aliases": []
+  },
+  "palitem-pinkrabbit": {
+    "name": "兔兔缎带",
+    "aliases": []
+  },
+  "palegg-earth-01": {
+    "name": "岩之蛋",
+    "aliases": []
+  },
+  "palegg-earth-02": {
+    "name": "岩之蛋",
+    "aliases": []
+  },
+  "ruby": {
+    "name": "红宝石",
+    "aliases": []
+  },
+  "sapphire": {
+    "name": "蓝宝石",
+    "aliases": []
+  },
+  "palegg-fire-01": {
+    "name": "灼热蛋",
+    "aliases": []
+  },
+  "palegg-fire-02": {
+    "name": "灼热蛋",
+    "aliases": []
+  },
+  "meaninglessitem-butcheringimportpal": {
+    "name": "废弃组织样本",
+    "aliases": []
+  },
+  "palupgradestone": {
+    "name": "小型帕鲁灵魂",
+    "aliases": []
+  },
+  "skyislandore": {
+    "name": "空岛矿石",
+    "aliases": []
+  },
+  "skyislandingot": {
+    "name": "空岛金属锭",
+    "aliases": []
+  },
+  "lotus-workspeed-02": {
+    "name": "速度莲（大）",
+    "aliases": []
+  },
+  "lotus-workspeed-01": {
+    "name": "速度莲（小）",
+    "aliases": []
+  },
+  "lotus-stamina-02": {
+    "name": "耐力莲（大）",
+    "aliases": []
+  },
+  "lotus-stamina-01": {
+    "name": "耐力莲（小）",
+    "aliases": []
+  },
+  "stone": {
+    "name": "石头",
+    "aliases": []
+  },
+  "bountyproof-1": {
+    "name": "悬赏成功令牌",
+    "aliases": []
+  },
+  "sulfur": {
+    "name": "硫磺",
+    "aliases": []
+  },
+  "palitem-mopbaby": {
+    "name": "斯威之发",
+    "aliases": []
+  },
+  "thermal-core": {
+    "name": "热能核心",
+    "aliases": []
+  },
+  "palitem-colorfulbird": {
+    "name": "咕噜羽毛",
+    "aliases": []
+  },
+  "tomatoseeds": {
+    "name": "番茄种子",
+    "aliases": []
+  },
+  "uniquematerial-flowerprince": {
+    "name": "毒素过滤膜",
+    "aliases": []
+  },
+  "venom": {
+    "name": "毒腺",
+    "aliases": []
+  },
+  "palegg-leaf-01": {
+    "name": "翠绿蛋",
+    "aliases": []
+  },
+  "palegg-leaf-02": {
+    "name": "翠绿蛋",
+    "aliases": []
+  },
+  "palawakening-material-water": {
+    "name": "水耀石",
+    "aliases": []
+  },
+  "wheatseeds": {
+    "name": "小麦种子",
+    "aliases": []
+  },
+  "wood": {
+    "name": "木材",
+    "aliases": []
+  },
+  "processed-wood": {
+    "name": "木板",
+    "aliases": []
+  },
+  "wool": {
+    "name": "羊毛",
+    "aliases": []
+  },
+  "baked-berries": {
+    "name": "烤浆果",
+    "aliases": []
+  },
+  "bakedmushroom": {
+    "name": "烤蘑菇",
+    "aliases": []
+  },
+  "pan": {
+    "name": "面包",
+    "aliases": []
+  },
+  "bakedmeat-lazycatfish": {
+    "name": "烤渡渡鸟",
+    "aliases": []
+  },
+  "yakisoba": {
+    "name": "樱花开花炒面",
+    "aliases": []
+  },
+  "meat-sakurasaurus": {
+    "name": "樱花兽肉",
+    "aliases": []
+  },
+  "bakedmeat-sakurasaurus": {
+    "name": "樱花兽肋排",
+    "aliases": []
+  },
+  "cake": {
+    "name": "蛋糕",
+    "aliases": []
+  },
+  "meat-berrygoat": {
+    "name": "卡普里蒂肉",
+    "aliases": []
+  },
+  "sweet-caramel": {
+    "name": "焦糖棉花糖",
+    "aliases": []
+  },
+  "carbonara": {
+    "name": "培根蛋面",
+    "aliases": []
+  },
+  "carrot": {
+    "name": "胡萝卜",
+    "aliases": []
+  },
+  "cavemushroom": {
+    "name": "洞窟蘑菇",
+    "aliases": []
+  },
+  "meat-chickenpal": {
+    "name": "鸡鸡禽肉",
+    "aliases": []
+  },
+  "chickensaute": {
+    "name": "煎鸡鸡",
+    "aliases": []
+  },
+  "sweet": {
+    "name": "棉花糖",
+    "aliases": []
+  },
+  "egg": {
+    "name": "蛋",
+    "aliases": []
+  },
+  "deerlocomoco": {
+    "name": "雄鹿兽蛋包饭",
+    "aliases": []
+  },
+  "deerstew": {
+    "name": "雄鹿兽炖肉",
+    "aliases": []
+  },
+  "meat-deer": {
+    "name": "雄鹿兽鹿肉",
+    "aliases": []
+  },
+  "cake04": {
+    "name": "奢华蔬菜蛋糕",
+    "aliases": []
+  },
+  "flour": {
+    "name": "面粉",
+    "aliases": []
+  },
+  "potatochips": {
+    "name": "薯条",
+    "aliases": []
+  },
+  "friedchicken": {
+    "name": "炸鸡鸡",
+    "aliases": []
+  },
+  "friedeggs": {
+    "name": "煎蛋",
+    "aliases": []
+  },
+  "octopusgirl-takoyaki": {
+    "name": "炸黏黏球",
+    "aliases": []
+  },
+  "friedkelpie": {
+    "name": "炸海藻海",
+    "aliases": []
+  },
+  "meatandpotatoes": {
+    "name": "风鹰肉土豆炖菜",
+    "aliases": []
+  },
+  "meat-eagle": {
+    "name": "风鹰禽肉",
+    "aliases": []
+  },
+  "meat-octopusgirl": {
+    "name": "黏黏触手",
+    "aliases": []
+  },
+  "gratin": {
+    "name": "焗烤",
+    "aliases": []
+  },
+  "bakedmeat-chickenpal": {
+    "name": "烤鸡鸡",
+    "aliases": []
+  },
+  "bakedmeat-eagle": {
+    "name": "烤风鹰",
+    "aliases": []
+  },
+  "bakedmeat-kelpie": {
+    "name": "烤海藻海",
+    "aliases": []
+  },
+  "genghiskhan": {
+    "name": "烤棉毛球",
+    "aliases": []
+  },
+  "bakedmeat-berrygoat": {
+    "name": "香草烤卡普里蒂",
+    "aliases": []
+  },
+  "grilledsheepherbs": {
+    "name": "香草烤棉毛球",
+    "aliases": []
+  },
+  "honey": {
+    "name": "蜂蜜",
+    "aliases": []
+  },
+  "hotmilk": {
+    "name": "热牛奶",
+    "aliases": []
+  },
+  "jambun": {
+    "name": "果酱包",
+    "aliases": []
+  },
+  "meat-jellyfishfairy": {
+    "name": "果冻铃肉",
+    "aliases": []
+  },
+  "jellyfishfairy-jelly": {
+    "name": "果冻铃软糖",
+    "aliases": []
+  },
+  "meat-jellyfishghost": {
+    "name": "果冻怪肉",
+    "aliases": []
+  },
+  "jellyfishghost-jelly": {
+    "name": "果冻怪软糖",
+    "aliases": []
+  },
+  "bakedmeat-sheepball": {
+    "name": "棉毛球串",
+    "aliases": []
+  },
+  "meat-sheepball": {
+    "name": "棉毛球羊肉",
+    "aliases": []
+  },
+  "lettuce": {
+    "name": "生菜",
+    "aliases": []
+  },
+  "curry": {
+    "name": "猛犸兽咖喱",
+    "aliases": []
+  },
+  "meat-grassmammoth": {
+    "name": "猛犸兽肉",
+    "aliases": []
+  },
+  "bakedmeat-grassmammoth": {
+    "name": "猛犸兽牛排",
+    "aliases": []
+  },
+  "marinatedmushrooms": {
+    "name": "腌蘑菇",
+    "aliases": []
+  },
+  "milk": {
+    "name": "牛奶",
+    "aliases": []
+  },
+  "minestrone": {
+    "name": "蔬菜浓汤",
+    "aliases": []
+  },
+  "cheeseburger-2": {
+    "name": "莫扎里纳芝士堡",
+    "aliases": []
+  },
+  "hamburger-2": {
+    "name": "莫扎里纳汉堡",
+    "aliases": []
+  },
+  "meat-cowpal": {
+    "name": "莫扎里纳肉",
+    "aliases": []
+  },
+  "bakedmeat-cowpal": {
+    "name": "莫扎里纳牛排",
+    "aliases": []
+  },
+  "meat-icecrocodile": {
+    "name": "寒鳄肉",
+    "aliases": []
+  },
+  "bakedmeat-icecrocodile": {
+    "name": "寒鳄牛排",
+    "aliases": []
+  },
+  "mushroom": {
+    "name": "蘑菇",
+    "aliases": []
+  },
+  "cake02": {
+    "name": "蘑菇蛋糕",
+    "aliases": []
+  },
+  "quiche": {
+    "name": "蘑菇派",
+    "aliases": []
+  },
+  "mushroomsoup": {
+    "name": "蘑菇汤",
+    "aliases": []
+  },
+  "poisonmushroom": {
+    "name": "神秘蘑菇",
+    "aliases": []
+  },
+  "omelet": {
+    "name": "欧姆蛋",
+    "aliases": []
+  },
+  "onion": {
+    "name": "洋葱",
+    "aliases": []
+  },
+  "pancake": {
+    "name": "煎饼",
+    "aliases": []
+  },
+  "pizza": {
+    "name": "披萨",
+    "aliases": []
+  },
+  "potato": {
+    "name": "土豆",
+    "aliases": []
+  },
+  "meat-lazycatfish": {
+    "name": "生渡渡鸟",
+    "aliases": []
+  },
+  "meat-kelpie": {
+    "name": "生海藻海",
+    "aliases": []
+  },
+  "berries": {
+    "name": "红色浆果",
+    "aliases": []
+  },
+  "stewedicedeer": {
+    "name": "寒鹿炖肉",
+    "aliases": []
+  },
+  "meat-icedeer": {
+    "name": "寒鹿鹿肉",
+    "aliases": []
+  },
+  "bakedmeat-deer": {
+    "name": "烤雄鹿兽",
+    "aliases": []
+  },
+  "bakedmeat-icedeer": {
+    "name": "烤寒鹿",
+    "aliases": []
+  },
+  "bakedmeat-boar": {
+    "name": "烤冲锋猪",
+    "aliases": []
+  },
+  "baconeggs": {
+    "name": "冲锋猪培根蛋",
+    "aliases": []
+  },
+  "gyoza": {
+    "name": "冲锋猪饺子",
+    "aliases": []
+  },
+  "hotdog-2": {
+    "name": "冲锋猪热狗",
+    "aliases": []
+  },
+  "meat-boar": {
+    "name": "冲锋猪肉",
+    "aliases": []
+  },
+  "salad": {
+    "name": "沙拉",
+    "aliases": []
+  },
+  "grilledswordcutlassfish": {
+    "name": "盐烤利维鱼",
+    "aliases": []
+  },
+  "octopusgirl-takoyaki2": {
+    "name": "海鲜意面",
+    "aliases": []
+  },
+  "seafood-salada": {
+    "name": "海鲜沙拉",
+    "aliases": []
+  },
+  "meat-swordcutlassfish": {
+    "name": "利维鱼刺身",
+    "aliases": []
+  },
+  "cake05": {
+    "name": "特别蛋糕",
+    "aliases": []
+  },
+  "springrolls": {
+    "name": "春卷",
+    "aliases": []
+  },
+  "eaglestew": {
+    "name": "炖风鹰",
+    "aliases": []
+  },
+  "stirfriedvegetables": {
+    "name": "炒蔬菜",
+    "aliases": []
+  },
+  "tomato": {
+    "name": "番茄",
+    "aliases": []
+  },
+  "cake03": {
+    "name": "蔬菜蛋糕",
+    "aliases": []
+  },
+  "wheat": {
+    "name": "小麦",
+    "aliases": []
+  },
+  "skillunlock-domearmordragon": {
+    "name": "盾龙鞍",
+    "aliases": []
+  },
+  "waterbuildkit": {
+    "name": "水上建筑套件",
+    "aliases": []
+  },
+  "skillunlock-flamebuffalo": {
+    "name": "火牛鞍",
+    "aliases": []
+  },
+  "skillunlock-blackmetaldragon": {
+    "name": "阿斯特贡鞍",
+    "aliases": []
+  },
+  "automealpouch-tier2": {
+    "name": "普通饲料袋",
+    "aliases": []
+  },
+  "skillunlock-bluethunderhorse": {
+    "name": "蓝雷马鞍",
+    "aliases": []
+  },
+  "skillunlock-bluedragon-ice": {
+    "name": "蓝丝带冰鞍",
+    "aliases": []
+  },
+  "skillunlock-bluedragon": {
+    "name": "蓝丝带鞍",
+    "aliases": []
+  },
+  "skillunlock-snowtigerbeastman": {
+    "name": "冰虎的锤",
+    "aliases": []
+  },
+  "skillunlock-thunderbird-ice": {
+    "name": "喙兽冰鞍",
+    "aliases": []
+  },
+  "skillunlock-thunderbird": {
+    "name": "喙兽鞍",
+    "aliases": []
+  },
+  "skillunlock-kingbahamut-dragon": {
+    "name": "布莱萨默特·琉鞍",
+    "aliases": []
+  },
+  "skillunlock-kingbahamut": {
+    "name": "布莱萨默特鞍",
+    "aliases": []
+  },
+  "skillunlock-manticore-dark": {
+    "name": "炽焰兽夜鞍",
+    "aliases": []
+  },
+  "skillunlock-manticore": {
+    "name": "炽焰兽鞍",
+    "aliases": []
+  },
+  "skillunlock-plesiosaur": {
+    "name": "长颈龙鞍",
+    "aliases": []
+  },
+  "skillunlock-sakurasaurus-water": {
+    "name": "樱花兽水鞍",
+    "aliases": []
+  },
+  "skillunlock-sakurasaurus": {
+    "name": "樱花兽鞍",
+    "aliases": []
+  },
+  "skillunlock-sumodog": {
+    "name": "推土兽鞍",
+    "aliases": []
+  },
+  "bossdefeatreward-berrygoat-dark": {
+    "name": "卡普里蒂夜悬赏令牌",
+    "aliases": []
+  },
+  "skillunlock-flyingmanta-thunder": {
+    "name": "电鳐电手套",
+    "aliases": []
+  },
+  "skillunlock-flyingmanta": {
+    "name": "电鳐的手套",
+    "aliases": []
+  },
+  "skillunlock-whitedeer-dark": {
+    "name": "天鹿夜鞍",
+    "aliases": []
+  },
+  "skillunlock-whitedeer": {
+    "name": "天鹿鞍",
+    "aliases": []
+  },
+  "skillunlock-weaseldragon-fire": {
+    "name": "齐立德炎鞍",
+    "aliases": []
+  },
+  "skillunlock-weaseldragon": {
+    "name": "齐立德鞍",
+    "aliases": []
+  },
+  "bossdefeatreward-whitetiger-ground": {
+    "name": "冰甲龙地悬赏令牌",
+    "aliases": []
+  },
+  "skillunlock-dreamdemon": {
+    "name": "梦魇诅咒的项链",
+    "aliases": []
+  },
+  "skillunlock-featherostrich": {
+    "name": "达泽姆鞍",
+    "aliases": []
+  },
+  "bossdefeatreward-raijindaughter-water": {
+    "name": "达兹夜悬赏令牌",
+    "aliases": []
+  },
+  "skillunlock-raijindaughter-water": {
+    "name": "达兹夜的项链",
+    "aliases": []
+  },
+  "skillunlock-raijindaughter": {
+    "name": "达兹的项链",
+    "aliases": []
+  },
+  "skillunlock-flowerdinosaur-electric": {
+    "name": "花龙电鞍",
+    "aliases": []
+  },
+  "skillunlock-flowerdinosaur": {
+    "name": "花龙鞍",
+    "aliases": []
+  },
+  "skillunlock-garm": {
+    "name": "狼嚎挽具",
+    "aliases": []
+  },
+  "skillunlock-grassgolem-dark": {
+    "name": "双石夜鞍",
+    "aliases": []
+  },
+  "skillunlock-grassgolem": {
+    "name": "双石鞍",
+    "aliases": []
+  },
+  "skillunlock-deer": {
+    "name": "雄鹿兽鞍",
+    "aliases": []
+  },
+  "skillunlock-deer-ground": {
+    "name": "雄鹿兽地鞍",
+    "aliases": []
+  },
+  "skillunlock-fairydragon-water": {
+    "name": "幻悦龙水鞍",
+    "aliases": []
+  },
+  "skillunlock-fairydragon": {
+    "name": "幻悦龙鞍",
+    "aliases": []
+  },
+  "lantern-high": {
+    "name": "强化腰间提灯",
+    "aliases": []
+  },
+  "unlockequipmentslot-weapon-01": {
+    "name": "额外武器挂具",
+    "aliases": []
+  },
+  "unlockequipmentslot-weapon-02": {
+    "name": "额外武器挂具2",
+    "aliases": []
+  },
+  "skillunlock-horus-water": {
+    "name": "炎焰兽水鞍",
+    "aliases": []
+  },
+  "skillunlock-horus": {
+    "name": "炎焰兽鞍",
+    "aliases": []
+  },
+  "skillunlock-fengyundeeper-electric": {
+    "name": "风羊电鞍",
+    "aliases": []
+  },
+  "skillunlock-fengyundeeper": {
+    "name": "风羊鞍",
+    "aliases": []
+  },
+  "skillunlock-flowerrabbit": {
+    "name": "飘飞兔的项链",
+    "aliases": []
+  },
+  "bossdefeatreward-kitsunebi-ice": {
+    "name": "狐火冰悬赏令牌",
+    "aliases": []
+  },
+  "skillunlock-kitsunebi-ice": {
+    "name": "狐火冰挽具",
+    "aliases": []
+  },
+  "skillunlock-kitsunebi": {
+    "name": "狐火挽具",
+    "aliases": []
+  },
+  "bossdefeatreward-icehorse-dark": {
+    "name": "冰丝特夜悬赏令牌",
+    "aliases": []
+  },
+  "skillunlock-icehorse-dark": {
+    "name": "冰丝特夜鞍",
+    "aliases": []
+  },
+  "skillunlock-icehorse": {
+    "name": "冰丝特鞍",
+    "aliases": []
+  },
+  "skillunlock-eagle": {
+    "name": "风鹰的手套",
+    "aliases": []
+  },
+  "skillunlock-ghostanglerfish-fire": {
+    "name": "鬼钓炎鞍",
+    "aliases": []
+  },
+  "skillunlock-ghostanglerfish": {
+    "name": "鬼钓鞍",
+    "aliases": []
+  },
+  "automealpouch-tier5": {
+    "name": "巨型饲料袋",
+    "aliases": []
+  },
+  "additionalinventory-004": {
+    "name": "巨型背包",
+    "aliases": []
+  },
+  "bossdefeatreward-goldenhorse": {
+    "name": "金马悬赏令牌",
+    "aliases": []
+  },
+  "skillunlock-goldenhorse": {
+    "name": "金马鞍",
+    "aliases": []
+  },
+  "skillunlock-naughtycat": {
+    "name": "灰猫鞍",
+    "aliases": []
+  },
+  "skillunlock-elecpanda": {
+    "name": "灰熊的电枪",
+    "aliases": []
+  },
+  "skillunlock-windchimes-ice": {
+    "name": "寒鱼冰手套",
+    "aliases": []
+  },
+  "skillunlock-windchimes": {
+    "name": "寒鱼的手套",
+    "aliases": []
+  },
+  "skillunlock-legenddeer": {
+    "name": "哈塔利斯鞍",
+    "aliases": []
+  },
+  "skillunlock-hadesbird-electric": {
+    "name": "地狱鸟电鞍",
+    "aliases": []
+  },
+  "skillunlock-hadesbird": {
+    "name": "地狱鸟鞍",
+    "aliases": []
+  },
+  "skillunlock-leafmomonga": {
+    "name": "草兔挽具",
+    "aliases": []
+  },
+  "lantern": {
+    "name": "腰间提灯",
+    "aliases": []
+  },
+  "palpassiveskillchange-swimspeed-up-2": {
+    "name": "植入芯片：游泳高手",
+    "aliases": []
+  },
+  "palpassiveskillchange-craftspeed-up2": {
+    "name": "植入芯片：匠人",
+    "aliases": []
+  },
+  "palpassiveskillchange-pal-allattack-up1": {
+    "name": "植入芯片：勇敢",
+    "aliases": []
+  },
+  "palpassiveskillchange-deffence-up2": {
+    "name": "植入芯片：壮硕体魄",
+    "aliases": []
+  },
+  "palpassiveskillchange-pal-fullstomach-down-1": {
+    "name": "植入芯片：挑食",
+    "aliases": []
+  },
+  "palpassiveskillchange-pal-allattack-up3": {
+    "name": "植入芯片：恶魔神",
+    "aliases": []
+  },
+  "palpassiveskillchange-deffence-up3": {
+    "name": "植入芯片：钻石体魄",
+    "aliases": []
+  },
+  "palpassiveskillchange-pal-fullstomach-down-2": {
+    "name": "植入芯片：节食爱好者",
+    "aliases": []
+  },
+  "palpassiveskillchange-stamina-up-3": {
+    "name": "植入芯片：永恒引擎",
+    "aliases": []
+  },
+  "palpassiveskillchange-pal-allattack-up2": {
+    "name": "植入芯片：凶暴",
+    "aliases": []
+  },
+  "palpassiveskillchange-saleprice-up-2": {
+    "name": "植入芯片：华丽皮毛",
+    "aliases": []
+  },
+  "palpassiveskillchange-stamina-up-2": {
+    "name": "植入芯片：身强体健",
+    "aliases": []
+  },
+  "palpassiveskillchange-deffence-up1": {
+    "name": "植入芯片：硬皮",
+    "aliases": []
+  },
+  "palpassiveskillchange-autohpregenerate-passive": {
+    "name": "植入芯片：治愈教练",
+    "aliases": []
+  },
+  "palpassiveskillchange-pal-sanity-down-3": {
+    "name": "植入芯片：不动之王的核心",
+    "aliases": []
+  },
+  "palpassiveskillchange-cooltimereduction-up-2": {
+    "name": "植入芯片：急躁",
+    "aliases": []
+  },
+  "palpassiveskillchange-stamina-up-1": {
+    "name": "植入芯片：无限耐力",
+    "aliases": []
+  },
+  "palpassiveskillchange-nocturnal": {
+    "name": "植入芯片：失眠",
+    "aliases": []
+  },
+  "palpassiveskillchange-trainerlogging-up1": {
+    "name": "植入芯片：伐木领班",
+    "aliases": []
+  },
+  "palpassiveskillchange-pal-fullstomach-down-3": {
+    "name": "植入芯片：禁食精通",
+    "aliases": []
+  },
+  "palpassiveskillchange-nonkilling": {
+    "name": "植入芯片：慈悲一击",
+    "aliases": []
+  },
+  "palpassiveskillchange-trainermining-up1": {
+    "name": "植入芯片：采矿领班",
+    "aliases": []
+  },
+  "palpassiveskillchange-trainerworkspeed-up-1": {
+    "name": "植入芯片：激励领袖",
+    "aliases": []
+  },
+  "palpassiveskillchange-noukin": {
+    "name": "植入芯片：肌肉男",
+    "aliases": []
+  },
+  "palpassiveskillchange-movespeed-up-1": {
+    "name": "植入芯片：灵活",
+    "aliases": []
+  },
+  "palpassiveskillchange-saleprice-up-1": {
+    "name": "植入芯片：高贵",
+    "aliases": []
+  },
+  "palpassiveskillchange-hatchingspeed-up": {
+    "name": "植入芯片：慈善家",
+    "aliases": []
+  },
+  "palpassiveskillchange-pal-sanity-down-1": {
+    "name": "植入芯片：积极思考",
+    "aliases": []
+  },
+  "palpassiveskillchange-reloadspeedup-passive": {
+    "name": "植入芯片：换弹大师",
+    "aliases": []
+  },
+  "palpassiveskillchange-craftspeed-up3": {
+    "name": "植入芯片：卓越工艺",
+    "aliases": []
+  },
+  "palpassiveskillchange-movespeed-up-2": {
+    "name": "植入芯片：奔跑者",
+    "aliases": []
+  },
+  "palpassiveskillchange-cooltimereduction-up-1": {
+    "name": "植入芯片：宁静",
+    "aliases": []
+  },
+  "palpassiveskillchange-craftspeed-up1": {
+    "name": "植入芯片：认真",
+    "aliases": []
+  },
+  "palpassiveskillchange-swimspeed-up-1": {
+    "name": "植入芯片：流畅划水",
+    "aliases": []
+  },
+  "palpassiveskillchange-trainerdef-up-1": {
+    "name": "植入芯片：据点军师",
+    "aliases": []
+  },
+  "palpassiveskillchange-movespeed-up-3": {
+    "name": "植入芯片：迅捷",
+    "aliases": []
+  },
+  "palpassiveskillchange-traineratk-up-1": {
+    "name": "植入芯片：先锋",
+    "aliases": []
+  },
+  "palpassiveskillchange-playersp-decreaserate-passive": {
+    "name": "植入芯片：健康监视者",
+    "aliases": []
+  },
+  "palpassiveskillchange-pal-corporateslave": {
+    "name": "植入芯片：工作奴隶",
+    "aliases": []
+  },
+  "palpassiveskillchange-pal-sanity-down-2": {
+    "name": "植入芯片：工作狂",
+    "aliases": []
+  },
+  "skillunlock-jetdragon": {
+    "name": "捷豹龙的导弹发射器",
+    "aliases": []
+  },
+  "skillunlock-umihebi-fire": {
+    "name": "海蛇龙炎鞍",
+    "aliases": []
+  },
+  "skillunlock-umihebi": {
+    "name": "海蛇龙鞍",
+    "aliases": []
+  },
+  "skillunlock-negativeoctopus-neutral": {
+    "name": "基拉马里强化手套",
+    "aliases": []
+  },
+  "skillunlock-negativeoctopus": {
+    "name": "基拉马里的手套",
+    "aliases": []
+  },
+  "skillunlock-kingalpaca-ice": {
+    "name": "王羊驼冰鞍",
+    "aliases": []
+  },
+  "skillunlock-kingalpaca": {
+    "name": "王羊驼鞍",
+    "aliases": []
+  },
+  "skillunlock-amaterasuwolf-dark": {
+    "name": "狐火夜鞍",
+    "aliases": []
+  },
+  "skillunlock-amaterasuwolf": {
+    "name": "狐火鞍",
+    "aliases": []
+  },
+  "automealpouch-tier3": {
+    "name": "大型饲料袋",
+    "aliases": []
+  },
+  "additionalinventory-003": {
+    "name": "大型背包",
+    "aliases": []
+  },
+  "skillunlock-carbunclo": {
+    "name": "莉姆兔的冲锋枪",
+    "aliases": []
+  },
+  "unlock-picking-tier1": {
+    "name": "撬锁工具 v1",
+    "aliases": []
+  },
+  "unlock-picking-tier2": {
+    "name": "撬锁工具 v2",
+    "aliases": []
+  },
+  "unlock-picking-tier3": {
+    "name": "撬锁工具 v3",
+    "aliases": []
+  },
+  "bossdefeatreward-werewolf-ice": {
+    "name": "狼月冰悬赏令牌",
+    "aliases": []
+  },
+  "skillunlock-grassmammoth-ice": {
+    "name": "猛犸兽冰鞍",
+    "aliases": []
+  },
+  "skillunlock-grassmammoth": {
+    "name": "猛犸兽鞍",
+    "aliases": []
+  },
+  "skillunlock-ghostbeast": {
+    "name": "暗兽鞍",
+    "aliases": []
+  },
+  "whalewhistlefragment-01": {
+    "name": "海鸣骨",
+    "aliases": []
+  },
+  "additionalinventory-002": {
+    "name": "中型背包",
+    "aliases": []
+  },
+  "skillunlock-alpaca": {
+    "name": "羊驼鞍",
+    "aliases": []
+  },
+  "skillunlock-volcanodragon-ice": {
+    "name": "熔岩龙冰鞍",
+    "aliases": []
+  },
+  "skillunlock-volcanodragon": {
+    "name": "熔岩龙鞍",
+    "aliases": []
+  },
+  "skillunlock-grasspanda-electric": {
+    "name": "苔藓熊电榴弹发射器",
+    "aliases": []
+  },
+  "skillunlock-grasspanda": {
+    "name": "苔藓熊的榴弹发射器",
+    "aliases": []
+  },
+  "unlockequipmentslot-accessory-01": {
+    "name": "神秘配件箱",
+    "aliases": []
+  },
+  "unlockequipmentslot-accessory-02": {
+    "name": "秘宝配件箱",
+    "aliases": []
+  },
+  "skillunlock-poseidonorca": {
+    "name": "尼普图斯鞍",
+    "aliases": []
+  },
+  "bossdefeatreward-ghostrabbit": {
+    "name": "夜魇悬赏令牌",
+    "aliases": []
+  },
+  "skillunlock-hawkbird": {
+    "name": "夜翼鞍",
+    "aliases": []
+  },
+  "bossdefeatreward-badcatgirl": {
+    "name": "夜娅悬赏令牌",
+    "aliases": []
+  },
+  "bossdefeatreward-mysterymask": {
+    "name": "眼罩悬赏令牌",
+    "aliases": []
+  },
+  "skillunlock-lotusdragon": {
+    "name": "蛇鳞鞍",
+    "aliases": []
+  },
+  "skillunlock-saintcentaur": {
+    "name": "圣骑鞍",
+    "aliases": []
+  },
+  "skillunlock-penguin-electric": {
+    "name": "企丸电火箭发射器",
+    "aliases": []
+  },
+  "skillunlock-penguin": {
+    "name": "企丸火箭发射器",
+    "aliases": []
+  },
+  "bossdefeatreward-blueberryfairy": {
+    "name": "梅果悬赏令牌",
+    "aliases": []
+  },
+  "skillunlock-firekirin-dark": {
+    "name": "火麟夜鞍",
+    "aliases": []
+  },
+  "skillunlock-firekirin": {
+    "name": "火麟鞍",
+    "aliases": []
+  },
+  "skillunlock-skydragon-grass": {
+    "name": "奎文草鞍",
+    "aliases": []
+  },
+  "skillunlock-skydragon": {
+    "name": "奎文鞍",
+    "aliases": []
+  },
+  "skillunlock-redarmorbird": {
+    "name": "烈鹰鞍",
+    "aliases": []
+  },
+  "skillunlock-thunderdog-ice": {
+    "name": "电犬冰鞍",
+    "aliases": []
+  },
+  "skillunlock-thunderdog": {
+    "name": "电犬鞍",
+    "aliases": []
+  },
+  "skillunlock-icedeer": {
+    "name": "寒鹿鞍",
+    "aliases": []
+  },
+  "skillunlock-lazydragon-electric": {
+    "name": "放松龙电导弹发射器",
+    "aliases": []
+  },
+  "skillunlock-lazydragon": {
+    "name": "放松龙的导弹发射器",
+    "aliases": []
+  },
+  "skillunlock-volcanicmonster-ice": {
+    "name": "熔岩龟冰鞍",
+    "aliases": []
+  },
+  "skillunlock-volcanicmonster": {
+    "name": "熔岩龟鞍",
+    "aliases": []
+  },
+  "bossdefeatreward-pinkrabbit-grass": {
+    "name": "兔兔草悬赏令牌",
+    "aliases": []
+  },
+  "skillunlock-thiefbird": {
+    "name": "盗鸟鞍",
+    "aliases": []
+  },
+  "skillunlock-boar": {
+    "name": "冲锋猪鞍",
+    "aliases": []
+  },
+  "whalewhistlefragment-03": {
+    "name": "浪花海鸣骨",
+    "aliases": []
+  },
+  "skillunlock-moonqueen": {
+    "name": "塞琳鞍",
+    "aliases": []
+  },
+  "skillunlock-blackgriffon": {
+    "name": "暗喙鞍",
+    "aliases": []
+  },
+  "skillunlock-blueskydragon": {
+    "name": "沙龙鞍",
+    "aliases": []
+  },
+  "skillunlock-mushroomdragon-dark": {
+    "name": "蘑菇龙夜鞍",
+    "aliases": []
+  },
+  "skillunlock-mushroomdragon": {
+    "name": "蘑菇龙鞍",
+    "aliases": []
+  },
+  "whalewhistlefragment-02": {
+    "name": "寂静海鸣骨",
+    "aliases": []
+  },
+  "skillunlock-whiteshielddragon": {
+    "name": "银鳞鞍",
+    "aliases": []
+  },
+  "automealpouch-tier1": {
+    "name": "小型饲料袋",
+    "aliases": []
+  },
+  "additionalinventory-001": {
+    "name": "小型背包",
+    "aliases": []
+  },
+  "bossdefeatreward-blackpuppy": {
+    "name": "烟兽悬赏令牌",
+    "aliases": []
+  },
+  "skillunlock-kingsunfish-thunder": {
+    "name": "太阳鱼电鞍",
+    "aliases": []
+  },
+  "skillunlock-kingsunfish": {
+    "name": "太阳鱼鞍",
+    "aliases": []
+  },
+  "bossdefeatreward-nightbluehorse": {
+    "name": "星耀悬赏令牌",
+    "aliases": []
+  },
+  "skillunlock-nightbluehorse-neutral": {
+    "name": "星耀强化鞍",
+    "aliases": []
+  },
+  "skillunlock-nightbluehorse": {
+    "name": "星耀鞍",
+    "aliases": []
+  },
+  "skillunlock-serpent": {
+    "name": "冲浪蛇鞍",
+    "aliases": []
+  },
+  "skillunlock-serpent-ground": {
+    "name": "冲浪蛇地鞍",
+    "aliases": []
+  },
+  "skillunlock-suzaku-water": {
+    "name": "朱雀水鞍",
+    "aliases": []
+  },
+  "skillunlock-suzaku": {
+    "name": "朱雀鞍",
+    "aliases": []
+  },
+  "skillunlock-mopking": {
+    "name": "扫扫鞍",
+    "aliases": []
+  },
+  "skillunlock-monkey-fire": {
+    "name": "坦泽炎的突击步枪",
+    "aliases": []
+  },
+  "skillunlock-monkey": {
+    "name": "坦泽的突击步枪",
+    "aliases": []
+  },
+  "bossdefeatreward-purplespider": {
+    "name": "蜘蛛悬赏令牌",
+    "aliases": []
+  },
+  "skillunlock-purplespider": {
+    "name": "蛛后鞍",
+    "aliases": []
+  },
+  "skillunlock-cubeturtle-neutral": {
+    "name": "方块龟强化鞍",
+    "aliases": []
+  },
+  "skillunlock-cubeturtle": {
+    "name": "方块龟鞍",
+    "aliases": []
+  },
+  "whalewhistlefragment-04": {
+    "name": "潮汐海鸣骨",
+    "aliases": []
+  },
+  "skillunlock-colorfulbird": {
+    "name": "咕噜的手套",
+    "aliases": []
+  },
+  "skillunlock-kirin-ice": {
+    "name": "独角兽冰鞍",
+    "aliases": []
+  },
+  "skillunlock-kirin": {
+    "name": "独角兽鞍",
+    "aliases": []
+  },
+  "skillunlock-birddragon-ice": {
+    "name": "万威龙冰鞍",
+    "aliases": []
+  },
+  "skillunlock-birddragon": {
+    "name": "万威龙鞍",
+    "aliases": []
+  },
+  "bossdefeatreward-herculesbeetle-ground": {
+    "name": "地甲虫悬赏令牌",
+    "aliases": []
+  },
+  "skillunlock-yeti-grass": {
+    "name": "毛皮兽草鞍",
+    "aliases": []
+  },
+  "skillunlock-yeti": {
+    "name": "毛皮兽鞍",
+    "aliases": []
+  },
+  "skillunlock-whitealiendragon": {
+    "name": "异种守护鞍",
+    "aliases": []
+  },
+  "skillunlock-darkmechadragon": {
+    "name": "异种魔王鞍",
+    "aliases": []
+  },
+  "skillunlock-guardiandog": {
+    "name": "夜云鞍",
+    "aliases": []
+  },
+  "potion-extreme": {
+    "name": "高级回复药",
+    "aliases": []
+  },
+  "technologybook-g1": {
+    "name": "高级技术书",
+    "aliases": []
+  },
+  "fishingbait-3-a": {
+    "name": "诱人鱼饵",
+    "aliases": []
+  },
+  "ancienttechnologybook-g1": {
+    "name": "古代技术书",
+    "aliases": []
+  },
+  "worksuitability-addticket-cool": {
+    "name": "应用冷却手册I",
+    "aliases": []
+  },
+  "worksuitability-addticket-collection": {
+    "name": "应用采集手册I",
+    "aliases": []
+  },
+  "worksuitability-addticket-generateelectricity": {
+    "name": "应用发电手册I",
+    "aliases": []
+  },
+  "worksuitability-addticket-handcraft": {
+    "name": "应用手工手册I",
+    "aliases": []
+  },
+  "worksuitability-addticket-emitflame": {
+    "name": "应用点火手册I",
+    "aliases": []
+  },
+  "worksuitability-addticket-deforest": {
+    "name": "应用伐木手册I",
+    "aliases": []
+  },
+  "worksuitability-addticket-productmedicine": {
+    "name": "应用制药手册I",
+    "aliases": []
+  },
+  "worksuitability-addticket-mining": {
+    "name": "应用采矿手册I",
+    "aliases": []
+  },
+  "worksuitability-addticket-seeding": {
+    "name": "应用播种手册I",
+    "aliases": []
+  },
+  "worksuitability-addticket-monsterfarm": {
+    "name": "应用放牧手册I",
+    "aliases": []
+  },
+  "worksuitability-addticket-transport": {
+    "name": "应用搬运手册I",
+    "aliases": []
+  },
+  "worksuitability-addticket-watering": {
+    "name": "应用浇水手册I",
+    "aliases": []
+  },
+  "palsummon-nightlady-dark-2": {
+    "name": "贝拉诺瓦·解放者（终极）召唤板",
+    "aliases": []
+  },
+  "palsummon-nightlady-dark": {
+    "name": "贝拉诺瓦·解放者召唤板",
+    "aliases": []
+  },
+  "palsummon-nightlady": {
+    "name": "贝拉诺瓦召唤板",
+    "aliases": []
+  },
+  "palsummon-kingbahamut-dragon-2": {
+    "name": "布莱萨默特·琉（终极）召唤板",
+    "aliases": []
+  },
+  "palsummon-kingbahamut-dragon": {
+    "name": "布莱萨默特·琉召唤板",
+    "aliases": []
+  },
+  "repairkit": {
+    "name": "建筑修理套件",
+    "aliases": []
+  },
+  "elixir-weight-02": {
+    "name": "负重灵药",
+    "aliases": []
+  },
+  "elixir-weight-01": {
+    "name": "负重药剂",
+    "aliases": []
+  },
+  "palsummon-yakushimaboss002": {
+    "name": "天界印记",
+    "aliases": []
+  },
+  "palsummon-yakushimaboss002-2": {
+    "name": "天界印记[大师]",
+    "aliases": []
+  },
+  "treasureboxkey01": {
+    "name": "铜钥匙",
+    "aliases": []
+  },
+  "palawakening-dark": {
+    "name": "暗属性觉醒水晶",
+    "aliases": []
+  },
+  "fishingbait-3": {
+    "name": "豪华鱼饵",
+    "aliases": []
+  },
+  "palawakening-dragon": {
+    "name": "龙属性觉醒水晶",
+    "aliases": []
+  },
+  "palawakening-electric": {
+    "name": "电属性觉醒水晶",
+    "aliases": []
+  },
+  "palawakening-fire": {
+    "name": "火属性觉醒水晶",
+    "aliases": []
+  },
+  "technologybook-g3": {
+    "name": "未来技术书",
+    "aliases": []
+  },
+  "treasureboxkey03": {
+    "name": "金钥匙",
+    "aliases": []
+  },
+  "palawakening-grass": {
+    "name": "草属性觉醒水晶",
+    "aliases": []
+  },
+  "palawakening-ground": {
+    "name": "地属性觉醒水晶",
+    "aliases": []
+  },
+  "palsummon-legenddeer-2": {
+    "name": "哈塔利斯（终极）召唤板",
+    "aliases": []
+  },
+  "palsummon-legenddeer": {
+    "name": "哈塔利斯召唤板",
+    "aliases": []
+  },
+  "luxurymedicines": {
+    "name": "高级医疗用品",
+    "aliases": []
+  },
+  "fishingbait-2": {
+    "name": "高级鱼饵",
+    "aliases": []
+  },
+  "potion-high": {
+    "name": "高级回复药",
+    "aliases": []
+  },
+  "homeward": {
+    "name": "归乡雷云",
+    "aliases": []
+  },
+  "palawakening-ice": {
+    "name": "冰属性觉醒水晶",
+    "aliases": []
+  },
+  "technologybook-g2": {
+    "name": "创新技术书",
+    "aliases": []
+  },
+  "affectionfruit-01": {
+    "name": "羁绊桃",
+    "aliases": []
+  },
+  "fruit-hp-01": {
+    "name": "生命果",
+    "aliases": []
+  },
+  "affectionfruit-02": {
+    "name": "小羁绊桃",
+    "aliases": []
+  },
+  "herbs": {
+    "name": "低级医疗用品",
+    "aliases": []
+  },
+  "potion-low": {
+    "name": "低级回复药",
+    "aliases": []
+  },
+  "medicines": {
+    "name": "医疗用品",
+    "aliases": []
+  },
+  "statuspointresetsan": {
+    "name": "记忆消除药",
+    "aliases": []
+  },
+  "elixir-attack-02": {
+    "name": "力量灵药",
+    "aliases": []
+  },
+  "elixir-attack-01": {
+    "name": "力量药剂",
+    "aliases": []
+  },
+  "mushroomjuice": {
+    "name": "神秘蘑菇汁",
+    "aliases": []
+  },
+  "palawakening-neutral": {
+    "name": "无属性觉醒水晶",
+    "aliases": []
+  },
+  "supplement": {
+    "name": "营养补剂",
+    "aliases": []
+  },
+  "palgenderreverse": {
+    "name": "帕鲁变性器",
+    "aliases": []
+  },
+  "fruit-attack-01": {
+    "name": "力量果",
+    "aliases": []
+  },
+  "salvage-treasureboxkey02": {
+    "name": "强力钓鱼磁铁",
+    "aliases": []
+  },
+  "potion": {
+    "name": "回复药",
+    "aliases": []
+  },
+  "palrevive": {
+    "name": "复活药水",
+    "aliases": []
+  },
+  "rankup-arbitrary": {
+    "name": "成熟星果",
+    "aliases": []
+  },
+  "treasureboxkey02": {
+    "name": "银钥匙",
+    "aliases": []
+  },
+  "fishingbait-1": {
+    "name": "简易鱼饵",
+    "aliases": []
+  },
+  "elixir-workspeed-02": {
+    "name": "速度灵药",
+    "aliases": []
+  },
+  "elixir-workspeed-01": {
+    "name": "速度药剂",
+    "aliases": []
+  },
+  "elixir-stamina-02": {
+    "name": "耐力灵药",
+    "aliases": []
+  },
+  "elixir-stamina-01": {
+    "name": "耐力药剂",
+    "aliases": []
+  },
+  "rankup-1": {
+    "name": "星果☆1",
+    "aliases": []
+  },
+  "rankup-2": {
+    "name": "星果☆2",
+    "aliases": []
+  },
+  "rankup-3": {
+    "name": "星果☆3",
+    "aliases": []
+  },
+  "rankup-4": {
+    "name": "星果☆4",
+    "aliases": []
+  },
+  "fruit-defense-01": {
+    "name": "坚固果",
+    "aliases": []
+  },
+  "narcotic": {
+    "name": "奇怪果汁",
+    "aliases": []
+  },
+  "opium": {
+    "name": "可疑果汁",
+    "aliases": []
+  },
+  "lvup-01": {
+    "name": "训练水晶",
+    "aliases": []
+  },
+  "expboost-03": {
+    "name": "训练手册（大）",
+    "aliases": []
+  },
+  "expboost-02": {
+    "name": "训练手册（中）",
+    "aliases": []
+  },
+  "expboost-01": {
+    "name": "训练手册（小）",
+    "aliases": []
+  },
+  "expboost-04": {
+    "name": "训练手册（特大）",
+    "aliases": []
+  },
+  "treasuremap01": {
+    "name": "藏宝图",
+    "aliases": []
+  },
+  "treasuremap02": {
+    "name": "藏宝图02",
+    "aliases": []
+  },
+  "treasuremap03": {
+    "name": "藏宝图03",
+    "aliases": []
+  },
+  "treasuremap04": {
+    "name": "藏宝图04",
+    "aliases": []
+  },
+  "treasuremap05": {
+    "name": "藏宝图05",
+    "aliases": []
+  },
+  "elixir-hp-02": {
+    "name": "生命灵药",
+    "aliases": []
+  },
+  "elixir-hp-01": {
+    "name": "生命药剂",
+    "aliases": []
+  },
+  "palawakening-water": {
+    "name": "水属性觉醒水晶",
+    "aliases": []
+  },
+  "wingglider-fuel": {
+    "name": "飞行电池",
+    "aliases": []
+  },
+  "worldtreeholywater": {
+    "name": "世界树圣水",
+    "aliases": []
+  },
+  "palsummon-darkmechadragon-2": {
+    "name": "异种魔王（终极）召唤板",
+    "aliases": []
+  },
+  "palsummon-darkmechadragon": {
+    "name": "异种魔王召唤板",
+    "aliases": []
+  },
+  "accessory-talentchecker": {
+    "name": "能力眼镜",
+    "aliases": []
+  },
+  "accessory-airdash1": {
+    "name": "空中冲刺靴",
+    "aliases": []
+  },
+  "accessory-superjumpair-2": {
+    "name": "空中行走EX",
+    "aliases": []
+  },
+  "accessory-jumpair-1": {
+    "name": "空中行走Mk I",
+    "aliases": []
+  },
+  "accessory-jumpair-2": {
+    "name": "空中行走Mk II",
+    "aliases": []
+  },
+  "accessory-superjumpair-1": {
+    "name": "空中行走Mk III",
+    "aliases": []
+  },
+  "accessory-jumppower-increase": {
+    "name": "反重力腰带",
+    "aliases": []
+  },
+  "otomo-dfearth-elementboost-1": {
+    "name": "阿努比斯的护符",
+    "aliases": []
+  },
+  "accessory-at-1": {
+    "name": "攻击吊坠",
+    "aliases": []
+  },
+  "otomo-attack-up1": {
+    "name": "攻击支援哨",
+    "aliases": []
+  },
+  "otomo-dffire-elementboost-1": {
+    "name": "布莱萨默特的护符",
+    "aliases": []
+  },
+  "accessory-otomo-fire-1": {
+    "name": "炽焰兽之戒",
+    "aliases": []
+  },
+  "otomo-atnormal-elementboost-1": {
+    "name": "天帝之杖",
+    "aliases": []
+  },
+  "gasmask": {
+    "name": "腐蚀迷雾面具",
+    "aliases": []
+  },
+  "accessory-otomo-ice-1": {
+    "name": "冰甲龙之戒",
+    "aliases": []
+  },
+  "otomo-elementboost-dark-1": {
+    "name": "暗属性支援哨",
+    "aliases": []
+  },
+  "accessory-defense-1": {
+    "name": "防御吊坠",
+    "aliases": []
+  },
+  "otomo-defense-up1": {
+    "name": "防御支援哨",
+    "aliases": []
+  },
+  "otomo-atdragon-elementboost-1": {
+    "name": "神龙之杖",
+    "aliases": []
+  },
+  "accessory-ppat-1": {
+    "name": "道根纹章",
+    "aliases": []
+  },
+  "accessory-airdash2": {
+    "name": "双重空中冲刺靴",
+    "aliases": []
+  },
+  "accessory-jumpcount-increase1": {
+    "name": "二段跳靴",
+    "aliases": []
+  },
+  "otomo-elementboost-dragon-1": {
+    "name": "龙属性支援哨",
+    "aliases": []
+  },
+  "otomo-atearth-elementboost-1": {
+    "name": "地帝之杖",
+    "aliases": []
+  },
+  "otomo-elementboost-electricity-1": {
+    "name": "电属性支援哨",
+    "aliases": []
+  },
+  "accessory-otomo-dargon-1": {
+    "name": "幻悦龙之戒",
+    "aliases": []
+  },
+  "accessory-explosionresist": {
+    "name": "防爆内衣",
+    "aliases": []
+  },
+  "accessory-otomo-water-1": {
+    "name": "水焰兽水之戒",
+    "aliases": []
+  },
+  "accessory-otomo-fire-2": {
+    "name": "炎焰兽之戒",
+    "aliases": []
+  },
+  "accessory-otomo-electricity-1": {
+    "name": "风羊电之戒",
+    "aliases": []
+  },
+  "otomo-elementboost-fire-1": {
+    "name": "火属性支援哨",
+    "aliases": []
+  },
+  "otomo-atfire-elementboost-1": {
+    "name": "炎帝之杖",
+    "aliases": []
+  },
+  "otomo-dfice-elementboost-1": {
+    "name": "冰丝特之护符",
+    "aliases": []
+  },
+  "otomo-elementboost-leaf-1": {
+    "name": "草属性支援哨",
+    "aliases": []
+  },
+  "otomo-elementboost-earth-1": {
+    "name": "地属性支援哨",
+    "aliases": []
+  },
+  "otomo-palexp-increase-1": {
+    "name": "成长加速铃",
+    "aliases": []
+  },
+  "otomo-dfnormal-elementboost-1": {
+    "name": "哈塔利斯之护符",
+    "aliases": []
+  },
+  "accessory-heatresist-1": {
+    "name": "耐热内衣",
+    "aliases": []
+  },
+  "otomo-atice-elementboost-1": {
+    "name": "冰帝之杖",
+    "aliases": []
+  },
+  "otomo-elementboost-ice-1": {
+    "name": "冰属性支援哨",
+    "aliases": []
+  },
+  "accessory-wkmc-1": {
+    "name": "岛民工具腰带",
+    "aliases": []
+  },
+  "otomo-dfdragon-elementboost-1": {
+    "name": "捷豹龙之护符",
+    "aliases": []
+  },
+  "accessory-otomo-dark-1": {
+    "name": "卡特里斯之戒",
+    "aliases": []
+  },
+  "accessory-hp-1": {
+    "name": "生命吊坠",
+    "aliases": []
+  },
+  "otomo-atelectricity-elementboost-1": {
+    "name": "雷霆之王权杖",
+    "aliases": []
+  },
+  "otomo-atwater-elementboost-1": {
+    "name": "海洋之王权杖",
+    "aliases": []
+  },
+  "otomo-atdark-elementboost-1": {
+    "name": "冥界之王权杖",
+    "aliases": []
+  },
+  "otomo-dfdark-elementboost-1": {
+    "name": "莉莉娜夜之护符",
+    "aliases": []
+  },
+  "otomo-dfleaf-elementboost-1": {
+    "name": "莉莉娜之护符",
+    "aliases": []
+  },
+  "accessory-otomo-earth-1": {
+    "name": "地刺王之戒",
+    "aliases": []
+  },
+  "accessory-heatcoldresist-1": {
+    "name": "多气候内衣",
+    "aliases": []
+  },
+  "otomo-dfwater-elementboost-1": {
+    "name": "尼普图斯之护符",
+    "aliases": []
+  },
+  "otomo-elementboost-normal-1": {
+    "name": "无属性支援哨",
+    "aliases": []
+  },
+  "otomo-dfelectricity-elementboost-1": {
+    "name": "奥瑟克之护符",
+    "aliases": []
+  },
+  "accessory-nonkchecker-1": {
+    "name": "帕鲁驯服者眼镜",
+    "aliases": []
+  },
+  "accessory-workspeed-1": {
+    "name": "勤勉吊坠",
+    "aliases": []
+  },
+  "accessory-avoid-1": {
+    "name": "幻影之戒",
+    "aliases": []
+  },
+  "accessory-heatfire-1": {
+    "name": "熔岩龟护符",
+    "aliases": []
+  },
+  "accessory-darkresist-1": {
+    "name": "暗抗性之戒",
+    "aliases": []
+  },
+  "accessory-dragonresist-1": {
+    "name": "龙抗性之戒",
+    "aliases": []
+  },
+  "accessory-thunderresist-1": {
+    "name": "电抗性之戒",
+    "aliases": []
+  },
+  "accessory-fireresist-1": {
+    "name": "火抗性之戒",
+    "aliases": []
+  },
+  "accessory-maxweightup-01": {
+    "name": "货运之戒",
+    "aliases": []
+  },
+  "accessory-leafresist-1": {
+    "name": "草抗性之戒",
+    "aliases": []
+  },
+  "accessory-earthresist-1": {
+    "name": "地抗性之戒",
+    "aliases": []
+  },
+  "accessory-iceresist-1": {
+    "name": "冰抗性之戒",
+    "aliases": []
+  },
+  "accessory-nonkilling": {
+    "name": "仁慈之戒",
+    "aliases": []
+  },
+  "accessory-normalresist-1": {
+    "name": "无属性抗性之戒",
+    "aliases": []
+  },
+  "otomo-palconfidence-increase-1": {
+    "name": "信赖之戒",
+    "aliases": []
+  },
+  "accessory-aquaresist-1": {
+    "name": "水抗性之戒",
+    "aliases": []
+  },
+  "accessory-ppdf-1": {
+    "name": "银鳞纹章",
+    "aliases": []
+  },
+  "otomo-atleaf-elementboost-1": {
+    "name": "灵帝之杖",
+    "aliases": []
+  },
+  "accessory-coolresist-1": {
+    "name": "防寒内衣",
+    "aliases": []
+  },
+  "accessory-airdash3": {
+    "name": "三重空中冲刺靴",
+    "aliases": []
+  },
+  "accessory-jumpcount-increase2": {
+    "name": "三段跳靴",
+    "aliases": []
+  },
+  "accessory-otomo-leaf-1": {
+    "name": "薇蕾特之戒",
+    "aliases": []
+  },
+  "accessory-hchp-1": {
+    "name": "先锋护符",
+    "aliases": []
+  },
+  "accessory-hcmw-1": {
+    "name": "流浪商人护符",
+    "aliases": []
+  },
+  "accessory-dfhp-1": {
+    "name": "地甲虫腰带",
+    "aliases": []
+  },
+  "otomo-elementboost-water-1": {
+    "name": "水属性支援哨",
+    "aliases": []
+  },
+  "accessory-coldice-1": {
+    "name": "毛皮兽护符",
+    "aliases": []
+  },
+  "sfarrow": {
+    "name": "高级箭",
+    "aliases": []
+  },
+  "arrow": {
+    "name": "箭",
+    "aliases": []
+  },
+  "assaultriflebullet": {
+    "name": "突击步枪弹药",
+    "aliases": []
+  },
+  "beamlauncherbullet": {
+    "name": "光束发射器弹药",
+    "aliases": []
+  },
+  "widepenetrateshotgunbullet": {
+    "name": "光束散射器弹药",
+    "aliases": []
+  },
+  "paldopingshotbullet": {
+    "name": "强化枪弹药",
+    "aliases": []
+  },
+  "chargelaserriflebullet": {
+    "name": "蓄能步枪弹药",
+    "aliases": []
+  },
+  "roughbullet": {
+    "name": "粗糙弹药",
+    "aliases": []
+  },
+  "skysubmachinegunbullet": {
+    "name": "战斗冲锋枪弹药",
+    "aliases": []
+  },
+  "inkbullet": {
+    "name": "贴纸墨水",
+    "aliases": []
+  },
+  "laserbullet": {
+    "name": "能量弹匣",
+    "aliases": []
+  },
+  "energyshotgunbullet": {
+    "name": "能量霰弹枪弹药",
+    "aliases": []
+  },
+  "arrow-fire": {
+    "name": "火箭",
+    "aliases": []
+  },
+  "flamethrowerbullet": {
+    "name": "喷火器燃料",
+    "aliases": []
+  },
+  "gatlingbullet": {
+    "name": "加特林机枪弹药",
+    "aliases": []
+  },
+  "grenadebullet": {
+    "name": "榴弹弹药",
+    "aliases": []
+  },
+  "handgunbullet": {
+    "name": "手枪弹药",
+    "aliases": []
+  },
+  "skyassaultriflebullet": {
+    "name": "重型突击步枪弹药",
+    "aliases": []
+  },
+  "lasergatlingbullet": {
+    "name": "激光加特林弹匣",
+    "aliases": []
+  },
+  "skybowarrow": {
+    "name": "机械弓弹药",
+    "aliases": []
+  },
+  "meteorbullet": {
+    "name": "陨石弹药",
+    "aliases": []
+  },
+  "missilebullet": {
+    "name": "导弹弹药",
+    "aliases": []
+  },
+  "overheatriflebullet": {
+    "name": "过热步枪弹药",
+    "aliases": []
+  },
+  "energylauncherbullet": {
+    "name": "等离子弹匣",
+    "aliases": []
+  },
+  "electricarcassaultriflebullet": {
+    "name": "等离子步枪弹药",
+    "aliases": []
+  },
+  "arrow-poison": {
+    "name": "毒箭",
+    "aliases": []
+  },
+  "skyshotgunbullet": {
+    "name": "原型霰弹枪弹药",
+    "aliases": []
+  },
+  "reinforcedarrow": {
+    "name": "强化箭",
+    "aliases": []
+  },
+  "riflebullet": {
+    "name": "步枪弹药",
+    "aliases": []
+  },
+  "explosivebullet": {
+    "name": "火箭弹药",
+    "aliases": []
+  },
+  "shotgunbullet": {
+    "name": "霰弹",
+    "aliases": []
+  },
+  "skygrenadelauncherbullet": {
+    "name": "战术榴弹发射器弹药",
+    "aliases": []
+  },
+  "palsphere-ancient-2": {
+    "name": "远古帕鲁球",
+    "aliases": []
+  },
+  "palsphere-exotic": {
+    "name": "异种帕鲁球",
+    "aliases": []
+  },
+  "palsphere-giga": {
+    "name": "特大帕鲁球",
+    "aliases": []
+  },
+  "palsphere-tera": {
+    "name": "超凡帕鲁球",
+    "aliases": []
+  },
+  "palsphere-legend": {
+    "name": "传说帕鲁球",
+    "aliases": []
+  },
+  "palsphere-mega": {
+    "name": "巨型帕鲁球",
+    "aliases": []
+  },
+  "palsphere": {
+    "name": "帕鲁球",
+    "aliases": []
+  },
+  "palsphere-ancient-1": {
+    "name": "以太帕鲁球",
+    "aliases": []
+  },
+  "palsphere-master": {
+    "name": "终极帕鲁球",
+    "aliases": []
+  },
+  "spheremodule-curve": {
+    "name": "曲射模块",
+    "aliases": []
+  },
+  "spheremodule-heavy": {
+    "name": "重量模块",
+    "aliases": []
+  },
+  "spheremodule-homing": {
+    "name": "追踪模块",
+    "aliases": []
+  },
+  "spheremodule-curve2": {
+    "name": "滑动模块",
+    "aliases": []
+  },
+  "spheremodule-sniper": {
+    "name": "狙击模块",
+    "aliases": []
+  },
+  "spheremodule-sniper2": {
+    "name": "狙击模块II",
+    "aliases": []
+  },
+  "glider-super": {
+    "name": "特大滑翔机",
+    "aliases": []
+  },
+  "glider-tera": {
+    "name": "超凡滑翔机",
+    "aliases": []
+  },
+  "glider-good": {
+    "name": "巨型滑翔机",
+    "aliases": []
+  },
+  "glider-old": {
+    "name": "普通降落伞",
+    "aliases": []
+  },
+  "wingglider": {
+    "name": "飞行翼包",
+    "aliases": []
+  }
+}

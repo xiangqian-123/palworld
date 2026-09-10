@@ -176,7 +176,7 @@ export default function HomePage({ params }: { params: { locale: string } }) {
               <Link className="btn btn-ghost" href={`/${locale}/breeding-calculator`}>
                 {t(m, "hero.ctaBreeding", "养殖计算器")}
               </Link>
-              <Link className="btn btn-ghost" href={`/${locale}/guide/map`}>
+              <Link className="btn btn-ghost" href={`/${locale}/map`}>
                 {t(m, "hero.ctaMap", "探索地图")}
               </Link>
             </div>

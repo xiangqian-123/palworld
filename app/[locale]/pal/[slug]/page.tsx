@@ -2,6 +2,7 @@ import { notFound } from "next/navigation";
 import Link from "next/link";
 import { getPal, getPalSlugs, getCodeName, localizePal } from "@/lib/pal";
 import { getPalSpawn, regionLabel } from "@/lib/spawn";
+import { dropItemSlug } from "@/lib/drops";
 import { elementLabel, workLabel } from "@/lib/pal-labels";
 import { type Locale } from "@/lib/locales";
 import { getMessages } from "@/lib/i18n";
@@ -332,16 +333,27 @@ export default function PalPage({
                 </tr>
               </thead>
               <tbody>
-                {pal.drops.map((d, i) => (
-                  <tr key={i}>
-                    <td>{d.name}</td>
-                    <td>{d.rate}%</td>
-                    <td>
-                      {d.min}
-                      {d.max !== d.min ? `-${d.max}` : ""}
-                    </td>
-                  </tr>
-                ))}
+                {pal.drops.map((d, i) => {
+                  const slug = dropItemSlug(d.item);
+                  return (
+                    <tr key={i}>
+                      <td>
+                        {slug ? (
+                          <Link href={`/${params.locale}/item/${slug}`}>
+                            {d.name}
+                          </Link>
+                        ) : (
+                          d.name
+                        )}
+                      </td>
+                      <td>{d.rate}%</td>
+                      <td>
+                        {d.min}
+                        {d.max !== d.min ? `-${d.max}` : ""}
+                      </td>
+                    </tr>
+                  );
+                })}
               </tbody>
             </table>
           </>

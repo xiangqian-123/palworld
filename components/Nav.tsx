@@ -73,7 +73,7 @@ export default function Nav({
   const close = () => setMenuOpen(false);
 
   const palLink = `/${locale}/pals`;
-  const mapLink = `/${locale}/guide/map`;
+  const mapLink = `/${locale}/map`;
 
   return (
     <header className="nav">

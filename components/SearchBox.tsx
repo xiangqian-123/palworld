@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
-import type { SearchResult } from "@/lib/search";
+import type { SearchHit, SearchResult } from "@/lib/search";
 
 // 搜索框文案（第一版内建，按语言前缀判断；后续要完整 i18n 再迁到 messages）。
 function labels(locale: string) {
@@ -26,10 +26,19 @@ export default function SearchBox({
   compact?: boolean;
 }) {
   const L = labels(locale);
+  const isZh = locale === "zh-CN" || locale === "zh-TW";
   const [q, setQ] = useState("");
   const [res, setRes] = useState<SearchResult | null>(null);
   const [open, setOpen] = useState(false);
   const boxRef = useRef<HTMLDivElement>(null);
+
+  // 主名/副名：中文页「中文名 + 英文名」，英文页「英文名 + 中文名」。
+  function displayName(h: SearchHit): { main: string; secondary?: string } {
+    if (isZh) {
+      return { main: h.zhName || h.name, secondary: h.zhName ? h.name : undefined };
+    }
+    return { main: h.name, secondary: h.zhName || undefined };
+  }
 
   useEffect(() => {
     if (!q.trim()) {
@@ -108,7 +117,12 @@ export default function SearchBox({
                   onClick={close}
                   className="search-hit"
                 >
-                  <span className="search-hit-name">{h.name}</span>
+                  <span className="search-hit-name">{displayName(h).main}</span>
+                  {displayName(h).secondary && (
+                    <span className="search-hit-secondary">
+                      {displayName(h).secondary}
+                    </span>
+                  )}
                   {h.sub && <span className="search-hit-sub">{h.sub}</span>}
                 </Link>
               ))}
@@ -124,7 +138,12 @@ export default function SearchBox({
                   onClick={close}
                   className="search-hit"
                 >
-                  <span className="search-hit-name">{h.name}</span>
+                  <span className="search-hit-name">{displayName(h).main}</span>
+                  {displayName(h).secondary && (
+                    <span className="search-hit-secondary">
+                      {displayName(h).secondary}
+                    </span>
+                  )}
                   {h.sub && <span className="search-hit-sub">{h.sub}</span>}
                 </Link>
               ))}
@@ -140,7 +159,7 @@ export default function SearchBox({
                   onClick={close}
                   className="search-hit"
                 >
-                  <span className="search-hit-name">{h.name}</span>
+                  <span className="search-hit-name">{displayName(h).main}</span>
                 </Link>
               ))}
             </div>
