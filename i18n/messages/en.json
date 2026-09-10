@@ -1,73 +1,120 @@
 {
   "nav": {
-    "beginner": "Beginner Guide",
     "pals": "Pal Codex",
     "breeding": "Breeding",
-    "base": "Base Building",
-    "materials": "Materials",
+    "items": "Items",
     "map": "Map",
+    "guides": "Guides",
+    "allItems": "All Items",
+    "breedingCalc": "Breeding Calculator",
+    "breedingGuide": "Breeding Guide",
+    "passives": "Passive Skills",
+    "beginner": "Beginner Guide",
+    "base": "Base Building",
     "worldTree": "World Tree",
     "endgame": "Endgame",
     "money": "Money",
+    "ps5": "PS5",
+    "mobile": "Mobile",
+    "tcg": "TCG",
     "faq": "FAQ"
   },
-  "hero": {
-    "eyebrow": "Fan-Made Community Wiki",
-    "title": "Palworld",
-    "description": "Capture, breed, fight and build across the Palpagos Islands. 288 Pals, 9 elements, cross-platform multiplayer — from your first Lamball to the World Tree finale.",
-    "stats": [
-      "Launched Jan 19, 2024 (EA) → 1.0 on Jul 10, 2026",
-      "288 Pals · 9 Elements",
-      "32M+ Players",
-      "PC / PS5 / Xbox / Mac",
-      "Cross-Platform Multiplayer",
-      "32-Player Dedicated Servers"
-    ],
-    "ctaPrimary": "Start Beginner Guide",
-    "ctaSecondary": "Explore Pal Codex",
-    "ctaThird": "Breeding Calculator",
-    "videoLabel": "Official Trailer"
+  "cat": {
+    "Weapon": "Weapons",
+    "Armor": "Armor",
+    "Blueprint": "Blueprints",
+    "Material": "Materials",
+    "Food": "Food",
+    "Accessory": "Accessories"
   },
-  "startHere": {
-    "title": "Start Here",
-    "lead": "Entry points to jump straight to what you need.",
+  "hero": {
+    "eyebrow": "Palworld Database + Tools + Wiki",
+    "title": "Palworld Wiki",
+    "subtitle": "Pal codex, breeding calculator, item database, map and 1.0 guides",
+    "statPalsLabel": "Pals",
+    "statItemsLabel": "Items",
+    "statUpdated": "Updated for Palworld 1.0",
+    "searchPlaceholder": "Search Pals, items, materials, bosses, guides…",
+    "ctaPals": "Browse Pal Codex",
+    "ctaBreeding": "Breeding Calculator",
+    "ctaMap": "Explore Map"
+  },
+  "trending": {
+    "title": "Trending Now",
     "cards": [
       {
-        "title": "Beginner Guide",
-        "desc": "From your first capture to base building, breeding and boss prep.",
-        "slug": "beginner"
+        "title": "Palworld Mobile",
+        "desc": "Android, iOS, release date and latest news",
+        "slug": "mobile"
       },
       {
-        "title": "Pal Codex",
-        "desc": "All 288 Pals — elements, work suitability and top picks.",
-        "slug": "pals"
+        "title": "Palworld PS5",
+        "desc": "Price, editions, crossplay and gameplay info",
+        "slug": "ps5"
       },
       {
-        "title": "Breeding Guide",
-        "desc": "Breeding formulas, best combinations and passive inheritance.",
-        "slug": "breeding"
+        "title": "Palworld TCG",
+        "desc": "Cards, release date and how to play",
+        "slug": "tcg"
       },
       {
-        "title": "Base Building",
-        "desc": "Location, layout, work suitability and base automation.",
-        "slug": "base"
+        "title": "Best Passive Skills",
+        "desc": "Combat, work and breeding passives",
+        "slug": "passives"
       },
       {
-        "title": "Materials",
-        "desc": "Every material — how to get it, unlock level and crafting uses.",
-        "slug": "materials"
-      },
-      {
-        "title": "Endgame Guide",
-        "desc": "World Tree, legendary gear, hard mode and endgame materials.",
-        "slug": "endgame"
-      },
-      {
-        "title": "Money Guide",
-        "desc": "Sell food, farm Alpha drops and make gold fast.",
-        "slug": "money"
+        "title": "World Tree",
+        "desc": "Unlock, bosses, materials and exploration",
+        "slug": "world-tree"
       }
     ]
+  },
+  "explore": {
+    "title": "Explore Palworld",
+    "cards": [
+      {
+        "title": "Pal Codex",
+        "countLabel": "Pals",
+        "desc": "Find elements, stats, work suitability, skills and breeding info.",
+        "cta": "Browse all Pals →",
+        "href": "/pals"
+      },
+      {
+        "title": "Breeding",
+        "desc": "Pick two parents to find their child, or pick a target Pal to see every parent combo.",
+        "cta": "Open Breeding Calculator →",
+        "href": "/breeding-calculator"
+      },
+      {
+        "title": "Item Database",
+        "countLabel": "Items",
+        "desc": "Weapons, armor, blueprints, materials, food and accessories.",
+        "cta": "Browse all items →",
+        "href": "/items"
+      },
+      {
+        "title": "Map",
+        "desc": "Find Pals, bosses, resources, dungeons and key locations.",
+        "cta": "Explore the map →",
+        "href": "/guide/map"
+      }
+    ]
+  },
+  "popularPals": {
+    "title": "Popular Pals",
+    "viewAll": "View all Pals →"
+  },
+  "itemsDb": {
+    "title": "Item Database",
+    "browseAll": "Browse all items →"
+  },
+  "guidesHome": {
+    "title": "Guides",
+    "viewAll": "View all guides →"
+  },
+  "v1": {
+    "title": "Palworld 1.0",
+    "lead": "The World Tree finale and new-version content."
   },
   "about": {
     "title": "What is Palworld",

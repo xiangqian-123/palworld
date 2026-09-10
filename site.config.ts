@@ -21,6 +21,10 @@ export interface SiteConfig {
   ogLocales: string[];
   /** 站点默认分享图（放在 public 下，以 / 开头）。 */
   ogImage: string;
+  /** 数据对应的游戏版本（真实值，不编造）。 */
+  dataVersion: string;
+  /** 数据源生成日期（来自 atlas-manifest.json 的 generatedAt）。 */
+  dataUpdatedAt: string;
 }
 
 export const siteConfig: SiteConfig = {
@@ -29,9 +33,12 @@ export const siteConfig: SiteConfig = {
   gameName: 'Palworld',
   // GA4 衡量 ID：优先读环境变量 NEXT_PUBLIC_GA_ID，未设置时用下方写死的值
   gaId: process.env.NEXT_PUBLIC_GA_ID || 'G-3SC1YKTZN6',
-  defaultTitle: 'Palworld Wiki — Guides, Pal Codex, Breeding & Mods',
+  defaultTitle: 'Palworld Wiki — Pal Codex, Breeding Calculator, Items & Map',
   defaultDescription:
-    'Palworld Wiki — complete fan guide to Palworld: beginner tutorials, 288 Pal codex, breeding calculator, materials, Terraria crossover, TCG and server guides.',
+    'Palworld database and tools: 288-Pal codex, 1,892-item database, breeding calculator, map and World Tree 1.0 guides.',
   ogLocales: ['en', 'ja', 'ru', 'de', 'zh-TW'],
   ogImage: '/images/guides/ss-16.jpg',
+  // 数据版本（对应 Palworld 1.0，数据源 atlas-data build 25080279，生成于 2026-09-07）。
+  dataVersion: 'Palworld 1.0',
+  dataUpdatedAt: '2026-09-07',
 };

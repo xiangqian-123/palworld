@@ -1,73 +1,120 @@
 {
   "nav": {
-    "beginner": "新手入门",
     "pals": "Pal 图鉴",
-    "breeding": "养殖攻略",
+    "breeding": "养殖",
+    "items": "物品",
+    "map": "地图",
+    "guides": "攻略",
+    "allItems": "全部物品",
+    "breedingCalc": "养殖计算器",
+    "breedingGuide": "养殖攻略",
+    "passives": "被动技能",
+    "beginner": "新手入门",
     "base": "基地建设",
-    "materials": "材料图鉴",
-    "map": "地图探索",
     "worldTree": "世界树",
     "endgame": "终局攻略",
     "money": "赚钱攻略",
+    "ps5": "PS5",
+    "mobile": "手机版",
+    "tcg": "TCG",
     "faq": "常见问题"
   },
-  "hero": {
-    "eyebrow": "Fan-Made Community Wiki",
-    "title": "Palworld",
-    "description": "在 Palpagos 群岛捕捉、养殖、战斗、建造。288 种 Pal、9 大元素、跨平台联机——从第一只 Lamball 到 World Tree 世界树的终章。",
-    "stats": [
-      "2024年1月19日 EA 上线 → 2026年7月10日 1.0",
-      "288 种 Pal · 9 大元素",
-      "3200 万+ 玩家",
-      "PC / PS5 / Xbox / Mac",
-      "跨平台联机",
-      "32 人专用服务器"
-    ],
-    "ctaPrimary": "开始新手攻略",
-    "ctaSecondary": "浏览 Pal 图鉴",
-    "ctaThird": "养殖计算器",
-    "videoLabel": "官方预告片"
+  "cat": {
+    "Weapon": "武器",
+    "Armor": "防具",
+    "Blueprint": "蓝图",
+    "Material": "材料",
+    "Food": "食物",
+    "Accessory": "饰品"
   },
-  "startHere": {
-    "title": "从这里开始",
-    "lead": "核心入口，快速定位你要找的内容。",
+  "hero": {
+    "eyebrow": "Palworld 数据库 + 工具 + Wiki",
+    "title": "Palworld Wiki",
+    "subtitle": "Pal 图鉴、养殖计算器、物品数据库、地图与 1.0 攻略",
+    "statPalsLabel": "Pals",
+    "statItemsLabel": "Items",
+    "statUpdated": "Updated for Palworld 1.0",
+    "searchPlaceholder": "搜索 Pal、物品、材料、Boss、攻略……",
+    "ctaPals": "浏览 Pal 图鉴",
+    "ctaBreeding": "养殖计算器",
+    "ctaMap": "探索地图"
+  },
+  "trending": {
+    "title": "当前热门",
     "cards": [
       {
-        "title": "Beginner Guide 新手入门",
-        "desc": "开局抓 Pal → 建基地 → 养殖配方 → BOSS 战准备的全流程。",
-        "slug": "beginner"
+        "title": "Palworld Mobile",
+        "desc": "Android、iOS、发布日期与最新消息",
+        "slug": "mobile"
       },
       {
-        "title": "Pal Codex Pal 图鉴",
-        "desc": "288 种 Pal 的属性分类、工作适应性、最佳推荐。",
-        "slug": "pals"
+        "title": "Palworld PS5",
+        "desc": "价格、版本、跨平台与游玩信息",
+        "slug": "ps5"
       },
       {
-        "title": "Breeding Guide 养殖攻略",
-        "desc": "养殖公式、最佳组合、被动技能继承。",
-        "slug": "breeding"
+        "title": "Palworld TCG",
+        "desc": "卡牌、发布日期与玩法",
+        "slug": "tcg"
       },
       {
-        "title": "Base Building 基地建设",
-        "desc": "选址、布局、工作适应性与基地自动化。",
-        "slug": "base"
+        "title": "最佳被动技能",
+        "desc": "战斗、工作与养殖被动",
+        "slug": "passives"
       },
       {
-        "title": "Materials 材料图鉴",
-        "desc": "全材料的获取方式、解锁等级、合成用途。",
-        "slug": "materials"
-      },
-      {
-        "title": "Endgame Guide 终局攻略",
-        "desc": "World Tree 世界树、传说装备、困难模式与终局材料。",
-        "slug": "endgame"
-      },
-      {
-        "title": "Money Guide 赚钱攻略",
-        "desc": "卖食物、刷 Alpha 掉落、Relaxaurus 刷油等快速赚钱方法。",
-        "slug": "money"
+        "title": "世界树",
+        "desc": "解锁、Boss、材料与探索",
+        "slug": "world-tree"
       }
     ]
+  },
+  "explore": {
+    "title": "探索 Palworld",
+    "cards": [
+      {
+        "title": "Pal 图鉴",
+        "countLabel": "Pals",
+        "desc": "查找属性、元素、工作适性、技能与养殖信息。",
+        "cta": "浏览全部 Pal →",
+        "href": "/pals"
+      },
+      {
+        "title": "养殖",
+        "desc": "输入父母 Pal 查找后代，或选择目标 Pal 反查父母组合。",
+        "cta": "打开养殖计算器 →",
+        "href": "/breeding-calculator"
+      },
+      {
+        "title": "物品数据库",
+        "countLabel": "Items",
+        "desc": "武器、防具、蓝图、材料、食物与饰品。",
+        "cta": "浏览全部物品 →",
+        "href": "/items"
+      },
+      {
+        "title": "地图",
+        "desc": "查找 Pal、Boss、资源、地下城和重要地点。",
+        "cta": "探索地图 →",
+        "href": "/guide/map"
+      }
+    ]
+  },
+  "popularPals": {
+    "title": "热门 Pal",
+    "viewAll": "查看全部 Pal →"
+  },
+  "itemsDb": {
+    "title": "物品数据库",
+    "browseAll": "浏览全部物品 →"
+  },
+  "guidesHome": {
+    "title": "攻略",
+    "viewAll": "查看全部攻略 →"
+  },
+  "v1": {
+    "title": "Palworld 1.0",
+    "lead": "世界树终章与新版本内容。"
   },
   "about": {
     "title": "什么是 Palworld",

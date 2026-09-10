@@ -79,6 +79,20 @@ export default function sitemap(): MetadataRoute.Sitemap {
     }
   }
 
+  // Pal 图鉴交互页（/pals）
+  {
+    const languages = hreflangLanguages("/pals");
+    for (const locale of locales) {
+      entries.push({
+        url: `${siteConfig.siteUrl}/${locale}/pals`,
+        lastModified: now,
+        changeFrequency: "weekly",
+        priority: 0.9,
+        alternates: { languages },
+      });
+    }
+  }
+
   // Breeding Calculator
   {
     const languages = hreflangLanguages("/breeding-calculator");
