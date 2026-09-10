@@ -214,6 +214,10 @@ export default function PalPage({
                 <Link href={`/${params.locale}/pal/${pal.slug}/location`}>
                   {L("pal.fullLocation", "Full spawn guide →")}
                 </Link>
+                {" · "}
+                <Link href={`/${params.locale}/map`}>
+                  {L("pal.viewOnMap", "View on Map →")}
+                </Link>
               </p>
             </>
           );

@@ -214,6 +214,7 @@
     "speedTransport": "Transport",
     "captureRate": "Capture Rate",
     "price": "Price",
-    "breedsInto": "Breeds Into"
+    "breedsInto": "Breeds Into",
+    "viewOnMap": "View on Map →"
   }
 }

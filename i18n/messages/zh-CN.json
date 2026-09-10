@@ -214,6 +214,7 @@
     "speedTransport": "搬运",
     "captureRate": "捕获率",
     "price": "价格",
-    "breedsInto": "可繁殖出"
+    "breedsInto": "可繁殖出",
+    "viewOnMap": "在地图上查看 →"
   }
 }

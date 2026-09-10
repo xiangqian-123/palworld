@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { useMemo, useState } from "react";
+import { useMemo, useRef, useState } from "react";
 
 export interface MapItem {
   id: string;
@@ -13,6 +13,9 @@ export interface MapItem {
   y: number;
 }
 
+const VIEW_W = 1000;
+const VIEW_H = 700;
+
 export default function MapExplorer({
   locations,
   locale,
@@ -23,6 +26,10 @@ export default function MapExplorer({
   const zh = locale === "zh-CN" || locale === "zh-TW";
   const [filter, setFilter] = useState<"pal" | "boss">("pal");
   const [selected, setSelected] = useState<string | null>(null);
+  const [view, setView] = useState({ scale: 1, tx: 0, ty: 0 });
+  const dragRef = useRef<{ x: number; y: number; tx: number; ty: number } | null>(
+    null
+  );
 
   const palCount = locations.filter((l) => l.type === "pal").length;
   const bossCount = locations.filter((l) => l.type === "boss").length;
@@ -32,20 +39,47 @@ export default function MapExplorer({
     [locations, filter]
   );
 
-  // SVG 坐标归一化
-  const W = 1000;
-  const H = 700;
-  const PAD = 40;
-  const xs = filtered.map((l) => l.x);
-  const ys = filtered.map((l) => l.y);
-  const minX = Math.min(...xs);
-  const maxX = Math.max(...xs);
-  const minY = Math.min(...ys);
-  const maxY = Math.max(...ys);
-  const sx = (x: number) =>
-    PAD + ((x - minX) / (maxX - minX || 1)) * (W - 2 * PAD);
-  const sy = (y: number) =>
-    PAD + ((y - minY) / (maxY - minY || 1)) * (H - 2 * PAD);
+  // 坐标归一化到 viewBox（pal-map 坐标系，实际范围约 -1750~950 / -2050~850）
+  const MIN_X = -1800;
+  const MAX_X = 1000;
+  const MIN_Y = -2100;
+  const MAX_Y = 900;
+  const sx = (x: number) => ((x - MIN_X) / (MAX_X - MIN_X)) * VIEW_W;
+  const sy = (y: number) => ((MAX_Y - y) / (MAX_Y - MIN_Y)) * VIEW_H;
+
+  function zoomIn() {
+    setView((v) => ({ ...v, scale: Math.min(v.scale * 1.4, 8) }));
+  }
+  function zoomOut() {
+    setView((v) => ({ ...v, scale: Math.max(v.scale / 1.4, 0.5) }));
+  }
+  function reset() {
+    setView({ scale: 1, tx: 0, ty: 0 });
+    setSelected(null);
+  }
+
+  function onWheel(e: React.WheelEvent) {
+    const factor = e.deltaY < 0 ? 1.2 : 1 / 1.2;
+    setView((v) => ({
+      ...v,
+      scale: Math.min(Math.max(v.scale * factor, 0.5), 8),
+    }));
+  }
+
+  function onMouseDown(e: React.MouseEvent) {
+    dragRef.current = { x: e.clientX, y: e.clientY, tx: view.tx, ty: view.ty };
+  }
+  function onMouseMove(e: React.MouseEvent) {
+    if (!dragRef.current) return;
+    setView((v) => ({
+      ...v,
+      tx: dragRef.current!.tx + (e.clientX - dragRef.current!.x),
+      ty: dragRef.current!.ty + (e.clientY - dragRef.current!.y),
+    }));
+  }
+  function onMouseUp() {
+    dragRef.current = null;
+  }
 
   function display(l: MapItem): { main: string; secondary?: string } {
     if (zh) {
@@ -54,58 +88,93 @@ export default function MapExplorer({
     return { main: l.name, secondary: l.zhName || undefined };
   }
 
+  const sel = filtered.find((l) => l.id === selected);
+
   return (
     <div className="map-explorer">
-      <div className="map-filter">
-        <button
-          className={filter === "pal" ? "active" : ""}
-          onClick={() => {
-            setFilter("pal");
-            setSelected(null);
-          }}
-        >
-          {zh ? "Pal" : "Pal"} ({palCount})
-        </button>
-        <button
-          className={filter === "boss" ? "active" : ""}
-          onClick={() => {
-            setFilter("boss");
-            setSelected(null);
-          }}
-        >
-          {zh ? "Boss" : "Boss"} ({bossCount})
-        </button>
+      <div className="map-toolbar">
+        <div className="map-filter">
+          <button
+            className={filter === "pal" ? "active" : ""}
+            onClick={() => {
+              setFilter("pal");
+              setSelected(null);
+            }}
+          >
+            {zh ? "Pal" : "Pal"} ({palCount})
+          </button>
+          <button
+            className={filter === "boss" ? "active" : ""}
+            onClick={() => {
+              setFilter("boss");
+              setSelected(null);
+            }}
+          >
+            {zh ? "Boss" : "Boss"} ({bossCount})
+          </button>
+        </div>
+        <div className="map-zoom">
+          <button onClick={zoomIn} aria-label="Zoom in">+</button>
+          <button onClick={zoomOut} aria-label="Zoom out">−</button>
+          <button onClick={reset} aria-label="Reset">⤾</button>
+        </div>
       </div>
 
-      <div className="map-area">
-        <svg viewBox={`0 0 ${W} ${H}`} role="img" aria-label="Palworld map">
-          <rect x="0" y="0" width={W} height={H} rx="12" className="map-bg" />
-          {filtered.map((l) => (
-            <circle
-              key={l.id}
-              cx={sx(l.x)}
-              cy={sy(l.y)}
-              r={l.type === "boss" ? 5 : 3}
-              className={`map-dot map-dot-${l.type}${
-                selected === l.id ? " active" : ""
-              }`}
-              onClick={() => setSelected(selected === l.id ? null : l.id)}
-            />
-          ))}
+      <div
+        className="map-area"
+        onWheel={onWheel}
+        onMouseDown={onMouseDown}
+        onMouseMove={onMouseMove}
+        onMouseUp={onMouseUp}
+        onMouseLeave={onMouseUp}
+      >
+        <svg viewBox={`0 0 ${VIEW_W} ${VIEW_H}`} role="img" aria-label="Palworld map">
+          <defs>
+            <pattern id="map-grid" width="50" height="50" patternUnits="userSpaceOnUse">
+              <path d="M 50 0 L 0 0 0 50" fill="none" stroke="var(--map-grid)" strokeWidth="1" />
+            </pattern>
+          </defs>
+          <rect x="0" y="0" width={VIEW_W} height={VIEW_H} rx="12" className="map-bg" />
+          <rect x="0" y="0" width={VIEW_W} height={VIEW_H} rx="12" fill="url(#map-grid)" />
+          <g transform={`translate(${view.tx} ${view.ty}) scale(${view.scale})`}>
+            {filtered.map((l) => (
+              <circle
+                key={l.id}
+                cx={sx(l.x)}
+                cy={sy(l.y)}
+                r={l.type === "boss" ? 5 : 3}
+                className={`map-dot map-dot-${l.type}${
+                  selected === l.id ? " active" : ""
+                }`}
+                onClick={(e) => {
+                  e.stopPropagation();
+                  setSelected(selected === l.id ? null : l.id);
+                }}
+              />
+            ))}
+          </g>
         </svg>
-        {selected && (
+
+        {sel && (
           <div className="map-tooltip">
-            {(() => {
-              const l = filtered.find((x) => x.id === selected);
-              if (!l) return null;
-              const d = display(l);
-              return (
-                <>
-                  <strong>{d.main}</strong>
-                  {d.secondary && <span>{d.secondary}</span>}
-                </>
-              );
-            })()}
+            <div className="map-tooltip-type">
+              {sel.type === "boss" ? (zh ? "Alpha Boss" : "Alpha Boss") : (zh ? "Pal" : "Pal")}
+            </div>
+            <strong className="map-tooltip-name">{display(sel).main}</strong>
+            {display(sel).secondary && (
+              <span className="map-tooltip-en">{display(sel).secondary}</span>
+            )}
+            <div className="map-tooltip-coord">
+              {zh ? "坐标" : "Coords"}: {sel.x}, {sel.y}
+            </div>
+            {sel.palSlug && (
+              <Link
+                className="map-tooltip-link"
+                href={`/${locale}/pal/${sel.palSlug}/location`}
+              >
+                {zh ? "查看位置详情 →" : "View location →"}
+              </Link>
+            )}
           </div>
         )}
       </div>
@@ -119,7 +188,7 @@ export default function MapExplorer({
               href={
                 l.palSlug
                   ? `/${locale}/pal/${l.palSlug}/location`
-                  : `/${locale}/guide/map`
+                  : `/${locale}/map`
               }
               className="map-list-item"
             >
