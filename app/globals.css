@@ -904,6 +904,52 @@ img {
   margin: 16px 0 8px;
 }
 
+/* Pal 详情页 Best Uses 标签 */
+.pal-uses {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 8px 0 4px;
+}
+.use-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.82rem;
+  font-weight: 600;
+  padding: 5px 12px;
+  border-radius: 999px;
+  border: 1px solid rgb(var(--border));
+  background: rgb(var(--bg-alt));
+  color: rgb(var(--text));
+}
+.use-chip.use-combat {
+  border-color: #e11d48;
+  color: #e11d48;
+}
+.use-chip.use-mount {
+  border-color: hsl(var(--nav-theme));
+  color: hsl(var(--nav-theme));
+}
+.use-chip.use-base {
+  border-color: #16a34a;
+  color: #16a34a;
+}
+.use-detail {
+  font-size: 0.74rem;
+  font-weight: 400;
+  color: rgb(var(--text-muted));
+  opacity: 0.9;
+}
+
+/* Item 详情页：中文名下的英文原名 */
+.item-en-name {
+  margin: -4px 0 0;
+  font-size: 0.95rem;
+  color: rgb(var(--text-muted));
+  font-weight: 500;
+}
+
 /* ===== Items 数据库 ===== */
 .item-cat-nav {
   display: flex;

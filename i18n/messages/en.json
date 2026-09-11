@@ -215,6 +215,22 @@
     "captureRate": "Capture Rate",
     "price": "Price",
     "breedsInto": "Breeds Into",
-    "viewOnMap": "View on Map →"
+    "viewOnMap": "View on Map →",
+    "bestUses": "Best Uses",
+    "combat": "Combat",
+    "mount": "Mount",
+    "baseWorker": "Base Worker",
+    "related": "Related",
+    "breedingCta": "How to Breed",
+    "breedingCalc": "Breeding Calculator",
+    "fullLocation": "Full spawn guide →",
+    "location": "Where to Find",
+    "spawnLevel": "Wild Level",
+    "spawnTime": "Active",
+    "map": "Map",
+    "nightOnly": "Night only",
+    "dayNight": "Day & Night",
+    "alpha": "Alpha Boss",
+    "alphaYes": "Yes"
   }
 }

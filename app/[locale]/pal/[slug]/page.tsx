@@ -87,6 +87,24 @@ export default function PalPage({
   const genderMale = pal.genderMale;
   const hasGender = genderMale != null && genderMale >= 0;
 
+  // Best Uses 标签（数据驱动：rarity/攻击→战斗、rideSprint→骑乘、bestWork 等级→基地工作）
+  const uses: { key: string; label: string; detail?: string }[] = [];
+  const atk = Math.max(pal.stats?.meleeAttack ?? 0, pal.stats?.shotAttack ?? 0);
+  if ((pal.rarity ?? 0) >= 8 || atk >= 130) {
+    uses.push({ key: "combat", label: L("pal.combat", "Combat") });
+  }
+  if ((pal.speed?.rideSprint ?? 0) >= 1200) {
+    uses.push({ key: "mount", label: L("pal.mount", "Mount") });
+  }
+  const bwLv = pal.bestWork ? (pal.workSuitabilities?.[pal.bestWork] ?? 0) : 0;
+  if (pal.bestWork && bwLv >= 4) {
+    uses.push({
+      key: "base",
+      label: L("pal.baseWorker", "Base Worker"),
+      detail: `${wk(pal.bestWork)} Lv${bwLv}`,
+    });
+  }
+
   const locale = params.locale as Locale;
   const path = `/pal/${pal.slug}`;
   const codexLabel = L("nav.pals", "Pal Codex");
@@ -150,6 +168,20 @@ export default function PalPage({
 
       <div className="guide-body prose">
         {localized.description && <p className="pal-desc">{localized.description}</p>}
+
+        {uses.length > 0 && (
+          <>
+            <h2>{L("pal.bestUses", "Best Uses")}</h2>
+            <div className="pal-uses">
+              {uses.map((u) => (
+                <span key={u.key} className={`use-chip use-${u.key}`}>
+                  {u.label}
+                  {u.detail && <span className="use-detail">{u.detail}</span>}
+                </span>
+              ))}
+            </div>
+          </>
+        )}
 
         <div className="pal-breeding-cta">
           <Link
@@ -413,6 +445,31 @@ export default function PalPage({
             </p>
           </>
         )}
+
+        <h2>{L("pal.related", "Related")}</h2>
+        <div className="breed-list related-list">
+          <Link
+            href={`/${params.locale}/pal/${pal.slug}/breeding`}
+            className="breed-chip"
+          >
+            {L("pal.breedingCta", "How to Breed")} {pal.name}
+          </Link>
+          <Link
+            href={`/${params.locale}/pal/${pal.slug}/location`}
+            className="breed-chip"
+          >
+            {L("pal.location", "Where to Find")} {pal.name}
+          </Link>
+          <Link
+            href={`/${params.locale}/breeding-calculator`}
+            className="breed-chip"
+          >
+            {L("pal.breedingCalc", "Breeding Calculator")}
+          </Link>
+          <Link href={`/${params.locale}/pals`} className="breed-chip">
+            {L("nav.pals", "Pal Codex")}
+          </Link>
+        </div>
       </div>
     </article>
   );

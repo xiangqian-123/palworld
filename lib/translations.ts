@@ -9,6 +9,7 @@ import path from "path";
 export interface Translation {
   name?: string;
   aliases?: string[];
+  description?: string;
 }
 
 const T_DIR = path.join(process.cwd(), "data", "translations");
@@ -59,4 +60,12 @@ export function itemZhName(slug: string, locale: string): string {
   const { zh, tw } = itemTranslations();
   if (locale === "zh-TW") return tw[slug]?.name ?? zh[slug]?.name ?? "";
   return zh[slug]?.name ?? "";
+}
+
+/** 当前 locale 的中文 description（zh-TW 用繁体，其余用简体）。 */
+export function itemZhDescription(slug: string, locale: string): string {
+  const { zh, tw } = itemTranslations();
+  if (locale === "zh-TW")
+    return tw[slug]?.description ?? zh[slug]?.description ?? "";
+  return zh[slug]?.description ?? "";
 }

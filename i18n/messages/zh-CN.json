@@ -215,6 +215,22 @@
     "captureRate": "捕获率",
     "price": "价格",
     "breedsInto": "可繁殖出",
-    "viewOnMap": "在地图上查看 →"
+    "viewOnMap": "在地图上查看 →",
+    "bestUses": "最佳用途",
+    "combat": "战斗",
+    "mount": "骑乘",
+    "baseWorker": "基地工作",
+    "related": "相关内容",
+    "breedingCta": "如何繁殖",
+    "breedingCalc": "养殖计算器",
+    "fullLocation": "完整刷新位置指南 →",
+    "location": "在哪里找到",
+    "spawnLevel": "野生等级",
+    "spawnTime": "出没时间",
+    "map": "地图",
+    "nightOnly": "仅夜间",
+    "dayNight": "昼夜出没",
+    "alpha": "阿尔法首领",
+    "alphaYes": "是"
   }
 }

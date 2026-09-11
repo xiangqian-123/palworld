@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { getItem, getItemSlugs } from "@/lib/items";
 import { getBreedPal } from "@/lib/breeding";
+import { itemZhName, itemZhDescription } from "@/lib/translations";
 import { type Locale } from "@/lib/locales";
 import { siteConfig } from "@/lib/site";
 import {
@@ -28,11 +29,15 @@ export function generateMetadata({
 }): Metadata {
   const item = getItem(params.slug);
   if (!item) return { title: siteConfig.defaultTitle };
+  const zhName = itemZhName(params.slug, params.locale);
+  const zhDesc = itemZhDescription(params.slug, params.locale);
+  const displayName = zhName || item.name;
+  const displayDesc = zhDesc || item.description;
   const path = `/item/${params.slug}`;
-  const title = `${item.name} — How to Get, Uses | ${siteConfig.siteName}`;
-  const description = item.description
-    ? `${item.name} — ${item.description.slice(0, 150)}`
-    : `${item.name} in Palworld: where to find it and which Pals drop it.`;
+  const title = `${displayName} — How to Get, Uses | ${siteConfig.siteName}`;
+  const description = displayDesc
+    ? `${displayName} — ${displayDesc.slice(0, 150)}`
+    : `${displayName} in Palworld: where to find it and which Pals drop it.`;
   return {
     title,
     description,
@@ -64,6 +69,8 @@ export default function ItemPage({
   if (!item) notFound();
 
   const locale = params.locale as Locale;
+  const zhName = itemZhName(params.slug, params.locale);
+  const zhDesc = itemZhDescription(params.slug, params.locale);
 
   return (
     <article className="guide">
@@ -85,11 +92,16 @@ export default function ItemPage({
 
       <header className="guide-header">
         <span className="eyebrow">{item.category || "Item"}</span>
-        <h1>{item.name}</h1>
+        <h1>{zhName || item.name}</h1>
+        {zhName && <p className="item-en-name">{item.name}</p>}
       </header>
 
       <div className="guide-body prose">
-        {item.description && <p className="pal-desc">{item.description}</p>}
+        {zhDesc ? (
+          <p className="pal-desc">{zhDesc}</p>
+        ) : (
+          item.description && <p className="pal-desc">{item.description}</p>
+        )}
 
         <table>
           <tbody>
