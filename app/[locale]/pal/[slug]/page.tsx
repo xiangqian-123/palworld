@@ -3,7 +3,7 @@ import Link from "next/link";
 import { getPal, getPalSlugs, getCodeName, localizePal } from "@/lib/pal";
 import { getPalSpawn, regionLabel } from "@/lib/spawn";
 import { dropItemSlug } from "@/lib/drops";
-import { elementLabel, workLabel } from "@/lib/pal-labels";
+import { elementLabel, workLabel, ELEMENT_ZH } from "@/lib/pal-labels";
 import { type Locale } from "@/lib/locales";
 import { getMessages } from "@/lib/i18n";
 import { siteConfig } from "@/lib/site";
@@ -105,6 +105,26 @@ export default function PalPage({
     });
   }
 
+  // Hero 自动 SEO 描述（元素 + 用途，数据驱动，不手写）
+  const usePhrase = (key: string): string => {
+    if (key === "combat") return isZh ? "后期战斗" : "late-game combat";
+    if (key === "mount") return isZh ? "骑乘" : "riding";
+    if (key === "base") return isZh ? "基地生产" : "base production";
+    return "";
+  };
+  const usePhrases = uses.map((u) => usePhrase(u.key)).filter(Boolean);
+  const seoDesc = (() => {
+    if (isZh) {
+      const elZh = pal.elements.map((e) => ELEMENT_ZH[e] ?? e).join("·");
+      const elText = elZh === "无属性" ? "无属性" : `${elZh}属性`;
+      if (usePhrases.length === 0) return `${pal.name} 是${elText} Pal。`;
+      return `${pal.name} 是${elText} Pal，适合${usePhrases.join("、")}。`;
+    }
+    const elEn = pal.elements.join("/");
+    if (usePhrases.length === 0) return `${pal.name} is a ${elEn}-type Pal.`;
+    return `${pal.name} is a ${elEn}-type Pal, ideal for ${usePhrases.join(" and ")}.`;
+  })();
+
   const locale = params.locale as Locale;
   const path = `/pal/${pal.slug}`;
   const codexLabel = L("nav.pals", "Pal Codex");
@@ -163,6 +183,7 @@ export default function PalPage({
               </span>
             )}
           </div>
+          {seoDesc && <p className="pal-seo-desc">{seoDesc}</p>}
         </div>
       </header>
 

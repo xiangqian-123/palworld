@@ -950,6 +950,14 @@ img {
   font-weight: 500;
 }
 
+/* Pal Hero 里的自动 SEO 描述句 */
+.pal-seo-desc {
+  margin: 8px 0 0;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: rgb(var(--text-muted));
+}
+
 /* ===== Items 数据库 ===== */
 .item-cat-nav {
   display: flex;
