@@ -1,0 +1,92 @@
+[
+  {
+    "id": "base_ancient_ritual",
+    "type": "base",
+    "name": "古代仪式遗址",
+    "en": "Ancient Ritual Site",
+    "x": -23,
+    "y": -305,
+    "region": "bamboo-groves",
+    "description": "31 铁矿 + 11 煤矿 + 硫磺，最佳综合基地"
+  },
+  {
+    "id": "base_hill_of_beginnings",
+    "type": "base",
+    "name": "起源之丘北缘",
+    "en": "Hill of Beginnings North Rim",
+    "x": 233,
+    "y": -488,
+    "region": "verdant-brook",
+    "description": "136 树 + 60 石 + 6 铁矿，新手第一基地"
+  },
+  {
+    "id": "base_desolate_church",
+    "type": "base",
+    "name": "荒凉教堂后",
+    "en": "Behind Desolate Church",
+    "x": 72,
+    "y": -400,
+    "region": "bamboo-groves",
+    "description": "14 铁矿 + 148 树，早期矿石+木材"
+  },
+  {
+    "id": "base_guardian_peak",
+    "type": "base",
+    "name": "守护峰",
+    "en": "Guardian Peak",
+    "x": 180,
+    "y": -39,
+    "region": "verdant-brook",
+    "description": "铁矿 + 煤矿一个半径内，中期主基地"
+  },
+  {
+    "id": "base_mount_obsidian_trail",
+    "type": "base",
+    "name": "黑曜山径",
+    "en": "Mount Obsidian Trail",
+    "x": -692,
+    "y": -347,
+    "region": "mount-obsidian",
+    "description": "14 硫磺 + 纯石英，硫磺基地"
+  },
+  {
+    "id": "base_sakurajima_oil",
+    "type": "base",
+    "name": "樱岛石油基地",
+    "en": "Sakurajima Oil Base",
+    "x": -646,
+    "y": 270,
+    "region": "sakurajima",
+    "description": "2 油田 + 19 树，石油基地，气候温和"
+  },
+  {
+    "id": "base_unthawable_lake",
+    "type": "base",
+    "name": "不冻湖纯石英基地",
+    "en": "Unthawable Lake Quartz Base",
+    "x": -134,
+    "y": 302,
+    "region": "astral-mountains",
+    "description": "51 纯石英 + 17 帕鲁锭矿，纯石英基地"
+  },
+  {
+    "id": "base_wildlands_floodgate",
+    "type": "base",
+    "name": "荒野水闸",
+    "en": "Wildlands Floodgate",
+    "x": -902,
+    "y": -1303,
+    "region": "feybreak",
+    "description": "23 六方石英 + 纯石英，终局基地"
+  },
+  {
+    "id": "base_crystalline_archipelago",
+    "type": "base",
+    "name": "水晶群岛",
+    "en": "Crystalline Archipelago",
+    "x": -377,
+    "y": -1471,
+    "region": "crystalline-archipelago",
+    "description": "27 索拉莱特，终局基地"
+  }
+]

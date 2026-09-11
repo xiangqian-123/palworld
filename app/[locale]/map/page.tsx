@@ -23,9 +23,9 @@ export function generateMetadata({
 }: {
   params: { locale: string };
 }): Metadata {
-  const title = `Palworld 地图 — ${siteConfig.siteName}`;
+  const title = `Palworld 交互地图 — ${siteConfig.siteName}`;
   const description =
-    "Palworld 交互地图：Pal 刷新位置与 Alpha Boss 位置一览，点击查看每一只 Pal 的出没地点。";
+    "Palworld 交互地图：Pal 刷新位置、Alpha Boss、矿石资源、基地与快速旅行点一览，缩放拖拽浏览，点击查看详情。";
   return {
     title,
     description,
@@ -50,20 +50,45 @@ export function generateMetadata({
 export default function MapPage({ params }: { params: { locale: string } }) {
   if (!isValidLocale(params.locale)) notFound();
   const locale = params.locale as Locale;
+  const zh = locale === "zh-CN" || locale === "zh-TW";
 
   const data = getMapData();
-  const locations = data.locations.map((l) => ({
-    id: l.id,
-    type: l.type,
-    name: l.name,
-    zhName: l.palSlug ? palZhName(l.palSlug, locale) : "",
-    palSlug: l.palSlug,
-    x: l.x,
-    y: l.y,
-  }));
-  const palCount = locations.filter((l) => l.type === "pal").length;
-  const bossCount = locations.filter((l) => l.type === "boss").length;
-  const zh = locale === "zh-CN" || locale === "zh-TW";
+
+  const locations = data.locations.map((l) => {
+    let main: string;
+    let secondary: string | undefined;
+    if (l.type === "pal" || l.type === "boss") {
+      const zn = l.palSlug ? palZhName(l.palSlug, locale) : "";
+      main = zh ? zn || l.name : l.name;
+      secondary = zh ? (zn ? l.name : undefined) : zn || undefined;
+    } else {
+      main = zh ? l.name : l.en || l.name;
+      secondary = zh ? l.en || undefined : l.name;
+    }
+    return {
+      id: l.id,
+      type: l.type,
+      main,
+      secondary,
+      palSlug: l.palSlug,
+      x: l.x,
+      y: l.y,
+      region: l.region,
+      description: l.description,
+      resourceType: l.resourceType,
+    };
+  });
+
+  const catCount = (type: string) =>
+    locations.filter((l) => l.type === type).length;
+
+  const cats = [
+    { type: "pal", label: zh ? "Pal 刷新点" : "Pal Spawns" },
+    { type: "boss", label: zh ? "Alpha Boss" : "Alpha Bosses" },
+    { type: "resource", label: zh ? "矿石资源" : "Resources" },
+    { type: "base", label: zh ? "基地位置" : "Base Locations" },
+    { type: "fast-travel", label: zh ? "快速旅行点" : "Fast Travel" },
+  ].filter((c) => catCount(c.type) > 0);
 
   return (
     <article className="guide">
@@ -72,7 +97,7 @@ export default function MapPage({ params }: { params: { locale: string } }) {
         <span className="eyebrow">Map</span>
         <h1>Palworld 交互地图</h1>
         <p className="lead">
-          按 Pal / Boss 筛选，缩放拖拽浏览刷新位置与 Alpha Boss 出没点，点击查看每只 Pal 的详细位置页。
+          按 Pal / Boss / 资源 / 基地 / 快速旅行点筛选，缩放拖拽浏览，点击查看详情。
         </p>
       </header>
       <div className="guide-body">
@@ -100,14 +125,12 @@ export default function MapPage({ params }: { params: { locale: string } }) {
         <section className="map-section">
           <h2>{zh ? "位置分类" : "Location Categories"}</h2>
           <div className="map-cats">
-            <div className="map-cat">
-              <strong>{zh ? "Pal 刷新点" : "Pal Spawns"}</strong>
-              <span>{palCount}</span>
-            </div>
-            <div className="map-cat">
-              <strong>{zh ? "Alpha Boss" : "Alpha Bosses"}</strong>
-              <span>{bossCount}</span>
-            </div>
+            {cats.map((c) => (
+              <div className="map-cat" key={c.type}>
+                <strong>{c.label}</strong>
+                <span>{catCount(c.type)}</span>
+              </div>
+            ))}
           </div>
         </section>
       </div>

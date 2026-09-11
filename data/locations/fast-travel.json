@@ -1,0 +1,262 @@
+[
+  {
+    "id": "ft_plateau_of_beginnings",
+    "type": "fast-travel",
+    "name": "起源高原",
+    "en": "Plateau of Beginnings",
+    "x": 240,
+    "y": -512,
+    "region": "windswept-hills",
+    "description": "默认出生点"
+  },
+  {
+    "id": "ft_small_settlement",
+    "type": "fast-travel",
+    "name": "小型聚落",
+    "en": "Small Settlement",
+    "x": 74,
+    "y": -485,
+    "region": "windswept-hills",
+    "description": "早期补给点"
+  },
+  {
+    "id": "ft_desolate_church",
+    "type": "fast-travel",
+    "name": "荒凉教堂",
+    "en": "Desolate Church",
+    "x": 63,
+    "y": -416,
+    "region": "windswept-hills",
+    "description": "教堂，也是鹰雕像"
+  },
+  {
+    "id": "ft_fort_ruins",
+    "type": "fast-travel",
+    "name": "堡垒废墟",
+    "en": "Fort Ruins",
+    "x": 181,
+    "y": -390,
+    "region": "windswept-hills",
+    "description": ""
+  },
+  {
+    "id": "ft_ancient_ritual_site",
+    "type": "fast-travel",
+    "name": "古代仪式遗址",
+    "en": "Ancient Ritual Site",
+    "x": -15,
+    "y": -292,
+    "region": "bamboo-groves",
+    "description": "靠近 31 铁矿密集区"
+  },
+  {
+    "id": "ft_deep_bamboo_thicket",
+    "type": "fast-travel",
+    "name": "深竹密林",
+    "en": "Deep Bamboo Thicket",
+    "x": -325,
+    "y": -199,
+    "region": "bamboo-groves",
+    "description": ""
+  },
+  {
+    "id": "ft_investigators_fork",
+    "type": "fast-travel",
+    "name": "调查者岔口",
+    "en": "Investigator's Fork",
+    "x": -217,
+    "y": -206,
+    "region": "bamboo-groves",
+    "description": ""
+  },
+  {
+    "id": "ft_hypocrite_hill",
+    "type": "fast-travel",
+    "name": "伪善者之丘",
+    "en": "Hypocrite Hill",
+    "x": 71,
+    "y": -248,
+    "region": "bamboo-groves",
+    "description": ""
+  },
+  {
+    "id": "ft_lake_center",
+    "type": "fast-travel",
+    "name": "湖心",
+    "en": "Lake Center",
+    "x": 16,
+    "y": -212,
+    "region": "verdant-brook",
+    "description": ""
+  },
+  {
+    "id": "ft_mount_flopie_summit",
+    "type": "fast-travel",
+    "name": "芙洛皮山顶",
+    "en": "Mount Flopie Summit",
+    "x": 21,
+    "y": -95,
+    "region": "verdant-brook",
+    "description": "靠近煤矿"
+  },
+  {
+    "id": "ft_mount_obsidian_midpoint",
+    "type": "fast-travel",
+    "name": "黑曜山中点",
+    "en": "Mount Obsidian Midpoint",
+    "x": -497,
+    "y": -444,
+    "region": "mount-obsidian",
+    "description": "火山中央安全点"
+  },
+  {
+    "id": "ft_foot_of_volcano",
+    "type": "fast-travel",
+    "name": "火山山脚",
+    "en": "Foot of the Volcano",
+    "x": -353,
+    "y": -492,
+    "region": "mount-obsidian",
+    "description": ""
+  },
+  {
+    "id": "ft_fishermans_point",
+    "type": "fast-travel",
+    "name": "渔夫岬",
+    "en": "Fisherman's Point",
+    "x": -479,
+    "y": -745,
+    "region": "mount-obsidian",
+    "description": "火山南部海岸入口"
+  },
+  {
+    "id": "ft_ancient_civilization_ruins",
+    "type": "fast-travel",
+    "name": "古代文明遗迹",
+    "en": "Ancient Civilization Ruins",
+    "x": -398,
+    "y": -633,
+    "region": "mount-obsidian",
+    "description": "靠近硫磺"
+  },
+  {
+    "id": "ft_unthawable_lake",
+    "type": "fast-travel",
+    "name": "不冻湖",
+    "en": "Unthawable Lake",
+    "x": -101,
+    "y": 287,
+    "region": "astral-mountains",
+    "description": "靠近纯石英"
+  },
+  {
+    "id": "ft_land_of_absolute_zero",
+    "type": "fast-travel",
+    "name": "绝对零度之地",
+    "en": "Land of Absolute Zero",
+    "x": -238,
+    "y": 493,
+    "region": "astral-mountains",
+    "description": "雪原中心"
+  },
+  {
+    "id": "ft_icy_weasel_hill",
+    "type": "fast-travel",
+    "name": "冰鼬丘",
+    "en": "Icy Weasel Hill",
+    "x": 4,
+    "y": 184,
+    "region": "astral-mountains",
+    "description": ""
+  },
+  {
+    "id": "ft_oasis_isle",
+    "type": "fast-travel",
+    "name": "绿洲岛",
+    "en": "Oasis Isle",
+    "x": 885,
+    "y": 196,
+    "region": "oasis-isle",
+    "description": "靠近油田"
+  },
+  {
+    "id": "ft_duneshelter",
+    "type": "fast-travel",
+    "name": "沙丘避难所",
+    "en": "Duneshelter",
+    "x": 356,
+    "y": 348,
+    "region": "desert",
+    "description": "沙漠唯一聚落"
+  },
+  {
+    "id": "ft_pidf_tower",
+    "type": "fast-travel",
+    "name": "PIDF 塔",
+    "en": "PIDF Tower Entrance",
+    "x": 542,
+    "y": 335,
+    "region": "desert",
+    "description": "沙漠主塔入口"
+  },
+  {
+    "id": "ft_sakurajima_wetlands",
+    "type": "fast-travel",
+    "name": "樱岛蘑菇湿地",
+    "en": "Sakurajima Mushroom Wetlands",
+    "x": -464,
+    "y": 132,
+    "region": "sakurajima",
+    "description": ""
+  },
+  {
+    "id": "ft_free_pal_alliance_tower",
+    "type": "fast-travel",
+    "name": "自由帕鲁联盟塔",
+    "en": "Free Pal Alliance Tower",
+    "x": 167,
+    "y": 45,
+    "region": "verdant-brook",
+    "description": ""
+  },
+  {
+    "id": "ft_rayne_syndicate_tower",
+    "type": "fast-travel",
+    "name": "雷恩集团塔",
+    "en": "Rayne Syndicate Tower",
+    "x": 118,
+    "y": -422,
+    "region": "windswept-hills",
+    "description": ""
+  },
+  {
+    "id": "ft_feybreak_tower",
+    "type": "fast-travel",
+    "name": "菲布雷克塔",
+    "en": "Feybreak Tower Entrance",
+    "x": -1288,
+    "y": -1665,
+    "region": "feybreak",
+    "description": "通往桑瑞奇的传送门"
+  },
+  {
+    "id": "ft_marsh_island",
+    "type": "fast-travel",
+    "name": "沼泽岛",
+    "en": "Marsh Island",
+    "x": 430,
+    "y": -345,
+    "region": "marsh-island",
+    "description": ""
+  },
+  {
+    "id": "ft_natural_bridge",
+    "type": "fast-travel",
+    "name": "天然桥",
+    "en": "Natural Bridge",
+    "x": 376,
+    "y": -212,
+    "region": "marsh-island",
+    "description": ""
+  }
+]

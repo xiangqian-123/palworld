@@ -5,16 +5,27 @@ import { useMemo, useRef, useState } from "react";
 
 export interface MapItem {
   id: string;
-  type: "pal" | "boss";
-  name: string;
-  zhName: string;
+  type: "pal" | "boss" | "resource" | "base" | "fast-travel";
+  main: string;
+  secondary?: string;
   palSlug: string | null;
   x: number;
   y: number;
+  region?: string;
+  description?: string;
+  resourceType?: string;
 }
 
 const VIEW_W = 1000;
 const VIEW_H = 700;
+
+const TYPE_ORDER: MapItem["type"][] = [
+  "pal",
+  "boss",
+  "resource",
+  "base",
+  "fast-travel",
+];
 
 export default function MapExplorer({
   locations,
@@ -24,24 +35,40 @@ export default function MapExplorer({
   locale: string;
 }) {
   const zh = locale === "zh-CN" || locale === "zh-TW";
-  const [filter, setFilter] = useState<"pal" | "boss">("pal");
+
+  const typeLabel: Record<MapItem["type"], string> = {
+    pal: zh ? "Pal" : "Pal",
+    boss: zh ? "Alpha Boss" : "Alpha Boss",
+    resource: zh ? "资源" : "Resource",
+    base: zh ? "基地" : "Base",
+    "fast-travel": zh ? "快速旅行" : "Fast Travel",
+  };
+
+  // 每个类型的数量（有数据才显示 Filter 按钮）
+  const counts = useMemo(() => {
+    const m = new Map<MapItem["type"], number>();
+    for (const l of locations) m.set(l.type, (m.get(l.type) ?? 0) + 1);
+    return m;
+  }, [locations]);
+
+  const visibleTypes = TYPE_ORDER.filter((t) => (counts.get(t) ?? 0) > 0);
+
+  const [filter, setFilter] = useState<MapItem["type"]>(
+    visibleTypes[0] ?? "pal"
+  );
   const [selected, setSelected] = useState<string | null>(null);
   const [view, setView] = useState({ scale: 1, tx: 0, ty: 0 });
   const dragRef = useRef<{ x: number; y: number; tx: number; ty: number } | null>(
     null
   );
 
-  const palCount = locations.filter((l) => l.type === "pal").length;
-  const bossCount = locations.filter((l) => l.type === "boss").length;
-
   const filtered = useMemo(
     () => locations.filter((l) => l.type === filter),
     [locations, filter]
   );
 
-  // 坐标归一化到 viewBox（pal-map 坐标系，实际范围约 -1750~950 / -2050~850）
   const MIN_X = -1800;
-  const MAX_X = 1000;
+  const MAX_X = 1100;
   const MIN_Y = -2100;
   const MAX_Y = 900;
   const sx = (x: number) => ((x - MIN_X) / (MAX_X - MIN_X)) * VIEW_W;
@@ -57,7 +84,6 @@ export default function MapExplorer({
     setView({ scale: 1, tx: 0, ty: 0 });
     setSelected(null);
   }
-
   function onWheel(e: React.WheelEvent) {
     const factor = e.deltaY < 0 ? 1.2 : 1 / 1.2;
     setView((v) => ({
@@ -65,7 +91,6 @@ export default function MapExplorer({
       scale: Math.min(Math.max(v.scale * factor, 0.5), 8),
     }));
   }
-
   function onMouseDown(e: React.MouseEvent) {
     dragRef.current = { x: e.clientX, y: e.clientY, tx: view.tx, ty: view.ty };
   }
@@ -81,11 +106,11 @@ export default function MapExplorer({
     dragRef.current = null;
   }
 
-  function display(l: MapItem): { main: string; secondary?: string } {
-    if (zh) {
-      return { main: l.zhName || l.name, secondary: l.zhName ? l.name : undefined };
-    }
-    return { main: l.name, secondary: l.zhName || undefined };
+  function linkOf(l: MapItem): string {
+    if (l.palSlug) return `/${locale}/pal/${l.palSlug}/location`;
+    if (l.type === "resource") return `/${locale}/guide/materials`;
+    if (l.type === "base") return `/${locale}/guide/base`;
+    return `/${locale}/map`;
   }
 
   const sel = filtered.find((l) => l.id === selected);
@@ -94,24 +119,18 @@ export default function MapExplorer({
     <div className="map-explorer">
       <div className="map-toolbar">
         <div className="map-filter">
-          <button
-            className={filter === "pal" ? "active" : ""}
-            onClick={() => {
-              setFilter("pal");
-              setSelected(null);
-            }}
-          >
-            {zh ? "Pal" : "Pal"} ({palCount})
-          </button>
-          <button
-            className={filter === "boss" ? "active" : ""}
-            onClick={() => {
-              setFilter("boss");
-              setSelected(null);
-            }}
-          >
-            {zh ? "Boss" : "Boss"} ({bossCount})
-          </button>
+          {visibleTypes.map((t) => (
+            <button
+              key={t}
+              className={filter === t ? "active" : ""}
+              onClick={() => {
+                setFilter(t);
+                setSelected(null);
+              }}
+            >
+              {typeLabel[t]} ({counts.get(t)})
+            </button>
+          ))}
         </div>
         <div className="map-zoom">
           <button onClick={zoomIn} aria-label="Zoom in">+</button>
@@ -142,10 +161,8 @@ export default function MapExplorer({
                 key={l.id}
                 cx={sx(l.x)}
                 cy={sy(l.y)}
-                r={l.type === "boss" ? 5 : 3}
-                className={`map-dot map-dot-${l.type}${
-                  selected === l.id ? " active" : ""
-                }`}
+                r={l.type === "boss" || l.type === "resource" ? 5 : l.type === "base" ? 6 : l.type === "fast-travel" ? 4 : 3}
+                className={`map-dot map-dot-${l.type}${selected === l.id ? " active" : ""}`}
                 onClick={(e) => {
                   e.stopPropagation();
                   setSelected(selected === l.id ? null : l.id);
@@ -157,48 +174,33 @@ export default function MapExplorer({
 
         {sel && (
           <div className="map-tooltip">
-            <div className="map-tooltip-type">
-              {sel.type === "boss" ? (zh ? "Alpha Boss" : "Alpha Boss") : (zh ? "Pal" : "Pal")}
-            </div>
-            <strong className="map-tooltip-name">{display(sel).main}</strong>
-            {display(sel).secondary && (
-              <span className="map-tooltip-en">{display(sel).secondary}</span>
+            <div className="map-tooltip-type">{typeLabel[sel.type]}</div>
+            <strong className="map-tooltip-name">{sel.main}</strong>
+            {sel.secondary && (
+              <span className="map-tooltip-en">{sel.secondary}</span>
+            )}
+            {sel.description && (
+              <div className="map-tooltip-desc">{sel.description}</div>
             )}
             <div className="map-tooltip-coord">
               {zh ? "坐标" : "Coords"}: {sel.x}, {sel.y}
             </div>
-            {sel.palSlug && (
-              <Link
-                className="map-tooltip-link"
-                href={`/${locale}/pal/${sel.palSlug}/location`}
-              >
-                {zh ? "查看位置详情 →" : "View location →"}
-              </Link>
-            )}
+            <Link className="map-tooltip-link" href={linkOf(sel)}>
+              {zh ? "查看详情 →" : "View details →"}
+            </Link>
           </div>
         )}
       </div>
 
       <div className="map-list">
-        {filtered.map((l) => {
-          const d = display(l);
-          return (
-            <Link
-              key={l.id}
-              href={
-                l.palSlug
-                  ? `/${locale}/pal/${l.palSlug}/location`
-                  : `/${locale}/map`
-              }
-              className="map-list-item"
-            >
-              <span className="map-list-name">{d.main}</span>
-              {d.secondary && (
-                <span className="map-list-secondary">{d.secondary}</span>
-              )}
-            </Link>
-          );
-        })}
+        {filtered.map((l) => (
+          <Link key={l.id} href={linkOf(l)} className="map-list-item">
+            <span className="map-list-name">{l.main}</span>
+            {l.secondary && (
+              <span className="map-list-secondary">{l.secondary}</span>
+            )}
+          </Link>
+        ))}
       </div>
     </div>
   );

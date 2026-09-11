@@ -1,0 +1,2097 @@
+[
+{
+"id": "ancientarmorcold-2",
+"name": "AncientArmorCold 2",
+"category": "Armor"
+},
+{
+"id": "ancientarmorcold-3",
+"name": "AncientArmorCold 3",
+"category": "Armor"
+},
+{
+"id": "ancientarmorcold-4",
+"name": "AncientArmorCold 4",
+"category": "Armor"
+},
+{
+"id": "ancientarmorcold-5",
+"name": "AncientArmorCold 5",
+"category": "Armor"
+},
+{
+"id": "ancientarmorheat-2",
+"name": "AncientArmorHeat 2",
+"category": "Armor"
+},
+{
+"id": "ancientarmorheat-3",
+"name": "AncientArmorHeat 3",
+"category": "Armor"
+},
+{
+"id": "ancientarmorheat-4",
+"name": "AncientArmorHeat 4",
+"category": "Armor"
+},
+{
+"id": "ancientarmorheat-5",
+"name": "AncientArmorHeat 5",
+"category": "Armor"
+},
+{
+"id": "ancientarmorweight-2",
+"name": "AncientArmorWeight 2",
+"category": "Armor"
+},
+{
+"id": "ancientarmorweight-3",
+"name": "AncientArmorWeight 3",
+"category": "Armor"
+},
+{
+"id": "ancientarmorweight-4",
+"name": "AncientArmorWeight 4",
+"category": "Armor"
+},
+{
+"id": "ancientarmorweight-5",
+"name": "AncientArmorWeight 5",
+"category": "Armor"
+},
+{
+"id": "ancienthelmet-2",
+"name": "AncientHelmet 2",
+"category": "Armor"
+},
+{
+"id": "ancienthelmet-3",
+"name": "AncientHelmet 3",
+"category": "Armor"
+},
+{
+"id": "ancienthelmet-4",
+"name": "AncientHelmet 4",
+"category": "Armor"
+},
+{
+"id": "ancienthelmet-5",
+"name": "AncientHelmet 5",
+"category": "Armor"
+},
+{
+"id": "clotharmorcold-2",
+"name": "ClothArmorCold 2",
+"category": "Armor"
+},
+{
+"id": "clotharmorcold-3",
+"name": "ClothArmorCold 3",
+"category": "Armor"
+},
+{
+"id": "clotharmorcold-4",
+"name": "ClothArmorCold 4",
+"category": "Armor"
+},
+{
+"id": "clotharmorcold-5",
+"name": "ClothArmorCold 5",
+"category": "Armor"
+},
+{
+"id": "clotharmorheat-2",
+"name": "ClothArmorHeat 2",
+"category": "Armor"
+},
+{
+"id": "clotharmorheat-3",
+"name": "ClothArmorHeat 3",
+"category": "Armor"
+},
+{
+"id": "clotharmorheat-4",
+"name": "ClothArmorHeat 4",
+"category": "Armor"
+},
+{
+"id": "clotharmorheat-5",
+"name": "ClothArmorHeat 5",
+"category": "Armor"
+},
+{
+"id": "copperarmorcold-2",
+"name": "CopperArmorCold 2",
+"category": "Armor"
+},
+{
+"id": "copperarmorcold-3",
+"name": "CopperArmorCold 3",
+"category": "Armor"
+},
+{
+"id": "copperarmorcold-4",
+"name": "CopperArmorCold 4",
+"category": "Armor"
+},
+{
+"id": "copperarmorcold-5",
+"name": "CopperArmorCold 5",
+"category": "Armor"
+},
+{
+"id": "copperarmorheat-2",
+"name": "CopperArmorHeat 2",
+"category": "Armor"
+},
+{
+"id": "copperarmorheat-3",
+"name": "CopperArmorHeat 3",
+"category": "Armor"
+},
+{
+"id": "copperarmorheat-4",
+"name": "CopperArmorHeat 4",
+"category": "Armor"
+},
+{
+"id": "copperarmorheat-5",
+"name": "CopperArmorHeat 5",
+"category": "Armor"
+},
+{
+"id": "copperhelmet-2",
+"name": "CopperHelmet 2",
+"category": "Armor"
+},
+{
+"id": "copperhelmet-3",
+"name": "CopperHelmet 3",
+"category": "Armor"
+},
+{
+"id": "copperhelmet-4",
+"name": "CopperHelmet 4",
+"category": "Armor"
+},
+{
+"id": "copperhelmet-5",
+"name": "CopperHelmet 5",
+"category": "Armor"
+},
+{
+"id": "furarmorcold-2",
+"name": "FurArmorCold 2",
+"category": "Armor"
+},
+{
+"id": "furarmorcold-3",
+"name": "FurArmorCold 3",
+"category": "Armor"
+},
+{
+"id": "furarmorcold-4",
+"name": "FurArmorCold 4",
+"category": "Armor"
+},
+{
+"id": "furarmorcold-5",
+"name": "FurArmorCold 5",
+"category": "Armor"
+},
+{
+"id": "furarmorheat-2",
+"name": "FurArmorHeat 2",
+"category": "Armor"
+},
+{
+"id": "furarmorheat-3",
+"name": "FurArmorHeat 3",
+"category": "Armor"
+},
+{
+"id": "furarmorheat-4",
+"name": "FurArmorHeat 4",
+"category": "Armor"
+},
+{
+"id": "furarmorheat-5",
+"name": "FurArmorHeat 5",
+"category": "Armor"
+},
+{
+"id": "furhelmet-2",
+"name": "FurHelmet 2",
+"category": "Armor"
+},
+{
+"id": "furhelmet-3",
+"name": "FurHelmet 3",
+"category": "Armor"
+},
+{
+"id": "furhelmet-4",
+"name": "FurHelmet 4",
+"category": "Armor"
+},
+{
+"id": "furhelmet-5",
+"name": "FurHelmet 5",
+"category": "Armor"
+},
+{
+"id": "headequip059",
+"name": "Ghangler Accessory",
+"category": "Armor"
+},
+{
+"id": "ironarmorcold-2",
+"name": "IronArmorCold 2",
+"category": "Armor"
+},
+{
+"id": "ironarmorcold-3",
+"name": "IronArmorCold 3",
+"category": "Armor"
+},
+{
+"id": "ironarmorcold-4",
+"name": "IronArmorCold 4",
+"category": "Armor"
+},
+{
+"id": "ironarmorcold-5",
+"name": "IronArmorCold 5",
+"category": "Armor"
+},
+{
+"id": "ironarmorheat-2",
+"name": "IronArmorHeat 2",
+"category": "Armor"
+},
+{
+"id": "ironarmorheat-3",
+"name": "IronArmorHeat 3",
+"category": "Armor"
+},
+{
+"id": "ironarmorheat-4",
+"name": "IronArmorHeat 4",
+"category": "Armor"
+},
+{
+"id": "ironarmorheat-5",
+"name": "IronArmorHeat 5",
+"category": "Armor"
+},
+{
+"id": "ironhelmet-2",
+"name": "IronHelmet 2",
+"category": "Armor"
+},
+{
+"id": "ironhelmet-3",
+"name": "IronHelmet 3",
+"category": "Armor"
+},
+{
+"id": "ironhelmet-4",
+"name": "IronHelmet 4",
+"category": "Armor"
+},
+{
+"id": "ironhelmet-5",
+"name": "IronHelmet 5",
+"category": "Armor"
+},
+{
+"id": "octavia001-armor-5",
+"name": "Octavia001 Armor 5",
+"category": "Armor"
+},
+{
+"id": "octavia002-armor-5",
+"name": "Octavia002 Armor 5",
+"category": "Armor"
+},
+{
+"id": "plasticarmor-2",
+"name": "PlasticArmor 2",
+"category": "Armor"
+},
+{
+"id": "plasticarmor-3",
+"name": "PlasticArmor 3",
+"category": "Armor"
+},
+{
+"id": "plasticarmor-4",
+"name": "PlasticArmor 4",
+"category": "Armor"
+},
+{
+"id": "plasticarmor-5",
+"name": "PlasticArmor 5",
+"category": "Armor"
+},
+{
+"id": "plasticarmorcold-2",
+"name": "PlasticArmorCold 2",
+"category": "Armor"
+},
+{
+"id": "plasticarmorcold-3",
+"name": "PlasticArmorCold 3",
+"category": "Armor"
+},
+{
+"id": "plasticarmorcold-4",
+"name": "PlasticArmorCold 4",
+"category": "Armor"
+},
+{
+"id": "plasticarmorcold-5",
+"name": "PlasticArmorCold 5",
+"category": "Armor"
+},
+{
+"id": "plasticarmorheat-2",
+"name": "PlasticArmorHeat 2",
+"category": "Armor"
+},
+{
+"id": "plasticarmorheat-3",
+"name": "PlasticArmorHeat 3",
+"category": "Armor"
+},
+{
+"id": "plasticarmorheat-4",
+"name": "PlasticArmorHeat 4",
+"category": "Armor"
+},
+{
+"id": "plasticarmorheat-5",
+"name": "PlasticArmorHeat 5",
+"category": "Armor"
+},
+{
+"id": "plasticarmorweight-2",
+"name": "PlasticArmorWeight 2",
+"category": "Armor"
+},
+{
+"id": "plasticarmorweight-3",
+"name": "PlasticArmorWeight 3",
+"category": "Armor"
+},
+{
+"id": "plasticarmorweight-4",
+"name": "PlasticArmorWeight 4",
+"category": "Armor"
+},
+{
+"id": "plasticarmorweight-5",
+"name": "PlasticArmorWeight 5",
+"category": "Armor"
+},
+{
+"id": "plastichelmet-2",
+"name": "PlasticHelmet 2",
+"category": "Armor"
+},
+{
+"id": "plastichelmet-3",
+"name": "PlasticHelmet 3",
+"category": "Armor"
+},
+{
+"id": "plastichelmet-4",
+"name": "PlasticHelmet 4",
+"category": "Armor"
+},
+{
+"id": "plastichelmet-5",
+"name": "PlasticHelmet 5",
+"category": "Armor"
+},
+{
+"id": "sfarmor-2",
+"name": "SFArmor 2",
+"category": "Armor"
+},
+{
+"id": "sfarmor-3",
+"name": "SFArmor 3",
+"category": "Armor"
+},
+{
+"id": "sfarmor-4",
+"name": "SFArmor 4",
+"category": "Armor"
+},
+{
+"id": "sfarmor-5",
+"name": "SFArmor 5",
+"category": "Armor"
+},
+{
+"id": "sfarmorcold-2",
+"name": "SFArmorCold 2",
+"category": "Armor"
+},
+{
+"id": "sfarmorcold-3",
+"name": "SFArmorCold 3",
+"category": "Armor"
+},
+{
+"id": "sfarmorcold-4",
+"name": "SFArmorCold 4",
+"category": "Armor"
+},
+{
+"id": "sfarmorcold-5",
+"name": "SFArmorCold 5",
+"category": "Armor"
+},
+{
+"id": "sfarmorheat-2",
+"name": "SFArmorHeat 2",
+"category": "Armor"
+},
+{
+"id": "sfarmorheat-3",
+"name": "SFArmorHeat 3",
+"category": "Armor"
+},
+{
+"id": "sfarmorheat-4",
+"name": "SFArmorHeat 4",
+"category": "Armor"
+},
+{
+"id": "sfarmorheat-5",
+"name": "SFArmorHeat 5",
+"category": "Armor"
+},
+{
+"id": "sfarmorweight-2",
+"name": "SFArmorWeight 2",
+"category": "Armor"
+},
+{
+"id": "sfarmorweight-3",
+"name": "SFArmorWeight 3",
+"category": "Armor"
+},
+{
+"id": "sfarmorweight-4",
+"name": "SFArmorWeight 4",
+"category": "Armor"
+},
+{
+"id": "sfarmorweight-5",
+"name": "SFArmorWeight 5",
+"category": "Armor"
+},
+{
+"id": "sfhelmet-2",
+"name": "SFHelmet 2",
+"category": "Armor"
+},
+{
+"id": "sfhelmet-3",
+"name": "SFHelmet 3",
+"category": "Armor"
+},
+{
+"id": "sfhelmet-4",
+"name": "SFHelmet 4",
+"category": "Armor"
+},
+{
+"id": "sfhelmet-5",
+"name": "SFHelmet 5",
+"category": "Armor"
+},
+{
+"id": "stealarmorcold-2",
+"name": "StealArmorCold 2",
+"category": "Armor"
+},
+{
+"id": "stealarmorcold-3",
+"name": "StealArmorCold 3",
+"category": "Armor"
+},
+{
+"id": "stealarmorcold-4",
+"name": "StealArmorCold 4",
+"category": "Armor"
+},
+{
+"id": "stealarmorcold-5",
+"name": "StealArmorCold 5",
+"category": "Armor"
+},
+{
+"id": "stealarmorheat-2",
+"name": "StealArmorHeat 2",
+"category": "Armor"
+},
+{
+"id": "stealarmorheat-3",
+"name": "StealArmorHeat 3",
+"category": "Armor"
+},
+{
+"id": "stealarmorheat-4",
+"name": "StealArmorHeat 4",
+"category": "Armor"
+},
+{
+"id": "stealarmorheat-5",
+"name": "StealArmorHeat 5",
+"category": "Armor"
+},
+{
+"id": "stealhelmet-2",
+"name": "StealHelmet 2",
+"category": "Armor"
+},
+{
+"id": "stealhelmet-3",
+"name": "StealHelmet 3",
+"category": "Armor"
+},
+{
+"id": "stealhelmet-4",
+"name": "StealHelmet 4",
+"category": "Armor"
+},
+{
+"id": "stealhelmet-5",
+"name": "StealHelmet 5",
+"category": "Armor"
+},
+{
+"id": "headequip044",
+"name": "Xenolord's head",
+"category": "Armor"
+},
+{
+"id": "yakushimaarmor001-2",
+"name": "YakushimaArmor001 2",
+"category": "Armor"
+},
+{
+"id": "yakushimaarmor001-3",
+"name": "YakushimaArmor001 3",
+"category": "Armor"
+},
+{
+"id": "yakushimaarmor001-4",
+"name": "YakushimaArmor001 4",
+"category": "Armor"
+},
+{
+"id": "yakushimaarmor001-5",
+"name": "YakushimaArmor001 5",
+"category": "Armor"
+},
+{
+"id": "yakushimaheadequip001-2",
+"name": "YakushimaHeadEquip001 2",
+"category": "Armor"
+},
+{
+"id": "yakushimaheadequip001-3",
+"name": "YakushimaHeadEquip001 3",
+"category": "Armor"
+},
+{
+"id": "yakushimaheadequip001-4",
+"name": "YakushimaHeadEquip001 4",
+"category": "Armor"
+},
+{
+"id": "yakushimaheadequip001-5",
+"name": "YakushimaHeadEquip001 5",
+"category": "Armor"
+},
+{
+"id": "yakushimaheadequip002-2",
+"name": "YakushimaHeadEquip002 2",
+"category": "Armor"
+},
+{
+"id": "yakushimaheadequip002-3",
+"name": "YakushimaHeadEquip002 3",
+"category": "Armor"
+},
+{
+"id": "yakushimaheadequip002-4",
+"name": "YakushimaHeadEquip002 4",
+"category": "Armor"
+},
+{
+"id": "yakushimaheadequip002-5",
+"name": "YakushimaHeadEquip002 5",
+"category": "Armor"
+},
+{
+"id": "yakushimaheadequip003-2",
+"name": "YakushimaHeadEquip003 2",
+"category": "Armor"
+},
+{
+"id": "yakushimaheadequip003-3",
+"name": "YakushimaHeadEquip003 3",
+"category": "Armor"
+},
+{
+"id": "yakushimaheadequip003-4",
+"name": "YakushimaHeadEquip003 4",
+"category": "Armor"
+},
+{
+"id": "yakushimaheadequip003-5",
+"name": "YakushimaHeadEquip003 5",
+"category": "Armor"
+},
+{
+"id": "yakushimaheadequip004-2",
+"name": "YakushimaHeadEquip004 2",
+"category": "Armor"
+},
+{
+"id": "yakushimaheadequip004-3",
+"name": "YakushimaHeadEquip004 3",
+"category": "Armor"
+},
+{
+"id": "yakushimaheadequip004-4",
+"name": "YakushimaHeadEquip004 4",
+"category": "Armor"
+},
+{
+"id": "yakushimaheadequip004-5",
+"name": "YakushimaHeadEquip004 5",
+"category": "Armor"
+},
+{
+"id": "clotharmor-2",
+"name": "en Text",
+"category": "Armor"
+},
+{
+"id": "clotharmor-3",
+"name": "en Text",
+"category": "Armor"
+},
+{
+"id": "clotharmor-4",
+"name": "en Text",
+"category": "Armor"
+},
+{
+"id": "clotharmor-5",
+"name": "en Text",
+"category": "Armor"
+},
+{
+"id": "furarmor-2",
+"name": "en Text",
+"category": "Armor"
+},
+{
+"id": "furarmor-3",
+"name": "en Text",
+"category": "Armor"
+},
+{
+"id": "furarmor-4",
+"name": "en Text",
+"category": "Armor"
+},
+{
+"id": "furarmor-5",
+"name": "en Text",
+"category": "Armor"
+},
+{
+"id": "copperarmor-2",
+"name": "en Text",
+"category": "Armor"
+},
+{
+"id": "copperarmor-3",
+"name": "en Text",
+"category": "Armor"
+},
+{
+"id": "copperarmor-4",
+"name": "en Text",
+"category": "Armor"
+},
+{
+"id": "copperarmor-5",
+"name": "en Text",
+"category": "Armor"
+},
+{
+"id": "ironarmor-2",
+"name": "en Text",
+"category": "Armor"
+},
+{
+"id": "ironarmor-3",
+"name": "en Text",
+"category": "Armor"
+},
+{
+"id": "ironarmor-4",
+"name": "en Text",
+"category": "Armor"
+},
+{
+"id": "ironarmor-5",
+"name": "en Text",
+"category": "Armor"
+},
+{
+"id": "stealarmor-2",
+"name": "en Text",
+"category": "Armor"
+},
+{
+"id": "stealarmor-3",
+"name": "en Text",
+"category": "Armor"
+},
+{
+"id": "stealarmor-4",
+"name": "en Text",
+"category": "Armor"
+},
+{
+"id": "stealarmor-5",
+"name": "en Text",
+"category": "Armor"
+},
+{
+"id": "blueprint-accessory-avoid-1-fix",
+"name": "Blueprint Accessory Avoid 1 fix",
+"category": "Blueprint"
+},
+{
+"id": "blueprint-spear-forestboss2-5",
+"name": "Enhanced Lily's Spear Schematic 4",
+"category": "Blueprint"
+},
+{
+"id": "blueprint-head009-1",
+"name": "Exploration Cap Schematic 1",
+"category": "Blueprint"
+},
+{
+"id": "skillcard-apocalypse",
+"name": "Dark Skill Fruit: Apocalypse",
+"category": "Consume"
+},
+{
+"id": "skillcard-darkarrow",
+"name": "Dark Skill Fruit: Dark Arrow",
+"category": "Consume"
+},
+{
+"id": "skillcard-darkcanon",
+"name": "Dark Skill Fruit: Dark Cannon",
+"category": "Consume"
+},
+{
+"id": "skillcard-darklaser",
+"name": "Dark Skill Fruit: Dark Laser",
+"category": "Consume"
+},
+{
+"id": "skillcard-gravityshot",
+"name": "Dark Skill Fruit: Dark Shot",
+"category": "Consume"
+},
+{
+"id": "skillcard-darklegion",
+"name": "Dark Skill Fruit: Dark Whisp",
+"category": "Consume"
+},
+{
+"id": "skillcard-shadowball",
+"name": "Dark Skill Fruit: Nightmare Ball",
+"category": "Consume"
+},
+{
+"id": "skillcard-poisonshot",
+"name": "Dark Skill Fruit: Poison Blast",
+"category": "Consume"
+},
+{
+"id": "skillcard-bubbleshower",
+"name": "Dark Skill Fruit: Poison Shower",
+"category": "Consume"
+},
+{
+"id": "skillcard-psychokinesis",
+"name": "Dark Skill Fruit: Psycho Gravity",
+"category": "Consume"
+},
+{
+"id": "skillcard-darkwave",
+"name": "Dark Skill Fruit: Shadow Burst",
+"category": "Consume"
+},
+{
+"id": "skillcard-ghostflame",
+"name": "Dark Skill Fruit: Spirit Flame",
+"category": "Consume"
+},
+{
+"id": "skillcard-darkpulse",
+"name": "Dark Skill Fruit: Umbral Surge",
+"category": "Consume"
+},
+{
+"id": "palpassiveskillchange-consumable-mutationpal-babysitter",
+"name": "Disposable Implant: Babysitter",
+"category": "Consume"
+},
+{
+"id": "palpassiveskillchange-consumable-pal-allattack-up3",
+"name": "Disposable Implant: Demon God",
+"category": "Consume"
+},
+{
+"id": "palpassiveskillchange-consumable-worldtree-craftspeed",
+"name": "Disposable Implant: Demon’s Hand",
+"category": "Consume"
+},
+{
+"id": "palpassiveskillchange-consumable-deffence-up3",
+"name": "Disposable Implant: Diamond Body",
+"category": "Consume"
+},
+{
+"id": "palpassiveskillchange-consumable-worldtree-movespeed",
+"name": "Disposable Implant: Dimensional Leap",
+"category": "Consume"
+},
+{
+"id": "palpassiveskillchange-consumable-stamina-up-3",
+"name": "Disposable Implant: Eternal Engine",
+"category": "Consume"
+},
+{
+"id": "palpassiveskillchange-consumable-worldtree-atk-def",
+"name": "Disposable Implant: God of Destruction",
+"category": "Consume"
+},
+{
+"id": "palpassiveskillchange-consumable-pal-sanity-down-3",
+"name": "Disposable Implant: Heart of the Immovable King",
+"category": "Consume"
+},
+{
+"id": "palpassiveskillchange-consumable-mutationpal-explosionresist",
+"name": "Disposable Implant: Heavily Armored",
+"category": "Consume"
+},
+{
+"id": "palpassiveskillchange-consumable-worldtree-sanity",
+"name": "Disposable Implant: Hermit Sage",
+"category": "Consume"
+},
+{
+"id": "palpassiveskillchange-consumable-mutationpal-mutant",
+"name": "Disposable Implant: Idiosyncratic",
+"category": "Consume"
+},
+{
+"id": "palpassiveskillchange-consumable-mutationpal-immortal",
+"name": "Disposable Implant: Immortality",
+"category": "Consume"
+},
+{
+"id": "palpassiveskillchange-consumable-swimspeed-up-3",
+"name": "Disposable Implant: King of the Waves",
+"category": "Consume"
+},
+{
+"id": "palpassiveskillchange-consumable-pal-fullstomach-down-3",
+"name": "Disposable Implant: Mastery of Fasting",
+"category": "Consume"
+},
+{
+"id": "palpassiveskillchange-consumable-craftspeed-up3",
+"name": "Disposable Implant: Remarkable Craftsmanship",
+"category": "Consume"
+},
+{
+"id": "palpassiveskillchange-consumable-worldtree-def",
+"name": "Disposable Implant: Sanctified Meat Shield",
+"category": "Consume"
+},
+{
+"id": "palpassiveskillchange-consumable-ridejumpcount-increase2",
+"name": "Disposable Implant: Sky Strider",
+"category": "Consume"
+},
+{
+"id": "palpassiveskillchange-consumable-movespeed-up-3",
+"name": "Disposable Implant: Swift",
+"category": "Consume"
+},
+{
+"id": "palpassiveskillchange-consumable-worldtree-atk",
+"name": "Disposable Implant: Twin-Edged Holy Blade",
+"category": "Consume"
+},
+{
+"id": "palpassiveskillchange-consumable-vampire",
+"name": "Disposable Implant: Vampiric",
+"category": "Consume"
+},
+{
+"id": "palpassiveskillchange-consumable-worldtree-fullstomach",
+"name": "Disposable Implant: World Tree's Bounty",
+"category": "Consume"
+},
+{
+"id": "skillcard-beamslicer",
+"name": "Dragon Skill Fruit: Beam Slicer",
+"category": "Consume"
+},
+{
+"id": "skillcard-blastcanon",
+"name": "Dragon Skill Fruit: Blast Cannon",
+"category": "Consume"
+},
+{
+"id": "skillcard-chargecanon",
+"name": "Dragon Skill Fruit: Charge Cannon",
+"category": "Consume"
+},
+{
+"id": "skillcard-commet",
+"name": "Dragon Skill Fruit: Comet Strike",
+"category": "Consume"
+},
+{
+"id": "skillcard-dragonbreath",
+"name": "Dragon Skill Fruit: Dragon Breath",
+"category": "Consume"
+},
+{
+"id": "skillcard-dragonwave",
+"name": "Dragon Skill Fruit: Dragon Burst",
+"category": "Consume"
+},
+{
+"id": "skillcard-dragoncanon",
+"name": "Dragon Skill Fruit: Dragon Cannon",
+"category": "Consume"
+},
+{
+"id": "skillcard-dragonmeteor",
+"name": "Dragon Skill Fruit: Dragon Meteor",
+"category": "Consume"
+},
+{
+"id": "skillcard-thunderball",
+"name": "Electric Skill Fruit: Electric Ball",
+"category": "Consume"
+},
+{
+"id": "skillcard-thunderbolt",
+"name": "Electric Skill Fruit: Lightning Bolt",
+"category": "Consume"
+},
+{
+"id": "skillcard-linethunder",
+"name": "Electric Skill Fruit: Lightning Streak",
+"category": "Consume"
+},
+{
+"id": "skillcard-lightningstrike",
+"name": "Electric Skill Fruit: Lightning Strike",
+"category": "Consume"
+},
+{
+"id": "skillcard-lockonlaser",
+"name": "Electric Skill Fruit: Lock-on Laser",
+"category": "Consume"
+},
+{
+"id": "skillcard-thunderfunnel",
+"name": "Electric Skill Fruit: Plasma Funnel",
+"category": "Consume"
+},
+{
+"id": "skillcard-elecwave",
+"name": "Electric Skill Fruit: Shockwave",
+"category": "Consume"
+},
+{
+"id": "skillcard-spreadpulse",
+"name": "Electric Skill Fruit: Spark Blast",
+"category": "Consume"
+},
+{
+"id": "skillcard-thunderrain",
+"name": "Electric Skill Fruit: Thunder Rain",
+"category": "Consume"
+},
+{
+"id": "skillcard-thunderspear",
+"name": "Electric Skill Fruit: Thunder Spear",
+"category": "Consume"
+},
+{
+"id": "skillcard-thunderstorm",
+"name": "Electric Skill Fruit: Thunderstorm",
+"category": "Consume"
+},
+{
+"id": "skillcard-threethunder",
+"name": "Electric Skill Fruit: Tri-Lightning",
+"category": "Consume"
+},
+{
+"id": "skillcard-trispark",
+"name": "Electric Skill Fruit: TriSpark",
+"category": "Consume"
+},
+{
+"id": "skillcard-fireball",
+"name": "Fire Skill Fruit: Fire Ball",
+"category": "Consume"
+},
+{
+"id": "skillcard-flamefunnel",
+"name": "Fire Skill Fruit: Flame Funnel",
+"category": "Consume"
+},
+{
+"id": "skillcard-flamewall",
+"name": "Fire Skill Fruit: Flame Wall",
+"category": "Consume"
+},
+{
+"id": "skillcard-flarearrow",
+"name": "Fire Skill Fruit: Flare Arrow",
+"category": "Consume"
+},
+{
+"id": "skillcard-flaretornado",
+"name": "Fire Skill Fruit: Flare Storm",
+"category": "Consume"
+},
+{
+"id": "skillcard-fireblast",
+"name": "Fire Skill Fruit: Ignis Blast",
+"category": "Consume"
+},
+{
+"id": "skillcard-flamethrower",
+"name": "Fire Skill Fruit: Ignis Breath",
+"category": "Consume"
+},
+{
+"id": "skillcard-inferno",
+"name": "Fire Skill Fruit: Ignis Rage",
+"category": "Consume"
+},
+{
+"id": "skillcard-fireseed",
+"name": "Fire Skill Fruit: Spirit Fire",
+"category": "Consume"
+},
+{
+"id": "skillcard-eruption",
+"name": "Fire Skill Fruit: Volcanic Rain",
+"category": "Consume"
+},
+{
+"id": "skillcard-rootlance",
+"name": "Grass Skill Fruit: Circle Vine",
+"category": "Consume"
+},
+{
+"id": "skillcard-crosswind",
+"name": "Grass Skill Fruit: Crosswind",
+"category": "Consume"
+},
+{
+"id": "skillcard-grasstornado",
+"name": "Grass Skill Fruit: Grass Tornado",
+"category": "Consume"
+},
+{
+"id": "skillcard-specialcutter",
+"name": "Grass Skill Fruit: Multicutter",
+"category": "Consume"
+},
+{
+"id": "skillcard-reflectiveshuriken",
+"name": "Grass Skill Fruit: Reflect Leaf",
+"category": "Consume"
+},
+{
+"id": "skillcard-seedmachinegun",
+"name": "Grass Skill Fruit: Seed Machine Gun",
+"category": "Consume"
+},
+{
+"id": "skillcard-seedmine",
+"name": "Grass Skill Fruit: Seed Mine",
+"category": "Consume"
+},
+{
+"id": "skillcard-solarbeam",
+"name": "Grass Skill Fruit: Solar Blast",
+"category": "Consume"
+},
+{
+"id": "skillcard-rootattack",
+"name": "Grass Skill Fruit: Spine Vine",
+"category": "Consume"
+},
+{
+"id": "skillcard-windburst",
+"name": "Grass Skill Fruit: Wind Blast",
+"category": "Consume"
+},
+{
+"id": "skillcard-windcutter",
+"name": "Grass Skill Fruit: Wind Cutter",
+"category": "Consume"
+},
+{
+"id": "skillcard-mudshot",
+"name": "Ground Skill Fruit: Bog Blast",
+"category": "Consume"
+},
+{
+"id": "skillcard-rocklance",
+"name": "Ground Skill Fruit: Rock Lance",
+"category": "Consume"
+},
+{
+"id": "skillcard-tremor",
+"name": "Ground Skill Fruit: Rockburst",
+"category": "Consume"
+},
+{
+"id": "skillcard-rockbeat",
+"name": "Ground Skill Fruit: Rocky Impact",
+"category": "Consume"
+},
+{
+"id": "skillcard-sandtornado",
+"name": "Ground Skill Fruit: Sand Tornado",
+"category": "Consume"
+},
+{
+"id": "skillcard-sandtwister",
+"name": "Ground Skill Fruit: Sand Twister",
+"category": "Consume"
+},
+{
+"id": "skillcard-stoneshotgun",
+"name": "Ground Skill Fruit: Stone Blast",
+"category": "Consume"
+},
+{
+"id": "skillcard-throwrock",
+"name": "Ground Skill Fruit: Stone Cannon",
+"category": "Consume"
+},
+{
+"id": "skillcard-iceage",
+"name": "Ice Skill Fruit: Absolute Frost",
+"category": "Consume"
+},
+{
+"id": "skillcard-iciclethrow",
+"name": "Ice Skill Fruit: Blizzard Spike",
+"category": "Consume"
+},
+{
+"id": "skillcard-frostbreath",
+"name": "Ice Skill Fruit: Crystal Breath",
+"category": "Consume"
+},
+{
+"id": "skillcard-diamondfall",
+"name": "Ice Skill Fruit: Diamond Rain",
+"category": "Consume"
+},
+{
+"id": "skillcard-icewall",
+"name": "Ice Skill Fruit: Freeze Wall",
+"category": "Consume"
+},
+{
+"id": "skillcard-icemissile",
+"name": "Ice Skill Fruit: Ice Missile",
+"category": "Consume"
+},
+{
+"id": "skillcard-blizzardlance",
+"name": "Ice Skill Fruit: Iceberg",
+"category": "Consume"
+},
+{
+"id": "skillcard-iciclepierce",
+"name": "Ice Skill Fruit: Icicle Bullet",
+"category": "Consume"
+},
+{
+"id": "skillcard-iceblade",
+"name": "Ice Skill Fruit: Icicle Cutter",
+"category": "Consume"
+},
+{
+"id": "skillcard-icicleline",
+"name": "Ice Skill Fruit: Icicle Line",
+"category": "Consume"
+},
+{
+"id": "skillcard-airblade",
+"name": "Skill Fruit: Air Blade",
+"category": "Consume"
+},
+{
+"id": "skillcard-aircanon",
+"name": "Skill Fruit: Air Cannon",
+"category": "Consume"
+},
+{
+"id": "skillcard-holyblast",
+"name": "Skill Fruit: Holy Burst",
+"category": "Consume"
+},
+{
+"id": "skillcard-selfdestruct",
+"name": "Skill Fruit: Implode",
+"category": "Consume"
+},
+{
+"id": "skillcard-hyperbeam",
+"name": "Skill Fruit: Pal Blast",
+"category": "Consume"
+},
+{
+"id": "skillcard-powerball",
+"name": "Skill Fruit: Power Bomb",
+"category": "Consume"
+},
+{
+"id": "skillcard-powershot",
+"name": "Skill Fruit: Power Shot",
+"category": "Consume"
+},
+{
+"id": "skillcard-rangethunder",
+"name": "Thunder Skill Fruit: All Range Thunder",
+"category": "Consume"
+},
+{
+"id": "skillcard-acidrain",
+"name": "Water Skill Fruit: Acid Rain",
+"category": "Consume"
+},
+{
+"id": "skillcard-waterball",
+"name": "Water Skill Fruit: Aqua Burst",
+"category": "Consume"
+},
+{
+"id": "skillcard-watergun",
+"name": "Water Skill Fruit: Aqua Gun",
+"category": "Consume"
+},
+{
+"id": "skillcard-riptide",
+"name": "Water Skill Fruit: Aqua Surge",
+"category": "Consume"
+},
+{
+"id": "skillcard-bubbleshot",
+"name": "Water Skill Fruit: Bubble Blast",
+"category": "Consume"
+},
+{
+"id": "skillcard-wallsplash",
+"name": "Water Skill Fruit: Curtain Splash",
+"category": "Consume"
+},
+{
+"id": "skillcard-seagush",
+"name": "Water Skill Fruit: Geyser Gush",
+"category": "Consume"
+},
+{
+"id": "skillcard-aquajet",
+"name": "Water Skill Fruit: Hydro Jet",
+"category": "Consume"
+},
+{
+"id": "skillcard-hydropump",
+"name": "Water Skill Fruit: Hydro Laser",
+"category": "Consume"
+},
+{
+"id": "skillcard-hydroslicer",
+"name": "Water Skill Fruit: Hydro Slicer",
+"category": "Consume"
+},
+{
+"id": "skillcard-linegeyser",
+"name": "Water Skill Fruit: Splash",
+"category": "Consume"
+},
+{
+"id": "skillcard-diversionlaser",
+"name": "Water Skill Fruit: Torrential Blast",
+"category": "Consume"
+},
+{
+"id": "skillunlock-thunderfluffybird",
+"name": "Dynamoff Saddle",
+"category": "Essential"
+},
+{
+"id": "skillunlock-ghostdragon-fire",
+"name": "Eidrolon Ignis Saddle",
+"category": "Essential"
+},
+{
+"id": "skillunlock-ghostdragon",
+"name": "Eidrolon Saddle",
+"category": "Essential"
+},
+{
+"id": "automealpouch-tier4",
+"name": "Huge Feed Bag",
+"category": "Essential"
+},
+{
+"id": "skillunlock-hedgehog-ice",
+"name": "Jolthog Cryst's Gloves",
+"category": "Essential"
+},
+{
+"id": "skillunlock-hedgehog",
+"name": "Jolthog's Gloves",
+"category": "Essential"
+},
+{
+"id": "skillunlock-blackcentaur",
+"name": "Necromus Saddle",
+"category": "Essential"
+},
+{
+"id": "skillunlock-badcatgirl",
+"name": "Nyafia's Shotgun",
+"category": "Essential"
+},
+{
+"id": "skillunlock-tropicalostrich",
+"name": "Palumba Saddle",
+"category": "Essential"
+},
+{
+"id": "skillunlock-iceseal",
+"name": "Polapup Saddle",
+"category": "Essential"
+},
+{
+"id": "skillunlock-iceseal-ground",
+"name": "Polapup Terra Saddle",
+"category": "Essential"
+},
+{
+"id": "skillunlock-blackpuppy",
+"name": "Smokie's Harness",
+"category": "Essential"
+},
+{
+"id": "skillunlock-icenarwhal-fire",
+"name": "Whalaska Ignis Saddle",
+"category": "Essential"
+},
+{
+"id": "skillunlock-icenarwhal",
+"name": "Whalaska Saddle",
+"category": "Essential"
+},
+{
+"id": "chowder",
+"name": "Dumud Chowder",
+"category": "Food"
+},
+{
+"id": "palsphere-ultimate",
+"name": "Ultimate Sphere",
+"category": "SpecialWeapon"
+},
+{
+"id": "bat3-2",
+"name": "Bat3 2",
+"category": "Weapon"
+},
+{
+"id": "bat3-3",
+"name": "Bat3 3",
+"category": "Weapon"
+},
+{
+"id": "bat3-4",
+"name": "Bat3 4",
+"category": "Weapon"
+},
+{
+"id": "bat3-5",
+"name": "Bat3 5",
+"category": "Weapon"
+},
+{
+"id": "chargelaserrifle-2",
+"name": "ChargeLaserRifle 2",
+"category": "Weapon"
+},
+{
+"id": "chargelaserrifle-3",
+"name": "ChargeLaserRifle 3",
+"category": "Weapon"
+},
+{
+"id": "chargelaserrifle-4",
+"name": "ChargeLaserRifle 4",
+"category": "Weapon"
+},
+{
+"id": "chargelaserrifle-5",
+"name": "ChargeLaserRifle 5",
+"category": "Weapon"
+},
+{
+"id": "doublebarrelshotgun-2",
+"name": "DoubleBarrelShotgun 2",
+"category": "Weapon"
+},
+{
+"id": "doublebarrelshotgun-3",
+"name": "DoubleBarrelShotgun 3",
+"category": "Weapon"
+},
+{
+"id": "doublebarrelshotgun-4",
+"name": "DoubleBarrelShotgun 4",
+"category": "Weapon"
+},
+{
+"id": "doublebarrelshotgun-5",
+"name": "DoubleBarrelShotgun 5",
+"category": "Weapon"
+},
+{
+"id": "electricarcassaultrifle-2",
+"name": "ElectricArcAssaultRifle 2",
+"category": "Weapon"
+},
+{
+"id": "electricarcassaultrifle-3",
+"name": "ElectricArcAssaultRifle 3",
+"category": "Weapon"
+},
+{
+"id": "electricarcassaultrifle-4",
+"name": "ElectricArcAssaultRifle 4",
+"category": "Weapon"
+},
+{
+"id": "electricarcassaultrifle-5",
+"name": "ElectricArcAssaultRifle 5",
+"category": "Weapon"
+},
+{
+"id": "energyrocketlauncher-2",
+"name": "EnergyRocketLauncher 2",
+"category": "Weapon"
+},
+{
+"id": "energyrocketlauncher-3",
+"name": "EnergyRocketLauncher 3",
+"category": "Weapon"
+},
+{
+"id": "energyrocketlauncher-4",
+"name": "EnergyRocketLauncher 4",
+"category": "Weapon"
+},
+{
+"id": "energyrocketlauncher-5",
+"name": "EnergyRocketLauncher 5",
+"category": "Weapon"
+},
+{
+"id": "spear-forestboss2",
+"name": "Enhanced Lily's Spear",
+"category": "Weapon"
+},
+{
+"id": "flamethrower-2",
+"name": "FlameThrower 2",
+"category": "Weapon"
+},
+{
+"id": "flamethrower-3",
+"name": "FlameThrower 3",
+"category": "Weapon"
+},
+{
+"id": "flamethrower-4",
+"name": "FlameThrower 4",
+"category": "Weapon"
+},
+{
+"id": "flamethrower-5",
+"name": "FlameThrower 5",
+"category": "Weapon"
+},
+{
+"id": "grapplinggun2",
+"name": "GrapplingGun2",
+"category": "Weapon"
+},
+{
+"id": "grapplinggun3",
+"name": "GrapplingGun3",
+"category": "Weapon"
+},
+{
+"id": "grapplinggun4",
+"name": "GrapplingGun4",
+"category": "Weapon"
+},
+{
+"id": "grapplinggun5",
+"name": "GrapplingGun5",
+"category": "Weapon"
+},
+{
+"id": "launcher-meteor-5",
+"name": "Launcher Meteor 5",
+"category": "Weapon"
+},
+{
+"id": "makeshiftsubmachinegun-2",
+"name": "MakeshiftSubmachineGun 2",
+"category": "Weapon"
+},
+{
+"id": "makeshiftsubmachinegun-3",
+"name": "MakeshiftSubmachineGun 3",
+"category": "Weapon"
+},
+{
+"id": "makeshiftsubmachinegun-4",
+"name": "MakeshiftSubmachineGun 4",
+"category": "Weapon"
+},
+{
+"id": "makeshiftsubmachinegun-5",
+"name": "MakeshiftSubmachineGun 5",
+"category": "Weapon"
+},
+{
+"id": "octaviarevolver-5",
+"name": "OctaviaRevolver 5",
+"category": "Weapon"
+},
+{
+"id": "octaviashotgun-5",
+"name": "OctaviaShotgun 5",
+"category": "Weapon"
+},
+{
+"id": "sfbow-2",
+"name": "SFBow 2",
+"category": "Weapon"
+},
+{
+"id": "sfbow-3",
+"name": "SFBow 3",
+"category": "Weapon"
+},
+{
+"id": "sfbow-4",
+"name": "SFBow 4",
+"category": "Weapon"
+},
+{
+"id": "sfbow-5",
+"name": "SFBow 5",
+"category": "Weapon"
+},
+{
+"id": "semiautorifle-2",
+"name": "SemiAutoRifle 2",
+"category": "Weapon"
+},
+{
+"id": "semiautorifle-3",
+"name": "SemiAutoRifle 3",
+"category": "Weapon"
+},
+{
+"id": "semiautorifle-4",
+"name": "SemiAutoRifle 4",
+"category": "Weapon"
+},
+{
+"id": "semiautorifle-5",
+"name": "SemiAutoRifle 5",
+"category": "Weapon"
+},
+{
+"id": "semiautoshotgun-2",
+"name": "SemiAutoShotgun 2",
+"category": "Weapon"
+},
+{
+"id": "semiautoshotgun-3",
+"name": "SemiAutoShotgun 3",
+"category": "Weapon"
+},
+{
+"id": "semiautoshotgun-4",
+"name": "SemiAutoShotgun 4",
+"category": "Weapon"
+},
+{
+"id": "semiautoshotgun-5",
+"name": "SemiAutoShotgun 5",
+"category": "Weapon"
+},
+{
+"id": "singleshotrifle-2",
+"name": "SingleShotRifle 2",
+"category": "Weapon"
+},
+{
+"id": "singleshotrifle-3",
+"name": "SingleShotRifle 3",
+"category": "Weapon"
+},
+{
+"id": "singleshotrifle-4",
+"name": "SingleShotRifle 4",
+"category": "Weapon"
+},
+{
+"id": "singleshotrifle-5",
+"name": "SingleShotRifle 5",
+"category": "Weapon"
+},
+{
+"id": "skyassaultrifle-2",
+"name": "SkyAssaultRifle 2",
+"category": "Weapon"
+},
+{
+"id": "skyassaultrifle-3",
+"name": "SkyAssaultRifle 3",
+"category": "Weapon"
+},
+{
+"id": "skyassaultrifle-4",
+"name": "SkyAssaultRifle 4",
+"category": "Weapon"
+},
+{
+"id": "skyassaultrifle-5",
+"name": "SkyAssaultRifle 5",
+"category": "Weapon"
+},
+{
+"id": "skybeamsword-2",
+"name": "SkyBeamSword 2",
+"category": "Weapon"
+},
+{
+"id": "skybeamsword-3",
+"name": "SkyBeamSword 3",
+"category": "Weapon"
+},
+{
+"id": "skybeamsword-4",
+"name": "SkyBeamSword 4",
+"category": "Weapon"
+},
+{
+"id": "skybeamsword-5",
+"name": "SkyBeamSword 5",
+"category": "Weapon"
+},
+{
+"id": "skybow-2",
+"name": "SkyBow 2",
+"category": "Weapon"
+},
+{
+"id": "skybow-3",
+"name": "SkyBow 3",
+"category": "Weapon"
+},
+{
+"id": "skybow-4",
+"name": "SkyBow 4",
+"category": "Weapon"
+},
+{
+"id": "skybow-5",
+"name": "SkyBow 5",
+"category": "Weapon"
+},
+{
+"id": "skygrenadelauncher-2",
+"name": "SkyGrenadeLauncher 2",
+"category": "Weapon"
+},
+{
+"id": "skygrenadelauncher-3",
+"name": "SkyGrenadeLauncher 3",
+"category": "Weapon"
+},
+{
+"id": "skygrenadelauncher-4",
+"name": "SkyGrenadeLauncher 4",
+"category": "Weapon"
+},
+{
+"id": "skygrenadelauncher-5",
+"name": "SkyGrenadeLauncher 5",
+"category": "Weapon"
+},
+{
+"id": "skyshotgun-2",
+"name": "SkyShotgun 2",
+"category": "Weapon"
+},
+{
+"id": "skyshotgun-3",
+"name": "SkyShotgun 3",
+"category": "Weapon"
+},
+{
+"id": "skyshotgun-4",
+"name": "SkyShotgun 4",
+"category": "Weapon"
+},
+{
+"id": "skyshotgun-5",
+"name": "SkyShotgun 5",
+"category": "Weapon"
+},
+{
+"id": "skysubmachinegun-2",
+"name": "SkySubmachineGun 2",
+"category": "Weapon"
+},
+{
+"id": "skysubmachinegun-3",
+"name": "SkySubmachineGun 3",
+"category": "Weapon"
+},
+{
+"id": "skysubmachinegun-4",
+"name": "SkySubmachineGun 4",
+"category": "Weapon"
+},
+{
+"id": "skysubmachinegun-5",
+"name": "SkySubmachineGun 5",
+"category": "Weapon"
+},
+{
+"id": "spear-forestboss-5",
+"name": "Spear ForestBoss 5",
+"category": "Weapon"
+},
+{
+"id": "spear-forestboss2-5",
+"name": "Spear ForestBoss2 5",
+"category": "Weapon"
+},
+{
+"id": "submachinegun-2",
+"name": "SubmachineGun 2",
+"category": "Weapon"
+},
+{
+"id": "submachinegun-3",
+"name": "SubmachineGun 3",
+"category": "Weapon"
+},
+{
+"id": "submachinegun-4",
+"name": "SubmachineGun 4",
+"category": "Weapon"
+},
+{
+"id": "submachinegun-5",
+"name": "SubmachineGun 5",
+"category": "Weapon"
+},
+{
+"id": "widepenetrateshotgun-2",
+"name": "WidePenetrateShotgun 2",
+"category": "Weapon"
+},
+{
+"id": "widepenetrateshotgun-3",
+"name": "WidePenetrateShotgun 3",
+"category": "Weapon"
+},
+{
+"id": "widepenetrateshotgun-4",
+"name": "WidePenetrateShotgun 4",
+"category": "Weapon"
+},
+{
+"id": "widepenetrateshotgun-5",
+"name": "WidePenetrateShotgun 5",
+"category": "Weapon"
+},
+{
+"id": "yakushimablade002-2",
+"name": "YakushimaBlade002 2",
+"category": "Weapon"
+},
+{
+"id": "yakushimablade002-3",
+"name": "YakushimaBlade002 3",
+"category": "Weapon"
+},
+{
+"id": "yakushimablade002-4",
+"name": "YakushimaBlade002 4",
+"category": "Weapon"
+},
+{
+"id": "yakushimablade002-5",
+"name": "YakushimaBlade002 5",
+"category": "Weapon"
+},
+{
+"id": "yakushimablade003-2",
+"name": "YakushimaBlade003 2",
+"category": "Weapon"
+},
+{
+"id": "yakushimablade003-3",
+"name": "YakushimaBlade003 3",
+"category": "Weapon"
+},
+{
+"id": "yakushimablade003-4",
+"name": "YakushimaBlade003 4",
+"category": "Weapon"
+},
+{
+"id": "yakushimablade003-5",
+"name": "YakushimaBlade003 5",
+"category": "Weapon"
+},
+{
+"id": "yakushimablade004-2",
+"name": "YakushimaBlade004 2",
+"category": "Weapon"
+},
+{
+"id": "yakushimablade004-3",
+"name": "YakushimaBlade004 3",
+"category": "Weapon"
+},
+{
+"id": "yakushimablade004-4",
+"name": "YakushimaBlade004 4",
+"category": "Weapon"
+},
+{
+"id": "yakushimablade004-5",
+"name": "YakushimaBlade004 5",
+"category": "Weapon"
+},
+{
+"id": "yakushimagun001-2",
+"name": "YakushimaGun001 2",
+"category": "Weapon"
+},
+{
+"id": "yakushimagun001-3",
+"name": "YakushimaGun001 3",
+"category": "Weapon"
+},
+{
+"id": "yakushimagun001-4",
+"name": "YakushimaGun001 4",
+"category": "Weapon"
+},
+{
+"id": "yakushimagun001-5",
+"name": "YakushimaGun001 5",
+"category": "Weapon"
+},
+{
+"id": "yakushimalantern001-2",
+"name": "YakushimaLantern001 2",
+"category": "Weapon"
+},
+{
+"id": "yakushimalantern001-3",
+"name": "YakushimaLantern001 3",
+"category": "Weapon"
+},
+{
+"id": "yakushimalantern001-4",
+"name": "YakushimaLantern001 4",
+"category": "Weapon"
+},
+{
+"id": "yakushimalantern001-5",
+"name": "YakushimaLantern001 5",
+"category": "Weapon"
+},
+{
+"id": "weakerbow-2",
+"name": "en Text",
+"category": "Weapon"
+},
+{
+"id": "weakerbow-3",
+"name": "en Text",
+"category": "Weapon"
+},
+{
+"id": "weakerbow-4",
+"name": "en Text",
+"category": "Weapon"
+},
+{
+"id": "weakerbow-5",
+"name": "en Text",
+"category": "Weapon"
+},
+{
+"id": "bowgun-2",
+"name": "en Text",
+"category": "Weapon"
+},
+{
+"id": "bowgun-3",
+"name": "en Text",
+"category": "Weapon"
+},
+{
+"id": "bowgun-4",
+"name": "en Text",
+"category": "Weapon"
+},
+{
+"id": "bowgun-5",
+"name": "en Text",
+"category": "Weapon"
+},
+{
+"id": "assaultrifle-default2",
+"name": "en Text",
+"category": "Weapon"
+},
+{
+"id": "assaultrifle-default3",
+"name": "en Text",
+"category": "Weapon"
+},
+{
+"id": "assaultrifle-default4",
+"name": "en Text",
+"category": "Weapon"
+},
+{
+"id": "assaultrifle-default5",
+"name": "en Text",
+"category": "Weapon"
+},
+{
+"id": "pumpactionshotgun-2",
+"name": "en Text",
+"category": "Weapon"
+},
+{
+"id": "pumpactionshotgun-3",
+"name": "en Text",
+"category": "Weapon"
+},
+{
+"id": "pumpactionshotgun-4",
+"name": "en Text",
+"category": "Weapon"
+},
+{
+"id": "pumpactionshotgun-5",
+"name": "en Text",
+"category": "Weapon"
+},
+{
+"id": "handgun-default-2",
+"name": "en Text",
+"category": "Weapon"
+},
+{
+"id": "handgun-default-3",
+"name": "en Text",
+"category": "Weapon"
+},
+{
+"id": "handgun-default-4",
+"name": "en Text",
+"category": "Weapon"
+},
+{
+"id": "handgun-default-5",
+"name": "en Text",
+"category": "Weapon"
+},
+{
+"id": "launcher-default-2",
+"name": "en Text",
+"category": "Weapon"
+},
+{
+"id": "launcher-default-3",
+"name": "en Text",
+"category": "Weapon"
+},
+{
+"id": "launcher-default-4",
+"name": "en Text",
+"category": "Weapon"
+},
+{
+"id": "launcher-default-5",
+"name": "en Text",
+"category": "Weapon"
+}
+]

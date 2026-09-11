@@ -1524,6 +1524,15 @@ img {
 .map-dot-boss {
   fill: #e11d48;
 }
+.map-dot-resource {
+  fill: #f59e0b;
+}
+.map-dot-base {
+  fill: #10b981;
+}
+.map-dot-fast-travel {
+  fill: #8b5cf6;
+}
 .map-dot.active {
   stroke: rgb(var(--text));
   stroke-width: 2;
@@ -1560,6 +1569,11 @@ img {
 .map-tooltip-coord {
   color: rgb(var(--text-muted));
   font-size: 0.78rem;
+}
+.map-tooltip-desc {
+  color: rgb(var(--text));
+  font-size: 0.82rem;
+  margin-top: 2px;
 }
 .map-tooltip-link {
   color: hsl(var(--nav-theme));

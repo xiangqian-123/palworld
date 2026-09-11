@@ -1,0 +1,233 @@
+[
+  {
+    "id": "ore_bamboo_nw",
+    "type": "resource",
+    "name": "竹木林西北铁矿",
+    "en": "Bamboo Groves NW Ore",
+    "x": -345,
+    "y": -205,
+    "region": "bamboo-groves",
+    "resourceType": "ore",
+    "description": "大片铁矿，附近还有硫磺"
+  },
+  {
+    "id": "ore_bamboo_ne",
+    "type": "resource",
+    "name": "竹木林东北铁矿",
+    "en": "Bamboo Groves NE Ore",
+    "x": -170,
+    "y": -220,
+    "region": "bamboo-groves",
+    "resourceType": "ore",
+    "description": "铁矿 + 煤矿"
+  },
+  {
+    "id": "ore_galore",
+    "type": "resource",
+    "name": "矿藏富集地铁矿",
+    "en": "Ore Galore",
+    "x": 156,
+    "y": -396,
+    "region": "verdant-brook",
+    "resourceType": "ore",
+    "description": "约 7 个铁矿节点"
+  },
+  {
+    "id": "ore_verdant_brook",
+    "type": "resource",
+    "name": "翠绿溪谷铁矿",
+    "en": "Verdant Brook Ore",
+    "x": 189,
+    "y": -38,
+    "region": "verdant-brook",
+    "resourceType": "ore",
+    "description": "约 8 个铁矿节点"
+  },
+  {
+    "id": "ore_guardian_peak",
+    "type": "resource",
+    "name": "守护峰铁矿",
+    "en": "Guardian Peak Ore",
+    "x": 180,
+    "y": -39,
+    "region": "verdant-brook",
+    "resourceType": "ore",
+    "description": "铁矿 + 煤矿在一个半径内"
+  },
+  {
+    "id": "coal_bamboo_ne",
+    "type": "resource",
+    "name": "竹木林东北煤矿",
+    "en": "Bamboo Groves NE Coal",
+    "x": -170,
+    "y": -220,
+    "region": "bamboo-groves",
+    "resourceType": "coal",
+    "description": "煤矿 + 铁矿"
+  },
+  {
+    "id": "coal_bamboo_central",
+    "type": "resource",
+    "name": "中央竹木林煤矿",
+    "en": "Bamboo Groves Central Coal",
+    "x": -236,
+    "y": -379,
+    "region": "bamboo-groves",
+    "resourceType": "coal",
+    "description": "煤矿 + 硫磺，靠近快速旅行点"
+  },
+  {
+    "id": "coal_mount_flopie",
+    "type": "resource",
+    "name": "芙洛皮山架煤矿",
+    "en": "Mount Flopie Coal",
+    "x": 25,
+    "y": -134,
+    "region": "verdant-brook",
+    "resourceType": "coal",
+    "description": "18 个煤矿节点"
+  },
+  {
+    "id": "sulfur_fenglope",
+    "type": "resource",
+    "name": "芬洛普附近硫磺",
+    "en": "Fenglope Sulfur",
+    "x": -252,
+    "y": -462,
+    "region": "bamboo-groves",
+    "resourceType": "sulfur",
+    "description": "靠近芬洛普 BOSS"
+  },
+  {
+    "id": "sulfur_volcano_peak",
+    "type": "resource",
+    "name": "火山顶硫磺",
+    "en": "Volcano Peak Sulfur",
+    "x": -594,
+    "y": -525,
+    "region": "mount-obsidian",
+    "resourceType": "sulfur",
+    "description": "火山顶，靠近快速旅行点"
+  },
+  {
+    "id": "sulfur_mount_obsidian",
+    "type": "resource",
+    "name": "黑曜山硫磺",
+    "en": "Mount Obsidian Sulfur",
+    "x": -744,
+    "y": -442,
+    "region": "mount-obsidian",
+    "resourceType": "sulfur",
+    "description": "约 7 个硫磺节点，需耐热装备"
+  },
+  {
+    "id": "sulfur_obsidian_trail",
+    "type": "resource",
+    "name": "黑曜山径硫磺",
+    "en": "Obsidian Trail Sulfur",
+    "x": -692,
+    "y": -347,
+    "region": "mount-obsidian",
+    "resourceType": "sulfur",
+    "description": "14 个硫磺节点 + 纯石英"
+  },
+  {
+    "id": "quartz_moonless_shore",
+    "type": "resource",
+    "name": "月无海岸纯石英",
+    "en": "Moonless Shore Pure Quartz",
+    "x": 36,
+    "y": -48,
+    "region": "moonless-shore",
+    "resourceType": "quartz",
+    "description": "纯石英 + 铁矿 + 硫磺"
+  },
+  {
+    "id": "quartz_astral_mountains",
+    "type": "resource",
+    "name": "星穹山脉纯石英",
+    "en": "Astral Mountains Pure Quartz",
+    "x": -212,
+    "y": 250,
+    "region": "astral-mountains",
+    "resourceType": "quartz",
+    "description": "约 9 个纯石英节点，需耐寒装备"
+  },
+  {
+    "id": "quartz_unthawable_lake",
+    "type": "resource",
+    "name": "不冻湖纯石英",
+    "en": "Unthawable Lake Pure Quartz",
+    "x": -134,
+    "y": 302,
+    "region": "astral-mountains",
+    "resourceType": "quartz",
+    "description": "51 个纯石英节点"
+  },
+  {
+    "id": "oil_oasis_isle",
+    "type": "resource",
+    "name": "绿洲岛油田",
+    "en": "Oasis Isle Oil",
+    "x": 904,
+    "y": 207,
+    "region": "oasis-isle",
+    "resourceType": "oil",
+    "description": "6 个油田"
+  },
+  {
+    "id": "oil_sakurajima",
+    "type": "resource",
+    "name": "樱岛油田",
+    "en": "Sakurajima Oil",
+    "x": -646,
+    "y": 270,
+    "region": "sakurajima",
+    "resourceType": "oil",
+    "description": "2 个油田，气候温和"
+  },
+  {
+    "id": "hexolite_wildlands_floodgate",
+    "type": "resource",
+    "name": "荒野水闸六方石英",
+    "en": "Wildlands Floodgate Hexolite",
+    "x": -902,
+    "y": -1303,
+    "region": "feybreak",
+    "resourceType": "hexolite",
+    "description": "23 个六方石英 + 纯石英"
+  },
+  {
+    "id": "hexolite_feybreak",
+    "type": "resource",
+    "name": "菲布雷克六方石英",
+    "en": "Feybreak Hexolite",
+    "x": -1172,
+    "y": -1225,
+    "region": "feybreak",
+    "resourceType": "hexolite",
+    "description": "六方石英 + 石油"
+  },
+  {
+    "id": "soralite_crystalline_archipelago",
+    "type": "resource",
+    "name": "水晶群岛索拉莱特",
+    "en": "Crystalline Archipelago Soralite",
+    "x": -377,
+    "y": -1471,
+    "region": "crystalline-archipelago",
+    "resourceType": "soralite",
+    "description": "27 个索拉莱特节点"
+  },
+  {
+    "id": "soralite_sunreach",
+    "type": "resource",
+    "name": "桑瑞奇索拉莱特",
+    "en": "Sunreach Soralite",
+    "x": -302,
+    "y": -1426,
+    "region": "sunreach",
+    "resourceType": "soralite",
+    "description": "索拉莱特唯一来源"
+  }
+]

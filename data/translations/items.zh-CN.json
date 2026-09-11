@@ -5892,5 +5892,413 @@
   "wingglider": {
     "name": "飞行翼包",
     "aliases": []
+  },
+  "skillcard-apocalypse": {
+    "name": "暗属性技能果实：启示录",
+    "aliases": []
+  },
+  "skillcard-darkarrow": {
+    "name": "暗属性技能果实：暗箭",
+    "aliases": []
+  },
+  "skillcard-darkcanon": {
+    "name": "暗属性技能果实：暗炮",
+    "aliases": []
+  },
+  "skillcard-darklaser": {
+    "name": "暗属性技能果实：暗黑激光",
+    "aliases": []
+  },
+  "skillcard-gravityshot": {
+    "name": "暗属性技能果实：暗影射击",
+    "aliases": []
+  },
+  "skillcard-darklegion": {
+    "name": "暗属性技能果实：暗影幽灵",
+    "aliases": []
+  },
+  "skillcard-shadowball": {
+    "name": "暗属性技能果实：噩梦球",
+    "aliases": []
+  },
+  "skillcard-poisonshot": {
+    "name": "暗属性技能果实：剧毒爆破",
+    "aliases": []
+  },
+  "skillcard-bubbleshower": {
+    "name": "暗属性技能果实：剧毒淋浴",
+    "aliases": []
+  },
+  "skillcard-psychokinesis": {
+    "name": "暗属性技能果实：精神重力",
+    "aliases": []
+  },
+  "skillcard-darkwave": {
+    "name": "暗属性技能果实：暗影爆发",
+    "aliases": []
+  },
+  "skillcard-ghostflame": {
+    "name": "暗属性技能果实：幽灵火焰",
+    "aliases": []
+  },
+  "skillcard-darkpulse": {
+    "name": "暗属性技能果实：暗影涌动",
+    "aliases": []
+  },
+  "skillcard-beamslicer": {
+    "name": "龙属性技能果实：光束斩",
+    "aliases": []
+  },
+  "skillcard-blastcanon": {
+    "name": "龙属性技能果实：爆破炮",
+    "aliases": []
+  },
+  "skillcard-chargecanon": {
+    "name": "龙属性技能果实：蓄能炮",
+    "aliases": []
+  },
+  "skillcard-commet": {
+    "name": "龙属性技能果实：彗星撞击",
+    "aliases": []
+  },
+  "skillcard-dragonbreath": {
+    "name": "龙属性技能果实：龙之吐息",
+    "aliases": []
+  },
+  "skillcard-dragonwave": {
+    "name": "龙属性技能果实：龙之爆发",
+    "aliases": []
+  },
+  "skillcard-dragoncanon": {
+    "name": "龙属性技能果实：龙炮",
+    "aliases": []
+  },
+  "skillcard-dragonmeteor": {
+    "name": "龙属性技能果实：龙之陨石",
+    "aliases": []
+  },
+  "skillcard-thunderball": {
+    "name": "电属性技能果实：电球",
+    "aliases": []
+  },
+  "skillcard-thunderbolt": {
+    "name": "电属性技能果实：闪电",
+    "aliases": []
+  },
+  "skillcard-linethunder": {
+    "name": "电属性技能果实：闪电奔流",
+    "aliases": []
+  },
+  "skillcard-lightningstrike": {
+    "name": "电属性技能果实：落雷",
+    "aliases": []
+  },
+  "skillcard-lockonlaser": {
+    "name": "电属性技能果实：锁定激光",
+    "aliases": []
+  },
+  "skillcard-thunderfunnel": {
+    "name": "电属性技能果实：等离子漏斗",
+    "aliases": []
+  },
+  "skillcard-elecwave": {
+    "name": "电属性技能果实：电击波",
+    "aliases": []
+  },
+  "skillcard-spreadpulse": {
+    "name": "电属性技能果实：火花爆破",
+    "aliases": []
+  },
+  "skillcard-thunderrain": {
+    "name": "电属性技能果实：雷雨",
+    "aliases": []
+  },
+  "skillcard-thunderspear": {
+    "name": "电属性技能果实：雷枪",
+    "aliases": []
+  },
+  "skillcard-thunderstorm": {
+    "name": "电属性技能果实：雷暴",
+    "aliases": []
+  },
+  "skillcard-threethunder": {
+    "name": "电属性技能果实：三重闪电",
+    "aliases": []
+  },
+  "skillcard-trispark": {
+    "name": "电属性技能果实：三重火花",
+    "aliases": []
+  },
+  "skillcard-fireball": {
+    "name": "火属性技能果实：火球",
+    "aliases": []
+  },
+  "skillcard-flamefunnel": {
+    "name": "火属性技能果实：火焰漏斗",
+    "aliases": []
+  },
+  "skillcard-flamewall": {
+    "name": "火属性技能果实：火焰墙",
+    "aliases": []
+  },
+  "skillcard-flarearrow": {
+    "name": "火属性技能果实：烈焰箭",
+    "aliases": []
+  },
+  "skillcard-flaretornado": {
+    "name": "火属性技能果实：烈焰风暴",
+    "aliases": []
+  },
+  "skillcard-fireblast": {
+    "name": "火属性技能果实：烈焰爆破",
+    "aliases": []
+  },
+  "skillcard-flamethrower": {
+    "name": "火属性技能果实：烈焰吐息",
+    "aliases": []
+  },
+  "skillcard-inferno": {
+    "name": "火属性技能果实：烈焰狂怒",
+    "aliases": []
+  },
+  "skillcard-fireseed": {
+    "name": "火属性技能果实：魂火",
+    "aliases": []
+  },
+  "skillcard-eruption": {
+    "name": "火属性技能果实：火山雨",
+    "aliases": []
+  },
+  "skillcard-rootlance": {
+    "name": "草属性技能果实：环藤",
+    "aliases": []
+  },
+  "skillcard-crosswind": {
+    "name": "草属性技能果实：横风",
+    "aliases": []
+  },
+  "skillcard-grasstornado": {
+    "name": "草属性技能果实：草龙卷",
+    "aliases": []
+  },
+  "skillcard-specialcutter": {
+    "name": "草属性技能果实：多重切割",
+    "aliases": []
+  },
+  "skillcard-reflectiveshuriken": {
+    "name": "草属性技能果实：反射叶",
+    "aliases": []
+  },
+  "skillcard-seedmachinegun": {
+    "name": "草属性技能果实：种子机关枪",
+    "aliases": []
+  },
+  "skillcard-seedmine": {
+    "name": "草属性技能果实：种子地雷",
+    "aliases": []
+  },
+  "skillcard-solarbeam": {
+    "name": "草属性技能果实：日光束",
+    "aliases": []
+  },
+  "skillcard-rootattack": {
+    "name": "草属性技能果实：荆棘藤",
+    "aliases": []
+  },
+  "skillcard-windburst": {
+    "name": "草属性技能果实：旋风",
+    "aliases": []
+  },
+  "skillcard-windcutter": {
+    "name": "草属性技能果实：风刃",
+    "aliases": []
+  },
+  "skillcard-mudshot": {
+    "name": "地属性技能果实：泥沼爆破",
+    "aliases": []
+  },
+  "skillcard-rocklance": {
+    "name": "地属性技能果实：岩石长枪",
+    "aliases": []
+  },
+  "skillcard-tremor": {
+    "name": "地属性技能果实：岩石爆发",
+    "aliases": []
+  },
+  "skillcard-rockbeat": {
+    "name": "地属性技能果实：岩石撞击",
+    "aliases": []
+  },
+  "skillcard-sandtornado": {
+    "name": "地属性技能果实：沙龙卷",
+    "aliases": []
+  },
+  "skillcard-sandtwister": {
+    "name": "地属性技能果实：沙暴",
+    "aliases": []
+  },
+  "skillcard-stoneshotgun": {
+    "name": "地属性技能果实：石弹",
+    "aliases": []
+  },
+  "skillcard-throwrock": {
+    "name": "地属性技能果实：投石炮",
+    "aliases": []
+  },
+  "skillcard-iceage": {
+    "name": "冰属性技能果实：绝对冰封",
+    "aliases": []
+  },
+  "skillcard-iciclethrow": {
+    "name": "冰属性技能果实：暴雪冰锥",
+    "aliases": []
+  },
+  "skillcard-frostbreath": {
+    "name": "冰属性技能果实：水晶吐息",
+    "aliases": []
+  },
+  "skillcard-diamondfall": {
+    "name": "冰属性技能果实：钻石雨",
+    "aliases": []
+  },
+  "skillcard-icewall": {
+    "name": "冰属性技能果实：冰墙",
+    "aliases": []
+  },
+  "skillcard-icemissile": {
+    "name": "冰属性技能果实：冰导弹",
+    "aliases": []
+  },
+  "skillcard-blizzardlance": {
+    "name": "冰属性技能果实：冰山",
+    "aliases": []
+  },
+  "skillcard-iciclepierce": {
+    "name": "冰属性技能果实：冰锥弹",
+    "aliases": []
+  },
+  "skillcard-iceblade": {
+    "name": "冰属性技能果实：冰锥刃",
+    "aliases": []
+  },
+  "skillcard-icicleline": {
+    "name": "冰属性技能果实：冰锥线",
+    "aliases": []
+  },
+  "skillcard-airblade": {
+    "name": "无属性技能果实：空气刃",
+    "aliases": []
+  },
+  "skillcard-aircanon": {
+    "name": "无属性技能果实：空气炮",
+    "aliases": []
+  },
+  "skillcard-holyblast": {
+    "name": "无属性技能果实：圣光爆发",
+    "aliases": []
+  },
+  "skillcard-selfdestruct": {
+    "name": "无属性技能果实：自爆",
+    "aliases": []
+  },
+  "skillcard-hyperbeam": {
+    "name": "无属性技能果实：帕鲁爆发",
+    "aliases": []
+  },
+  "skillcard-powerball": {
+    "name": "无属性技能果实：强力炸弹",
+    "aliases": []
+  },
+  "skillcard-powershot": {
+    "name": "无属性技能果实：强力射击",
+    "aliases": []
+  },
+  "skillcard-rangethunder": {
+    "name": "雷属性技能果实：范围雷击",
+    "aliases": []
+  },
+  "skillcard-acidrain": {
+    "name": "水属性技能果实：酸雨",
+    "aliases": []
+  },
+  "skillcard-waterball": {
+    "name": "水属性技能果实：水流爆发",
+    "aliases": []
+  },
+  "skillcard-watergun": {
+    "name": "水属性技能果实：水枪",
+    "aliases": []
+  },
+  "skillcard-riptide": {
+    "name": "水属性技能果实：激流",
+    "aliases": []
+  },
+  "skillcard-bubbleshot": {
+    "name": "水属性技能果实：泡泡爆破",
+    "aliases": []
+  },
+  "skillcard-wallsplash": {
+    "name": "水属性技能果实：水帘",
+    "aliases": []
+  },
+  "skillcard-seagush": {
+    "name": "水属性技能果实：间歇泉喷涌",
+    "aliases": []
+  },
+  "skillcard-aquajet": {
+    "name": "水属性技能果实：水流喷射",
+    "aliases": []
+  },
+  "skillcard-hydropump": {
+    "name": "水属性技能果实：水流激光",
+    "aliases": []
+  },
+  "skillcard-hydroslicer": {
+    "name": "水属性技能果实：水流利刃",
+    "aliases": []
+  },
+  "skillcard-linegeyser": {
+    "name": "水属性技能果实：飞溅",
+    "aliases": []
+  },
+  "skillcard-diversionlaser": {
+    "name": "水属性技能果实：激流爆破",
+    "aliases": []
+  },
+  "skillunlock-thunderfluffybird": {
+    "name": "迪纳摩夫的鞍具",
+    "aliases": []
+  },
+  "skillunlock-ghostdragon-fire": {
+    "name": "炎幻影龙的鞍具",
+    "aliases": []
+  },
+  "skillunlock-ghostdragon": {
+    "name": "幻影龙的鞍具",
+    "aliases": []
+  },
+  "skillunlock-blackcentaur": {
+    "name": "奈克洛姆斯的鞍具",
+    "aliases": []
+  },
+  "skillunlock-tropicalostrich": {
+    "name": "帕伦巴的鞍具",
+    "aliases": []
+  },
+  "skillunlock-iceseal": {
+    "name": "波拉普的鞍具",
+    "aliases": []
+  },
+  "skillunlock-iceseal-ground": {
+    "name": "波拉普大地型鞍具",
+    "aliases": []
+  },
+  "skillunlock-icenarwhal-fire": {
+    "name": "炎鲸鲨的鞍具",
+    "aliases": []
+  },
+  "skillunlock-icenarwhal": {
+    "name": "鲸鲨的鞍具",
+    "aliases": []
   }
 }
