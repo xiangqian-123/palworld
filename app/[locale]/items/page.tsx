@@ -12,9 +12,13 @@ export function generateMetadata({
 }: {
   params: { locale: string };
 }): Metadata {
-  const title = `Palworld 物品数据库 — ${siteConfig.siteName}`;
-  const description =
-    "Palworld 全物品数据库：武器、防具、蓝图、材料、食物与饰品——搜索、按分类筛选与排序，查看哪些 Pal 掉落。";
+  const zh = params.locale === "zh-CN" || params.locale === "zh-TW";
+  const title = zh
+    ? `Palworld 物品数据库 — ${siteConfig.siteName}`
+    : `Palworld Item Database — ${siteConfig.siteName}`;
+  const description = zh
+    ? "Palworld 全物品数据库：武器、防具、蓝图、材料、食物与饰品——搜索、按分类筛选与排序，查看哪些 Pal 掉落。"
+    : "Every Palworld item: weapons, armor, blueprints, materials, food and accessories — search, filter and sort, and see which Pals drop them.";
   return {
     title,
     description,
@@ -45,6 +49,7 @@ export default function ItemsIndexPage({
 }) {
   if (!isValidLocale(params.locale)) notFound();
   const locale = params.locale as Locale;
+  const zh = locale === "zh-CN" || locale === "zh-TW";
   const categories = getCategories();
   const validCats = new Set(categories.map((c) => c.name));
   const initialCategory =
@@ -75,9 +80,10 @@ export default function ItemsIndexPage({
       <JsonLd data={websiteJsonLd(locale)} />
       <header className="guide-header">
         <span className="eyebrow">Item Database</span>
-        <h1>Palworld 物品数据库</h1>
+        <h1>{zh ? "Palworld 物品数据库" : "Palworld Item Database"}</h1>
         <p className="lead">
-          {items.length} 件物品 · {categories.length} 个分类——搜索、筛选、排序，查看哪些 Pal 掉落。
+          {items.length} {zh ? "件物品" : "items"} · {categories.length}{" "}
+          {zh ? "个分类——搜索、筛选、排序，查看哪些 Pal 掉落。" : "categories — search, filter and sort, see which Pals drop each one."}
         </p>
       </header>
       <div className="guide-body">

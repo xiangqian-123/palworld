@@ -24,9 +24,13 @@ export function generateMetadata({
 }: {
   params: { locale: string };
 }): Metadata {
-  const title = `Palworld Pal 图鉴 — ${siteConfig.siteName}`;
-  const description =
-    "Palworld 全 Pal 图鉴：按元素、攻击力、防御力筛选与排序，查找每一只 Pal 的属性、工作适性、技能与养殖信息。";
+  const zh = params.locale === "zh-CN" || params.locale === "zh-TW";
+  const title = zh
+    ? `Palworld Pal 图鉴 — ${siteConfig.siteName}`
+    : `Palworld Pal Codex — ${siteConfig.siteName}`;
+  const description = zh
+    ? "Palworld 全 Pal 图鉴：按元素、攻击力、防御力筛选与排序，查找每一只 Pal 的属性、工作适性、技能与养殖信息。"
+    : "The full Palworld Pal codex: filter and sort by element, attack and defense — stats, work suitability, skills and breeding info for every Pal.";
   return {
     title,
     description,
@@ -57,6 +61,7 @@ export default function PalsPage({
 }) {
   if (!isValidLocale(params.locale)) notFound();
   const locale = params.locale as Locale;
+  const zh = locale === "zh-CN" || locale === "zh-TW";
 
   const initialElement = VALID_ELEMENTS.includes(searchParams.element ?? "")
     ? (searchParams.element as string)
@@ -82,9 +87,9 @@ export default function PalsPage({
       <JsonLd data={websiteJsonLd(locale)} />
       <header className="guide-header">
         <span className="eyebrow">Pal Codex</span>
-        <h1>Palworld Pal 图鉴</h1>
+        <h1>{zh ? "Palworld Pal 图鉴" : "Palworld Pal Codex"}</h1>
         <p className="lead">
-          {getPalSlugs().length} 只 Pal · 按元素筛选、按编号/名称/攻击/防御排序，点击查看属性、工作适性、技能与养殖信息。
+          {getPalSlugs().length} {zh ? "只 Pal · 按元素筛选、按编号/名称/攻击/防御排序，点击查看属性、工作适性、技能与养殖信息。" : "Pals · filter by element, sort by number / name / attack / defense — open any Pal for stats, work suitability, skills and breeding info."}
         </p>
       </header>
       <div className="guide-body">

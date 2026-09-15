@@ -1,0 +1,11 @@
+﻿caliber,position_band,impressions,impression_share,clicks,row_count
+query行,1-3,1,0.0053,0,1
+query行,4-10,26,0.1383,0,17
+query行,11-20,6,0.0319,0,5
+query行,21-50,4,0.0213,0,4
+query行,>50,151,0.8032,0,140
+page聚合,1-3,0,0.0,0,0
+page聚合,4-10,110,0.2292,0,10
+page聚合,11-20,37,0.0771,0,5
+page聚合,21-50,51,0.1062,1,4
+page聚合,>50,282,0.5875,0,8

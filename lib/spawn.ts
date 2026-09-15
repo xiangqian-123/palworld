@@ -1,6 +1,16 @@
 import fs from "fs";
 import path from "path";
 
+/** 单个 spawn 点（按刷新权重取 top N，坐标已去重）。 */
+export interface PalSpawnPoint {
+  x: number;
+  y: number;
+  kind: "wild" | "alpha";
+  availability: string;
+  minLevel: number | null;
+  maxLevel: number | null;
+}
+
 /** Pal 野生 spawn 摘要（由 scripts/build-spawn-data.py 从 atlas-data 聚合生成）。 */
 export interface PalSpawn {
   count: number;
@@ -14,6 +24,8 @@ export interface PalSpawn {
   /** Palpagos 地图上的 spawn 点中心坐标（mapX/mapY）。 */
   cx: number | null;
   cy: number | null;
+  /** 高权重 spawn 点坐标（top 5，仅 palpagos 区域）。 */
+  points?: PalSpawnPoint[];
 }
 
 let cache: Record<string, PalSpawn> | null = null;
@@ -35,6 +47,16 @@ function load(): Record<string, PalSpawn> {
 
 export function getPalSpawn(slug: string): PalSpawn | null {
   return load()[slug] ?? null;
+}
+
+/** 高权重 spawn 点坐标（可能为空数组）。 */
+export function getPalSpawnPoints(slug: string): PalSpawnPoint[] {
+  return load()[slug]?.points ?? [];
+}
+
+/** 坐标的粗粒度可读位置（与 bearing 同一套划分）。 */
+export function coordArea(x: number, y: number): string {
+  return bearingLabel(spawnBearing(x, y));
 }
 
 /** 地图名 → 显示名。 */

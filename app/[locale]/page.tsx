@@ -10,6 +10,7 @@ import SearchBox from "@/components/SearchBox";
 import { getPal, getPalSlugs } from "@/lib/pal";
 import { getItemSlugs, getCategories } from "@/lib/items";
 import { getPost } from "@/lib/posts";
+import { palZhName } from "@/lib/translations";
 import { ELEMENT_ZH } from "@/lib/pal-labels";
 
 const HERO_IMG = "/images/guides/ss-16.jpg";
@@ -58,7 +59,6 @@ const ITEM_CAT_ORDER = [
   "Accessory",
 ];
 
-type Card = { title: string; desc: string; slug: string };
 type ExploreCard = {
   title: string;
   countLabel?: string;
@@ -136,7 +136,37 @@ export default function HomePage({ params }: { params: { locale: string } }) {
     (p): p is NonNullable<ReturnType<typeof getPal>> => p !== null
   );
 
-  const trendingCards = ((m.trending as { cards?: Card[] } | undefined)?.cards) ?? [];
+  // Trending 区块：GSC 高机会页固定清单（来源 SEO诊断\palworld_gsc_merged.csv 28 天，
+  // 更新 2026-09-15）。不再读 i18n messages.trending——只放已被 GSC 验证进 Top20 的页面，
+  // 把首页权重传给它们。
+  const GSC_TRENDING_PAGES = [
+    { type: "guide", slug: "world-tree", enTitle: "World Tree Guide", zhDesc: "等级要求、8 个塔 BOSS 与 1.0 终局区域解锁", enDesc: "Levels, 8 tower bosses & how to unlock the 1.0 endgame zone" },
+    { type: "guide", slug: "endgame", enTitle: "Endgame Guide", zhDesc: "终局材料、传说蓝图与困难模式", enDesc: "Endgame materials, legendary blueprints & hard mode" },
+    { type: "pal", slug: "astegon", zhDesc: "刷新坐标、等级与捕捉方式", enDesc: "Spawn coordinates, levels & how to catch it" },
+    { type: "pal", slug: "mossanda", zhDesc: "刷新坐标、等级与捕捉方式", enDesc: "Spawn coordinates, levels & how to catch it" },
+    { type: "pal", slug: "blazamut", zhDesc: "刷新坐标、等级与捕捉方式", enDesc: "Spawn coordinates, levels & how to catch it" },
+    { type: "pal", slug: "neptilius", zhDesc: "刷新坐标、等级与捕捉方式", enDesc: "Spawn coordinates, levels & how to catch it" },
+  ] as const;
+
+  const trendingCards = GSC_TRENDING_PAGES.map((c) => {
+    if (c.type === "guide") {
+      return {
+        href: `/guide/${c.slug}`,
+        title: getPost(locale, c.slug)?.frontmatter.title ?? c.enTitle,
+        desc: zh ? c.zhDesc : c.enDesc,
+      };
+    }
+    const pal = getPal(c.slug);
+    const zhName = palZhName(c.slug, locale);
+    return {
+      href: `/pal/${c.slug}/location`,
+      title:
+        zh && zhName
+          ? `在哪里找到${zhName}`
+          : `Where to Find ${pal?.name ?? c.slug}`,
+      desc: zh ? c.zhDesc : c.enDesc,
+    };
+  });
   const exploreCards =
     ((m.explore as { cards?: ExploreCard[] } | undefined)?.cards) ?? [];
 
@@ -191,9 +221,9 @@ export default function HomePage({ params }: { params: { locale: string } }) {
           <div className="trending-grid">
             {trendingCards.map((c) => (
               <Link
-                key={c.slug}
+                key={c.href}
                 className="trending-card"
-                href={`/${locale}/guide/${c.slug}`}
+                href={`/${locale}${c.href}`}
               >
                 <h3>{c.title}</h3>
                 <p>{c.desc}</p>
@@ -351,7 +381,7 @@ export default function HomePage({ params }: { params: { locale: string } }) {
       <section className="section">
         <div className="container about-grid">
           <div className="about-art">
-            <img src={ABOUT_IMG} alt="Palworld 中的 Pal 幻兽" loading="lazy" />
+            <img src={ABOUT_IMG} alt="Pals in Palworld" loading="lazy" />
           </div>
           <div className="about-copy">
             <h2>{t(m, "about.title", "What is Palworld")}</h2>

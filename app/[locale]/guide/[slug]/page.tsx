@@ -83,7 +83,12 @@ export default function GuidePage({
   const path = `/guide/${post.slug}`;
 
   // 结构化数据：Article + Breadcrumb，FAQ 页额外输出 FAQPage。
-  const faq = faqJsonLd(extractFaq(post.content));
+  // Quick Answers（frontmatter）优先，MDX 正文抽取的 FAQ 去重后合并。
+  const quickAnswers = fm.quickAnswers ?? [];
+  const contentFaq = extractFaq(post.content).filter(
+    (f) => !quickAnswers.some((q) => q.q === f.q)
+  );
+  const faq = faqJsonLd([...quickAnswers, ...contentFaq]);
 
   return (
     <article className="guide">
@@ -113,6 +118,19 @@ export default function GuidePage({
           src={fm.heroImage}
           alt={fm.heroAlt || fm.title}
         />
+      )}
+      {quickAnswers.length > 0 && (
+        <div className="quick-answers">
+          <h2>Quick Answers</h2>
+          <dl>
+            {quickAnswers.map((qa) => (
+              <div key={qa.q}>
+                <dt>{qa.q}</dt>
+                <dd>{qa.a}</dd>
+              </div>
+            ))}
+          </dl>
+        </div>
       )}
       <div className="guide-body">
         <div className="prose">

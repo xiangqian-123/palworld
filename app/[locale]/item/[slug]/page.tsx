@@ -72,6 +72,17 @@ export default function ItemPage({
   const zhName = itemZhName(params.slug, params.locale);
   const zhDesc = itemZhDescription(params.slug, params.locale);
 
+  // Related Materials：同分类前 5 个物品（排除自身），按名称排序。
+  const relatedMaterials = getItemSlugs()
+    .filter((s) => s !== params.slug)
+    .map((s) => ({ slug: s, it: getItem(s) }))
+    .filter(
+      (x): x is { slug: string; it: NonNullable<ReturnType<typeof getItem>> } =>
+        x.it !== null && x.it.category === item.category
+    )
+    .sort((a, b) => a.it.name.localeCompare(b.it.name))
+    .slice(0, 5);
+
   return (
     <article className="guide">
       <JsonLd
@@ -174,6 +185,32 @@ export default function ItemPage({
             {item.name} is not dropped by wild Pals — it is obtained through
             crafting or other means.
           </p>
+        )}
+
+        {relatedMaterials.length > 0 && (
+          <>
+            <h2>Related Materials</h2>
+            <p>
+              Other {item.category} items — the full list is on the{" "}
+              <Link
+                href={`/${locale}/items/${encodeURIComponent(item.category)}`}
+              >
+                {item.category} category page
+              </Link>
+              :
+            </p>
+            <div className="breed-list">
+              {relatedMaterials.map((r) => (
+                <Link
+                  key={r.slug}
+                  href={`/${locale}/item/${r.slug}`}
+                  className="breed-chip"
+                >
+                  {r.it.name}
+                </Link>
+              ))}
+            </div>
+          </>
         )}
 
         <p>

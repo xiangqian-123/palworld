@@ -1,0 +1,317 @@
+﻿file,line,text,classification
+app\[locale]\pals\page.tsx,27,图鉴,leak: metadata+页面文案不分语言
+app\[locale]\pals\page.tsx,29,全,leak: metadata+页面文案不分语言
+app\[locale]\pals\page.tsx,29,图鉴,leak: metadata+页面文案不分语言
+app\[locale]\pals\page.tsx,29,按元素,leak: metadata+页面文案不分语言
+app\[locale]\pals\page.tsx,29,攻击力,leak: metadata+页面文案不分语言
+app\[locale]\pals\page.tsx,29,防御力筛选与排序,leak: metadata+页面文案不分语言
+app\[locale]\pals\page.tsx,29,查找每一只,leak: metadata+页面文案不分语言
+app\[locale]\pals\page.tsx,29,的属性,leak: metadata+页面文案不分语言
+app\[locale]\pals\page.tsx,29,工作适性,leak: metadata+页面文案不分语言
+app\[locale]\pals\page.tsx,29,技能与养殖信息,leak: metadata+页面文案不分语言
+app\[locale]\pals\page.tsx,85,图鉴,leak: metadata+页面文案不分语言
+app\[locale]\pals\page.tsx,87,只,leak: metadata+页面文案不分语言
+app\[locale]\pals\page.tsx,87,按元素筛选,leak: metadata+页面文案不分语言
+app\[locale]\pals\page.tsx,87,按编号,leak: metadata+页面文案不分语言
+app\[locale]\pals\page.tsx,87,名称,leak: metadata+页面文案不分语言
+app\[locale]\pals\page.tsx,87,攻击,leak: metadata+页面文案不分语言
+app\[locale]\pals\page.tsx,87,防御排序,leak: metadata+页面文案不分语言
+app\[locale]\pals\page.tsx,87,点击查看属性,leak: metadata+页面文案不分语言
+app\[locale]\pals\page.tsx,87,工作适性,leak: metadata+页面文案不分语言
+app\[locale]\pals\page.tsx,87,技能与养殖信息,leak: metadata+页面文案不分语言
+app\[locale]\items\page.tsx,15,物品数据库,leak: metadata+页面文案不分语言
+app\[locale]\items\page.tsx,17,全物品数据库,leak: metadata+页面文案不分语言
+app\[locale]\items\page.tsx,17,武器,leak: metadata+页面文案不分语言
+app\[locale]\items\page.tsx,17,防具,leak: metadata+页面文案不分语言
+app\[locale]\items\page.tsx,17,蓝图,leak: metadata+页面文案不分语言
+app\[locale]\items\page.tsx,17,材料,leak: metadata+页面文案不分语言
+app\[locale]\items\page.tsx,17,食物与饰品,leak: metadata+页面文案不分语言
+app\[locale]\items\page.tsx,17,搜索,leak: metadata+页面文案不分语言
+app\[locale]\items\page.tsx,17,按分类筛选与排序,leak: metadata+页面文案不分语言
+app\[locale]\items\page.tsx,17,查看哪些,leak: metadata+页面文案不分语言
+app\[locale]\items\page.tsx,17,掉落,leak: metadata+页面文案不分语言
+app\[locale]\items\page.tsx,78,物品数据库,leak: metadata+页面文案不分语言
+app\[locale]\items\page.tsx,80,件物品,leak: metadata+页面文案不分语言
+app\[locale]\items\page.tsx,80,个分类,leak: metadata+页面文案不分语言
+app\[locale]\items\page.tsx,80,搜索,leak: metadata+页面文案不分语言
+app\[locale]\items\page.tsx,80,筛选,leak: metadata+页面文案不分语言
+app\[locale]\items\page.tsx,80,排序,leak: metadata+页面文案不分语言
+app\[locale]\items\page.tsx,80,查看哪些,leak: metadata+页面文案不分语言
+app\[locale]\items\page.tsx,80,掉落,leak: metadata+页面文案不分语言
+app\[locale]\map\page.tsx,26,交互地图,leak: metadata不分语言
+app\[locale]\map\page.tsx,28,交互地图,leak: metadata不分语言
+app\[locale]\map\page.tsx,28,刷新位置,leak: metadata不分语言
+app\[locale]\map\page.tsx,28,矿石资源,leak: metadata不分语言
+app\[locale]\map\page.tsx,28,基地与快速旅行点一览,leak: metadata不分语言
+app\[locale]\map\page.tsx,28,缩放拖拽浏览,leak: metadata不分语言
+app\[locale]\map\page.tsx,28,点击查看详情,leak: metadata不分语言
+app\[locale]\map\page.tsx,86,刷新点,leak: metadata不分语言
+app\[locale]\map\page.tsx,88,矿石资源,leak: metadata不分语言
+app\[locale]\map\page.tsx,89,基地位置,leak: metadata不分语言
+app\[locale]\map\page.tsx,90,快速旅行点,leak: metadata不分语言
+app\[locale]\map\page.tsx,98,交互地图,leak: metadata不分语言
+app\[locale]\map\page.tsx,100,按,leak: metadata不分语言
+app\[locale]\map\page.tsx,100,资源,leak: metadata不分语言
+app\[locale]\map\page.tsx,100,基地,leak: metadata不分语言
+app\[locale]\map\page.tsx,100,快速旅行点筛选,leak: metadata不分语言
+app\[locale]\map\page.tsx,100,缩放拖拽浏览,leak: metadata不分语言
+app\[locale]\map\page.tsx,100,点击查看详情,leak: metadata不分语言
+app\[locale]\map\page.tsx,107,热门位置,leak: metadata不分语言
+app\[locale]\map\page.tsx,126,位置分类,leak: metadata不分语言
+app\[locale]\breeding-calculator\page.tsx,20,养殖计算器,leak: generateMetadata不分语言(正文已双语)
+app\[locale]\breeding-calculator\page.tsx,22,养殖计算器,leak: generateMetadata不分语言(正文已双语)
+app\[locale]\breeding-calculator\page.tsx,22,选择两只父母,leak: generateMetadata不分语言(正文已双语)
+app\[locale]\breeding-calculator\page.tsx,22,查找后代,leak: generateMetadata不分语言(正文已双语)
+app\[locale]\breeding-calculator\page.tsx,22,或选择目标,leak: generateMetadata不分语言(正文已双语)
+app\[locale]\breeding-calculator\page.tsx,22,反查所有父母组合,leak: generateMetadata不分语言(正文已双语)
+app\[locale]\breeding-calculator\page.tsx,22,基于,leak: generateMetadata不分语言(正文已双语)
+app\[locale]\breeding-calculator\page.tsx,22,公式与全部特殊配方,leak: generateMetadata不分语言(正文已双语)
+app\[locale]\breeding-calculator\page.tsx,53,热门查询的显示名,leak: generateMetadata不分语言(正文已双语)
+app\[locale]\breeding-calculator\page.tsx,53,与,leak: generateMetadata不分语言(正文已双语)
+app\[locale]\breeding-calculator\page.tsx,53,的英文名一致,leak: generateMetadata不分语言(正文已双语)
+app\[locale]\breeding-calculator\page.tsx,74,养殖,leak: generateMetadata不分语言(正文已双语)
+app\[locale]\breeding-calculator\page.tsx,75,养殖计算器,leak: generateMetadata不分语言(正文已双语)
+app\[locale]\breeding-calculator\page.tsx,77,选择两只父母,leak: generateMetadata不分语言(正文已双语)
+app\[locale]\breeding-calculator\page.tsx,77,查找后代,leak: generateMetadata不分语言(正文已双语)
+app\[locale]\breeding-calculator\page.tsx,77,或选择目标,leak: generateMetadata不分语言(正文已双语)
+app\[locale]\breeding-calculator\page.tsx,77,查找所有可用父母组合,leak: generateMetadata不分语言(正文已双语)
+app\[locale]\breeding-calculator\page.tsx,77,基于,leak: generateMetadata不分语言(正文已双语)
+app\[locale]\breeding-calculator\page.tsx,77,公式与全部特殊配方,leak: generateMetadata不分语言(正文已双语)
+app\[locale]\breeding-calculator\page.tsx,79,如何使用,leak: generateMetadata不分语言(正文已双语)
+app\[locale]\breeding-calculator\page.tsx,82,选择模式,leak: generateMetadata不分语言(正文已双语)
+app\[locale]\breeding-calculator\page.tsx,82,两只父母查后代,leak: generateMetadata不分语言(正文已双语)
+app\[locale]\breeding-calculator\page.tsx,82,或,leak: generateMetadata不分语言(正文已双语)
+app\[locale]\breeding-calculator\page.tsx,82,目标,leak: generateMetadata不分语言(正文已双语)
+app\[locale]\breeding-calculator\page.tsx,82,反查父母组合,leak: generateMetadata不分语言(正文已双语)
+app\[locale]\breeding-calculator\page.tsx,83,从下拉框选择,leak: generateMetadata不分语言(正文已双语)
+app\[locale]\breeding-calculator\page.tsx,83,结果会实时显示,leak: generateMetadata不分语言(正文已双语)
+app\[locale]\breeding-calculator\page.tsx,84,点击结果中的,leak: generateMetadata不分语言(正文已双语)
+app\[locale]\breeding-calculator\page.tsx,84,名称,leak: generateMetadata不分语言(正文已双语)
+app\[locale]\breeding-calculator\page.tsx,84,跳转到对应,leak: generateMetadata不分语言(正文已双语)
+app\[locale]\breeding-calculator\page.tsx,84,详情页查看更多数据,leak: generateMetadata不分语言(正文已双语)
+app\[locale]\breeding-calculator\page.tsx,91,热门养殖查询,leak: generateMetadata不分语言(正文已双语)
+app\[locale]\breeding-calculator\page.tsx,92,养殖机制,leak: generateMetadata不分语言(正文已双语)
+app\[locale]\breeding-calculator\page.tsx,95,父母组合,leak: generateMetadata不分语言(正文已双语)
+app\[locale]\breeding-calculator\page.tsx,95,每两只,leak: generateMetadata不分语言(正文已双语)
+app\[locale]\breeding-calculator\page.tsx,95,有一个确定的繁殖结果,leak: generateMetadata不分语言(正文已双语)
+app\[locale]\breeding-calculator\page.tsx,95,特殊配方优先于公式计算,leak: generateMetadata不分语言(正文已双语)
+app\[locale]\breeding-calculator\page.tsx,96,蛋,leak: generateMetadata不分语言(正文已双语)
+app\[locale]\breeding-calculator\page.tsx,96,两只,leak: generateMetadata不分语言(正文已双语)
+app\[locale]\breeding-calculator\page.tsx,96,在养殖场繁殖会产下一颗蛋,leak: generateMetadata不分语言(正文已双语)
+app\[locale]\breeding-calculator\page.tsx,96,孵化出后代,leak: generateMetadata不分语言(正文已双语)
+app\[locale]\breeding-calculator\page.tsx,97,被动继承,leak: generateMetadata不分语言(正文已双语)
+app\[locale]\breeding-calculator\page.tsx,97,父母的被动技能会概率遗传给后代,leak: generateMetadata不分语言(正文已双语)
+app\[locale]\breeding-calculator\page.tsx,97,用于培育理想被动组合,leak: generateMetadata不分语言(正文已双语)
+app\[locale]\breeding-calculator\page.tsx,98,突变,leak: generateMetadata不分语言(正文已双语)
+app\[locale]\breeding-calculator\page.tsx,98,新增,leak: generateMetadata不分语言(正文已双语)
+app\[locale]\breeding-calculator\page.tsx,98,觉醒与突变系统,leak: generateMetadata不分语言(正文已双语)
+app\[locale]\breeding-calculator\page.tsx,98,可改变,leak: generateMetadata不分语言(正文已双语)
+app\[locale]\breeding-calculator\page.tsx,98,的形态与属性,leak: generateMetadata不分语言(正文已双语)
+app\[locale]\breeding-calculator\page.tsx,99,特殊组合,leak: generateMetadata不分语言(正文已双语)
+app\[locale]\breeding-calculator\page.tsx,99,部分,leak: generateMetadata不分语言(正文已双语)
+app\[locale]\breeding-calculator\page.tsx,99,只能通过特定父母组合繁殖,leak: generateMetadata不分语言(正文已双语)
+app\[locale]\breeding-calculator\page.tsx,99,绕过公式,leak: generateMetadata不分语言(正文已双语)
+app\[locale]\breeding-calculator\page.tsx,99,传奇,leak: generateMetadata不分语言(正文已双语)
+app\[locale]\breeding-calculator\page.tsx,99,只能同种自交,leak: generateMetadata不分语言(正文已双语)
+app\[locale]\breeding-calculator\page.tsx,108,查看养殖攻略,leak: generateMetadata不分语言(正文已双语)
+app\[locale]\breeding-calculator\page.tsx,109,常见问题,leak: generateMetadata不分语言(正文已双语)
+app\[locale]\breeding-calculator\page.tsx,112,如何繁殖出,leak: generateMetadata不分语言(正文已双语)
+app\[locale]\breeding-calculator\page.tsx,112,使用,leak: generateMetadata不分语言(正文已双语)
+app\[locale]\breeding-calculator\page.tsx,112,这个特殊配方即可稳定获得,leak: generateMetadata不分语言(正文已双语)
+app\[locale]\breeding-calculator\page.tsx,113,如何繁殖出,leak: generateMetadata不分语言(正文已双语)
+app\[locale]\breeding-calculator\page.tsx,113,是传奇,leak: generateMetadata不分语言(正文已双语)
+app\[locale]\breeding-calculator\page.tsx,113,只能通过,leak: generateMetadata不分语言(正文已双语)
+app\[locale]\breeding-calculator\page.tsx,113,同种自交获得,leak: generateMetadata不分语言(正文已双语)
+app\[locale]\breeding-calculator\page.tsx,114,传奇,leak: generateMetadata不分语言(正文已双语)
+app\[locale]\breeding-calculator\page.tsx,114,能和其它,leak: generateMetadata不分语言(正文已双语)
+app\[locale]\breeding-calculator\page.tsx,114,繁殖吗,leak: generateMetadata不分语言(正文已双语)
+app\[locale]\breeding-calculator\page.tsx,114,不能,leak: generateMetadata不分语言(正文已双语)
+app\[locale]\breeding-calculator\page.tsx,114,等传奇,leak: generateMetadata不分语言(正文已双语)
+app\[locale]\breeding-calculator\page.tsx,114,塔,leak: generateMetadata不分语言(正文已双语)
+app\[locale]\breeding-calculator\page.tsx,114,只能同种自交,leak: generateMetadata不分语言(正文已双语)
+app\[locale]\breeding-calculator\page.tsx,114,不参与普通公式,leak: generateMetadata不分语言(正文已双语)
+app\[locale]\breeding-calculator\page.tsx,115,如何让后代继承想要的被动技能,leak: generateMetadata不分语言(正文已双语)
+app\[locale]\breeding-calculator\page.tsx,115,把带有目标被动的父母放进养殖场,leak: generateMetadata不分语言(正文已双语)
+app\[locale]\breeding-calculator\page.tsx,115,被动会概率遗传给后代,leak: generateMetadata不分语言(正文已双语)
+app\[locale]\breeding-calculator\page.tsx,115,多代筛选即可固定组合,leak: generateMetadata不分语言(正文已双语)
+app\[locale]\breeding-calculator\page.tsx,123,数据版本,leak: generateMetadata不分语言(正文已双语)
+app\[locale]\breeding-calculator\page.tsx,124,最后更新,leak: generateMetadata不分语言(正文已双语)
+app\[locale]\page.tsx,18,热门,leak: img alt不分语言(仅354行alt，其余为注释/回退文案)
+app\[locale]\page.tsx,18,个高价值,leak: img alt不分语言(仅354行alt，其余为注释/回退文案)
+app\[locale]\page.tsx,18,与,leak: img alt不分语言(仅354行alt，其余为注释/回退文案)
+app\[locale]\page.tsx,18,一致,leak: img alt不分语言(仅354行alt，其余为注释/回退文案)
+app\[locale]\page.tsx,30,首页攻略模块只展示主要攻略,leak: img alt不分语言(仅354行alt，其余为注释/回退文案)
+app\[locale]\page.tsx,40,模块展示真实存在的页面,leak: img alt不分语言(仅354行alt，其余为注释/回退文案)
+app\[locale]\page.tsx,43,物品数据库首页展示的主要分类,leak: img alt不分语言(仅354行alt，其余为注释/回退文案)
+app\[locale]\page.tsx,43,真实,leak: img alt不分语言(仅354行alt，其余为注释/回退文案)
+app\[locale]\page.tsx,43,值,leak: img alt不分语言(仅354行alt，其余为注释/回退文案)
+app\[locale]\page.tsx,130,数据源,leak: img alt不分语言(仅354行alt，其余为注释/回退文案)
+app\[locale]\page.tsx,130,统一数量,leak: img alt不分语言(仅354行alt，其余为注释/回退文案)
+app\[locale]\page.tsx,130,动态读取,leak: img alt不分语言(仅354行alt，其余为注释/回退文案)
+app\[locale]\page.tsx,130,不写死,leak: img alt不分语言(仅354行alt，其余为注释/回退文案)
+app\[locale]\page.tsx,143,标题,leak: img alt不分语言(仅354行alt，其余为注释/回退文案)
+app\[locale]\page.tsx,143,多语言自动,leak: img alt不分语言(仅354行alt，其余为注释/回退文案)
+app\[locale]\page.tsx,143,按,leak: img alt不分语言(仅354行alt，其余为注释/回退文案)
+app\[locale]\page.tsx,143,取当前语言标题,leak: img alt不分语言(仅354行alt，其余为注释/回退文案)
+app\[locale]\page.tsx,174,浏览,leak: img alt不分语言(仅354行alt，其余为注释/回退文案)
+app\[locale]\page.tsx,174,图鉴,leak: img alt不分语言(仅354行alt，其余为注释/回退文案)
+app\[locale]\page.tsx,177,养殖计算器,leak: img alt不分语言(仅354行alt，其余为注释/回退文案)
+app\[locale]\page.tsx,180,探索地图,leak: img alt不分语言(仅354行alt，其余为注释/回退文案)
+app\[locale]\page.tsx,187,当前热门,leak: img alt不分语言(仅354行alt，其余为注释/回退文案)
+app\[locale]\page.tsx,190,当前热门,leak: img alt不分语言(仅354行alt，其余为注释/回退文案)
+app\[locale]\page.tsx,206,探索,leak: img alt不分语言(仅354行alt，其余为注释/回退文案)
+app\[locale]\page.tsx,206,四张核心功能卡,leak: img alt不分语言(仅354行alt，其余为注释/回退文案)
+app\[locale]\page.tsx,209,探索,leak: img alt不分语言(仅354行alt，其余为注释/回退文案)
+app\[locale]\page.tsx,234,热门,leak: img alt不分语言(仅354行alt，其余为注释/回退文案)
+app\[locale]\page.tsx,237,热门,leak: img alt不分语言(仅354行alt，其余为注释/回退文案)
+app\[locale]\page.tsx,268,查看全部,leak: img alt不分语言(仅354行alt，其余为注释/回退文案)
+app\[locale]\page.tsx,274,物品数据库,leak: img alt不分语言(仅354行alt，其余为注释/回退文案)
+app\[locale]\page.tsx,277,物品数据库,leak: img alt不分语言(仅354行alt，其余为注释/回退文案)
+app\[locale]\page.tsx,302,浏览全部物品,leak: img alt不分语言(仅354行alt，其余为注释/回退文案)
+app\[locale]\page.tsx,308,攻略,leak: img alt不分语言(仅354行alt，其余为注释/回退文案)
+app\[locale]\page.tsx,311,攻略,leak: img alt不分语言(仅354行alt，其余为注释/回退文案)
+app\[locale]\page.tsx,325,查看全部攻略,leak: img alt不分语言(仅354行alt，其余为注释/回退文案)
+app\[locale]\page.tsx,350,什么是,leak: img alt不分语言(仅354行alt，其余为注释/回退文案)
+app\[locale]\page.tsx,350,下移,leak: img alt不分语言(仅354行alt，其余为注释/回退文案)
+app\[locale]\page.tsx,354,中的,leak: img alt不分语言(仅354行alt，其余为注释/回退文案)
+app\[locale]\page.tsx,354,幻兽,leak: img alt不分语言(仅354行alt，其余为注释/回退文案)
+app\[locale]\page.tsx,379,官方预告片,leak: img alt不分语言(仅354行alt，其余为注释/回退文案)
+app\[locale]\page.tsx,379,下移,leak: img alt不分语言(仅354行alt，其余为注释/回退文案)
+content/guides/en/base.mdx,7,官方,en正文中文
+content/guides/en/beginner.mdx,7,官方,en正文中文
+content/guides/en/breeding.mdx,7,官方,en正文中文
+content/guides/en/endgame.mdx,7,官方,en正文中文
+content/guides/en/faq.mdx,7,官方,en正文中文
+content/guides/en/fishing.mdx,7,官方,en正文中文
+content/guides/en/map.mdx,7,官方,en正文中文
+content/guides/en/mobile.mdx,7,官方,en正文中文
+content/guides/en/mods.mdx,7,官方,en正文中文
+content/guides/en/money.mdx,7,官方,en正文中文
+content/guides/en/new-pals.mdx,7,官方,en正文中文
+content/guides/en/pals.mdx,7,官方,en正文中文
+content/guides/en/pals.mdx,21,无属性,en正文中文
+content/guides/en/pals.mdx,22,火,en正文中文
+content/guides/en/pals.mdx,23,水,en正文中文
+content/guides/en/pals.mdx,24,草,en正文中文
+content/guides/en/pals.mdx,25,电,en正文中文
+content/guides/en/pals.mdx,26,冰,en正文中文
+content/guides/en/pals.mdx,27,地,en正文中文
+content/guides/en/pals.mdx,28,暗,en正文中文
+content/guides/en/pals.mdx,29,龙,en正文中文
+content/guides/en/passives.mdx,7,官方,en正文中文
+content/guides/en/ps5.mdx,7,官方,en正文中文
+content/guides/en/server.mdx,7,官方,en正文中文
+content/guides/en/terraria.mdx,7,官方,en正文中文
+content/guides/en/updates.mdx,7,官方,en正文中文
+content/guides/en/wiki.mdx,7,官方,en正文中文
+content/guides/en/world-tree.mdx,7,官方,en正文中文
+components/BreedingCalculator.tsx,19,正向,组件(多为zh三元=设计如此，需人工核对)
+components/BreedingCalculator.tsx,19,两个,组件(多为zh三元=设计如此，需人工核对)
+components/BreedingCalculator.tsx,19,繁殖出什么,组件(多为zh三元=设计如此，需人工核对)
+components/BreedingCalculator.tsx,47,时取更高,组件(多为zh三元=设计如此，需人工核对)
+components/BreedingCalculator.tsx,47,规则,组件(多为zh三元=设计如此，需人工核对)
+components/GoogleAnalytics.tsx,4,脚本注入,组件(多为zh三元=设计如此，需人工核对)
+components/GoogleAnalytics.tsx,4,为空时不渲染任何内容,组件(多为zh三元=设计如此，需人工核对)
+components/GoogleAnalytics.tsx,4,本地开发无,组件(多为zh三元=设计如此，需人工核对)
+components/GoogleAnalytics.tsx,4,时静默跳过,组件(多为zh三元=设计如此，需人工核对)
+components/GoogleAnalytics.tsx,5,通过环境变量,组件(多为zh三元=设计如此，需人工核对)
+components/GoogleAnalytics.tsx,5,传入,组件(多为zh三元=设计如此，需人工核对)
+components/GoogleAnalytics.tsx,5,见,组件(多为zh三元=设计如此，需人工核对)
+components/ItemsBrowser.tsx,15,蓝图,组件(多为zh三元=设计如此，需人工核对)
+components/ItemsBrowser.tsx,16,武器,组件(多为zh三元=设计如此，需人工核对)
+components/ItemsBrowser.tsx,17,防具,组件(多为zh三元=设计如此，需人工核对)
+components/ItemsBrowser.tsx,18,基础,组件(多为zh三元=设计如此，需人工核对)
+components/ItemsBrowser.tsx,19,消耗品,组件(多为zh三元=设计如此，需人工核对)
+components/ItemsBrowser.tsx,20,材料,组件(多为zh三元=设计如此，需人工核对)
+components/ItemsBrowser.tsx,21,食物,组件(多为zh三元=设计如此，需人工核对)
+components/ItemsBrowser.tsx,22,饰品,组件(多为zh三元=设计如此，需人工核对)
+components/ItemsBrowser.tsx,23,弹药,组件(多为zh三元=设计如此，需人工核对)
+components/ItemsBrowser.tsx,24,特殊武器,组件(多为zh三元=设计如此，需人工核对)
+components/ItemsBrowser.tsx,25,捕获物改造,组件(多为zh三元=设计如此，需人工核对)
+components/ItemsBrowser.tsx,26,滑翔翼,组件(多为zh三元=设计如此，需人工核对)
+components/ItemsBrowser.tsx,96,搜索物品名称,组件(多为zh三元=设计如此，需人工核对)
+components/ItemsBrowser.tsx,108,分类筛选,组件(多为zh三元=设计如此，需人工核对)
+components/ItemsBrowser.tsx,110,全部分类,组件(多为zh三元=设计如此，需人工核对)
+components/ItemsBrowser.tsx,125,排序,组件(多为zh三元=设计如此，需人工核对)
+components/ItemsBrowser.tsx,127,名称,组件(多为zh三元=设计如此，需人工核对)
+components/ItemsBrowser.tsx,128,分类,组件(多为zh三元=设计如此，需人工核对)
+components/ItemsBrowser.tsx,129,稀有度,组件(多为zh三元=设计如此，需人工核对)
+components/ItemsBrowser.tsx,134,件物品,组件(多为zh三元=设计如此，需人工核对)
+components/ItemsBrowser.tsx,156,上一页,组件(多为zh三元=设计如此，需人工核对)
+components/ItemsBrowser.tsx,166,下一页,组件(多为zh三元=设计如此，需人工核对)
+components/JsonLd.tsx,2,渲染,组件(多为zh三元=设计如此，需人工核对)
+components/JsonLd.tsx,2,结构化数据,组件(多为zh三元=设计如此，需人工核对)
+components/JsonLd.tsx,3,放在页面任意位置即可,组件(多为zh三元=设计如此，需人工核对)
+components/JsonLd.tsx,3,会原样输出,组件(多为zh三元=设计如此，需人工核对)
+components/JsonLd.tsx,3,标签,组件(多为zh三元=设计如此，需人工核对)
+components/MapExplorer.tsx,42,资源,组件(多为zh三元=设计如此，需人工核对)
+components/MapExplorer.tsx,43,基地,组件(多为zh三元=设计如此，需人工核对)
+components/MapExplorer.tsx,44,快速旅行,组件(多为zh三元=设计如此，需人工核对)
+components/MapExplorer.tsx,47,每个类型的数量,组件(多为zh三元=设计如此，需人工核对)
+components/MapExplorer.tsx,47,有数据才显示,组件(多为zh三元=设计如此，需人工核对)
+components/MapExplorer.tsx,47,按钮,组件(多为zh三元=设计如此，需人工核对)
+components/MapExplorer.tsx,186,坐标,组件(多为zh三元=设计如此，需人工核对)
+components/MapExplorer.tsx,189,查看详情,组件(多为zh三元=设计如此，需人工核对)
+components/Nav.tsx,9,攻略,组件(多为zh三元=设计如此，需人工核对)
+components/Nav.tsx,9,固定,组件(多为zh三元=设计如此，需人工核对)
+components/Nav.tsx,9,项,组件(多为zh三元=设计如此，需人工核对)
+components/Nav.tsx,23,养殖,组件(多为zh三元=设计如此，需人工核对)
+components/Nav.tsx,23,计算器,组件(多为zh三元=设计如此，需人工核对)
+components/Nav.tsx,23,攻略,组件(多为zh三元=设计如此，需人工核对)
+components/Nav.tsx,23,被动,组件(多为zh三元=设计如此，需人工核对)
+components/Nav.tsx,30,物品,组件(多为zh三元=设计如此，需人工核对)
+components/Nav.tsx,30,分类,组件(多为zh三元=设计如此，需人工核对)
+components/Nav.tsx,30,名复数,组件(多为zh三元=设计如此，需人工核对)
+components/Nav.tsx,30,链接用真实,组件(多为zh三元=设计如此，需人工核对)
+components/Nav.tsx,30,值单数,组件(多为zh三元=设计如此，需人工核对)
+components/Nav.tsx,41,中文,组件(多为zh三元=设计如此，需人工核对)
+components/Nav.tsx,42,繁體,组件(多为zh三元=设计如此，需人工核对)
+components/Nav.tsx,44,日本語,组件(多为zh三元=设计如此，需人工核对)
+components/Nav.tsx,86,桌面端导航,组件(多为zh三元=设计如此，需人工核对)
+components/Nav.tsx,88,图鉴,组件(多为zh三元=设计如此，需人工核对)
+components/Nav.tsx,91,养殖,组件(多为zh三元=设计如此，需人工核对)
+components/Nav.tsx,102,物品,组件(多为zh三元=设计如此，需人工核对)
+components/Nav.tsx,105,全部物品,组件(多为zh三元=设计如此，需人工核对)
+components/Nav.tsx,118,地图,组件(多为zh三元=设计如此，需人工核对)
+components/Nav.tsx,121,攻略,组件(多为zh三元=设计如此，需人工核对)
+components/Nav.tsx,145,移动端汉堡按钮,组件(多为zh三元=设计如此，需人工核对)
+components/Nav.tsx,158,移动端菜单,组件(多为zh三元=设计如此，需人工核对)
+components/Nav.tsx,163,图鉴,组件(多为zh三元=设计如此，需人工核对)
+components/Nav.tsx,167,养殖,组件(多为zh三元=设计如此，需人工核对)
+components/Nav.tsx,178,物品,组件(多为zh三元=设计如此，需人工核对)
+components/Nav.tsx,181,全部物品,组件(多为zh三元=设计如此，需人工核对)
+components/Nav.tsx,196,地图,组件(多为zh三元=设计如此，需人工核对)
+components/Nav.tsx,200,攻略,组件(多为zh三元=设计如此，需人工核对)
+components/PalCodex.tsx,100,搜索,组件(多为zh三元=设计如此，需人工核对)
+components/PalCodex.tsx,100,名称,组件(多为zh三元=设计如此，需人工核对)
+components/PalCodex.tsx,112,元素筛选,组件(多为zh三元=设计如此，需人工核对)
+components/PalCodex.tsx,114,全部元素,组件(多为zh三元=设计如此，需人工核对)
+components/PalCodex.tsx,129,排序,组件(多为zh三元=设计如此，需人工核对)
+components/PalCodex.tsx,131,图鉴编号,组件(多为zh三元=设计如此，需人工核对)
+components/PalCodex.tsx,132,名称,组件(多为zh三元=设计如此，需人工核对)
+components/PalCodex.tsx,133,攻击力,组件(多为zh三元=设计如此，需人工核对)
+components/PalCodex.tsx,134,防御力,组件(多为zh三元=设计如此，需人工核对)
+components/PalCodex.tsx,139,只,组件(多为zh三元=设计如此，需人工核对)
+components/PalCodex.tsx,169,上一页,组件(多为zh三元=设计如此，需人工核对)
+components/PalCodex.tsx,179,下一页,组件(多为zh三元=设计如此，需人工核对)
+components/SearchBox.tsx,7,搜索框文案,组件(多为zh三元=设计如此，需人工核对)
+components/SearchBox.tsx,7,第一版内建,组件(多为zh三元=设计如此，需人工核对)
+components/SearchBox.tsx,7,按语言前缀判断,组件(多为zh三元=设计如此，需人工核对)
+components/SearchBox.tsx,7,后续要完整,组件(多为zh三元=设计如此，需人工核对)
+components/SearchBox.tsx,7,再迁到,组件(多为zh三元=设计如此，需人工核对)
+components/SearchBox.tsx,12,搜索,组件(多为zh三元=设计如此，需人工核对)
+components/SearchBox.tsx,12,物品,组件(多为zh三元=设计如此，需人工核对)
+components/SearchBox.tsx,12,材料,组件(多为zh三元=设计如此，需人工核对)
+components/SearchBox.tsx,12,攻略,组件(多为zh三元=设计如此，需人工核对)
+components/SearchBox.tsx,14,图鉴,组件(多为zh三元=设计如此，需人工核对)
+components/SearchBox.tsx,15,物品,组件(多为zh三元=设计如此，需人工核对)
+components/SearchBox.tsx,16,攻略,组件(多为zh三元=设计如此，需人工核对)
+components/SearchBox.tsx,17,没有找到相关结果,组件(多为zh三元=设计如此，需人工核对)
+components/SearchBox.tsx,35,主名,组件(多为zh三元=设计如此，需人工核对)
+components/SearchBox.tsx,35,副名,组件(多为zh三元=设计如此，需人工核对)
+components/SearchBox.tsx,35,中文页,组件(多为zh三元=设计如此，需人工核对)
+components/SearchBox.tsx,35,中文名,组件(多为zh三元=设计如此，需人工核对)
+components/SearchBox.tsx,35,英文名,组件(多为zh三元=设计如此，需人工核对)
+components/SearchBox.tsx,35,英文页,组件(多为zh三元=设计如此，需人工核对)
+components/SearchBox.tsx,35,英文名,组件(多为zh三元=设计如此，需人工核对)
+components/SearchBox.tsx,35,中文名,组件(多为zh三元=设计如此，需人工核对)

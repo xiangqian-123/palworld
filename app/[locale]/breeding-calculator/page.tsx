@@ -17,9 +17,13 @@ export function generateMetadata({
 }: {
   params: { locale: string };
 }): Metadata {
-  const title = `Palworld 养殖计算器（1.0）— ${siteConfig.siteName}`;
-  const description =
-    "Palworld 养殖计算器：选择两只父母 Pal 查找后代，或选择目标 Pal 反查所有父母组合。基于 1.0 CombiRank 公式与全部特殊配方。";
+  const zh = params.locale === "zh-CN" || params.locale === "zh-TW";
+  const title = zh
+    ? `Palworld 养殖计算器（1.0）— ${siteConfig.siteName}`
+    : `Palworld Breeding Calculator (1.0) — ${siteConfig.siteName}`;
+  const description = zh
+    ? "Palworld 养殖计算器：选择两只父母 Pal 查找后代，或选择目标 Pal 反查所有父母组合。基于 1.0 CombiRank 公式与全部特殊配方。"
+    : "Palworld breeding calculator: pick two parents to find the child, or pick a target Pal to see every parent combination — based on the 1.0 CombiRank formula and all special recipes.";
   return {
     title,
     description,

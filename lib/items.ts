@@ -67,3 +67,5 @@ export function getCategories(): { name: string; count: number }[] {
 export function categoryLabel(cat: string): string {
   return cat;
 }
+
+export { CATEGORY_ZH, categoryDisplayName } from "@/lib/item-categories";

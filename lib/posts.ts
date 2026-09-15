@@ -15,6 +15,8 @@ export interface PostFrontmatter {
   sourceUrl: string;
   order: number;
   published: boolean;
+  /** 首屏 Quick Answers（问题 + 直接答案），仅少数高价值攻略页使用。 */
+  quickAnswers?: { q: string; a: string }[];
 }
 
 export interface Post {

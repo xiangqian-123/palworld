@@ -23,9 +23,13 @@ export function generateMetadata({
 }: {
   params: { locale: string };
 }): Metadata {
-  const title = `Palworld 交互地图 — ${siteConfig.siteName}`;
-  const description =
-    "Palworld 交互地图：Pal 刷新位置、Alpha Boss、矿石资源、基地与快速旅行点一览，缩放拖拽浏览，点击查看详情。";
+  const zh = params.locale === "zh-CN" || params.locale === "zh-TW";
+  const title = zh
+    ? `Palworld 交互地图 — ${siteConfig.siteName}`
+    : `Palworld Interactive Map — ${siteConfig.siteName}`;
+  const description = zh
+    ? "Palworld 交互地图：Pal 刷新位置、Alpha Boss、矿石资源、基地与快速旅行点一览，缩放拖拽浏览，点击查看详情。"
+    : "Interactive Palworld map: Pal spawns, Alpha Bosses, ore resources, base and fast travel points — zoom, pan and click for details.";
   return {
     title,
     description,
@@ -95,9 +99,11 @@ export default function MapPage({ params }: { params: { locale: string } }) {
       <JsonLd data={websiteJsonLd(locale)} />
       <header className="guide-header">
         <span className="eyebrow">Map</span>
-        <h1>Palworld 交互地图</h1>
+        <h1>{zh ? "Palworld 交互地图" : "Palworld Interactive Map"}</h1>
         <p className="lead">
-          按 Pal / Boss / 资源 / 基地 / 快速旅行点筛选，缩放拖拽浏览，点击查看详情。
+          {zh
+            ? "按 Pal / Boss / 资源 / 基地 / 快速旅行点筛选，缩放拖拽浏览，点击查看详情。"
+            : "Filter by Pal / Boss / Resource / Base / Fast Travel, zoom and pan, click for details."}
         </p>
       </header>
       <div className="guide-body">

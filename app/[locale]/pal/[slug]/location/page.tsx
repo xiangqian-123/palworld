@@ -4,10 +4,14 @@ import Link from "next/link";
 import { getPal, getPalSlugs } from "@/lib/pal";
 import {
   getPalSpawn,
+  getPalSpawnPoints,
   regionLabel,
   spawnBearing,
   bearingLabel,
 } from "@/lib/spawn";
+import { getParents, getChildren, getBreedPal } from "@/lib/breeding";
+import { dropItemSlug } from "@/lib/drops";
+import { getItem } from "@/lib/items";
 import { type Locale } from "@/lib/locales";
 import { siteConfig } from "@/lib/site";
 import {
@@ -71,10 +75,18 @@ export default function PalLocationPage({
 
   const locale = params.locale as Locale;
   const spawn = getPalSpawn(pal.slug);
+  const points = getPalSpawnPoints(pal.slug);
   const bearing =
     spawn && spawn.cx != null && spawn.cy != null
       ? spawnBearing(spawn.cx, spawn.cy)
       : null;
+
+  // Other ways to get：繁殖（第一组父母组合）+ 掉落（前 5 个，映射到 item 页）。
+  const parentPair = getParents(pal.slug)[0];
+  const drops = (pal.drops ?? []).slice(0, 5);
+
+  // Related Pals：能繁殖出的子代前 3 个。
+  const relatedChildren = getChildren(pal.slug).slice(0, 3);
 
   return (
     <article className="guide">
@@ -112,6 +124,7 @@ export default function PalLocationPage({
         <div className="prose">
           {spawn ? (
             <>
+              <h2>Quick Answer</h2>
               <p className="pal-desc">
                 {pal.name} has{" "}
                 <strong>
@@ -119,11 +132,77 @@ export default function PalLocationPage({
                 </strong>{" "}
                 {bearing ? `in ${bearingLabel(bearing)}` : ""}
                 {spawn.regions.includes("tree")
-                  ? ", plus the World Tree"
+                  ? ", plus additional spawns in the World Tree"
                   : ""}
                 . Wild level {spawn.minLevel}–{spawn.maxLevel}
                 {spawn.nightOnly ? " (night only)" : " (day and night)"}.
               </p>
+
+              {points.length > 0 && (
+                <>
+                  <h2>Exact Spawn Locations</h2>
+                  <table>
+                    <thead>
+                      <tr>
+                        <th>#</th>
+                        <th>Coordinates (X, Y)</th>
+                        <th>Type</th>
+                        <th>Level</th>
+                        <th>Active</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      {points.map((p, i) => (
+                        <tr key={i}>
+                          <td>{i + 1}</td>
+                          <td>
+                            {p.x}, {p.y}
+                          </td>
+                          <td>
+                            {p.kind === "alpha"
+                              ? "Alpha Boss"
+                              : "Wild"}
+                          </td>
+                          <td>
+                            {p.minLevel != null
+                              ? p.minLevel === p.maxLevel
+                                ? p.minLevel
+                                : `${p.minLevel}–${p.maxLevel}`
+                              : "—"}
+                          </td>
+                          <td>
+                            {p.availability === "night"
+                              ? "Night only"
+                              : "Day & Night"}
+                          </td>
+                        </tr>
+                      ))}
+                    </tbody>
+                  </table>
+                  {spawn.regions.includes("tree") && (
+                    <p>
+                      Additional spawn points exist inside the World Tree
+                      (level {spawn.minLevel}–{spawn.maxLevel}); the coordinates
+                      above cover the Palpagos overworld.
+                    </p>
+                  )}
+                </>
+              )}
+
+              {bearing && (
+                <>
+                  <h2>How to Reach</h2>
+                  <p>
+                    {pal.name} lives in{" "}
+                    <strong>{bearingLabel(bearing)}</strong> of the Palpagos
+                    Islands, around {spawn.regions.map(regionLabel).join(" & ")}.
+                    Head to the {bearingLabel(bearing)} sector and search at the
+                    coordinates listed above.
+                  </p>
+                </>
+              )}
+
+              <h2>{pal.name} Spawn Details</h2>
               <table>
                 <tbody>
                   <tr>
@@ -167,20 +246,82 @@ export default function PalLocationPage({
                   )}
                 </tbody>
               </table>
-              <p>
-                Prefer breeding over hunting? See{" "}
-                <Link href={`/${locale}/pal/${pal.slug}/breeding`}>
-                  how to breed {pal.name}
-                </Link>{" "}
-                or open the{" "}
-                <Link href={`/${locale}/breeding-calculator`}>
-                  breeding calculator
-                </Link>
-                .
-              </p>
+
+              {(parentPair || drops.length > 0) && (
+                <>
+                  <h2>Other Ways to Get {pal.name}</h2>
+                  {parentPair && (
+                    <p>
+                      <strong>Breeding:</strong> breed{" "}
+                      <Link href={`/${locale}/pal/${parentPair[0]}`}>
+                        {getBreedPal(parentPair[0])?.name ?? parentPair[0]}
+                      </Link>{" "}
+                      with{" "}
+                      <Link href={`/${locale}/pal/${parentPair[1]}`}>
+                        {getBreedPal(parentPair[1])?.name ?? parentPair[1]}
+                      </Link>{" "}
+                      to hatch {pal.name}. See{" "}
+                      <Link href={`/${locale}/pal/${pal.slug}/breeding`}>
+                        every breeding combination
+                      </Link>{" "}
+                      or open the{" "}
+                      <Link href={`/${locale}/breeding-calculator`}>
+                        breeding calculator
+                      </Link>
+                      .
+                    </p>
+                  )}
+                  {drops.length > 0 && (
+                    <>
+                      <p>
+                        <strong>Drops from {pal.name}:</strong>
+                      </p>
+                      <ul>
+                        {drops.map((d) => {
+                          const itemSlug = dropItemSlug(d.item);
+                          const label = itemSlug
+                            ? getItem(itemSlug)?.name ?? d.name
+                            : d.name;
+                          return (
+                            <li key={d.item}>
+                              {itemSlug ? (
+                                <Link href={`/${locale}/item/${itemSlug}`}>
+                                  {label}
+                                </Link>
+                              ) : (
+                                label
+                              )}
+                              {d.rate != null &&
+                                ` (${d.rate}% ×${d.min}${d.max !== d.min ? `–${d.max}` : ""})`}
+                            </li>
+                          );
+                        })}
+                      </ul>
+                    </>
+                  )}
+                </>
+              )}
+
+              {relatedChildren.length > 0 && (
+                <>
+                  <h2>Related Pals</h2>
+                  <div className="breed-list">
+                    {relatedChildren.map((childSlug) => (
+                      <Link
+                        key={childSlug}
+                        href={`/${locale}/pal/${childSlug}`}
+                        className="breed-chip"
+                      >
+                        {getBreedPal(childSlug)?.name ?? childSlug}
+                      </Link>
+                    ))}
+                  </div>
+                </>
+              )}
             </>
           ) : (
             <>
+              <h2>Quick Answer</h2>
               <p className="pal-desc">
                 {pal.name} has <strong>no wild spawn</strong> in Palworld 1.0 —
                 it cannot be caught in the open world.

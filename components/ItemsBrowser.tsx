@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { useMemo, useState } from "react";
 import { useRouter } from "next/navigation";
+import { categoryDisplayName } from "@/lib/item-categories";
 
 export interface CodexItem {
   slug: string;
@@ -10,21 +11,6 @@ export interface CodexItem {
   category: string;
   rarity: number | null;
 }
-
-const CAT_ZH: Record<string, string> = {
-  Blueprint: "蓝图",
-  Weapon: "武器",
-  Armor: "防具",
-  Essential: "基础",
-  Consume: "消耗品",
-  Material: "材料",
-  Food: "食物",
-  Accessory: "饰品",
-  Ammo: "弹药",
-  SpecialWeapon: "特殊武器",
-  CaptureItemModifier: "捕获物改造",
-  Glider: "滑翔翼",
-};
 
 const PER_PAGE = 60;
 
@@ -49,7 +35,7 @@ export default function ItemsBrowser({
   const [q, setQ] = useState("");
   const [page, setPage] = useState(1);
 
-  const catLabel = (c: string) => (zh ? CAT_ZH[c] ?? c : c);
+  const catLabel = (c: string) => categoryDisplayName(c, zh);
 
   const filtered = useMemo(() => {
     let list = items;

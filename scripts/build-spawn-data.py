@@ -19,6 +19,33 @@ TREE = os.path.join("data", "atlas-tree-spawns.json")
 OUT = os.path.join("data", "pal-spawns.json")
 
 
+def top_points(items, n=5):
+    """每个 Pal 取 spawn 权重最高的 n 个点（坐标去重后），供 Location 页精确坐标模块。
+
+    只保留 palpagos 点（tree 坐标是另一套尺度）；按 weight 降序，同坐标去重。
+    """
+    seen = set()
+    pts = []
+    for s in sorted(items, key=lambda x: -x.get("weight", 0)):
+        key = (round(s["mapX"], 1), round(s["mapY"], 1))
+        if key in seen:
+            continue
+        seen.add(key)
+        pts.append(
+            {
+                "x": round(s["mapX"], 1),
+                "y": round(s["mapY"], 1),
+                "kind": s["kind"],
+                "availability": s["availability"],
+                "minLevel": s["minLevel"],
+                "maxLevel": s["maxLevel"],
+            }
+        )
+        if len(pts) >= n:
+            break
+    return pts
+
+
 def main():
     spawns = []
     for f in (PALPAGOS, TREE):
@@ -60,6 +87,7 @@ def main():
             "regions": regions,
             "cx": round(cx, 1) if cx is not None else None,
             "cy": round(cy, 1) if cy is not None else None,
+            "points": top_points([s for s in items if s["region"] == "palpagos"]),
         }
         out[slug] = rec
 
