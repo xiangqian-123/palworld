@@ -30,6 +30,27 @@ export function generateStaticParams() {
   return getPalSlugs().map((slug) => ({ locale: "zh-CN", slug }));
 }
 
+// CTR 实验（2026-09-19 竞争面研究）：SERP 竞品标题=主词+2-3 价值点，裸标题是 363 曝光 0 点击的主因。
+// 仅覆盖这 3 页（GSC 曝光最大），14 天 CTR 有改善再推广到模板。P0-3 Not Spawning 块/地图落地前，
+// 标题只承诺页面已有模块（坐标/等级/Alpha/breeding），禁止写页面没有的东西。
+const CTR_TITLE_OVERRIDES: Record<string, { title: string; description: string }> = {
+  astegon: {
+    title: "Where to Find Astegon – Spawns, Coordinates & Boss Level",
+    description:
+      "Astegon spawn locations in Palworld 1.0 with exact coordinates, level ranges and Alpha boss spawns, plus how to get Astegon through breeding.",
+  },
+  jormuntide: {
+    title: "Jormuntide Location – Spawns, Coordinates & How to Get",
+    description:
+      "Jormuntide spawn locations in Palworld 1.0 with exact coordinates, level ranges and Alpha boss spawns, plus how to get Jormuntide through breeding.",
+  },
+  neptilius: {
+    title: "Neptilius Location – Spawns, Coordinates & How to Get",
+    description:
+      "Neptilius spawn locations in Palworld 1.0 with exact coordinates, level ranges and Alpha boss spawns, plus how to get Neptilius through breeding.",
+  },
+};
+
 export function generateMetadata({
   params,
 }: {
@@ -39,10 +60,13 @@ export function generateMetadata({
   if (!pal) return { title: siteConfig.defaultTitle };
   const path = `/pal/${pal.slug}/location`;
   const spawn = getPalSpawn(pal.slug);
-  const title = `Where to Find ${pal.name} — Spawn Location`;
-  const description = spawn
-    ? `${pal.name} spawns at level ${spawn.minLevel}–${spawn.maxLevel}${spawn.nightOnly ? " at night" : ""} in Palworld 1.0. Wild spawns, Alpha boss and map location.`
-    : `${pal.name} has no wild spawn in Palworld 1.0 — it is obtained through breeding instead.`;
+  const override = CTR_TITLE_OVERRIDES[pal.slug];
+  const title = override?.title ?? `Where to Find ${pal.name} — Spawn Location`;
+  const description =
+    override?.description ??
+    (spawn
+      ? `${pal.name} spawns at level ${spawn.minLevel}–${spawn.maxLevel}${spawn.nightOnly ? " at night" : ""} in Palworld 1.0. Wild spawns, Alpha boss and map location.`
+      : `${pal.name} has no wild spawn in Palworld 1.0 — it is obtained through breeding instead.`);
   return {
     title,
     description,
