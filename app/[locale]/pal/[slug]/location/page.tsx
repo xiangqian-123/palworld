@@ -112,6 +112,14 @@ export default function PalLocationPage({
   // Related Pals：能繁殖出的子代前 3 个。
   const relatedChildren = getChildren(pal.slug).slice(0, 3);
 
+  // M1 variant 分组：Alpha Boss 优先展示，其次 Wild（数据来自 atlas 游戏文件，kind 字段）。
+  const alphaPoints = points.filter((p) => p.kind === "alpha");
+  const wildPoints = points.filter((p) => p.kind !== "alpha");
+
+  // M3 排除项（2026-09-19 起）：只对多源验证过的 Pal 开启，验证一个加一个，默认空。
+  // 例：某 Pal 被多攻略站确认"不在程序化地下城刷新"时加入 Set 并渲染反向回答句。
+  const NO_DUNGEON_SPAWNS: Set<string> = new Set([]);
+
   return (
     <article className="guide">
       <JsonLd
@@ -165,44 +173,86 @@ export default function PalLocationPage({
               {points.length > 0 && (
                 <>
                   <h2>Exact Spawn Locations</h2>
-                  <table>
-                    <thead>
-                      <tr>
-                        <th>#</th>
-                        <th>Coordinates (X, Y)</th>
-                        <th>Type</th>
-                        <th>Level</th>
-                        <th>Active</th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      {points.map((p, i) => (
-                        <tr key={i}>
-                          <td>{i + 1}</td>
-                          <td>
-                            {p.x}, {p.y}
-                          </td>
-                          <td>
-                            {p.kind === "alpha"
-                              ? "Alpha Boss"
-                              : "Wild"}
-                          </td>
-                          <td>
-                            {p.minLevel != null
-                              ? p.minLevel === p.maxLevel
-                                ? p.minLevel
-                                : `${p.minLevel}–${p.maxLevel}`
-                              : "—"}
-                          </td>
-                          <td>
-                            {p.availability === "night"
-                              ? "Night only"
-                              : "Day & Night"}
-                          </td>
-                        </tr>
-                      ))}
-                    </tbody>
-                  </table>
+                  <p>
+                    Coordinates below come from the game files (Palworld 1.0).
+                    {spawn.hasAlpha &&
+                      wildPoints.length > 0 &&
+                      " The Alpha Boss is listed first, followed by regular wild spawns."}
+                  </p>
+                  {alphaPoints.length > 0 && (
+                    <>
+                      <h3>Alpha Boss Spawn</h3>
+                      <table>
+                        <thead>
+                          <tr>
+                            <th>#</th>
+                            <th>Coordinates (X, Y)</th>
+                            <th>Level</th>
+                            <th>Active</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          {alphaPoints.map((p, i) => (
+                            <tr key={i}>
+                              <td>{i + 1}</td>
+                              <td>
+                                {p.x}, {p.y}
+                              </td>
+                              <td>
+                                {p.minLevel != null
+                                  ? p.minLevel === p.maxLevel
+                                    ? p.minLevel
+                                    : `${p.minLevel}–${p.maxLevel}`
+                                  : "—"}
+                              </td>
+                              <td>
+                                {p.availability === "night"
+                                  ? "Night only"
+                                  : "Day & Night"}
+                              </td>
+                            </tr>
+                          ))}
+                        </tbody>
+                      </table>
+                    </>
+                  )}
+                  {wildPoints.length > 0 && (
+                    <>
+                      <h3>Wild Spawns</h3>
+                      <table>
+                        <thead>
+                          <tr>
+                            <th>#</th>
+                            <th>Coordinates (X, Y)</th>
+                            <th>Level</th>
+                            <th>Active</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          {wildPoints.map((p, i) => (
+                            <tr key={i}>
+                              <td>{i + 1}</td>
+                              <td>
+                                {p.x}, {p.y}
+                              </td>
+                              <td>
+                                {p.minLevel != null
+                                  ? p.minLevel === p.maxLevel
+                                    ? p.minLevel
+                                    : `${p.minLevel}–${p.maxLevel}`
+                                  : "—"}
+                              </td>
+                              <td>
+                                {p.availability === "night"
+                                  ? "Night only"
+                                  : "Day & Night"}
+                              </td>
+                            </tr>
+                          ))}
+                        </tbody>
+                      </table>
+                    </>
+                  )}
                   {spawn.regions.includes("tree") && (
                     <p>
                       Additional spawn points exist inside the World Tree
@@ -270,6 +320,35 @@ export default function PalLocationPage({
                   )}
                 </tbody>
               </table>
+
+              <h2>{pal.name} Not Spawning? How Spawns Work</h2>
+              <ul>
+                <li>
+                  <strong>The map icon marks the region, not the exact
+                  spot:</strong> Pals roam the area around the icon — check the
+                  coordinates above rather than the icon itself.
+                  {spawn.hasAlpha &&
+                    " Some Alpha bosses live inside caves; look for a tunnel or cave entrance near their coordinates."}
+                </li>
+                {spawn.hasAlpha && (
+                  <li>
+                    <strong>Alpha bosses respawn:</strong> after you defeat an
+                    Alpha boss, it takes roughly one in-game day (about an hour
+                    of real time) to respawn. If it's missing, come back later.
+                  </li>
+                )}
+                <li>
+                  <strong>Reroll wild spawns:</strong> if a wild spawn point
+                  looks empty, fly away far enough for the Pals to despawn and
+                  return — the group respawns on your return.
+                </li>
+                {NO_DUNGEON_SPAWNS.has(pal.slug) && (
+                  <li>
+                    <strong>Dungeons:</strong> {pal.name} does not spawn inside
+                    procedural dungeons — don't waste time searching there.
+                  </li>
+                )}
+              </ul>
 
               {(parentPair || drops.length > 0) && (
                 <>
