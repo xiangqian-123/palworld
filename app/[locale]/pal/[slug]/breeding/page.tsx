@@ -2,7 +2,7 @@ import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import Link from "next/link";
 import { getPal, getPalSlugs } from "@/lib/pal";
-import { getParents, getChildren, getBreedPal } from "@/lib/breeding";
+import { getParents, getChildren, getBreedPal, UNBREEDABLE } from "@/lib/breeding";
 import { type Locale } from "@/lib/locales";
 import { siteConfig } from "@/lib/site";
 import {
@@ -29,8 +29,13 @@ export function generateMetadata({
   const pal = getPal(params.slug);
   if (!pal) return { title: siteConfig.defaultTitle };
   const path = `/pal/${pal.slug}/breeding`;
-  const title = `How to Breed ${pal.name} in Palworld — Breeding Guide`;
-  const description = `Every parent combination that breeds ${pal.name} in Palworld 1.0, plus what ${pal.name} breeds into. Verified CombiRank formula and special combos.`;
+  const unbreedable = UNBREEDABLE[pal.slug];
+  const title = unbreedable
+    ? `Can You Breed ${pal.name}? – Not Breedable in Palworld 1.0`
+    : `How to Breed ${pal.name} in Palworld — Breeding Guide`;
+  const description = unbreedable
+    ? `No — ${pal.name} cannot be bred in Palworld 1.0. Learn why and what defeating the final boss actually gives you.`
+    : `Every parent combination that breeds ${pal.name} in Palworld 1.0, plus what ${pal.name} breeds into. Verified CombiRank formula and special combos.`;
   return {
     title,
     description,
@@ -64,6 +69,7 @@ export default function PalBreedingPage({
   const locale = params.locale as Locale;
   const parents = getParents(pal.slug);
   const children = getChildren(pal.slug);
+  const unbreedable = UNBREEDABLE[pal.slug];
   const breedTrue =
     parents.length === 1 && parents[0][0] === pal.slug && parents[0][1] === pal.slug;
 
@@ -119,47 +125,62 @@ export default function PalBreedingPage({
           <span className="eyebrow">Breeding</span>
           <h1>How to Breed {pal.name}</h1>
           <p className="lead">
-            {breedTrue
-              ? `${pal.name} only breeds true — pair two ${pal.name} together to get another ${pal.name}.`
-              : `${parents.length} parent combination${
-                  parents.length === 1 ? "" : "s"
-                } produce ${pal.name} in Palworld 1.0.`}
+            {unbreedable
+              ? `No — ${pal.name} cannot be bred in Palworld 1.0.`
+              : breedTrue
+                ? `${pal.name} only breeds true — pair two ${pal.name} together to get another ${pal.name}.`
+                : `${parents.length} parent combination${
+                    parents.length === 1 ? "" : "s"
+                  } produce ${pal.name} in Palworld 1.0.`}
           </p>
         </div>
       </header>
 
       <div className="guide-body">
         <div className="prose">
-          <h2>Parents that breed {pal.name}</h2>
-          <p>
-            Results use the verified Palworld 1.0 formula —{" "}
-            <code>floor((rankA + rankB + 1) / 2)</code> — plus all special
-            override combos. Pair any two Pals below in a Breeding Farm with a
-            Cake to hatch {pal.name}.
-          </p>
-          <div className="breed-list">
-            {sortedParents.map(([a, b], i) => {
-              const ma = meta(a);
-              const mb = meta(b);
-              return (
-                <div className="breed-pair" key={i}>
-                  <Link href={`/${locale}/pal/${a}`} className="breed-chip">
-                    {ma.code && (
-                      <img src={`/images/pals/${ma.code}.png`} alt="" loading="lazy" />
-                    )}
-                    {ma.name}
-                  </Link>
-                  <span className="breed-x">+</span>
-                  <Link href={`/${locale}/pal/${b}`} className="breed-chip">
-                    {mb.code && (
-                      <img src={`/images/pals/${mb.code}.png`} alt="" loading="lazy" />
-                    )}
-                    {mb.name}
-                  </Link>
-                </div>
-              );
-            })}
-          </div>
+          {unbreedable ? (
+            <>
+              <h2>Can you breed {pal.name}?</h2>
+              <p>
+                <strong>No — {pal.name} cannot be bred in Palworld 1.0.</strong>{" "}
+                {unbreedable.reason}
+              </p>
+              <p>{unbreedable.calcNote}</p>
+            </>
+          ) : (
+            <>
+              <h2>Parents that breed {pal.name}</h2>
+              <p>
+                Results use the verified Palworld 1.0 formula —{" "}
+                <code>floor((rankA + rankB + 1) / 2)</code> — plus all special
+                override combos. Pair any two Pals below in a Breeding Farm with
+                a Cake to hatch {pal.name}.
+              </p>
+              <div className="breed-list">
+                {sortedParents.map(([a, b], i) => {
+                  const ma = meta(a);
+                  const mb = meta(b);
+                  return (
+                    <div className="breed-pair" key={i}>
+                      <Link href={`/${locale}/pal/${a}`} className="breed-chip">
+                        {ma.code && (
+                          <img src={`/images/pals/${ma.code}.png`} alt="" loading="lazy" />
+                        )}
+                        {ma.name}
+                      </Link>
+                      <span className="breed-x">+</span>
+                      <Link href={`/${locale}/pal/${b}`} className="breed-chip">
+                        {mb.code && (
+                          <img src={`/images/pals/${mb.code}.png`} alt="" loading="lazy" />
+                        )}
+                        {mb.name}
+                      </Link>
+                    </div>
+                  );
+                })}
+              </div>
+            </>
+          )}
 
           {children.length > 0 && (
             <>

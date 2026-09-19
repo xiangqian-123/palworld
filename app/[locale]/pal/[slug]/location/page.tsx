@@ -9,7 +9,7 @@ import {
   spawnBearing,
   bearingLabel,
 } from "@/lib/spawn";
-import { getParents, getChildren, getBreedPal } from "@/lib/breeding";
+import { getParents, getChildren, getBreedPal, UNBREEDABLE } from "@/lib/breeding";
 import { dropItemSlug } from "@/lib/drops";
 import { getItem } from "@/lib/items";
 import { type Locale } from "@/lib/locales";
@@ -342,6 +342,26 @@ export default function PalLocationPage({
                   </div>
                 </>
               )}
+            </>
+          ) : UNBREEDABLE[pal.slug] ? (
+            <>
+              <h2>Quick Answer</h2>
+              <p className="pal-desc">
+                {pal.name} has <strong>no spawn location</strong> in Palworld
+                1.0 — it is the final story boss and cannot be caught, bred or
+                obtained in-game.
+              </p>
+              <p>
+                You face {pal.name} in the main story finale; defeating it only{" "}
+                <Link href={`/${locale}/pal/${pal.slug}`}>
+                  registers it in your Paldeck
+                </Link>
+                . See the{" "}
+                <Link href={`/${locale}/pal/${pal.slug}/breeding`}>
+                  breeding page
+                </Link>{" "}
+                for why no combination produces it.
+              </p>
             </>
           ) : (
             <>

@@ -10,7 +10,8 @@ import path from "path";
  * 3. 普通公式：childRank = floor((rankA + rankB + 1) / 2)，取 combiRank 最接近的 Pal；
  *    ignoreCombi 的 28 个传奇/塔 BOSS 不参与公式结果（只能同种自交）。
  *
- * parents 反向索引预计算在 data/breeding-parents.json（41616 个组合），
+ * parents 反向索引预计算在 data/breeding-parents.json（41248 个组合，已剔除
+ * UNBREEDABLE 与公式残留组合），
  * 避免 build 时对 288 个页面重复 O(n²) 遍历。
  */
 
@@ -25,6 +26,27 @@ export interface BreedPal {
 
 const PALS_DIR = path.join(process.cwd(), "data", "pals");
 const PARENTS_FILE = path.join(process.cwd(), "data", "breeding-parents.json");
+
+/**
+ * 游戏中完全不可繁殖的 Pal（slug → 直答文案）。
+ * 2026-09-19 事实修正（多源一致：gamepedia.jp / wikily.gg / mobalytics / 官方日志
+ * lore "lacks the necessary biology"）。数据侧已在 scripts/build-breeding-data.py
+ * 的 UNBREEDABLE 中剔除；这里兜底保证页面渲染分支正确。
+ */
+export interface UnbreedableInfo {
+  /** 为什么不可繁殖（含获取途径说明）。 */
+  reason: string;
+  /** 针对计算器站 datamined 残留的证伪句。 */
+  calcNote: string;
+}
+export const UNBREEDABLE: Record<string, UnbreedableInfo> = {
+  astralym: {
+    reason:
+      "Astralym is the final story boss of Palworld 1.0. You fight Zenara & Astralym in the Sealed Sanctum; defeating it only registers it in your Paldeck — it can never be caught, hatched or bred. Its in-game journal entry says it lacks the necessary biology.",
+    calcNote:
+      "Breeding calculators that show Astralym + Astralym are using datamined values — that combination does not work in-game.",
+  },
+};
 
 interface BreedCache {
   bySlug: Map<string, BreedPal>;
@@ -162,6 +184,7 @@ function loadParents(): Record<string, [string, string][]> {
 }
 
 export function getParents(slug: string): [string, string][] {
+  if (UNBREEDABLE[slug]) return [];
   return loadParents()[slug] ?? [];
 }
 
@@ -183,6 +206,7 @@ function loadChildren(): Record<string, string[]> {
 }
 
 export function getChildren(slug: string): string[] {
+  if (UNBREEDABLE[slug]) return [];
   return loadChildren()[slug] ?? [];
 }
 
