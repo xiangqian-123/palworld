@@ -3,7 +3,13 @@ import Link from "next/link";
 import { getPal, getPalSlugs, getCodeName, localizePal } from "@/lib/pal";
 import { getPalSpawn, regionLabel } from "@/lib/spawn";
 import { dropItemSlug } from "@/lib/drops";
-import { elementLabel, workLabel, ELEMENT_ZH } from "@/lib/pal-labels";
+import {
+  elementLabel,
+  workLabel,
+  ELEMENT_ZH,
+  getElementWeaknesses,
+} from "@/lib/pal-labels";
+import { getParents, getBreedPal, UNBREEDABLE } from "@/lib/breeding";
 import { type Locale } from "@/lib/locales";
 import { getMessages } from "@/lib/i18n";
 import { siteConfig } from "@/lib/site";
@@ -35,6 +41,22 @@ export function generateStaticParams() {
   return getPalSlugs().map((slug) => ({ locale: "zh-CN", slug }));
 }
 
+// CTR 实验（2026-09-19 施工表 P1-2）：pal 详情 title 公式=主词+价值点（GSC query：
+// what type is dandilord / dupin work / solenne best moveset 等）。5 slug 实验，
+// 14 天 GSC CTR 有改善再推广全模板。title/description 全语言同文案（GSC 词系为 EN）。
+const CTR_TITLE_OVERRIDES: Record<string, { title: string; description: string }> =
+  {};
+for (const s of ["dupin", "eidrolon", "solenne", "dandilord", "tocotoco"]) {
+  const p = getPal(s);
+  if (!p) continue;
+  const weak = getElementWeaknesses(p.elements).join("/");
+  const name = p.name;
+  CTR_TITLE_OVERRIDES[s] = {
+    title: `${name} — Type, Skills, Drops & How to Get`,
+    description: `${name} is a ${p.elements.join("/")} type Pal in Palworld 1.0, weak to ${weak}. Full stats, skills, drops and how to breed ${name}.`,
+  };
+}
+
 export async function generateMetadata({
   params,
 }: {
@@ -44,8 +66,11 @@ export async function generateMetadata({
   if (!pal) return { title: siteConfig.defaultTitle };
   const localized = localizePal(pal, params.locale);
   const path = `/pal/${localized.slug}`;
-  const title = `${localized.name} — ${siteConfig.siteName}`;
-  const description = localized.description || siteConfig.defaultDescription;
+  const override = CTR_TITLE_OVERRIDES[pal.slug];
+  const title = override?.title ?? `${localized.name} — ${siteConfig.siteName}`;
+  const description =
+    override?.description ??
+    (localized.description || siteConfig.defaultDescription);
   const image = `/images/pals/${localized.code}.png`;
   return {
     title,
@@ -114,15 +139,21 @@ export default function PalPage({
   };
   const usePhrases = uses.map((u) => usePhrase(u.key)).filter(Boolean);
   const seoDesc = (() => {
+    const weakEn = getElementWeaknesses(pal.elements).join("/");
+    const weakZh = getElementWeaknesses(pal.elements)
+      .map((e) => ELEMENT_ZH[e] ?? e)
+      .join("·");
     if (isZh) {
       const elZh = pal.elements.map((e) => ELEMENT_ZH[e] ?? e).join("·");
       const elText = elZh === "无属性" ? "无属性" : `${elZh}属性`;
-      if (usePhrases.length === 0) return `${pal.name} 是${elText} Pal。`;
-      return `${pal.name} 是${elText} Pal，适合${usePhrases.join("、")}。`;
+      const base = `${pal.name} 是${elText} Pal，弱点为${weakZh}`;
+      if (usePhrases.length === 0) return `${base}。`;
+      return `${base}，适合${usePhrases.join("、")}。`;
     }
     const elEn = pal.elements.join("/");
-    if (usePhrases.length === 0) return `${pal.name} is a ${elEn}-type Pal.`;
-    return `${pal.name} is a ${elEn}-type Pal, ideal for ${usePhrases.join(" and ")}.`;
+    const base = `${pal.name} is a ${elEn}-type Pal, weak to ${weakEn}`;
+    if (usePhrases.length === 0) return `${base}.`;
+    return `${base}, ideal for ${usePhrases.join(" and ")}.`;
   })();
 
   const locale = params.locale as Locale;
@@ -272,6 +303,57 @@ export default function PalPage({
                   {L("pal.viewOnMap", "View on Map →")}
                 </Link>
               </p>
+            </>
+          );
+        })()}
+
+        {(() => {
+          // How to Get：繁殖第一组组合（getParents）+ 不可繁殖直答（UNBREEDABLE）。
+          const pair = getParents(pal.slug)[0];
+          const unbreedable = UNBREEDABLE[pal.slug];
+          if (!pair && !unbreedable) return null;
+          const aName = pair ? (getBreedPal(pair[0])?.name ?? pair[0]) : "";
+          const bName = pair ? (getBreedPal(pair[1])?.name ?? pair[1]) : "";
+          return (
+            <>
+              <h2>
+                {isZh ? "如何获得" : "How to Get"} {pal.name}
+              </h2>
+              {unbreedable ? (
+                <p>
+                  {isZh
+                    ? `${pal.name} 是最终剧情 Boss——Palworld 1.0 中无法捕捉，也无法繁殖。击败它只会记录到你的图鉴。`
+                    : `${pal.name} is the final story boss — it cannot be caught or bred in Palworld 1.0. Defeating it only registers it in your Paldeck.`}
+                </p>
+              ) : (
+                <p>
+                  {isZh ? (
+                    <>
+                      让{" "}
+                      <Link href={`/${params.locale}/pal/${pair![0]}`}>{aName}</Link>{" "}
+                      与{" "}
+                      <Link href={`/${params.locale}/pal/${pair![1]}`}>{bName}</Link>{" "}
+                      繁殖可孵出 {pal.name}。查看{" "}
+                      <Link href={`/${params.locale}/pal/${pal.slug}/breeding`}>
+                        全部繁殖组合
+                      </Link>
+                      。
+                    </>
+                  ) : (
+                    <>
+                      Breed{" "}
+                      <Link href={`/${params.locale}/pal/${pair![0]}`}>{aName}</Link>{" "}
+                      with{" "}
+                      <Link href={`/${params.locale}/pal/${pair![1]}`}>{bName}</Link>{" "}
+                      to hatch {pal.name}. See{" "}
+                      <Link href={`/${params.locale}/pal/${pal.slug}/breeding`}>
+                        every breeding combination
+                      </Link>
+                      .
+                    </>
+                  )}
+                </p>
+              )}
             </>
           );
         })()}

@@ -31,6 +31,30 @@ export const WORK_ZH: Record<string, string> = {
   Gathering: "采集",
 };
 
+// Palworld 元素克制表（游戏常量，palworld.gg / game8 同口径）：属性 → 被什么克制。
+export const ELEMENT_WEAKNESS: Record<string, string[]> = {
+  Neutral: ["Dark"],
+  Fire: ["Water"],
+  Water: ["Electric"],
+  Electric: ["Ground"],
+  Grass: ["Fire"],
+  Ice: ["Fire"],
+  Ground: ["Grass"],
+  Dark: ["Dragon"],
+  Dragon: ["Ice"],
+};
+
+/** 组合弱点：多元素取并集去重（Palworld 规则）。 */
+export function getElementWeaknesses(elements: string[]): string[] {
+  const out: string[] = [];
+  for (const e of elements) {
+    for (const w of ELEMENT_WEAKNESS[e] ?? []) {
+      if (!out.includes(w)) out.push(w);
+    }
+  }
+  return out;
+}
+
 // 元素英文 → 中文（用于 zh 显示「中文 英文」双显）。
 export function elementLabel(en: string): string {
   const zh = ELEMENT_ZH[en];
