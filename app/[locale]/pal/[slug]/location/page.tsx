@@ -34,20 +34,25 @@ export function generateStaticParams() {
 // 仅覆盖这 3 页（GSC 曝光最大），14 天 CTR 有改善再推广到模板。P0-3 Not Spawning 块/地图落地前，
 // 标题只承诺页面已有模块（坐标/等级/Alpha/breeding），禁止写页面没有的东西。
 const CTR_TITLE_OVERRIDES: Record<string, { title: string; description: string }> = {
+  // 2026-10-07 第二轮：上一版标题已含价值点，但 GSC 显示该 cluster 仍 0 点击
+  // （astegon/location 页面 475 曝光 0 点击、jormuntide 230/0、neptilius 191/0）。
+  // 改法：标题前置 searcher 实际用的 `{Pal} Location` 词序（该页 84% 曝光含 "location"），
+  // 并把三条模板化 description 换成各自真实数据（方位/等级/Alpha），避免三页 snippet 雷同。
+  // 数据来源：data/pal-spawns.json + data/pals/*.json，不写页面没有的模块。
   astegon: {
-    title: "Where to Find Astegon – Spawns, Coordinates & Boss Level",
+    title: "Astegon Location in Palworld – Coordinates, Level & How to Breed",
     description:
-      "Astegon spawn locations in Palworld 1.0 with exact coordinates, level ranges and Alpha boss spawns, plus how to get Astegon through breeding.",
+      "Where is Astegon in Palworld 1.0? 22 wild spawn points in western Palpagos at level 55–80, an Alpha boss at Lv 55, plus every breeding combination.",
   },
   jormuntide: {
-    title: "Jormuntide Location – Spawns, Coordinates & How to Get",
+    title: "Jormuntide Location in Palworld – Coordinates, Level & How to Breed",
     description:
-      "Jormuntide spawn locations in Palworld 1.0 with exact coordinates, level ranges and Alpha boss spawns, plus how to get Jormuntide through breeding.",
+      "Where is Jormuntide in Palworld 1.0? 22 wild spawn points in central Palpagos at level 55–80, an Alpha boss at Lv 55, plus every breeding combination.",
   },
   neptilius: {
-    title: "Neptilius Location – Spawns, Coordinates & How to Get",
+    title: "Neptilius Location in Palworld – Coordinates, Level & How to Get",
     description:
-      "Neptilius spawn locations in Palworld 1.0 with exact coordinates, level ranges and Alpha boss spawns, plus how to get Neptilius through breeding.",
+      "Where is Neptilius in Palworld 1.0? One Alpha spawn point in northern Palpagos at level 60, plus what to do when the spawn looks empty.",
   },
 };
 
@@ -168,6 +173,16 @@ export default function PalLocationPage({
                   : ""}
                 . Wild level {spawn.minLevel}–{spawn.maxLevel}
                 {spawn.nightOnly ? " (night only)" : " (day and night)"}.
+                {spawn.hasAlpha && alphaPoints.length > 0 && (
+                  <>
+                    {" "}
+                    The Alpha boss spawns at{" "}
+                    <strong>
+                      {alphaPoints[0].x}, {alphaPoints[0].y}
+                    </strong>
+                    .
+                  </>
+                )}
               </p>
 
               {points.length > 0 && (
