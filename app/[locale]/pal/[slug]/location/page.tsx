@@ -66,11 +66,19 @@ export function generateMetadata({
   const path = `/pal/${pal.slug}/location`;
   const spawn = getPalSpawn(pal.slug);
   const override = CTR_TITLE_OVERRIDES[pal.slug];
-  const title = override?.title ?? `Where to Find ${pal.name} — Spawn Location`;
+  // 2026-10-09 第三轮：3 页 override 观察期后仍 0 点击（根因是 Authority 被 Fandom/Game8 压制，
+  // 非 snippet 质量），但裸标题 `Where to Find X — Spawn Location` 无价值点、词序错，
+  // 仍是 snippet 质量下限。现将已验证词序 `{Pal} Location` + 价值点推广到默认模板，
+  // 让全站 200+ 页受益。默认只承诺页面必有模块（坐标/等级），Alpha/breeding 视 spawn 数据补。
+  const title =
+    override?.title ??
+    (spawn
+      ? `${pal.name} Location in Palworld – Coordinates & Levels`
+      : `How to Get ${pal.name} in Palworld`);
   const description =
     override?.description ??
     (spawn
-      ? `${pal.name} spawns at level ${spawn.minLevel}–${spawn.maxLevel}${spawn.nightOnly ? " at night" : ""} in Palworld 1.0. Wild spawns, Alpha boss and map location.`
+      ? `${pal.name} spawns at level ${spawn.minLevel}–${spawn.maxLevel}${spawn.nightOnly ? " at night" : ""} in Palworld 1.0. ${spawn.count} wild spawn point${spawn.count === 1 ? "" : "s"} with exact coordinates${spawn.hasAlpha ? ", plus an Alpha boss" : ""}.`
       : `${pal.name} has no wild spawn in Palworld 1.0 — it is obtained through breeding instead.`);
   return {
     title,
