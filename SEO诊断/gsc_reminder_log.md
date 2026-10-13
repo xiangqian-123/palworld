@@ -1,2 +1,3 @@
 ﻿- 2026-09-19 15:52 auto-pull OK 7d: imp=1737 clk=24 ctr=1.38%
 - 2026-09-21 09:28 auto-pull OK 7d: imp=1737 clk=24 ctr=1.38%
+- 2026-10-12 10:54 auto-pull OK 7d: imp=1811 clk=15 ctr=0.83%

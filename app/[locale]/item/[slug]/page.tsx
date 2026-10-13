@@ -41,6 +41,11 @@ export function generateMetadata({
   return {
     title,
     description,
+    // noindex：/item/* 是 Google 零需求模板（28d 全站 item 页仅 35 条有曝光、0 点击），
+    // 全站 16,770 条 URL 里 item 占 11,352 条（67.7%）却几乎不产生流量，压低了整体收录率与站点质量评分。
+    // follow 保留 → 内链权重照常传递到 /pal/*、/items 等有效页。仅作用于 item 页，不影响其他模板。
+    // 数据依据：SEO诊断\palworld_en_tech_seo.csv（item=1892）+ SEO诊断\诊断报告-2026-10-13.md。
+    robots: { index: false, follow: true },
     alternates: buildAlternates(params.locale, path),
     openGraph: {
       type: "article",

@@ -1,316 +1,491 @@
 ﻿page,query,clicks,impressions,ctr,position
-https://palworld-chi.vercel.app/en/guide/endgame,palworld endgame guide,1,2,0.5,5.5
-https://palworld-chi.vercel.app/en/guide/world-tree,palworld world tree mini bosses,1,5,0.2,3.6
-https://palworld-chi.vercel.app/en/guide/breeding,breeding palworld,0,1,0,92
-https://palworld-chi.vercel.app/en/guide/endgame,endgame,0,2,0,2
-https://palworld-chi.vercel.app/en/guide/endgame,palworld best end game armor,0,1,0,17
-https://palworld-chi.vercel.app/en/guide/endgame,palworld end game gear,0,1,0,4
-https://palworld-chi.vercel.app/en/guide/endgame,palworld end game guide,0,2,0,6.5
-https://palworld-chi.vercel.app/en/guide/endgame,palworld end game materials,0,1,0,4
-https://palworld-chi.vercel.app/en/guide/endgame,palworld endgame,0,1,0,9
-https://palworld-chi.vercel.app/en/guide/endgame,palworld endgame checklist,0,2,0,7.5
-https://palworld-chi.vercel.app/en/guide/endgame,palworld endgame materials,0,2,0,3
-https://palworld-chi.vercel.app/en/guide/faq,how much would cost,0,1,0,4
-https://palworld-chi.vercel.app/en/guide/faq,palword site,0,2,0,74
-https://palworld-chi.vercel.app/en/guide/faq,palword wiki,0,1,0,9
-https://palworld-chi.vercel.app/en/guide/faq,palworld ps4 download,0,1,0,1
-https://palworld-chi.vercel.app/en/guide/materials,palworld how to get chromium,0,1,0,26
-https://palworld-chi.vercel.app/en/guide/money,money farm palworld,0,2,0,9.5
-https://palworld-chi.vercel.app/en/guide/money,money palworld,0,1,0,9
-https://palworld-chi.vercel.app/en/guide/money,palworld best way to farm money,0,2,0,10
-https://palworld-chi.vercel.app/en/guide/money,palworld fast money,0,1,0,11
-https://palworld-chi.vercel.app/en/guide/money,palworld get money fast,0,1,0,8
-https://palworld-chi.vercel.app/en/guide/money,palworld how to farm money,0,1,0,9
-https://palworld-chi.vercel.app/en/guide/money,palworld money,0,2,0,9.5
-https://palworld-chi.vercel.app/en/guide/money,palworld money farm,0,9,0,10.2
-https://palworld-chi.vercel.app/en/guide/money,palworld money farm 2026,0,1,0,8
-https://palworld-chi.vercel.app/en/guide/world-tree,all bosses in world tree palworld,0,2,0,7
-https://palworld-chi.vercel.app/en/guide/world-tree,all bosses world tree palworld,0,2,0,9
-https://palworld-chi.vercel.app/en/guide/world-tree,boss world tree palworld,0,2,0,9.5
-https://palworld-chi.vercel.app/en/guide/world-tree,deserted islet palworld,0,1,0,5
-https://palworld-chi.vercel.app/en/guide/world-tree,how hard is it,0,1,0,2
-https://palworld-chi.vercel.app/en/guide/world-tree,how many waves are there,0,1,0,1
-https://palworld-chi.vercel.app/en/guide/world-tree,how to beat it,0,1,0,9
-https://palworld-chi.vercel.app/en/guide/world-tree,in the world tree,0,1,0,13
-https://palworld-chi.vercel.app/en/guide/world-tree,otherworldly cells palworld,0,1,0,33
-https://palworld-chi.vercel.app/en/guide/world-tree,palworld deserted islet,0,2,0,8
-https://palworld-chi.vercel.app/en/guide/world-tree,palworld world tree,0,1,0,45
-https://palworld-chi.vercel.app/en/guide/world-tree,palworld world tree boss,0,3,0,11
-https://palworld-chi.vercel.app/en/guide/world-tree,palworld world tree boss drops,0,1,0,8
-https://palworld-chi.vercel.app/en/guide/world-tree,palworld world tree boss locations,0,2,0,9
-https://palworld-chi.vercel.app/en/guide/world-tree,palworld world tree boss weakness,0,1,0,10
-https://palworld-chi.vercel.app/en/guide/world-tree,palworld world tree bosses,0,27,0,7.5
-https://palworld-chi.vercel.app/en/guide/world-tree,palworld world tree field bosses,0,1,0,1
-https://palworld-chi.vercel.app/en/guide/world-tree,palworld world tree gas,0,2,0,10.5
-https://palworld-chi.vercel.app/en/guide/world-tree,palworld world tree level,0,3,0,6
-https://palworld-chi.vercel.app/en/guide/world-tree,rotmist root palworld,0,1,0,4
-https://palworld-chi.vercel.app/en/guide/world-tree,where is the deserted islet in palworld,0,1,0,9
-https://palworld-chi.vercel.app/en/guide/world-tree,world tree boss palworld,0,3,0,9.3
-https://palworld-chi.vercel.app/en/guide/world-tree,world tree bosses,0,9,0,7
-https://palworld-chi.vercel.app/en/guide/world-tree,world tree bosses palworld,0,11,0,8.9
-https://palworld-chi.vercel.app/en/guide/world-tree,world tree field bosses,0,1,0,4
-https://palworld-chi.vercel.app/en/guide/world-tree,world tree level palworld,0,1,0,10
-https://palworld-chi.vercel.app/en/guide/world-tree,world tree mini bosses palworld,0,2,0,4.5
-https://palworld-chi.vercel.app/en/guide/world-tree,world tree pals,0,1,0,21
-https://palworld-chi.vercel.app/en/guide/world-tree,world tree palworld,0,1,0,47
-https://palworld-chi.vercel.app/en/guide/world-tree,world tree palworld bosses,0,1,0,5
-https://palworld-chi.vercel.app/en/guide/world-tree,world tree palworld wiki,0,1,0,9
-https://palworld-chi.vercel.app/en/item/blueprint-energyshotgun-4,palworld energy shotgun schematic,0,1,0,12
-https://palworld-chi.vercel.app/en/item/cloth2,primo-tcg-website.vercel.app,0,1,0,54
-https://palworld-chi.vercel.app/en/item/meat-grassmammoth,mammorest meat,0,1,0,65
-https://palworld-chi.vercel.app/en/item/meat-grassmammoth,mamorest meat palworld,0,1,0,10
-https://palworld-chi.vercel.app/en/item/meat-grassmammoth,palworld mammorest meat,0,1,0,58
-https://palworld-chi.vercel.app/en/map,azufre palworld mapa,0,1,0,59
-https://palworld-chi.vercel.app/en/map,map palworld,0,1,0,80
-https://palworld-chi.vercel.app/en/map,mapa de pals,0,1,0,89
-https://palworld-chi.vercel.app/en/map,mapa de palword,0,1,0,66
-https://palworld-chi.vercel.app/en/map,mapa pal,0,1,0,60
-https://palworld-chi.vercel.app/en/map,pal map,0,1,0,56
-https://palworld-chi.vercel.app/en/map,pal world map levels,0,1,0,73
-https://palworld-chi.vercel.app/en/map,palworld 1.0 map interactive,0,1,0,67
-https://palworld-chi.vercel.app/en/map,palworld feybreak dungeon map,0,1,0,77
-https://palworld-chi.vercel.app/en/map,palworld interactive map,0,2,0,69
-https://palworld-chi.vercel.app/en/map,palworld interactive map 1.0,0,3,0,55.3
-https://palworld-chi.vercel.app/en/map,palworld level map,0,1,0,71
-https://palworld-chi.vercel.app/en/map,palworld map,0,4,0,73.8
-https://palworld-chi.vercel.app/en/map,palworld map interactive 1.0,0,1,0,59
-https://palworld-chi.vercel.app/en/map,palworld map with bosses,0,1,0,24
-https://palworld-chi.vercel.app/en/map,palworld salvage map,0,1,0,65
-https://palworld-chi.vercel.app/en/map,primo-tcg-website.vercel.app,0,1,0,98
-https://palworld-chi.vercel.app/en/map,интерактивная карта palworld,0,1,0,80
-https://palworld-chi.vercel.app/en/map,팰월드 맵,0,1,0,69
-https://palworld-chi.vercel.app/en/map,팰월드 전체 맵,0,1,0,74
-https://palworld-chi.vercel.app/en/pal/aegidron,aegedron,0,1,0,10
-https://palworld-chi.vercel.app/en/pal/aegidron,aegidron,0,3,0,30.7
-https://palworld-chi.vercel.app/en/pal/aegidron,aegidron location,0,1,0,49
-https://palworld-chi.vercel.app/en/pal/aegidron,aegidron palworld,0,4,0,31.2
-https://palworld-chi.vercel.app/en/pal/astegon/location,astegon,0,1,0,66
-https://palworld-chi.vercel.app/en/pal/astegon/location,astegon location,0,4,0,7.5
-https://palworld-chi.vercel.app/en/pal/astegon/location,astegon location palworld,0,1,0,9
-https://palworld-chi.vercel.app/en/pal/astegon/location,astegon palworld location,0,1,0,52
-https://palworld-chi.vercel.app/en/pal/astegon/location,astegon spawn location,0,1,0,11
-https://palworld-chi.vercel.app/en/pal/astegon/location,astegon spawn palworld,0,1,0,6
-https://palworld-chi.vercel.app/en/pal/astegon/location,palworld astegon location,0,1,0,10
-https://palworld-chi.vercel.app/en/pal/azurobe-cryst,azurobe,0,2,0,63
-https://palworld-chi.vercel.app/en/pal/azurobe-cryst,azurobe cryst,0,1,0,3
-https://palworld-chi.vercel.app/en/pal/azurobe-cryst,azurobe cryst saddle,0,1,0,48
-https://palworld-chi.vercel.app/en/pal/azurobe-cryst,azurobe palworld,0,1,0,50
-https://palworld-chi.vercel.app/en/pal/azurobe-cryst,palworld azurobe,0,1,0,16
-https://palworld-chi.vercel.app/en/pal/bellanoir-libero,bellanoir libero gender,0,1,0,10
-https://palworld-chi.vercel.app/en/pal/bellanoir-libero,bellanoir libero stats,0,1,0,56
-https://palworld-chi.vercel.app/en/pal/bellanoir-libero,palworld 195b,0,1,0,10
-https://palworld-chi.vercel.app/en/pal/blazamut,blazamut,0,1,0,66
-https://palworld-chi.vercel.app/en/pal/blazamut,blazamut palworld,0,1,0,19
-https://palworld-chi.vercel.app/en/pal/blazamut,blazamutpalworld,0,2,0,50.5
-https://palworld-chi.vercel.app/en/pal/bulldosu,palworld bulldosu,0,1,0,22
-https://palworld-chi.vercel.app/en/pal/bushi,bushi noct alpha location,0,3,0,8.7
-https://palworld-chi.vercel.app/en/pal/bushi,bushi pal world,0,1,0,16
-https://palworld-chi.vercel.app/en/pal/bushi,bushi palworld,0,5,0,19
-https://palworld-chi.vercel.app/en/pal/bushi,palword bushi,0,1,0,10
-https://palworld-chi.vercel.app/en/pal/bushi,palworld bushi,0,1,0,11
-https://palworld-chi.vercel.app/en/pal/cattiva,cattiva palworld,0,1,0,5
-https://palworld-chi.vercel.app/en/pal/celesdir,celesdir noct stats,0,1,0,4
-https://palworld-chi.vercel.app/en/pal/celesdir,celesdir palword,0,1,0,10
-https://palworld-chi.vercel.app/en/pal/celesdir,celesdir palworld,0,1,0,47
-https://palworld-chi.vercel.app/en/pal/celesdir,celesdir palworld location,0,1,0,14
-https://palworld-chi.vercel.app/en/pal/celesdir,celestia palworld,0,1,0,1
-https://palworld-chi.vercel.app/en/pal/celesdir,how to breed celesdir noct palworld,0,1,0,63
-https://palworld-chi.vercel.app/en/pal/celesdir,palworld celesdir boss location,0,1,0,64
-https://palworld-chi.vercel.app/en/pal/celesdir,primo-tcg-website.vercel.app,0,1,0,29
-https://palworld-chi.vercel.app/en/pal/chillet,palworld chillet,0,1,0,34
-https://palworld-chi.vercel.app/en/pal/chillet,palworld chillet breeding combinations,0,1,0,73
-https://palworld-chi.vercel.app/en/pal/cinnamoth,cineot palworld,0,2,0,45
-https://palworld-chi.vercel.app/en/pal/cinnamoth,cineoth palworld,0,2,0,11
-https://palworld-chi.vercel.app/en/pal/croajiro-noct,croajiro noct,0,2,0,40.5
-https://palworld-chi.vercel.app/en/pal/cryolinx-terra,cryolinx terra,0,7,0,20.1
-https://palworld-chi.vercel.app/en/pal/dandilord,dandilord,0,3,0,5.3
-https://palworld-chi.vercel.app/en/pal/dandilord,dandilord breed,0,1,0,8
-https://palworld-chi.vercel.app/en/pal/dandilord,dandilord drops,0,1,0,10
-https://palworld-chi.vercel.app/en/pal/dandilord,dandilord location palworld,0,1,0,11
-https://palworld-chi.vercel.app/en/pal/dandilord,dandilord palworld,0,4,0,26.8
-https://palworld-chi.vercel.app/en/pal/dandilord,dandilord palworld location,0,1,0,79
-https://palworld-chi.vercel.app/en/pal/dandilord,dandilord:,0,1,0,55
-https://palworld-chi.vercel.app/en/pal/dazzi-noct,dazzi noct location,0,1,0,52
-https://palworld-chi.vercel.app/en/pal/dazzi-noct,dazzi palworld,0,1,0,18
-https://palworld-chi.vercel.app/en/pal/dazzi-noct,palworld dazzi noct,0,1,0,22
-https://palworld-chi.vercel.app/en/pal/depresso,depresso,0,1,0,60
-https://palworld-chi.vercel.app/en/pal/depresso,depresso location palworld,0,1,0,73
-https://palworld-chi.vercel.app/en/pal/depresso,depresso pal,0,1,0,10
-https://palworld-chi.vercel.app/en/pal/depresso,depresso palworld,0,2,0,31.5
-https://palworld-chi.vercel.app/en/pal/depresso,depresso spawn location,0,1,0,70
-https://palworld-chi.vercel.app/en/pal/direhowl/location,direhowl location palworld 1.0,0,1,0,11
-https://palworld-chi.vercel.app/en/pal/direhowl/location,palworld 1.0 direhowl location,0,1,0,10
-https://palworld-chi.vercel.app/en/pal/direhowl/location,palworld direhowl location,0,9,0,14.6
-https://palworld-chi.vercel.app/en/pal/direhowl/location,where to catch direhowl,0,1,0,9
-https://palworld-chi.vercel.app/en/pal/dualith,palworld dualith,0,2,0,38
-https://palworld-chi.vercel.app/en/pal/dynamoff,dynamoff,0,1,0,44
-https://palworld-chi.vercel.app/en/pal/dynamoff,dynamoff location palworld,0,1,0,4
-https://palworld-chi.vercel.app/en/pal/dynamoff,dynamoff palworld,0,1,0,6
-https://palworld-chi.vercel.app/en/pal/dynamoff,palworld dynamoff,0,3,0,5.7
-https://palworld-chi.vercel.app/en/pal/elphidran-aqua,elphidran aqua,0,3,0,7.7
-https://palworld-chi.vercel.app/en/pal/elphidran-aqua,elphidran spawn,0,1,0,10
-https://palworld-chi.vercel.app/en/pal/elphidran-aqua,palworld elphidran aqua,0,2,0,11
-https://palworld-chi.vercel.app/en/pal/faleris,faleris,0,6,0,34.8
-https://palworld-chi.vercel.app/en/pal/faleris,faleris palworld,0,1,0,51
-https://palworld-chi.vercel.app/en/pal/faleris,palworld faleris,0,1,0,49
-https://palworld-chi.vercel.app/en/pal/faleris-aqua,faleris aqua location,0,1,0,94
-https://palworld-chi.vercel.app/en/pal/faleris-aqua,palworld faleris aqua,0,1,0,54
+https://palworld-chi.vercel.app/de/guide/world-tree,weltenbaum freischalten palworld,1,1,1,1
+https://palworld-chi.vercel.app/en/guide/world-tree,bosses in world tree palworld,1,1,1,4
+https://palworld-chi.vercel.app/en/guide/world-tree,world tree bosses,1,4,0.25,7.5
+https://palworld-chi.vercel.app/en/pal/bushi/location,bushi palworld 1.0 location,1,2,0.5,6.5
+https://palworld-chi.vercel.app/de/breeding-calculator,1.0 palworld breeding calculator,0,2,0,13
+https://palworld-chi.vercel.app/de/breeding-calculator,breeding calculator palworld 1.0,0,7,0,20.6
+https://palworld-chi.vercel.app/de/breeding-calculator,palworld 1.0 breeding calculator,0,4,0,19.5
+https://palworld-chi.vercel.app/de/breeding-calculator,palworld breeding calculator,0,1,0,32
+https://palworld-chi.vercel.app/de/breeding-calculator,palworld breeding calculator 1.0,0,2,0,8
+https://palworld-chi.vercel.app/de/breeding-calculator,palworld foxcicle breeding combo,0,1,0,42
+https://palworld-chi.vercel.app/de/breeding-calculator,palworld passive breeding calculator,0,1,0,93
+https://palworld-chi.vercel.app/de/breeding-calculator,palworld rechner,0,1,0,73
+https://palworld-chi.vercel.app/de/breeding-calculator,primo-tcg-website.vercel.app,0,1,0,12
+https://palworld-chi.vercel.app/de/guide/server,palworld ps5 dedicated server,0,2,0,9
+https://palworld-chi.vercel.app/de/guide/server,palworld server,0,2,0,55.5
+https://palworld-chi.vercel.app/de/guide/server,palworld server erstellen,0,5,0,71.2
+https://palworld-chi.vercel.app/de/guide/world-tree,palworld baum freischalten,0,3,0,1
+https://palworld-chi.vercel.app/de/item/cloth2,palworld hochwertiger stoff,0,1,0,72
+https://palworld-chi.vercel.app/de/map,palworld bohrinsel map,0,1,0,69
+https://palworld-chi.vercel.app/de/map,palworld interactive map,0,1,0,63
+https://palworld-chi.vercel.app/de/map,palworld karte 2026,0,1,0,84
+https://palworld-chi.vercel.app/de/map,palworld map,0,5,0,73.8
+https://palworld-chi.vercel.app/de/map,palworld map[,0,1,0,65
+https://palworld-chi.vercel.app/de/map,palworld prädator kern map,0,1,0,45
+https://palworld-chi.vercel.app/de/pal/aegidron,aegidron,0,1,0,6
+https://palworld-chi.vercel.app/de/pal/astralym,astralym,0,7,0,14.1
+https://palworld-chi.vercel.app/de/pal/astralym,astralym palworld,0,5,0,7
+https://palworld-chi.vercel.app/de/pal/astralym,atralym palworld,0,1,0,10
+https://palworld-chi.vercel.app/de/pal/astralym,palworld astralym,0,4,0,7.8
+https://palworld-chi.vercel.app/de/pal/astralym,palworld astralym züchten,0,1,0,10
+https://palworld-chi.vercel.app/de/pal/azurobe-cryst,azurobe cryst,0,1,0,4
+https://palworld-chi.vercel.app/de/pal/azurobe-cryst,azurobe palworld,0,1,0,26
+https://palworld-chi.vercel.app/de/pal/broncherry-aqua,broncherry aqua,0,2,0,25.5
+https://palworld-chi.vercel.app/de/pal/bushi/location,palworld bushi boss location 1.0,0,1,0,6
+https://palworld-chi.vercel.app/de/pal/dazzi-noct,dazzi noct palworld,0,1,0,57
+https://palworld-chi.vercel.app/de/pal/dazzi-noct,palworld dazzi,0,1,0,20
+https://palworld-chi.vercel.app/de/pal/dumud,dumud,0,1,0,60
+https://palworld-chi.vercel.app/de/pal/dumud,dumud palworld,0,1,0,62
+https://palworld-chi.vercel.app/de/pal/dumud,dumud weakness,0,2,0,9.5
+https://palworld-chi.vercel.app/de/pal/dumud,palworld dumud,0,1,0,34
+https://palworld-chi.vercel.app/de/pal/dumud-gild,dumud,0,1,0,74
+https://palworld-chi.vercel.app/de/pal/dumud-gild,dumud gild,0,1,0,54
+https://palworld-chi.vercel.app/de/pal/dumud-gild,dumud gild location,0,1,0,57
+https://palworld-chi.vercel.app/de/pal/dumud-gild,dumud gold,0,1,0,6
+https://palworld-chi.vercel.app/de/pal/dumud-gild,dunmud gild,0,1,0,92
+https://palworld-chi.vercel.app/de/pal/dumud-gild,palworld dumud gild breeding combinations,0,1,0,10
+https://palworld-chi.vercel.app/de/pal/dynamoff,dynamoff,0,9,0,20.1
+https://palworld-chi.vercel.app/de/pal/dynamoff,dynamoff breed,0,1,0,6
+https://palworld-chi.vercel.app/de/pal/dynamoff,dynamoff palworld,0,2,0,3
+https://palworld-chi.vercel.app/de/pal/dynamoff,palworld dynamoff,0,1,0,9
+https://palworld-chi.vercel.app/de/pal/dynamoff,palworld dynamoff breeding,0,2,0,10
+https://palworld-chi.vercel.app/de/pal/dynamoff,palworld dynamoff location,0,4,0,17.5
+https://palworld-chi.vercel.app/de/pal/faleris,faleris,0,9,0,9.4
+https://palworld-chi.vercel.app/de/pal/finsider,palworld finsider gun,0,1,0,4
+https://palworld-chi.vercel.app/de/pal/foxparks-cryst,foxparks cryst,0,1,0,1
+https://palworld-chi.vercel.app/de/pal/gildra,gildra,0,4,0,5
+https://palworld-chi.vercel.app/de/pal/gildra,gildra palworld,0,4,0,10.2
+https://palworld-chi.vercel.app/de/pal/gobfin,palworld gobfin,0,1,0,10
+https://palworld-chi.vercel.app/de/pal/gobfin-ignis,gobfin ignis location,0,1,0,53
+https://palworld-chi.vercel.app/de/pal/hartalis,hartalis,0,3,0,26
+https://palworld-chi.vercel.app/de/pal/hartalis,hartalis type,0,1,0,8
+https://palworld-chi.vercel.app/de/pal/hartalis,palworld hartalis finden,0,1,0,46
+https://palworld-chi.vercel.app/de/pal/incineram,incineram palworld,0,1,0,84
+https://palworld-chi.vercel.app/de/pal/jetragon/breeding,primo-tcg-website.vercel.app,0,4,0,10
+https://palworld-chi.vercel.app/de/pal/kingpaca-cryst,palworld kingpaca,0,1,0,59
+https://palworld-chi.vercel.app/de/pal/kitsun/location,kitsun,0,1,0,72
+https://palworld-chi.vercel.app/de/pal/kitsun/location,kitsun palworld,0,1,0,71
+https://palworld-chi.vercel.app/de/pal/loupmoon,palworld loupmoon,0,1,0,72
+https://palworld-chi.vercel.app/de/pal/loupmoon-cryst,palworld loupmoon,0,1,0,74
+https://palworld-chi.vercel.app/de/pal/lovander,lovander height,0,1,0,62
+https://palworld-chi.vercel.app/de/pal/lovander,lovander palworld,0,1,0,26
+https://palworld-chi.vercel.app/de/pal/melpaca,melpaca,0,3,0,67
+https://palworld-chi.vercel.app/de/pal/melpaca,melpaca palworld,0,1,0,59
+https://palworld-chi.vercel.app/de/pal/melpaca,melpaca palworld location,0,1,0,62
+https://palworld-chi.vercel.app/de/pal/moldron,palworld moldron,0,1,0,74
+https://palworld-chi.vercel.app/de/pal/moldron-cryst,palworld moldron,0,1,0,77
+https://palworld-chi.vercel.app/de/pal/mossanda/location,mossanda location palworld,0,1,0,4
+https://palworld-chi.vercel.app/de/pal/mossanda/location,palworld 1.0 mossanda location,0,1,0,5
+https://palworld-chi.vercel.app/de/pal/munchill,munchill palworld,0,21,0,9.4
+https://palworld-chi.vercel.app/de/pal/pengullet,pal let,0,2,0,6.5
+https://palworld-chi.vercel.app/de/pal/pengullet,pengullet,0,1,0,26
+https://palworld-chi.vercel.app/de/pal/penking,palworld penking,0,1,0,31
+https://palworld-chi.vercel.app/de/pal/pierdon,pierdon,0,2,0,8
+https://palworld-chi.vercel.app/de/pal/prunelia,prunelia,0,2,0,28
+https://palworld-chi.vercel.app/de/pal/rayhound,palworld rayhound location,0,1,0,66
+https://palworld-chi.vercel.app/de/pal/rayhound,rayhound,0,2,0,9
+https://palworld-chi.vercel.app/de/pal/reptyro,reptyro,0,1,0,95
+https://palworld-chi.vercel.app/de/pal/ribbuny,primo-tcg-website.vercel.app,0,2,0,68.5
+https://palworld-chi.vercel.app/de/pal/shadowbeak,shadowbeak palworld züchten,0,1,0,59
+https://palworld-chi.vercel.app/de/pal/shaolong,palworld shaolong,0,3,0,46.3
+https://palworld-chi.vercel.app/de/pal/shaolong,shaolong,0,1,0,45
+https://palworld-chi.vercel.app/de/pal/shaolong,shaolong palworld,0,1,0,36
+https://palworld-chi.vercel.app/de/pal/shroomer/location,shroomer,0,1,0,84
+https://palworld-chi.vercel.app/de/pal/skutlass,skutlass,0,1,0,5
+https://palworld-chi.vercel.app/de/pal/sparkit,sparkit palworld,0,1,0,93
+https://palworld-chi.vercel.app/de/pal/starryon,palworld starryon,0,1,0,14
+https://palworld-chi.vercel.app/de/pal/starryon,palworld starryon location,0,1,0,14
+https://palworld-chi.vercel.app/de/pal/starryon-primo,primo-tcg-website.vercel.app,0,4,0,5
+https://palworld-chi.vercel.app/de/pal/valentail,primo-tcg-website.vercel.app,0,1,0,30
+https://palworld-chi.vercel.app/de/pal/warsect,warsect breeding,0,1,0,21
+https://palworld-chi.vercel.app/de/pal/warsect,warsect palworld,0,1,0,72
+https://palworld-chi.vercel.app/de/pal/whalaska-ignis/breeding,palworld whalaska ignis breeding,0,1,0,57
+https://palworld-chi.vercel.app/de/pal/whalaska-ignis/breeding,whalaska breeding,0,1,0,66
+https://palworld-chi.vercel.app/de/pal/whalaska-ignis/breeding,whalaska ignis breeding combos,0,1,0,7
+https://palworld-chi.vercel.app/de/pal/woolipop/location,wo finde ich die,0,1,0,3
+https://palworld-chi.vercel.app/en/guide/breeding,pal breeding,0,1,0,31
+https://palworld-chi.vercel.app/en/guide/endgame,pal world end game,0,1,0,16
+https://palworld-chi.vercel.app/en/guide/endgame,palworld end game materials,0,2,0,3
+https://palworld-chi.vercel.app/en/guide/endgame,palworld end game schematics,0,1,0,9
+https://palworld-chi.vercel.app/en/guide/endgame,palworld endgame,0,2,0,3
+https://palworld-chi.vercel.app/en/guide/endgame,palworld endgame gear,0,2,0,6
+https://palworld-chi.vercel.app/en/guide/endgame,palworld endgame guide,0,2,0,4.5
+https://palworld-chi.vercel.app/en/guide/endgame,palworld endgame materials,0,1,0,7
+https://palworld-chi.vercel.app/en/guide/endgame,palworld late game,0,1,0,24
+https://palworld-chi.vercel.app/en/guide/endgame,palworld late game materials,0,4,0,4.5
+https://palworld-chi.vercel.app/en/guide/endgame,palworld what to do after world tree,0,1,0,1
+https://palworld-chi.vercel.app/en/guide/faq,does palworld cost money,0,1,0,10
+https://palworld-chi.vercel.app/en/guide/faq,palword ps5,0,1,0,21
+https://palworld-chi.vercel.app/en/guide/faq,palworld,0,1,0,10
+https://palworld-chi.vercel.app/en/guide/faq,palworld forums,0,1,0,59
+https://palworld-chi.vercel.app/en/guide/faq,palworld transfer items between worlds,0,1,0,28
+https://palworld-chi.vercel.app/en/guide/fishing,all fishing pals palworld,0,1,0,11
+https://palworld-chi.vercel.app/en/guide/fishing,palworld world tree fishing loot table,0,1,0,8
+https://palworld-chi.vercel.app/en/guide/materials,carbon palworld,0,1,0,36
+https://palworld-chi.vercel.app/en/guide/materials,gatherable items palworld,0,1,0,1
+https://palworld-chi.vercel.app/en/guide/materials,paloxite ingot palworld,0,1,0,12
+https://palworld-chi.vercel.app/en/guide/materials,palworld cement recipe,0,1,0,56
+https://palworld-chi.vercel.app/en/guide/materials,palworld material locations,0,1,0,65
+https://palworld-chi.vercel.app/en/guide/materials,palworld materials,0,1,0,57
+https://palworld-chi.vercel.app/en/guide/materials,palworld other materials,0,1,0,75
+https://palworld-chi.vercel.app/en/guide/materials,palworld pal materials,0,1,0,81
+https://palworld-chi.vercel.app/en/guide/materials,precious dragon stone palworld use,0,1,0,5
+https://palworld-chi.vercel.app/en/guide/money,best money farm palworld,0,1,0,37
+https://palworld-chi.vercel.app/en/guide/money,best way to make money palworld,0,1,0,23
+https://palworld-chi.vercel.app/en/guide/money,palworld easy money,0,1,0,11
+https://palworld-chi.vercel.app/en/guide/money,palworld endgame money farm,0,2,0,10.5
+https://palworld-chi.vercel.app/en/guide/money,palworld farm money,0,1,0,9
+https://palworld-chi.vercel.app/en/guide/money,palworld mid game gold farm,0,1,0,8
+https://palworld-chi.vercel.app/en/guide/money,palworld mid game money farm,0,1,0,8
+https://palworld-chi.vercel.app/en/guide/money,palworld money,0,2,0,2.5
+https://palworld-chi.vercel.app/en/guide/money,palworld money farm,0,4,0,9.5
+https://palworld-chi.vercel.app/en/guide/money,palworld money guide,0,1,0,9
+https://palworld-chi.vercel.app/en/guide/money,palworld quick money,0,4,0,9.5
+https://palworld-chi.vercel.app/en/guide/money,palworld what to sell for gold,0,1,0,37
+https://palworld-chi.vercel.app/en/guide/money,palworld what to spend gold on,0,1,0,16
+https://palworld-chi.vercel.app/en/guide/money,what to spend money on in palworld,0,1,0,10
+https://palworld-chi.vercel.app/en/guide/new-pals,new pal,0,2,0,5
+https://palworld-chi.vercel.app/en/guide/new-pals,new pals,0,2,0,8.5
+https://palworld-chi.vercel.app/en/guide/new-pals,new pals palworld,0,3,0,8.3
+https://palworld-chi.vercel.app/en/guide/new-pals,new palworld pals,0,2,0,15.5
+https://palworld-chi.vercel.app/en/guide/new-pals,palworld new pals,0,1,0,10
+https://palworld-chi.vercel.app/en/guide/new-pals,primo-tcg-website.vercel.app,0,4,0,7.2
+https://palworld-chi.vercel.app/en/guide/world-tree,8th key sphere palworld,0,1,0,7
+https://palworld-chi.vercel.app/en/guide/world-tree,all bosses in world tree palworld,0,1,0,10
+https://palworld-chi.vercel.app/en/guide/world-tree,all world tree bosses,0,1,0,8
+https://palworld-chi.vercel.app/en/guide/world-tree,palworld bosses world tree,0,1,0,6
+https://palworld-chi.vercel.app/en/guide/world-tree,palworld element tree,0,1,0,18
+https://palworld-chi.vercel.app/en/guide/world-tree,palworld pidf tower weakness,0,1,0,17
+https://palworld-chi.vercel.app/en/guide/world-tree,palworld research tree,0,1,0,32
+https://palworld-chi.vercel.app/en/guide/world-tree,palworld tree bosses,0,1,0,10
+https://palworld-chi.vercel.app/en/guide/world-tree,palworld which boss gives the most xp,0,1,0,1
+https://palworld-chi.vercel.app/en/guide/world-tree,palworld world tree,0,1,0,43
+https://palworld-chi.vercel.app/en/guide/world-tree,palworld world tree boss,0,1,0,9
+https://palworld-chi.vercel.app/en/guide/world-tree,palworld world tree boss drops,0,1,0,9
+https://palworld-chi.vercel.app/en/guide/world-tree,palworld world tree boss weakness,0,1,0,11
+https://palworld-chi.vercel.app/en/guide/world-tree,palworld world tree bosses,0,5,0,8.2
+https://palworld-chi.vercel.app/en/guide/world-tree,palworld world tree forbidden laboratory boss,0,3,0,9.3
+https://palworld-chi.vercel.app/en/guide/world-tree,palworld world tree guardian,0,1,0,9
+https://palworld-chi.vercel.app/en/guide/world-tree,palworld world tree level,0,1,0,4
+https://palworld-chi.vercel.app/en/guide/world-tree,palworld world tree mini bosses,0,1,0,7
+https://palworld-chi.vercel.app/en/guide/world-tree,palworld world tree pals,0,2,0,22
+https://palworld-chi.vercel.app/en/guide/world-tree,what bosses are in the world tree palworld,0,1,0,10
+https://palworld-chi.vercel.app/en/guide/world-tree,world tree bosses palworld,0,3,0,5.7
+https://palworld-chi.vercel.app/en/guide/world-tree,world tree palworld bosses,0,1,0,6
+https://palworld-chi.vercel.app/en/guide/world-tree,world tree palworld wiki,0,1,0,11
+https://palworld-chi.vercel.app/en/item/cloth2,primo-tcg-website.vercel.app,0,3,0,39
+https://palworld-chi.vercel.app/en/item/elixir-stamina-02,terraria alluring bait,0,1,0,14
+https://palworld-chi.vercel.app/en/item/meat-grassmammoth,mamorest meat palworld,0,1,0,62
+https://palworld-chi.vercel.app/en/item/meat-grassmammoth,palworld mammorest meat,0,1,0,52
+https://palworld-chi.vercel.app/en/item/treasuremap03,terraria alluring bait,0,1,0,10
+https://palworld-chi.vercel.app/en/item/uniquematerial-flowerprince,toxin filtering membrane,0,1,0,10
+https://palworld-chi.vercel.app/en/map,lily and lyleen location map,0,1,0,63
+https://palworld-chi.vercel.app/en/map,mapa de palworld,0,1,0,67
+https://palworld-chi.vercel.app/en/map,pal interactive map,0,1,0,53
+https://palworld-chi.vercel.app/en/map,pal location map,0,1,0,79
+https://palworld-chi.vercel.app/en/map,pal map,0,1,0,64
+https://palworld-chi.vercel.app/en/map,pal map locations,0,1,0,79
+https://palworld-chi.vercel.app/en/map,pal world map,0,3,0,81.3
+https://palworld-chi.vercel.app/en/map,palwoeld map,0,1,0,91
+https://palworld-chi.vercel.app/en/map,palword map,0,1,0,79
+https://palworld-chi.vercel.app/en/map,palword wiki,0,1,0,78
+https://palworld-chi.vercel.app/en/map,palworld 1.0 interactive map,0,1,0,63
+https://palworld-chi.vercel.app/en/map,palworld full map,0,2,0,72.5
+https://palworld-chi.vercel.app/en/map,palworld interactive map,0,4,0,50.2
+https://palworld-chi.vercel.app/en/map,palworld level map,0,1,0,89
+https://palworld-chi.vercel.app/en/map,palworld livemap,0,1,0,66
+https://palworld-chi.vercel.app/en/map,palworld location map,0,1,0,70
+https://palworld-chi.vercel.app/en/map,palworld map,0,7,0,71.7
+https://palworld-chi.vercel.app/en/map,palworld map by level 2026,0,1,0,70
+https://palworld-chi.vercel.app/en/map,palworld map interactive,0,1,0,73
+https://palworld-chi.vercel.app/en/map,palworld map levels,0,1,0,63
+https://palworld-chi.vercel.app/en/map,palworld mapo,0,1,0,72
+https://palworld-chi.vercel.app/en/map,palworld maps,0,1,0,67
+https://palworld-chi.vercel.app/en/map,palworld materials map,0,1,0,90
+https://palworld-chi.vercel.app/en/map,palworld meteorite locations map,0,1,0,67
+https://palworld-chi.vercel.app/en/map,palworlds map,0,2,0,67.5
+https://palworld-chi.vercel.app/en/map,primo-tcg-website.vercel.app,0,2,0,71.5
+https://palworld-chi.vercel.app/en/map,sulfur palworld map,0,1,0,85
+https://palworld-chi.vercel.app/en/map,unthawable lake palworld,0,1,0,43
+https://palworld-chi.vercel.app/en/map,windswept hills palworld map,0,2,0,71.5
+https://palworld-chi.vercel.app/en/map,帕鲁地图,0,2,0,72
+https://palworld-chi.vercel.app/en/pal/aegidron,aegidron palworld,0,1,0,9
+https://palworld-chi.vercel.app/en/pal/aegidron,palworld aegidron,0,2,0,10
+https://palworld-chi.vercel.app/en/pal/azurobe-cryst,azurobe,0,1,0,21
+https://palworld-chi.vercel.app/en/pal/azurobe-cryst,palworld azurobe cryst location,0,1,0,79
+https://palworld-chi.vercel.app/en/pal/beegarde/breeding,beegarde palworld,0,1,0,91
+https://palworld-chi.vercel.app/en/pal/beegarde/breeding,palworld beegarde,0,1,0,62
+https://palworld-chi.vercel.app/en/pal/beegarde/breeding,primo-tcg-website.vercel.app,0,4,0,8.5
+https://palworld-chi.vercel.app/en/pal/bellanoir-libero,bellanoir,0,1,0,55
+https://palworld-chi.vercel.app/en/pal/bellanoir-libero,libero palworld,0,1,0,4
+https://palworld-chi.vercel.app/en/pal/bellanoir-libero,palworld no 195b,0,1,0,9
+https://palworld-chi.vercel.app/en/pal/broncherry-aqua,broncherry,0,1,0,65
+https://palworld-chi.vercel.app/en/pal/broncherry-aqua,broncherry aqua,0,1,0,11
+https://palworld-chi.vercel.app/en/pal/broncherry-aqua,palworld broncherry,0,1,0,10
+https://palworld-chi.vercel.app/en/pal/broncherry-aqua,palworld broncherry breeding combos,0,1,0,89
+https://palworld-chi.vercel.app/en/pal/bushi,bushi pal,0,1,0,11
+https://palworld-chi.vercel.app/en/pal/bushi,bushi pal world,0,5,0,24.8
+https://palworld-chi.vercel.app/en/pal/bushi,bushi palworld,0,5,0,11
+https://palworld-chi.vercel.app/en/pal/bushi,palword bushi,0,1,0,8
+https://palworld-chi.vercel.app/en/pal/bushi,palworld bushi,0,3,0,13
+https://palworld-chi.vercel.app/en/pal/bushi,palworld bushi location map,0,1,0,12
+https://palworld-chi.vercel.app/en/pal/bushi/location,boss bushi location palworld,0,2,0,10.5
+https://palworld-chi.vercel.app/en/pal/bushi/location,bushi boss location,0,1,0,9
+https://palworld-chi.vercel.app/en/pal/bushi/location,bushi boss location palworld,0,1,0,10
+https://palworld-chi.vercel.app/en/pal/bushi/location,palworld bushi boss location,0,1,0,10
+https://palworld-chi.vercel.app/en/pal/bushi/location,palworld bushi location,0,1,0,53
+https://palworld-chi.vercel.app/en/pal/bushi/location,palworld bushi location 1.0,0,1,0,8
+https://palworld-chi.vercel.app/en/pal/bushi/location,palworld bushi location map,0,1,0,3
+https://palworld-chi.vercel.app/en/pal/bushi/location,palworld where is bushi,0,1,0,10
+https://palworld-chi.vercel.app/en/pal/bushi/location,palworld where to get bushi,0,1,0,11
+https://palworld-chi.vercel.app/en/pal/celesdir,celesdir,0,1,0,5
+https://palworld-chi.vercel.app/en/pal/celesdir,celesdir location palworld,0,1,0,65
+https://palworld-chi.vercel.app/en/pal/celesdir,celesdir noct breed,0,2,0,70.5
+https://palworld-chi.vercel.app/en/pal/celesdir,celesdir palworld,0,3,0,50.7
+https://palworld-chi.vercel.app/en/pal/celesdir,palworld celesdir location,0,1,0,61
+https://palworld-chi.vercel.app/en/pal/celesdir,primo-tcg-website.vercel.app,0,1,0,28
+https://palworld-chi.vercel.app/en/pal/cinnamoth,palworld moth,0,1,0,9
+https://palworld-chi.vercel.app/en/pal/cinnamoth,where to find cinnamoth palworld,0,1,0,51
+https://palworld-chi.vercel.app/en/pal/croajiro-noct,croajiro noct palworld,0,1,0,6
+https://palworld-chi.vercel.app/en/pal/cryolinx-terra,palworld cryolinx terra,0,1,0,4
+https://palworld-chi.vercel.app/en/pal/dandilord,dandilord,0,12,0,10.2
+https://palworld-chi.vercel.app/en/pal/dandilord,dandilord breeding guide,0,1,0,5
+https://palworld-chi.vercel.app/en/pal/dandilord,dandilord palworld,0,1,0,4
+https://palworld-chi.vercel.app/en/pal/depresso,depresso pokemon,0,2,0,7.5
+https://palworld-chi.vercel.app/en/pal/dinossom,dinossom,0,1,0,9
+https://palworld-chi.vercel.app/en/pal/direhowl/location,direhowl location,0,1,0,1
+https://palworld-chi.vercel.app/en/pal/direhowl/location,direhowl location palworld 1.0,0,1,0,5
+https://palworld-chi.vercel.app/en/pal/dualith,dualith,0,3,0,12.7
+https://palworld-chi.vercel.app/en/pal/dualith,palworld dualith,0,1,0,50
 https://palworld-chi.vercel.app/en/pal/fenglope-lux,fenglope lux,0,1,0,6
-https://palworld-chi.vercel.app/en/pal/fenglope-lux,fenglope lux palworld,0,1,0,1
-https://palworld-chi.vercel.app/en/pal/fenglope-lux,fenglope palworld breed,0,1,0,22
-https://palworld-chi.vercel.app/en/pal/foxcicle/location,foxcicle,0,1,0,89
-https://palworld-chi.vercel.app/en/pal/foxcicle/location,foxicle location,0,1,0,93
-https://palworld-chi.vercel.app/en/pal/foxparks,palworld foxparks,0,4,0,1
-https://palworld-chi.vercel.app/en/pal/frostallion-noct/location,frostallion noct,0,1,0,69
-https://palworld-chi.vercel.app/en/pal/frostallion-noct/location,frostallion noct boss location,0,1,0,10
-https://palworld-chi.vercel.app/en/pal/frostallion-noct/location,frostallion noct location,0,2,0,9.5
-https://palworld-chi.vercel.app/en/pal/frostallion-noct/location,frostallion noct palworld location,0,1,0,9
-https://palworld-chi.vercel.app/en/pal/frostallion-noct/location,frostallion noct.,0,2,0,69.5
-https://palworld-chi.vercel.app/en/pal/frostallion-noct/location,palworld frostallion noct,0,1,0,75
-https://palworld-chi.vercel.app/en/pal/frostallion-noct/location,palworld frostallion noct boss location,0,1,0,9
-https://palworld-chi.vercel.app/en/pal/frostallion-noct/location,palworld frostallion noct location,0,1,0,4
-https://palworld-chi.vercel.app/en/pal/frostallion-noct/location,palworld where to find frostallion noct,0,1,0,10
-https://palworld-chi.vercel.app/en/pal/frostallion-noct/location,where is frostallion noct,0,1,0,9
-https://palworld-chi.vercel.app/en/pal/frostallion-noct/location,where is frostallion noct palworld,0,1,0,9
-https://palworld-chi.vercel.app/en/pal/frostallion-noct/location,where to catch frostallion noct,0,2,0,9.5
-https://palworld-chi.vercel.app/en/pal/frostallion-noct/location,where to find frostallion noct,0,8,0,9
-https://palworld-chi.vercel.app/en/pal/frostallion-noct/location,where to get frostallion noct,0,2,0,7
-https://palworld-chi.vercel.app/en/pal/galeclaw,galeclaw,0,1,0,7
-https://palworld-chi.vercel.app/en/pal/galeclaw,palworld galeclaw,0,1,0,4
-https://palworld-chi.vercel.app/en/pal/gildra,gildra palworld,0,1,0,29
-https://palworld-chi.vercel.app/en/pal/gildra,palworld gildra,0,4,0,5.2
-https://palworld-chi.vercel.app/en/pal/gloopie/location,gloopie palworld,0,1,0,75
-https://palworld-chi.vercel.app/en/pal/gobfin,gobfin,0,4,0,8.5
-https://palworld-chi.vercel.app/en/pal/gobfin,gobfin passive,0,1,0,9
-https://palworld-chi.vercel.app/en/pal/gobfin,palworld gobfin,0,5,0,7
-https://palworld-chi.vercel.app/en/pal/gobfin-ignis,gobfin,0,1,0,53
-https://palworld-chi.vercel.app/en/pal/gobfin-ignis,gobfin ignis palworld location,0,1,0,11
-https://palworld-chi.vercel.app/en/pal/gobfin-ignis,ignis breath palworld,0,1,0,11
-https://palworld-chi.vercel.app/en/pal/gobfin-ignis,palworld gobfin,0,2,0,17.5
-https://palworld-chi.vercel.app/en/pal/gobfin-ignis,palworld gobfin ignis,0,4,0,8.8
+https://palworld-chi.vercel.app/en/pal/fenglope-lux,palworld fenglope breeding,0,1,0,20
+https://palworld-chi.vercel.app/en/pal/fenglope-lux,palworld fenglope lux,0,1,0,47
+https://palworld-chi.vercel.app/en/pal/flaracle,flaracle,0,1,0,5
+https://palworld-chi.vercel.app/en/pal/flaracle,palworld flaracle,0,1,0,1
+https://palworld-chi.vercel.app/en/pal/frostallion-noct/location,frostallion noct,0,1,0,61
+https://palworld-chi.vercel.app/en/pal/frostallion-noct/location,frostallion noct boss location,0,1,0,9
+https://palworld-chi.vercel.app/en/pal/frostallion-noct/location,frostallion noct location,0,1,0,63
+https://palworld-chi.vercel.app/en/pal/frostallion-noct/location,frostallion noct location palworld 1.0,0,1,0,10
+https://palworld-chi.vercel.app/en/pal/frostallion-noct/location,frostallion noct where to find,0,1,0,11
+https://palworld-chi.vercel.app/en/pal/frostallion-noct/location,frostallion spawn location,0,1,0,10
+https://palworld-chi.vercel.app/en/pal/frostallion-noct/location,palworld frostallion noct boss location,0,1,0,11
+https://palworld-chi.vercel.app/en/pal/frostallion-noct/location,where is frostallion,0,1,0,11
+https://palworld-chi.vercel.app/en/pal/frostallion-noct/location,where to catch frostallion noct,0,2,0,9
+https://palworld-chi.vercel.app/en/pal/frostallion-noct/location,where to find frostallion noct,0,4,0,8.2
+https://palworld-chi.vercel.app/en/pal/frostallion-noct/location,where to find frostallion noct palworld,0,1,0,6
+https://palworld-chi.vercel.app/en/pal/frostallion-noct/location,where to get frostallion noct,0,3,0,7
+https://palworld-chi.vercel.app/en/pal/frostallion-noct/location,where to get frostallion noct palworld,0,1,0,10
+https://palworld-chi.vercel.app/en/pal/frostplume,frostplume palworld location,0,1,0,86
+https://palworld-chi.vercel.app/en/pal/galeclaw,galeclaw,0,2,0,19
+https://palworld-chi.vercel.app/en/pal/gloopie/location,gloopie palworld location,0,2,0,31
+https://palworld-chi.vercel.app/en/pal/gloopie/location,palworld gloopie location,0,1,0,6
+https://palworld-chi.vercel.app/en/pal/gobfin,gobfin,0,1,0,9
+https://palworld-chi.vercel.app/en/pal/hangyu,hangyu palworld,0,1,0,83
 https://palworld-chi.vercel.app/en/pal/hangyu,hangyu vs hangyu cryst,0,1,0,8
-https://palworld-chi.vercel.app/en/pal/hartalis,"""hartalis"" palworld",0,1,0,4
-https://palworld-chi.vercel.app/en/pal/hartalis,hartalis,0,7,0,18.9
-https://palworld-chi.vercel.app/en/pal/hartalis,hartalis palworld,0,8,0,12.9
-https://palworld-chi.vercel.app/en/pal/hartalis,hartalis type,0,1,0,10
-https://palworld-chi.vercel.app/en/pal/hartalis,hartalis typing,0,2,0,7.5
-https://palworld-chi.vercel.app/en/pal/hartalis,palworld hartalis,0,1,0,25
-https://palworld-chi.vercel.app/en/pal/hartalis,palworld no197,0,1,0,8
-https://palworld-chi.vercel.app/en/pal/hartalis,what type is hartalis,0,1,0,11
-https://palworld-chi.vercel.app/en/pal/helzephyr,helzephyr,0,8,0,6.9
-https://palworld-chi.vercel.app/en/pal/helzephyr,helzephyr palworld,0,2,0,55.5
-https://palworld-chi.vercel.app/en/pal/helzephyr,helzephyr palworld speed,0,1,0,90
-https://palworld-chi.vercel.app/en/pal/helzephyr-lux/location,where to find helzephyr palworld,0,1,0,56
-https://palworld-chi.vercel.app/en/pal/helzephyr/location,helzephyr,0,1,0,11
-https://palworld-chi.vercel.app/en/pal/helzephyr/location,helzephyr palworld,0,1,0,19
-https://palworld-chi.vercel.app/en/pal/helzephyr/location,where to find helzephyr palworld 1.0,0,1,0,10
-https://palworld-chi.vercel.app/en/pal/helzephyr/location,where to get helzephyr,0,2,0,8.5
-https://palworld-chi.vercel.app/en/pal/herbil,herbil,0,1,0,26
-https://palworld-chi.vercel.app/en/pal/herbil,herbil palworld location,0,1,0,52
-https://palworld-chi.vercel.app/en/pal/katress-ignis/location,katress ignis palworld,0,1,0,11
-https://palworld-chi.vercel.app/en/pal/katress-ignis/location,katress ignis where,0,1,0,4
-https://palworld-chi.vercel.app/en/pal/katress-ignis/location,palworld 1.0 katress ignis location,0,1,0,58
-https://palworld-chi.vercel.app/en/pal/katress-ignis/location,palworld katress ignis,0,3,0,9.3
-https://palworld-chi.vercel.app/en/pal/kingpaca-cryst,palworld ice kingpaca,0,3,0,5.7
-https://palworld-chi.vercel.app/en/pal/kingpaca-cryst,palworld no 21b,0,1,0,8
-https://palworld-chi.vercel.app/en/pal/kitsun/location,kitsun location palworld,0,1,0,6
-https://palworld-chi.vercel.app/en/pal/knocklem,knocklem,0,3,0,9.7
-https://palworld-chi.vercel.app/en/pal/knocklem-ignis,knocklem ignis,0,1,0,21
-https://palworld-chi.vercel.app/en/pal/lapure,lapure,0,1,0,20
-https://palworld-chi.vercel.app/en/pal/lapure,leapur palworld,0,1,0,11
-https://palworld-chi.vercel.app/en/pal/lapure,palworld 1.0 lapure,0,1,0,58
-https://palworld-chi.vercel.app/en/pal/lapure,primo-tcg-website.vercel.app,0,1,0,50
-https://palworld-chi.vercel.app/en/pal/lifmunk/breeding,primo-tcg-website.vercel.app,0,2,0,27
-https://palworld-chi.vercel.app/en/pal/lovander,lovander,0,3,0,46.3
-https://palworld-chi.vercel.app/en/pal/lovander,lovander palword,0,1,0,28
-https://palworld-chi.vercel.app/en/pal/lovander,lovander palworld,0,2,0,37
-https://palworld-chi.vercel.app/en/pal/lunaris,palworld lunaris weakness,0,1,0,5
-https://palworld-chi.vercel.app/en/pal/lyleen/breeding,lyleen breeding,0,1,0,5
-https://palworld-chi.vercel.app/en/pal/lyleen/breeding,primo-tcg-website.vercel.app,0,2,0,6.5
-https://palworld-chi.vercel.app/en/pal/maraith,palworld maraith,0,2,0,12
-https://palworld-chi.vercel.app/en/pal/munchill,munchill palworld,0,13,0,4.4
-https://palworld-chi.vercel.app/en/pal/munchill,palworld munchill,0,1,0,47
-https://palworld-chi.vercel.app/en/pal/ophydia,odia palworld,0,1,0,9
-https://palworld-chi.vercel.app/en/pal/ophydia,ophydia,0,5,0,11.4
-https://palworld-chi.vercel.app/en/pal/ophydia,ophydia location palworld,0,1,0,48
-https://palworld-chi.vercel.app/en/pal/ophydia,ophydia palworld,0,3,0,5.7
-https://palworld-chi.vercel.app/en/pal/pengullet,pal let,0,2,0,6.5
-https://palworld-chi.vercel.app/en/pal/pengullet,pengullet,0,1,0,10
-https://palworld-chi.vercel.app/en/pal/penking,palworld penking plume,0,1,0,55
-https://palworld-chi.vercel.app/en/pal/penking,penking pal,0,3,0,7
-https://palworld-chi.vercel.app/en/pal/penking,penking spawn location palworld,0,1,0,69
-https://palworld-chi.vercel.app/en/pal/penking/location,palworld penking location map,0,1,0,57
-https://palworld-chi.vercel.app/en/pal/penking/location,penking locations,0,1,0,2
-https://palworld-chi.vercel.app/en/pal/penking/location,penking spawn location palworld,0,1,0,53
-https://palworld-chi.vercel.app/en/pal/penking/location,where to find penking palworld,0,1,0,10
-https://palworld-chi.vercel.app/en/pal/petallia-ignis,petallia ignis,0,1,0,32
-https://palworld-chi.vercel.app/en/pal/prunelia,prunelia,0,1,0,52
-https://palworld-chi.vercel.app/en/pal/prunelia,prunelia palworld,0,2,0,5
-https://palworld-chi.vercel.app/en/pal/rayhound,palworld rayhound breeding,0,1,0,57
-https://palworld-chi.vercel.app/en/pal/rayhound,rayhound palworld,0,1,0,62
-https://palworld-chi.vercel.app/en/pal/rayhound,rayhound palworld location map,0,1,0,60
-https://palworld-chi.vercel.app/en/pal/rayhound-cryst,rayhound palworld,0,1,0,74
-https://palworld-chi.vercel.app/en/pal/reptyro,palworld reptyro,0,1,0,72
-https://palworld-chi.vercel.app/en/pal/reptyro,reptyro,0,2,0,22
-https://palworld-chi.vercel.app/en/pal/reptyro-cryst,ice reptyro,0,1,0,10
-https://palworld-chi.vercel.app/en/pal/reptyro-cryst,palworld ice reptyro,0,1,0,9
-https://palworld-chi.vercel.app/en/pal/reptyro-cryst,palworld reptyro cryst location map,0,1,0,52
-https://palworld-chi.vercel.app/en/pal/reptyro-cryst,reptyro cryst,0,4,0,24.5
-https://palworld-chi.vercel.app/en/pal/reptyro/location,palworld 1.0 reptyro location,0,2,0,10
-https://palworld-chi.vercel.app/en/pal/reptyro/location,reptyro,0,1,0,22
-https://palworld-chi.vercel.app/en/pal/reptyro/location,reptyro location,0,1,0,55
-https://palworld-chi.vercel.app/en/pal/reptyro/location,where to find reptyro palworld,0,1,0,9
-https://palworld-chi.vercel.app/en/pal/reptyro/location,where to get reptyro palworld,0,1,0,8
-https://palworld-chi.vercel.app/en/pal/ribbuny,palworld happy go lucky bunny,0,2,0,9
-https://palworld-chi.vercel.app/en/pal/ribbuny,primo-tcg-website.vercel.app,0,1,0,15
-https://palworld-chi.vercel.app/en/pal/rooby,rooby,0,1,0,25
-https://palworld-chi.vercel.app/en/pal/selyne,palworld selyne,0,1,0,52
-https://palworld-chi.vercel.app/en/pal/selyne,selyne,0,2,0,53
-https://palworld-chi.vercel.app/en/pal/selyne,selyne location palworld,0,1,0,95
-https://palworld-chi.vercel.app/en/pal/selyne,selyne palworld,0,2,0,30
-https://palworld-chi.vercel.app/en/pal/selyne,what type is selyne,0,1,0,11
-https://palworld-chi.vercel.app/en/pal/shadowbeak,palworld shadowbeak,0,1,0,37
-https://palworld-chi.vercel.app/en/pal/shadowbeak,shadowbeak,0,3,0,56
-https://palworld-chi.vercel.app/en/pal/shadowbeak,shadowbeak palworld,0,4,0,43.2
-https://palworld-chi.vercel.app/en/pal/shaolong,palworld shaolong,0,1,0,41
-https://palworld-chi.vercel.app/en/pal/shaolong,shaolong,0,2,0,40
-https://palworld-chi.vercel.app/en/pal/shaolong,shaolong breeding,0,2,0,9
-https://palworld-chi.vercel.app/en/pal/shaolong,shaolong location,0,1,0,53
-https://palworld-chi.vercel.app/en/pal/shaolong,shaolong palworld,0,1,0,38
-https://palworld-chi.vercel.app/en/pal/shroomer,palworld shroomer,0,1,0,10
-https://palworld-chi.vercel.app/en/pal/shroomer,shroomer,0,4,0,12.8
-https://palworld-chi.vercel.app/en/pal/shroomer,shroomer terraria,0,1,0,8
-https://palworld-chi.vercel.app/en/pal/sibelyx/location,sibelyx,0,1,0,17
-https://palworld-chi.vercel.app/en/pal/skutlass,palworld skutlass,0,1,0,7
-https://palworld-chi.vercel.app/en/pal/skutlass,skutlass,0,1,0,43
-https://palworld-chi.vercel.app/en/pal/skutlass,skutlass palworld,0,2,0,22
+https://palworld-chi.vercel.app/en/pal/hangyu,palworld hangyu,0,1,0,42
+https://palworld-chi.vercel.app/en/pal/hangyu,where to get hangyu palworld,0,2,0,53.5
+https://palworld-chi.vercel.app/en/pal/hartalis,hartalis,0,4,0,20.2
+https://palworld-chi.vercel.app/en/pal/hartalis,hartalis palworld,0,3,0,19.3
+https://palworld-chi.vercel.app/en/pal/hartalis,hartalis type,0,1,0,11
+https://palworld-chi.vercel.app/en/pal/hartalis,hartlais palworld,0,1,0,9
+https://palworld-chi.vercel.app/en/pal/hartalis,pal hartalis,0,1,0,10
+https://palworld-chi.vercel.app/en/pal/hartalis,palworld solar blast,0,1,0,25
+https://palworld-chi.vercel.app/en/pal/helzephyr-lux/location,lux palworld location,0,1,0,5
+https://palworld-chi.vercel.app/en/pal/herbil,palworld herbil location,0,1,0,17
+https://palworld-chi.vercel.app/en/pal/herbil,palworld herbil partner skill,0,1,0,11
+https://palworld-chi.vercel.app/en/pal/kingpaca-cryst,palworld kingpaca cryst boss location,0,1,0,15
+https://palworld-chi.vercel.app/en/pal/knocklem,knocklem,0,8,0,12.1
+https://palworld-chi.vercel.app/en/pal/knocklem,knocklem palworld,0,2,0,41.5
+https://palworld-chi.vercel.app/en/pal/knocklem,knocklem palworld breeding,0,1,0,22
+https://palworld-chi.vercel.app/en/pal/knocklem,knocklem palworld weakness,0,1,0,56
+https://palworld-chi.vercel.app/en/pal/knocklem,knocklem saddle,0,1,0,24
+https://palworld-chi.vercel.app/en/pal/knocklem,palworld breed knocklem,0,1,0,22
+https://palworld-chi.vercel.app/en/pal/knocklem,palworld knocklem partner skill,0,1,0,99
+https://palworld-chi.vercel.app/en/pal/knocklem-ignis,how to get knocklem ignis,0,2,0,45.5
+https://palworld-chi.vercel.app/en/pal/knocklem-ignis,knocklem ignis,0,1,0,73
+https://palworld-chi.vercel.app/en/pal/lovander,lovander palworld,0,8,0,18.4
+https://palworld-chi.vercel.app/en/pal/lovander,lovander palworld description,0,1,0,71
+https://palworld-chi.vercel.app/en/pal/lovander,palworld lovander,0,2,0,57.5
+https://palworld-chi.vercel.app/en/pal/mammorest,palworld mammorest mining,0,1,0,19
+https://palworld-chi.vercel.app/en/pal/mammorest,palworld mammorest spawn,0,1,0,18
+https://palworld-chi.vercel.app/en/pal/moldron,moldron,0,1,0,37
+https://palworld-chi.vercel.app/en/pal/mossanda,mossanda breeding,0,1,0,80
+https://palworld-chi.vercel.app/en/pal/ophydia,ophidia palmon,0,1,0,41
+https://palworld-chi.vercel.app/en/pal/ophydia,ophidia palworld,0,1,0,47
+https://palworld-chi.vercel.app/en/pal/ophydia,ophydia,0,5,0,5.2
+https://palworld-chi.vercel.app/en/pal/ophydia,ophydia palworld,0,1,0,6
+https://palworld-chi.vercel.app/en/pal/ophydia,ophydia palworld location,0,1,0,34
+https://palworld-chi.vercel.app/en/pal/ophydia,palworld ophydia,0,2,0,28
+https://palworld-chi.vercel.app/en/pal/ophydia,palworld ophydia location,0,1,0,11
+https://palworld-chi.vercel.app/en/pal/ophydia,palworld ophydia speed,0,1,0,9
+https://palworld-chi.vercel.app/en/pal/pengullet,pal let,0,2,0,4.5
+https://palworld-chi.vercel.app/en/pal/penking,palworld penking breeding combos,0,1,0,96
+https://palworld-chi.vercel.app/en/pal/penking,penking,0,1,0,60
+https://palworld-chi.vercel.app/en/pal/penking,penking pal,0,4,0,8.2
+https://palworld-chi.vercel.app/en/pal/petallia-ignis,petalia ignis,0,1,0,17
+https://palworld-chi.vercel.app/en/pal/prunelia,prunelia,0,4,0,6
+https://palworld-chi.vercel.app/en/pal/prunelia,prunelia breeding combos,0,1,0,52
+https://palworld-chi.vercel.app/en/pal/quivern,quivern palworld speed,0,1,0,20
+https://palworld-chi.vercel.app/en/pal/reptyro,reptyro,0,1,0,93
+https://palworld-chi.vercel.app/en/pal/reptyro,reptyro palworld location,0,1,0,66
+https://palworld-chi.vercel.app/en/pal/reptyro-cryst,palworld reptyro cryst location,0,1,0,54
+https://palworld-chi.vercel.app/en/pal/reptyro-cryst,reptyro,0,2,0,56
+https://palworld-chi.vercel.app/en/pal/reptyro-cryst,reptyro cryst location,0,1,0,12
+https://palworld-chi.vercel.app/en/pal/selyne,how to get selyne palworld,0,1,0,7
+https://palworld-chi.vercel.app/en/pal/selyne,selyne,0,2,0,51
+https://palworld-chi.vercel.app/en/pal/selyne,selyne mount,0,1,0,13
+https://palworld-chi.vercel.app/en/pal/selyne,selyne palworld,0,3,0,37
+https://palworld-chi.vercel.app/en/pal/selyne,selyne palworld location,0,1,0,52
+https://palworld-chi.vercel.app/en/pal/selyne,selyne speed,0,1,0,7
+https://palworld-chi.vercel.app/en/pal/shaolong,how to get shaolong,0,1,0,50
+https://palworld-chi.vercel.app/en/pal/shaolong,shaolong,0,2,0,43.5
+https://palworld-chi.vercel.app/en/pal/shaolong,shaolong palworld,0,1,0,9
+https://palworld-chi.vercel.app/en/pal/shroomer,shroomer,0,2,0,10.5
+https://palworld-chi.vercel.app/en/pal/shroomer,shroomer palworld,0,1,0,4
+https://palworld-chi.vercel.app/en/pal/shroomer,shroomer terraria,0,2,0,8.5
+https://palworld-chi.vercel.app/en/pal/skutlass,skutlass,0,1,0,45
+https://palworld-chi.vercel.app/en/pal/smokie,palworld smokie,0,1,0,7
+https://palworld-chi.vercel.app/en/pal/smokie,palworld smokie ability,0,1,0,62
+https://palworld-chi.vercel.app/en/pal/smokie,palworld smokie breeding combos,0,2,0,69.5
+https://palworld-chi.vercel.app/en/pal/smokie,palworld smokie pal number,0,2,0,8
+https://palworld-chi.vercel.app/en/pal/smokie,palworld where to find smokie,0,1,0,86
 https://palworld-chi.vercel.app/en/pal/smokie,smokie palworld,0,1,0,11
-https://palworld-chi.vercel.app/en/pal/smokie,where to find smokie palworld,0,1,0,59
-https://palworld-chi.vercel.app/en/pal/snock-lux,snock lux,0,2,0,2.5
-https://palworld-chi.vercel.app/en/pal/sparkit,sparkit,0,1,0,19
-https://palworld-chi.vercel.app/en/pal/sparkit,where to find sparkit palworld,0,1,0,56
-https://palworld-chi.vercel.app/en/pal/splatterina,how to breed splatterina,0,1,0,52
-https://palworld-chi.vercel.app/en/pal/splatterina,palworld splatterina,0,1,0,50
-https://palworld-chi.vercel.app/en/pal/starryon,primo-tcg-website.vercel.app,0,1,0,59
-https://palworld-chi.vercel.app/en/pal/tanzee,palworld tanzee,0,1,0,1
-https://palworld-chi.vercel.app/en/pal/tanzee,tanzee pal world,0,1,0,15
-https://palworld-chi.vercel.app/en/pal/tropicaw,tropicaw,0,3,0,4.3
-https://palworld-chi.vercel.app/en/pal/tropicaw,tropicaw palworld,0,1,0,5
-https://palworld-chi.vercel.app/en/pal/turtacle/breeding,palworld turtacle location,0,2,0,84.5
-https://palworld-chi.vercel.app/en/pal/turtacle/breeding,primo-tcg-website.vercel.app,0,1,0,13
-https://palworld-chi.vercel.app/en/pal/univolt-cryst,pal 54b,0,2,0,8
-https://palworld-chi.vercel.app/en/pal/univolt-cryst,palworld univolt cryst location,0,1,0,4
-https://palworld-chi.vercel.app/en/pal/univolt-cryst,univolt cryst location,0,1,0,45
-https://palworld-chi.vercel.app/en/pal/univolt-cryst,univolt cryst palworld,0,2,0,21
-https://palworld-chi.vercel.app/en/pal/vanwyrm-cryst,palworld vanwyrm,0,2,0,8
-https://palworld-chi.vercel.app/en/pal/vanwyrm-cryst,vanwyrm,0,1,0,17
-https://palworld-chi.vercel.app/en/pal/venusa,snake pal,0,1,0,47
-https://palworld-chi.vercel.app/en/pal/venusa,venusa,0,1,0,24
-https://palworld-chi.vercel.app/en/pal/warsect,warsect weakness,0,1,0,6
-https://palworld-chi.vercel.app/en/pal/warsect-terra,warsect terra palworld,0,1,0,61
-https://palworld-chi.vercel.app/en/pal/warsect-terra,warsect vs warsect terra,0,1,0,22
-https://palworld-chi.vercel.app/en/pal/warsect-terra,warsect weakness,0,1,0,73
-https://palworld-chi.vercel.app/en/pal/whalaska-ignis,whalaska ignis drops,0,1,0,7
-https://palworld-chi.vercel.app/en/pal/whalaska-ignis,whalaska palworld,0,3,0,57.3
-https://palworld-chi.vercel.app/en/pal/xenolord,palworld no 196,0,1,0,9
-https://palworld-chi.vercel.app/en/pal/xenolord,palworld wiki xenolord,0,1,0,8
+https://palworld-chi.vercel.app/en/pal/smokie,smokie palworld breed,0,1,0,53
+https://palworld-chi.vercel.app/en/pal/smokie,smokie palworld partner skill,0,1,0,12
+https://palworld-chi.vercel.app/en/pal/snock-lux,snock,0,1,0,56
+https://palworld-chi.vercel.app/en/pal/snock-lux,snock palworld,0,1,0,9
+https://palworld-chi.vercel.app/en/pal/sootseer,sootseer palworld,0,1,0,62
+https://palworld-chi.vercel.app/en/pal/tanzee,tanzee pal world,0,1,0,7
+https://palworld-chi.vercel.app/en/pal/tanzee,tanzee palworld,0,1,0,7
+https://palworld-chi.vercel.app/en/pal/turtacle/breeding,primo-tcg-website.vercel.app,0,1,0,17
+https://palworld-chi.vercel.app/en/pal/turtacle/breeding,turtacle,0,1,0,63
+https://palworld-chi.vercel.app/en/pal/univolt-cryst,univolt cryst,0,1,0,43
+https://palworld-chi.vercel.app/en/pal/verdash/breeding,palworld verdash breeding,0,1,0,5
+https://palworld-chi.vercel.app/en/pal/verdash/breeding,palworld verdash breeding combos,0,1,0,29
+https://palworld-chi.vercel.app/en/pal/verdash/breeding,primo-tcg-website.vercel.app,0,2,0,21
+https://palworld-chi.vercel.app/en/pal/verdash/breeding,verdash palworld,0,1,0,57
+https://palworld-chi.vercel.app/en/pal/warsect-terra,palworld breeding warsect terra,0,1,0,11
+https://palworld-chi.vercel.app/en/pal/warsect-terra,palworld warsect terra,0,1,0,100
+https://palworld-chi.vercel.app/en/pal/warsect-terra,warsect terra,0,1,0,10
+https://palworld-chi.vercel.app/en/pal/warsect-terra,warsect terra belt,0,1,0,49
+https://palworld-chi.vercel.app/en/pal/whalaska-ignis,palworld walaska,0,1,0,57
+https://palworld-chi.vercel.app/en/pal/whalaska-ignis,palworld whalaska ignis breeding,0,1,0,63
+https://palworld-chi.vercel.app/en/pal/whalaska-ignis,whalaska pal world,0,1,0,100
+https://palworld-chi.vercel.app/en/pal/xenolord,palworld supersonic dragon,0,1,0,11
+https://palworld-chi.vercel.app/en/pal/xenolord,palworld wiki xenolord,0,2,0,8.5
+https://palworld-chi.vercel.app/en/pal/xenolord,xenolord,0,1,0,6
+https://palworld-chi.vercel.app/en/pal/xenolord,xenolord palworld,0,1,0,7
+https://palworld-chi.vercel.app/en/pal/xenolord,xenolord type,0,3,0,25
+https://palworld-chi.vercel.app/ja/guide/server,palworld dedicated server,0,1,0,76
+https://palworld-chi.vercel.app/ja/guide/server,palworld server,0,1,0,96
+https://palworld-chi.vercel.app/ja/guide/server,パルワールドサーバーホスティング,0,2,0,86
+https://palworld-chi.vercel.app/ja/pal/bastigor/breeding,bastigor breeding combos,0,1,0,60
+https://palworld-chi.vercel.app/ja/pal/bastigor/breeding,bastigor breeding palworld,0,1,0,50
+https://palworld-chi.vercel.app/ja/pal/bastigor/breeding,how to breed bastigor palworld 1.0,0,1,0,50
+https://palworld-chi.vercel.app/ja/pal/blazamut,blazamut,0,1,0,5
+https://palworld-chi.vercel.app/ja/pal/chillet,chillet,0,1,0,3
+https://palworld-chi.vercel.app/ja/pal/cremis,cremis palworld,0,3,0,8
+https://palworld-chi.vercel.app/ja/pal/gobfin,gobfin palworld,0,1,0,8
+https://palworld-chi.vercel.app/ja/pal/helzephyr,helzephyr,0,2,0,73.5
+https://palworld-chi.vercel.app/ja/pal/kingpaca,palworld kingpaca,0,1,0,85
+https://palworld-chi.vercel.app/ja/pal/paladius/location,paladius location,0,1,0,52
+https://palworld-chi.vercel.app/ja/pal/paladius/location,paladius palworld 1.0 location,0,3,0,9.7
+https://palworld-chi.vercel.app/ja/pal/paladius/location,paladius respawn time,0,2,0,4.5
+https://palworld-chi.vercel.app/ja/pal/paladius/location,where to find paladius,0,1,0,9
+https://palworld-chi.vercel.app/ja/pal/reptyro,reptyro,0,1,0,97
+https://palworld-chi.vercel.app/ja/pal/swee/breeding,palworld swee,0,1,0,16
+https://palworld-chi.vercel.app/ja/pal/swee/breeding,swee palworld,0,4,0,19
+https://palworld-chi.vercel.app/ru/guide/wiki,palword wiki,0,1,0,77
+https://palworld-chi.vercel.app/ru/item/blueprint-headequip028-1,palworld ribbuny headband,0,1,0,8
+https://palworld-chi.vercel.app/ru/item/sulfur,sulfur palworld,0,1,0,76
+https://palworld-chi.vercel.app/ru/pal/anubis,palworld anubis,0,2,0,61.5
+https://palworld-chi.vercel.app/ru/pal/blazamut-ryu,blazamut ryu,0,1,0,10
+https://palworld-chi.vercel.app/ru/pal/blazamut-ryu,blazamut ryu palworld,0,1,0,13
+https://palworld-chi.vercel.app/ru/pal/chillet,chillet,0,1,0,10
+https://palworld-chi.vercel.app/ru/pal/dumud/location,where do dumud spawn in palworld,0,1,0,57
+https://palworld-chi.vercel.app/ru/pal/eidrolon,hydrolon,0,1,0,75
+https://palworld-chi.vercel.app/ru/pal/eidrolon,palworld eidrolon,0,1,0,29
+https://palworld-chi.vercel.app/ru/pal/faleris,faleris,0,3,0,8
+https://palworld-chi.vercel.app/ru/pal/fenglope,fenglope,0,1,0,66
+https://palworld-chi.vercel.app/ru/pal/flopie,flopie palworld,0,3,0,7
+https://palworld-chi.vercel.app/ru/pal/galeclaw,galeclaw,0,2,0,8.5
+https://palworld-chi.vercel.app/ru/pal/gobfin,gobfins,0,1,0,64
+https://palworld-chi.vercel.app/ru/pal/hangyu,hangyu,0,3,0,14
+https://palworld-chi.vercel.app/ru/pal/hartalis,hartalis,0,5,0,26
+https://palworld-chi.vercel.app/ru/pal/helzephyr-lux,helzephyr lux,0,3,0,48.7
+https://palworld-chi.vercel.app/ru/pal/helzephyr-lux,helzephyr lux palworld,0,2,0,83
+https://palworld-chi.vercel.app/ru/pal/hoodle,palworld hoodle pal,0,1,0,41
+https://palworld-chi.vercel.app/ru/pal/knocklem,knockelm,0,1,0,6
+https://palworld-chi.vercel.app/ru/pal/knocklem,knocklems,0,1,0,4
+https://palworld-chi.vercel.app/ru/pal/mammorest,мамморест palworld,0,2,0,23.5
+https://palworld-chi.vercel.app/ru/pal/moldron-cryst,moldron,0,1,0,45
+https://palworld-chi.vercel.app/ru/pal/mossanda-lux,mossanda lux,0,2,0,8
+https://palworld-chi.vercel.app/ru/pal/mossanda/location,mossanda forest palworld location,0,1,0,45
+https://palworld-chi.vercel.app/ru/pal/mossanda/location,mossanda palworld location,0,1,0,51
+https://palworld-chi.vercel.app/ru/pal/munchill,munchill palworld,0,1,0,76
+https://palworld-chi.vercel.app/ru/pal/nitemary/breeding,nyafia breeding combos,0,1,0,15
+https://palworld-chi.vercel.app/ru/pal/ophydia,ophidia palworld,0,1,0,60
+https://palworld-chi.vercel.app/ru/pal/penking,palworld penking,0,1,0,34
+https://palworld-chi.vercel.app/ru/pal/penking,pengking palworld,0,1,0,9
+https://palworld-chi.vercel.app/ru/pal/penking,penking palworld,0,1,0,47
+https://palworld-chi.vercel.app/ru/pal/relaxaurus-lux/location,where to catch relaxaurus lux,0,1,0,11
+https://palworld-chi.vercel.app/ru/pal/shadowbeak,shadowbeak,0,2,0,9.5
+https://palworld-chi.vercel.app/ru/pal/sibelyx-primo,сибеликс палворлд,0,1,0,43
+https://palworld-chi.vercel.app/ru/pal/solenne,soleen palworld,0,1,0,67
+https://palworld-chi.vercel.app/ru/pal/sootseer,сутсир,0,1,0,9
+https://palworld-chi.vercel.app/ru/pal/splatterina,palworld splatterina breed,0,1,0,60
+https://palworld-chi.vercel.app/ru/pal/splatterina,splatterina palworld,0,1,0,86
+https://palworld-chi.vercel.app/ru/pal/suzaku,palworld suzaku,0,2,0,8
+https://palworld-chi.vercel.app/ru/pal/sweepa,sweepa,0,3,0,7.3
+https://palworld-chi.vercel.app/ru/pal/tarantriss,tarantriss,0,14,0,8.4
+https://palworld-chi.vercel.app/ru/pal/xenogard,xenogard,0,1,0,9
+https://palworld-chi.vercel.app/ru/pal/xenogard/location,xenogard palworld,0,1,0,34
+https://palworld-chi.vercel.app/zh-CN/guide/map,windswept hills palworld map,0,1,0,95
+https://palworld-chi.vercel.app/zh-CN/pal/arsox/location,arsox location,0,1,0,53
+https://palworld-chi.vercel.app/zh-CN/pal/arsox/location,arsox palworld 1.0 location,0,1,0,9
+https://palworld-chi.vercel.app/zh-CN/pal/arsox/location,palworld arsox boss location,0,1,0,10
+https://palworld-chi.vercel.app/zh-CN/pal/arsox/location,palworld arsox location,0,1,0,54
+https://palworld-chi.vercel.app/zh-CN/pal/broncherry/location,broncherry location,0,1,0,100
+https://palworld-chi.vercel.app/zh-CN/pal/broncherry/location,broncherry spawn palworld,0,1,0,97
+https://palworld-chi.vercel.app/zh-CN/pal/digtoise/location,where to find digtoise in palworld,0,1,0,82
+https://palworld-chi.vercel.app/zh-CN/pal/direhowl/location,palworld 1.0 direhowl location,0,1,0,11
+https://palworld-chi.vercel.app/zh-CN/pal/grizzbolt/breeding,how to breed grizzbolt,0,2,0,49
+https://palworld-chi.vercel.app/zh-CN/pal/icelyn,palworld icelyn,0,1,0,69
+https://palworld-chi.vercel.app/zh-CN/pal/icelyn/location,palworld icelyn,0,1,0,68
+https://palworld-chi.vercel.app/zh-CN/pal/incineram-noct/location,palworld incineram noct location,0,1,0,5
+https://palworld-chi.vercel.app/zh-CN/pal/jetragon/breeding,breed jetragon palworld 1.0,0,1,0,9
+https://palworld-chi.vercel.app/zh-CN/pal/jetragon/breeding,palworld jetragon breeding,0,1,0,92
+https://palworld-chi.vercel.app/zh-CN/pal/katress,katress,0,1,0,82
+https://palworld-chi.vercel.app/zh-CN/pal/killamari-primo/location,palworld killamari primo location,0,1,0,2
+https://palworld-chi.vercel.app/zh-CN/pal/pyrin-noct/location,palworld pyrin noct location,0,1,0,60
+https://palworld-chi.vercel.app/zh-CN/pal/relaxaurus,relaxaurus,0,1,0,9
+https://palworld-chi.vercel.app/zh-CN/pal/smokie/location,palworld smokie location,0,2,0,4
+https://palworld-chi.vercel.app/zh-CN/pal/splatterina,splatterina,0,2,0,53.5
+https://palworld-chi.vercel.app/zh-CN/pal/starryon/location,palworld starryon location,0,1,0,5
+https://palworld-chi.vercel.app/zh-CN/pal/warsect-terra/location,warsect terra boss location,0,2,0,10.5
+https://palworld-chi.vercel.app/zh-CN/pal/wistella/location,palworld wistella,0,1,0,77
+https://palworld-chi.vercel.app/zh-TW/guide/breeding,palbreed,0,1,0,92
+https://palworld-chi.vercel.app/zh-TW/guide/fishing,palworld 釣魚,0,1,0,10
+https://palworld-chi.vercel.app/zh-TW/guide/mobile,pal world mobile,0,1,0,1
+https://palworld-chi.vercel.app/zh-TW/guide/mobile,palworld mobile,0,11,0,5.7
+https://palworld-chi.vercel.app/zh-TW/guide/mobile,palworld 手機,0,1,0,9
+https://palworld-chi.vercel.app/zh-TW/guide/mobile,palworld 手機版,0,1,0,10
+https://palworld-chi.vercel.app/zh-TW/guide/mobile,幻獸帕魯手機版什麼時候出,0,1,0,9
+https://palworld-chi.vercel.app/zh-TW/guide/passives,palworld 被動技能,0,2,0,8.5
+https://palworld-chi.vercel.app/zh-TW/guide/ps5,帕魯 ps5,0,1,0,7
+https://palworld-chi.vercel.app/zh-TW/guide/ps5,幻獸怕魯,0,1,0,4
+https://palworld-chi.vercel.app/zh-TW/guide/tcg,palworld tcg,0,2,0,8.5
+https://palworld-chi.vercel.app/zh-TW/guide/wiki,pal wiki,0,1,0,9
+https://palworld-chi.vercel.app/zh-TW/guide/wiki,palworld,0,1,0,7
+https://palworld-chi.vercel.app/zh-TW/item/uniquematerial-flowerprince,palworld toxin filtering membrane,0,2,0,8
+https://palworld-chi.vercel.app/zh-TW/map,帕鲁地图,0,1,0,65
+https://palworld-chi.vercel.app/zh-TW/pal/depresso,depresso 中文,0,1,0,1
+https://palworld-chi.vercel.app/zh-TW/pal/faleris,faleris,0,5,0,7.2
+https://palworld-chi.vercel.app/zh-TW/pal/foxparks,foxparks,0,2,0,8.5
+https://palworld-chi.vercel.app/zh-TW/pal/galeclaw,galeclaw,0,1,0,9
+https://palworld-chi.vercel.app/zh-TW/pal/helzephyr-lux,helzephyr lux,0,2,0,69.5
+https://palworld-chi.vercel.app/zh-TW/pal/jormuntide-ignis/breeding,jormuntide ignis breeding,0,1,0,56
+https://palworld-chi.vercel.app/zh-TW/pal/mammorest,mammorest palworld,0,1,0,9
+https://palworld-chi.vercel.app/zh-TW/pal/tarantriss,tarantriss,0,1,0,10
+https://palworld-chi.vercel.app/zh-TW/pal/univolt-cryst,univolt cryst,0,1,0,10
